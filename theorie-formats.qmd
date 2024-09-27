@@ -1,0 +1,85 @@
+# Les formats : théorie 
+
+::: {.content-visible when-format="html" unless-format="revealjs"}
+
+```{=html}
+<iframe src="_slides/theorie-formats.html"></iframe>
+```
+[Ouvrir dans mon navigateur](_slides/theorie-formats.html){target="_blank"} 
+
+::: 
+
+## Les formats : un peu d'étymologie 
+
+## Structure d'un document numérique 
+
+<!--Alix
+
+- plusieurs couches d'appareillage technique sont nécessaires
+- un document numérique est un fichier, mais un fichier n'est pas forcément un document
+- le format définit un gabarit public ou non, libre ou non, pour structurer l'information
+- le statut d'un format dépend en grande partie du statut des spécifications techniques
+- il existe une grande variété de types de fichiers, indiqué par leur extension
+- certains fichiers sont des combinaison de plusieurs fichiers
+
+-->
+
+<!--Margot
+
+- Vue séquentielle
+- Vue arborescente
+- Vue métadonnées
+- + Vue stylisée (facultative)
+
+--> 
+
+## Format : définition 
+
+## Format et extension 
+
+<!-- Alix
+
+- L'extension d'un fichier texte indique à l'utilisateur et à l'ordinateur quel est son format, c'est-à-dire :
+
+    - comment sont organisées les informations relatives au fichiers et les métadonnées
+    - avec quel logiciel l'ouvrir
+    - s'il contient ou non des informations de mise en page qu'il faut interpréter
+
+- On peut classer les fichiers en 2 catégories en fonction de leurs extensions :
+
+    - .txt : texte brut
+    - .doc), .docx, .rtf, .tex, .md, epub) etc. : texte enrichi
+
+-->
+
+## Formats ouverts, formats fermés 
+
+## Formats propriétaires, formats libres 
+
+## Formats sources, formats de sortie 
+
+## Structuration de l'information 
+
+## Formats de balisage 
+
+<!-- Alix
+
+- les informations de mise en forme sont des annotations qui sont formées selon plusieurs standards ou normes.
+- parser un document == le traiter de manière à afficher la mise en forme
+
+    -  pas de mise en forme : <gras>du texte</gras>
+    -  mise en forme : du texte
+
+- les normes et standards encadrant la manière de former les annotations sont étroitement liées au format du document et au standard qu'il suit.
+-->
+
+### Texte brut, texte enrichi 
+<!--
+Un fichier de texte peut contenir des indications de mise en forme
+
+- texte brut (ou plain text) == un texte dépourvu d'information de mise en forme, qui se limite à l'affichage de la traduction des données binaires en caractères alphanumériques et symboles
+- texte enrichi (ou rich text) == un texte qui comporte des éléments de mise en forme, qu'ils soient ou non affichés dans l'interface graphique
+- WYSIWYG (What You See Is What You Get) == un éditeur de texte quie présente un texte enrichi **avec** sa mise en forme, de manière simultanée
+- WYSIWYM (What You See Is What You Mean) == un éditeur de texte qui présente le texte et ses informations de mise en forme dans les interpréter
+
+-->

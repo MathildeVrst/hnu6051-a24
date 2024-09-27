@@ -4,7 +4,17 @@ project:
     - index.qmd
     - plan-de-cours.qmd
     - introduction.qmd
+    - theorie-formats.qmd
+    - encodage.qmd
+
 
 bibliography: references.bib
 
-format: revealjs
+format: 
+  revealjs: 
+    footer: HNU6051-A24
+    theme: ["slides.scss"]
+    slide-number: true
+    slide-level: 3
+#filters: 
+#  - relevel_headings.lua

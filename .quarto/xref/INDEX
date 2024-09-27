@@ -19,5 +19,11 @@
   },
   "introduction.qmd": {
     "introduction.html": "010dc828"
+  },
+  "theorie-formats.qmd": {
+    "theorie-formats.html": "7a6c226a"
+  },
+  "encodage.qmd": {
+    "encodage.html": "a79c9285"
   }
 }

@@ -1,0 +1,141 @@
+# Des caractères à l'écran -- encodage numérique 
+
+::: {.content-visible when-format="html" unless-format="revealjs"}
+
+```{=html}
+<iframe src="_slides/encodage.html"></iframe>
+```
+[Ouvrir dans mon navigateur](_slides/encodage.html){target="_blank"} 
+
+::: 
+
+## Encodage numérique 
+
+<!-- Alix 
+
+- L'encodage = transformation de données d'un format à un autre
+- Le degré zéro = transformation de données en valeurs binaires (on/off). On représente ces états par un 1 ou un 0.
+
+    - un bit est une instance de 0 ou de 1
+    - un train de bits (ou byte) est un groupe composé d'une suite de bits
+    - un octet est un groupe de 8 bits
+
+- Un fichier de 100 octets est + riche qu'un fichier de 10 octets
+- La taille d'un fichier numérique = nombre d'instances de 0 et de 1 nécessaires à sa représentation
+
+-->
+
+## Mémoire 
+
+<!-- Alix
+- La taille d'un disque dur définit le nombre de bits disponibles pour encoder des informations simultanément. Par exemple, un disque dur de 50 Go de mémoire :
+
+    - est égal à 50 000 000 000 octets (cinquante milliards)
+    - est égal à 400 000 000 000 bits (quatre cents milliards)
+
+- La taille d'un fichier définit le nombre de bits nécessaire à son encodage. Par exemple, un fichier d'une taille de 30 Ko :
+
+    - nécessite 30 x 1 000 x 8 bits
+    - contient donc un total de 160 000 instances de 1 ou 0
+--> 
+
+## 0 ou 1 ? 
+
+Tout document conservé sur un ordinateur est constitué d'une série de 0 et de 1. 
+
+Ce sont les normes d'encodage et les formats qui permettent d'interpréter le sens de ces 0 et 1. 
+
+## Normes d'encodage 
+
+<!-- Alix
+- Les normes d'encodages = clefs d'encodage/décodage pour passer d'une forme intelligible pour les humains à une forme lisible par la machine
+- En fonction du type de fichier encodé (texte, image, vidéo, etc.), il existe différents paysages de normes et de modes de représentation
+- On en passe une partie en revue dans la suite du cours
+-->
+
+## Encodage des données textuelles
+
+<!-- Alix
+
+- Un document numérique textuel contient du texte (caractères alphanumériques et de symboles)
+- La norme d'encodage d'un texte == une table de correspondance entre un groupe de bits et un caractère alphanumérique ou un symbole
+- La norme d'encodage définit donc la liste des caractères disponibles (character set)
+- En fonction de la norme, la représentation d'un caractère peut s'étendre sur un ou plusieurs octets
+- Les normes les plus connues pour des textes en français sont :
+
+    - ASCII (1963)
+    - ISO 8859-1 (1986)
+    - UTF-8 (1996)
+--> 
+
+### ASCII 
+
+<!-- Alix
+
+- [American Standard Code for Information Interchange](https://fr.wikipedia.org/wiki/American_Standard_Code_for_Information_Interchange)
+- Chaque caractère est représenté par 7 bits empaquetés dans 1 octet
+- Le jeu de caractères est composé de 95 éléments (pas de caractères accentués) :
+
+```
+ !"#$%&'()*+,-./
+0123456789:;<=>?
+@ABCDEFGHIJKLMNO
+PQRSTUVWXYZ[\]^_
+`abcdefghijklmno
+pqrstuvwxyz{|}~
+```
+
+- Exemple : A = 01000001
+
+--> 
+
+### ISO 8859-1 
+
+<!-- Alix
+
+- Elle est souvent appelée Latin1 mais aussi Western Europe
+- Chaque caractère est représenté par 8 bits
+- ISO 8859-1 est rétrocompatible avec ASCII. Le jeu de caractères est composé de 191 éléments : les 95 caractères de la norme ASCII + des symboles et des caractères accentués :
+
+```
+ !"#$%&'()*+,-./    ¡¢£¤¥¦§¨©ª«¬-®¯
+0123456789:;<=>?   °±²³´µ¶·¸¹º»¼½¾¿
+@ABCDEFGHIJKLMNO   ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏ
+PQRSTUVWXYZ[\]^_   ÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞß
+`abcdefghijklmno   àáâãäåæçèéêëìíîï
+pqrstuvwxyz{|}~    ðñòóôõö÷øùúûüýþÿ
+```
+
+- Exemple: é = 11101001
+
+-->
+
+### UTF-8 
+
+- [Universal Character Set Transformation Format](https://fr.wikipedia.org/wiki/UTF-8) + base d'encodage (8, 16, 32, ...)
+- En fonction de la base d'encodage, un caractère peut être représenté par 1, 2, 3 ou 4 octets.
+- UTF est rétrocompatible avec ASCII, mais pas avec ISO 8859-1. Il s'inscrit dans le cadre établi par Unicode qui vise à faciliter l'échange de textes numériques en assurant leur compatibilité.
+- Unicode définit plus de 137 000 caractères, issus de multiples alphabets, et prévoit aussi des symboles comme les emojis.
+- Exemple : 🤓 = 11110000 10011111 10100100 10010011
+
+## Mauvais encodage/décodage
+
+Si on n'utilise pas la bonne clef d'encodage ou de décodage d'un texte, on risque d'obtenir un texte partiellement ou entièrement illisible.
+
+UTF-8 ouvert avec 8859-1 (Latin 1)
+
+> La Joconde, ou Portrait de Mona Lisa, est un tableau de l'artiste LÃ©onard de Vinci, rÃ©alisÃ© entre 1503 et 1506 ou entre 1513 et 15161,2, et peut-Ãªtre jusqu'Ã  1519 (l'artiste Ã©tant mort cette annÃ©e-lÃ , le 2 mai)3, qui reprÃ©sente un portrait mi-corps, probablement celui de la Florentine Lisa Gherardini, Ã©pouse de Francesco del Giocondo. Acquise par FranÃ§ois Ier, cette peinture Ã  l'huile sur panneau de bois de peuplier de 77 Ã 53 cm est exposÃ©e au musÃ©e du Louvre Ã  Paris. La Joconde est l'un des rares tableaux attribuÃ©s de faÃ§on certaine Ã  LÃ©onard de Vinci.
+
+UTF-8 ouvert avec ISO 8859-5 (Cyrillic)
+
+> La Joconde, ou Portrait de Mona Lisa, est un tableau de l'artiste LУЉonard de Vinci, rУЉalisУЉ entre 1503 et 1506 ou entre 1513 et 15161,2, et peut-УЊtre jusqu'У  1519 (l'artiste УЉtant mort cette annУЉe-lУ , le 2 mai)3, qui reprУЉsente un portrait mi-corps, probablement celui de la Florentine Lisa Gherardini, УЉpouse de Francesco del Giocondo. Acquise par FranУЇois Ier, cette peinture У  l'huile sur panneau de bois de peuplier de 77 У 53 cm est exposУЉe au musУЉe du Louvre У  Paris. La Joconde est l'un des rares tableaux attribuУЉs de faУЇon certaine У  LУЉonard de Vinci.
+
+## Une norme ? 
+
+UTF s'impose désormais comme la norme
+
+![diagramme montrant qu'UTF s'impose sur les autres normes depuis 2006](img/encoding_trends.png)
+
+D'après W3Techs, 97,8% des pages web qui déclarent un encodage suivent UTF-8 aujourd'hui.
+
+(source du graphique: Wikimedia)

@@ -188,5 +188,165 @@
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
+  },
+  {
+    "objectID": "theorie-formats.html",
+    "href": "theorie-formats.html",
+    "title": "2  Les formats : théorie",
+    "section": "",
+    "text": "2.1 Les formats : un peu d’étymologie",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Les formats : théorie</span>"
+    ]
+  },
+  {
+    "objectID": "theorie-formats.html#structure-dun-document-numérique",
+    "href": "theorie-formats.html#structure-dun-document-numérique",
+    "title": "2  Les formats : théorie",
+    "section": "2.2 Structure d’un document numérique",
+    "text": "2.2 Structure d’un document numérique",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Les formats : théorie</span>"
+    ]
+  },
+  {
+    "objectID": "theorie-formats.html#format-définition",
+    "href": "theorie-formats.html#format-définition",
+    "title": "2  Les formats : théorie",
+    "section": "2.3 Format : définition",
+    "text": "2.3 Format : définition",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Les formats : théorie</span>"
+    ]
+  },
+  {
+    "objectID": "theorie-formats.html#format-et-extension",
+    "href": "theorie-formats.html#format-et-extension",
+    "title": "2  Les formats : théorie",
+    "section": "2.4 Format et extension",
+    "text": "2.4 Format et extension",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Les formats : théorie</span>"
+    ]
+  },
+  {
+    "objectID": "theorie-formats.html#formats-ouverts-formats-fermés",
+    "href": "theorie-formats.html#formats-ouverts-formats-fermés",
+    "title": "2  Les formats : théorie",
+    "section": "2.5 Formats ouverts, formats fermés",
+    "text": "2.5 Formats ouverts, formats fermés",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Les formats : théorie</span>"
+    ]
+  },
+  {
+    "objectID": "theorie-formats.html#formats-propriétaires-formats-libres",
+    "href": "theorie-formats.html#formats-propriétaires-formats-libres",
+    "title": "2  Les formats : théorie",
+    "section": "2.6 Formats propriétaires, formats libres",
+    "text": "2.6 Formats propriétaires, formats libres",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Les formats : théorie</span>"
+    ]
+  },
+  {
+    "objectID": "theorie-formats.html#formats-sources-formats-de-sortie",
+    "href": "theorie-formats.html#formats-sources-formats-de-sortie",
+    "title": "2  Les formats : théorie",
+    "section": "2.7 Formats sources, formats de sortie",
+    "text": "2.7 Formats sources, formats de sortie",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Les formats : théorie</span>"
+    ]
+  },
+  {
+    "objectID": "theorie-formats.html#structuration-de-linformation",
+    "href": "theorie-formats.html#structuration-de-linformation",
+    "title": "2  Les formats : théorie",
+    "section": "2.8 Structuration de l’information",
+    "text": "2.8 Structuration de l’information",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Les formats : théorie</span>"
+    ]
+  },
+  {
+    "objectID": "theorie-formats.html#formats-de-balisage",
+    "href": "theorie-formats.html#formats-de-balisage",
+    "title": "2  Les formats : théorie",
+    "section": "2.9 Formats de balisage",
+    "text": "2.9 Formats de balisage\n\n\n2.9.1 Texte brut, texte enrichi",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Les formats : théorie</span>"
+    ]
+  },
+  {
+    "objectID": "encodage.html",
+    "href": "encodage.html",
+    "title": "3  Des caractères à l’écran – encodage numérique",
+    "section": "",
+    "text": "3.1 Encodage numérique",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
+    ]
+  },
+  {
+    "objectID": "encodage.html#mémoire",
+    "href": "encodage.html#mémoire",
+    "title": "3  Des caractères à l’écran – encodage numérique",
+    "section": "3.2 Mémoire",
+    "text": "3.2 Mémoire",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
+    ]
+  },
+  {
+    "objectID": "encodage.html#ou-1",
+    "href": "encodage.html#ou-1",
+    "title": "3  Des caractères à l’écran – encodage numérique",
+    "section": "3.3 0 ou 1 ?",
+    "text": "3.3 0 ou 1 ?\nTout document conservé sur un ordinateur est constitué d’une série de 0 et de 1.\nCe sont les normes d’encodage et les formats qui permettent d’interpréter le sens de ces 0 et 1.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
+    ]
+  },
+  {
+    "objectID": "encodage.html#normes-dencodage",
+    "href": "encodage.html#normes-dencodage",
+    "title": "3  Des caractères à l’écran – encodage numérique",
+    "section": "3.4 Normes d’encodage",
+    "text": "3.4 Normes d’encodage",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
+    ]
+  },
+  {
+    "objectID": "encodage.html#encodage-des-données-textuelles",
+    "href": "encodage.html#encodage-des-données-textuelles",
+    "title": "3  Des caractères à l’écran – encodage numérique",
+    "section": "3.5 Encodage des données textuelles",
+    "text": "3.5 Encodage des données textuelles\n\n\n3.5.1 ASCII\n\n\n\n3.5.2 ISO 8859-1\n\n\n\n3.5.3 UTF-8\n\nUniversal Character Set Transformation Format + base d’encodage (8, 16, 32, …)\nEn fonction de la base d’encodage, un caractère peut être représenté par 1, 2, 3 ou 4 octets.\nUTF est rétrocompatible avec ASCII, mais pas avec ISO 8859-1. Il s’inscrit dans le cadre établi par Unicode qui vise à faciliter l’échange de textes numériques en assurant leur compatibilité.\nUnicode définit plus de 137 000 caractères, issus de multiples alphabets, et prévoit aussi des symboles comme les emojis.\nExemple : 🤓 = 11110000 10011111 10100100 10010011",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
+    ]
+  },
+  {
+    "objectID": "encodage.html#mauvais-encodagedécodage",
+    "href": "encodage.html#mauvais-encodagedécodage",
+    "title": "3  Des caractères à l’écran – encodage numérique",
+    "section": "3.6 Mauvais encodage/décodage",
+    "text": "3.6 Mauvais encodage/décodage\nSi on n’utilise pas la bonne clef d’encodage ou de décodage d’un texte, on risque d’obtenir un texte partiellement ou entièrement illisible.\nUTF-8 ouvert avec 8859-1 (Latin 1)\n\nLa Joconde, ou Portrait de Mona Lisa, est un tableau de l’artiste LÃ©onard de Vinci, rÃ©alisÃ© entre 1503 et 1506 ou entre 1513 et 15161,2, et peut-Ãªtre jusqu’Ã 1519 (l’artiste Ã©tant mort cette annÃ©e-lÃ , le 2 mai)3, qui reprÃ©sente un portrait mi-corps, probablement celui de la Florentine Lisa Gherardini, Ã©pouse de Francesco del Giocondo. Acquise par FranÃ§ois Ier, cette peinture Ã l’huile sur panneau de bois de peuplier de 77 Ã 53 cm est exposÃ©e au musÃ©e du Louvre Ã Paris. La Joconde est l’un des rares tableaux attribuÃ©s de faÃ§on certaine Ã LÃ©onard de Vinci.\n\nUTF-8 ouvert avec ISO 8859-5 (Cyrillic)\n\nLa Joconde, ou Portrait de Mona Lisa, est un tableau de l’artiste LУЉonard de Vinci, rУЉalisУЉ entre 1503 et 1506 ou entre 1513 et 15161,2, et peut-УЊtre jusqu’У 1519 (l’artiste УЉtant mort cette annУЉe-lУ , le 2 mai)3, qui reprУЉsente un portrait mi-corps, probablement celui de la Florentine Lisa Gherardini, УЉpouse de Francesco del Giocondo. Acquise par FranУЇois Ier, cette peinture У l’huile sur panneau de bois de peuplier de 77 У 53 cm est exposУЉe au musУЉe du Louvre У Paris. La Joconde est l’un des rares tableaux attribuУЉs de faУЇon certaine У LУЉonard de Vinci.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
+    ]
+  },
+  {
+    "objectID": "encodage.html#une-norme",
+    "href": "encodage.html#une-norme",
+    "title": "3  Des caractères à l’écran – encodage numérique",
+    "section": "3.7 Une norme ?",
+    "text": "3.7 Une norme ?\nUTF s’impose désormais comme la norme\n\n\n\ndiagramme montrant qu’UTF s’impose sur les autres normes depuis 2006\n\n\nD’après W3Techs, 97,8% des pages web qui déclarent un encodage suivent UTF-8 aujourd’hui.\n(source du graphique: Wikimedia)",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
+    ]
   }
 ]
