@@ -24,7 +24,7 @@
     "href": "index.html#crédits",
     "title": "HNU6051-A24",
     "section": "Crédits",
-    "text": "Crédits\nLe contenu de ce cours doit beaucoup aux préparations réalisées par Antoine Fauchié, Margot Mellet, Alix Chagué ainsi qu’aux séances de Débogue tes humanités.\nLe support du cours a été créé avec quarto.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "Crédits\nLe contenu de ce cours doit beaucoup aux préparations réalisées par Antoine Fauchié, Margot Mellet, Alix Chagué ainsi qu’aux séances de Débogue tes humanités.\nLe support du cours a été créé avec quarto.\n\n\n\n\nSimpkin, Sarah. 2015. “Débuter avec Markdown.” Programming Historian, November.",
     "crumbs": [
       "Bienvenue"
     ]
@@ -104,7 +104,7 @@
     "href": "plan-de-cours.html#références-et-ressources",
     "title": "Plan de cours",
     "section": "Références et ressources",
-    "text": "Références et ressources\nVoici une liste de ressources utiles :\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "Références et ressources\nVoici une liste de ressources utiles :\n\n\nSimpkin, Sarah. 2015. “Débuter avec\nMarkdown.” Programming Historian, November.",
     "crumbs": [
       "Plan de cours"
     ]
@@ -274,7 +274,67 @@
     "href": "theorie-formats.html#formats-de-balisage",
     "title": "2  Les formats : théorie",
     "section": "2.9 Formats de balisage",
-    "text": "2.9 Formats de balisage\n\n\n2.9.1 Texte brut, texte enrichi",
+    "text": "2.9 Formats de balisage\n\n\n2.9.1 Texte brut, texte enrichi\n\n\n\n2.9.2 WYSIWYM",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Les formats : théorie</span>"
+    ]
+  },
+  {
+    "objectID": "theorie-formats.html#mettre-en-forme-structurer",
+    "href": "theorie-formats.html#mettre-en-forme-structurer",
+    "title": "2  Les formats : théorie",
+    "section": "2.10 Mettre en forme =/= structurer",
+    "text": "2.10 Mettre en forme =/= structurer",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Les formats : théorie</span>"
+    ]
+  },
+  {
+    "objectID": "theorie-formats.html#structure-logique-vs-apparence",
+    "href": "theorie-formats.html#structure-logique-vs-apparence",
+    "title": "2  Les formats : théorie",
+    "section": "2.11 Structure logique vs apparence",
+    "text": "2.11 Structure logique vs apparence\n\nL’ouvrage Pratiques de l’édition numérique est a priori.\n\n\ntous les mots en italiques ne sont pas des mots étrangers, mais tous les mots étrangers sont en italiques\ntitres d’ouvrages cités en italiques (ou pas) et mots étrangers en italiques (ou pas)\non peut extraire rapidement tous les mots étrangers sans récolter aussi les titres d’ouvrages cités",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Les formats : théorie</span>"
+    ]
+  },
+  {
+    "objectID": "theorie-formats.html#markdown",
+    "href": "theorie-formats.html#markdown",
+    "title": "2  Les formats : théorie",
+    "section": "2.12 Markdown",
+    "text": "2.12 Markdown\n\nVoir (Simpkin 2015)\n\n2.12.1 Exercice markdown\n\nTexte : pont_mirabeau.txt\nImage : pont_mirabeau.png\nÉditeur en ligne : Dillinger\n\nFaire un encodage en Markdown du poème :\n\nmettre le titre en niveau 1\nfaire de chaque première ligne de strophe un titre de niveau 3\nmettre en italique le paratexte\nmettre les noms propres en gras",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Les formats : théorie</span>"
+    ]
+  },
+  {
+    "objectID": "theorie-formats.html#latex",
+    "href": "theorie-formats.html#latex",
+    "title": "2  Les formats : théorie",
+    "section": "2.13 LaTeX",
+    "text": "2.13 LaTeX",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Les formats : théorie</span>"
+    ]
+  },
+  {
+    "objectID": "theorie-formats.html#csv",
+    "href": "theorie-formats.html#csv",
+    "title": "2  Les formats : théorie",
+    "section": "2.14 CSV",
+    "text": "2.14 CSV\nCSV (Comma Separated Values) - données tabulaires\n\n1 ligne de texte = 1 ligne de tableau\n1 virgule = 1 nouvelle cellule de tableau\nun ficher csv peut être ouvert avec Excel\n\nId_Monographie  Id_Enqueté  Serie_Tome  Prénom  Nom     Place dans la famille   Lieu de naissance\n001a    001aE1  1-1 (1857)  Jean    M**     Père    T** (Aube)\n001a    001aE2  1-1 (1857)  Marie   R**     Mère    L** (Meurthe)\n001a    001aE3  1-1 (1857)  Joseph  M**     Fils\nId_Monographie,Id_Enqueté,Serie_Tome,Prénom,Nom,Place dans la famille,Lieu de naissance 001a,001aE1,1-1 (1857),Jean,M,Père,T (Aube) 001a,001aE2,1-1 (1857),Marie,R,Mère,L (Meurthe) 001a,001aE3,1-1 (1857),Joseph,M**,Fils,,",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Les formats : théorie</span>"
+    ]
+  },
+  {
+    "objectID": "theorie-formats.html#section",
+    "href": "theorie-formats.html#section",
+    "title": "2  Les formats : théorie",
+    "section": "2.15 ",
+    "text": "2.15 \n\n\n\n\nSimpkin, Sarah. 2015. “Débuter avec Markdown.” Programming Historian, November.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Les formats : théorie</span>"
     ]
@@ -345,6 +405,16 @@
     "title": "3  Des caractères à l’écran – encodage numérique",
     "section": "3.7 Une norme ?",
     "text": "3.7 Une norme ?\nUTF s’impose désormais comme la norme\n\n\n\ndiagramme montrant qu’UTF s’impose sur les autres normes depuis 2006\n\n\nD’après W3Techs, 97,8% des pages web qui déclarent un encodage suivent UTF-8 aujourd’hui.\n(source du graphique: Wikimedia)",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
+    ]
+  },
+  {
+    "objectID": "encodage.html#enjeux",
+    "href": "encodage.html#enjeux",
+    "title": "3  Des caractères à l’écran – encodage numérique",
+    "section": "3.8 Enjeux",
+    "text": "3.8 Enjeux",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
     ]
