@@ -1,5 +1,5 @@
 project:
-  output-dir: _slides
+  output-dir: _book/_slides
   render:
     - index.qmd
     - plan-de-cours.qmd
