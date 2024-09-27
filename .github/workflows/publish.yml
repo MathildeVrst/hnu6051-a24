@@ -4,6 +4,7 @@ on:
     branches: main
 
 name: Quarto Publish
+run: quarto render --log-level debug
 
 jobs:
   build-deploy:
