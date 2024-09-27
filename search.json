@@ -1,0 +1,182 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "HNU6051-A24",
+    "section": "",
+    "text": "Bienvenue\nBienvenue sur le support du cours HNU6051 – Humanités numériques : formats d’écriture. Celui-ci est destiné aux étudiantes et étudiants qui suivent l’atelier à l’automne 2024. Les séances se tiendront les vendredi 4, 11, 18 octobre, de 9h30 à 11h30 puis de 12h30 à 15h30 au Pavillon Lionel-Groulx, salle C-3115.\nL’objectif de cet atelier est de découvrir les différents formats d’écriture et de prendre en main le fonctionnement de différentes chaînes éditoriales de production de contenu.\nAujourd’hui de nombreux outils ou applications de rédaction, d’édition et de publication de contenus textuels sont accessibles au grand public sur le Web, mais sans nécessairement prendre en compte les besoins et les pratiques d’écriture des communautés de recherche. La question des formats se place au cœur de la structuration du texte numérique et il est important, pour qui veut produire des connaissances organisées, pérennes et interopérables, de comprendre les enjeux culturels, techniques et politiques des formats.\nCes trois séances entendent donner aux étudiantes et étudiants une connaissance théorique et pratique sur les différents formats d’écriture, leur donner les clés pour mettre en place de bonnes pratiques éditoriales et de les former à quelques outils propices à la rédaction scientifique.",
+    "crumbs": [
+      "Bienvenue"
+    ]
+  },
+  {
+    "objectID": "index.html#support-de-cours",
+    "href": "index.html#support-de-cours",
+    "title": "HNU6051-A24",
+    "section": "Support de cours",
+    "text": "Support de cours\nLe présent support est destiné aux étudiantes et étudiants de l’Université de Montréal suivant l’atelier HNU6051, Humanités numériques : formats d’écriture, au trimestre d’Automne 2024.\nLa totalité du contenu de ce site est sous licence CC BY-NC-SA et est la propriété intellectuelle de Mathilde Verstraete.",
+    "crumbs": [
+      "Bienvenue"
+    ]
+  },
+  {
+    "objectID": "index.html#crédits",
+    "href": "index.html#crédits",
+    "title": "HNU6051-A24",
+    "section": "Crédits",
+    "text": "Crédits\nLe contenu de ce cours doit beaucoup aux préparations réalisées par Antoine Fauchié, Margot Mellet, Alix Chagué ainsi qu’aux séances de Débogue tes humanités.\nLe support du cours a été créé avec quarto.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "Bienvenue"
+    ]
+  },
+  {
+    "objectID": "plan-de-cours.html",
+    "href": "plan-de-cours.html",
+    "title": "Plan de cours",
+    "section": "",
+    "text": "Informations pratiques",
+    "crumbs": [
+      "Plan de cours"
+    ]
+  },
+  {
+    "objectID": "plan-de-cours.html#informations-pratiques",
+    "href": "plan-de-cours.html#informations-pratiques",
+    "title": "Plan de cours",
+    "section": "",
+    "text": "Sigle du cours : HNU6051\nIntitulé du cours : Humanités numériques : formats d’écriture\nChargée de cours : Mathilde Verstraete\nHoraire : trois vendredi : 4, 11, 18 octobre 2024, de 9h30 à 11h30 puis de 12h30 à 15h30\nLieu : Pavillon Lionel-Groulx, salle C-3115.",
+    "crumbs": [
+      "Plan de cours"
+    ]
+  },
+  {
+    "objectID": "plan-de-cours.html#description-de-latelier",
+    "href": "plan-de-cours.html#description-de-latelier",
+    "title": "Plan de cours",
+    "section": "Description de l’atelier",
+    "text": "Description de l’atelier\nLa question des formats se place au cœur de la structuration du texte numérique et il est important, pour qui veut produire des connaissances organisées, pérennes et interopérables, de comprendre les enjeux culturels, techniques et politiques des formats. Aujourd’hui de nombreux outils ou applications de rédaction, d’édition et de publication de contenus textuels sont accessibles au grand public sur le Web. Ces outils ne prennent pas nécessairement en compte les besoins et les pratiques d’écriture des communautés de recherche.",
+    "crumbs": [
+      "Plan de cours"
+    ]
+  },
+  {
+    "objectID": "plan-de-cours.html#objectifs-de-latelier",
+    "href": "plan-de-cours.html#objectifs-de-latelier",
+    "title": "Plan de cours",
+    "section": "Objectifs de l’atelier",
+    "text": "Objectifs de l’atelier\nCes trois séances entendent donner aux étudiantes et étudiants une connaissance théorique et pratique sur les différents formats d’écriture, leur donner les clés pour mettre en place de bonnes pratiques éditoriales et de les former à quelques outils propices à la rédaction scientifique.\nL’atelier n’a pas seulement pour but de former à des outils spécifiques des Humanités numériques mais vise à offrir aux étudiant·e·s les connaissances théoriques et pratiques fondamentales pour leur permettre d’explorer les potentialités du numérique, de constituer une réflexion critique sur les outils numériques et de développer leurs propres pratiques d’écriture et de publication.",
+    "crumbs": [
+      "Plan de cours"
+    ]
+  },
+  {
+    "objectID": "plan-de-cours.html#organisation-des-séances",
+    "href": "plan-de-cours.html#organisation-des-séances",
+    "title": "Plan de cours",
+    "section": "Organisation des séances",
+    "text": "Organisation des séances\nNous alternerons entre pratique théorie et pratique. Il est consillé de venir en cours avec son ordinateur personnel.\n\nSéance 1 (4 octobre) :\n\n\n\nHoraire\nMatière\nType\n\n\n\n\n09h30-10h00\nPrésentation & Introduction de l’atelier\n–\n\n\n10h00-11h00\nÉdition savante, formats de fichiers, bonnes pratiques\nThéorie\n\n\n11h00-11h30\nMarkdown\nThéorie et exercice\n\n\n11h30-12h30\nPause\n–\n\n\n12h30-13h00\nThe Plain Text Project\nThéorie et exercice\n\n\n13h00-14h15\nChaînes éditoriales, Stylo\nThéorie et pratique\n\n\n14h15-15h15\nRéférences structurées, Zotero\nThéorie et exercice\n\n\n15h15-15h30\nPrésentation du rendu pour la séance 2 (stylo basique)\nRendu\n\n\n\n\n\nSéance 2 (11 octobre) :\n\n\n\n\n\n\n\n\nHoraire\nMatière\nType\n\n\n\n\n09h30-10h00\nRetour sur le rendu\nRendu\n\n\n10h00-11h30\nSingle Source Publishing\nThéorie\n\n\n11h30-12h30\nPause\n–\n\n\n12h30-13h30\nUtilisation du terminal, installation de Codium\nPratique\n\n\n13h30-14h30\nZotero et Bibtex\nPratique\n\n\n14h30-15h15\nStylo en mode avancé\nExercice\n\n\n15h15-15h30\nPrésentation du rendu pour la séance 3 (stylo avancé ; recherches terminal)\nRendu\n\n\n\n\n\nSéance 3 (18 octobre) :\n\n\n\n\n\n\n\n\nHoraire\nMatière\nType\n\n\n\n\n09h30-10h00\nRetour sur le rendu\nRendu\n\n\n10h00-11h30\nLes caractères à l’écran\nThéorie\n\n\n11h30-12h30\nPause\n–\n\n\n12h30-13h30\nQuarto\nPratique\n\n\n13h30-14h30\nGit et Github\nThéorie\n\n\n14h30-15h15\nYaml\nThéorie et exercices\n\n\n15h15-15h30\nPrésentation du rendu final (création multi-format avec quarto)\nRendu",
+    "crumbs": [
+      "Plan de cours"
+    ]
+  },
+  {
+    "objectID": "plan-de-cours.html#évaluation",
+    "href": "plan-de-cours.html#évaluation",
+    "title": "Plan de cours",
+    "section": "Évaluation",
+    "text": "Évaluation\n\nExercices durant les séances : 20%\nDurant les séances de l’atelier, plusieurs exercices seront demandés à l’étudiant·e pour valider au fur et à mesure les acquis techniques. Cette évaluation se fera sur un mode continu.\n\n\nExercices hebdomadaires : 30%\nChaque semaine, en préparation de la séance prochaine, un exercice sera soumis à l’étudiant·e et sera discuté par la suite en classe :\n\npour le 11 octobre : Stylo en mode basique (10%)\npour le 18 octobre : Stylo en mode avancé (10%) ; Apprenez-moi quelque chose quant au terminal (10%)\n\n\n\nTravail final : 50%\nLe travail final consiste en la création d’un book multiformat avec le système de publication Quarto. Le contenu du travail est libre. Quelques critères sont à remplir :\n\nLe livre doit être présenté en deux formats au moins ;\nLe livre doit comporter au moins 4 chapitres ;\nLe thème doit avoir été modifié ;\nLe fichier _quarto.yml doit avoir été personnalisé ;\nUne publication accessible en ligne (via github pages) sera particulièrement appréciée.",
+    "crumbs": [
+      "Plan de cours"
+    ]
+  },
+  {
+    "objectID": "plan-de-cours.html#références-et-ressources",
+    "href": "plan-de-cours.html#références-et-ressources",
+    "title": "Plan de cours",
+    "section": "Références et ressources",
+    "text": "Références et ressources\nVoici une liste de ressources utiles :\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "Plan de cours"
+    ]
+  },
+  {
+    "objectID": "plan-de-cours.html#intégrité",
+    "href": "plan-de-cours.html#intégrité",
+    "title": "Plan de cours",
+    "section": "Intégrité",
+    "text": "Intégrité\nL’Université de Montréal s’est dotée de deux règlements disciplinaires sur la fraude et le plagiat. L’une s’adresse aux étudiant·e·s de 1^er cycle, la seconde aux étudiant·e·s des cycles supérieurs : https://integrite.umontreal.ca/boite-a-outils/les-reglements.",
+    "crumbs": [
+      "Plan de cours"
+    ]
+  },
+  {
+    "objectID": "plan-de-cours.html#crédits",
+    "href": "plan-de-cours.html#crédits",
+    "title": "Plan de cours",
+    "section": "Crédits",
+    "text": "Crédits\nLe contenu de ce cours doit beaucoup aux préparations réalisées par Antoine Fauchié, Margot Mellet, Alix Chagué ainsi qu’aux séances de Débogue tes humanités.\nLe support du cours a été créé avec quarto.",
+    "crumbs": [
+      "Plan de cours"
+    ]
+  },
+  {
+    "objectID": "plan-de-cours.html#license",
+    "href": "plan-de-cours.html#license",
+    "title": "Plan de cours",
+    "section": "License",
+    "text": "License\nTous les contenus de ce site sont sous licence CC BY-NC-SA : Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions.",
+    "crumbs": [
+      "Plan de cours"
+    ]
+  },
+  {
+    "objectID": "introduction.html",
+    "href": "introduction.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "1.1 Lecture du plan de cours",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "introduction.html#déroulement-de-latelier",
+    "href": "introduction.html#déroulement-de-latelier",
+    "title": "1  Introduction",
+    "section": "1.2 Déroulement de l’atelier",
+    "text": "1.2 Déroulement de l’atelier\n\nUn peu de théorie\nBeaucoup de pratique : on met les mains à la pâte, on teste des outils, on produit, on fabrique !\n\nVous n’êtes pas un groupe homogène donc vous n’irez pas toutes et tous à la même vitesse, pas d’inquiétude !",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "introduction.html#tour-de-table",
+    "href": "introduction.html#tour-de-table",
+    "title": "1  Introduction",
+    "section": "1.3 Tour de table",
+    "text": "1.3 Tour de table\nQuelques informations pour savoir qui vous êtes, quel est l’objectif de cet atelier et comment les séances vont être organisées.\n5 questions :\n\nquel est votre nom ?\noù étiez-vous l’année dernière ?\nquel cursus suivez-vous cette année ?\npourquoi suivez-vous cet atelier ?\nqu’est-ce qui vous vient instinctivement à l’esprit quand je vous dis format ?",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "introduction.html#en-ce-qui-me-concerne",
+    "href": "introduction.html#en-ce-qui-me-concerne",
+    "title": "1  Introduction",
+    "section": "1.4 En ce qui me concerne",
+    "text": "1.4 En ce qui me concerne\nEn ce qui me concerne, je m’appelle Mathilde Verstrate. Je suis doctorante au Département de littératures et de langues du monde à l’Université de Montréal, dans l’option humanités numériques. J’ai une formation en lettres classiques – que j’ai suivie en Belgique, à l’Université Catholique de Louvain. Je suis passée du côté obscur de la force en rejoignant la Chaire de recherche du Canada sur les écritures numériques (dirigée par Marcello Vitali-Rosati). C’est à partir de ce moment là que j’ai commencé à m’intéresser et à me spécialiser dans les humanités numériques. J’étais donc grande débutante il y a peu, mais vous verrez, la courbe d’apprentissage n’est pas trop abrupte. C’est néanmoins la première fois que j’enseigne ce cours – j’enseignais un cours de latin les années précédentes.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "introduction.html#me-contacter",
+    "href": "introduction.html#me-contacter",
+    "title": "1  Introduction",
+    "section": "1.5 Me contacter",
+    "text": "1.5 Me contacter\nN’hésitez pas à me contacter. Veillez à vous y prendre à l’avance si vous avez des questions conernant les rendus.\nmathilde.verstraete@umontreal.ca",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  }
+]
