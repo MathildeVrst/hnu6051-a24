@@ -99,6 +99,12 @@ Voici une liste de ressources utiles :
 
 L’Université de Montréal s’est dotée de deux règlements disciplinaires sur la fraude et le plagiat. L'une s’adresse aux étudiant·e·s de 1^er cycle, la seconde aux étudiant·e·s des cycles supérieurs : <https://integrite.umontreal.ca/boite-a-outils/les-reglements>. 
 
+## Crédits 
+
+Le contenu de ce cours doit beaucoup aux préparations réalisées par Antoine Fauchié, Margot Mellet, Alix Chagué ainsi qu'aux séances de [*Débogue tes humanités*](https://debugue.ecrituresnumeriques.ca/). 
+
+Le support du cours a été créé avec [quarto](https://quarto.org/). 
+
 ## License 
 
 Tous les contenus de ce site sont sous licence [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) : Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions. 

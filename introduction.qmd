@@ -3,10 +3,9 @@
 ::: {.content-visible when-format="html" unless-format="revealjs"}
 
 ```{=html}
-<iframe src="../_slides/introduction.html"></iframe>
+<iframe src="./_slides/introduction.html"></iframe>
 ```
-
-[Ouvrir dans mon navigateur](../_slides/introduction.html){target="_blank"} 
+[Ouvrir dans mon navigateur](./_slides/introduction.html){target="_blank"} 
 
 ::: 
 
