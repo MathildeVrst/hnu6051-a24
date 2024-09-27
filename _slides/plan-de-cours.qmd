@@ -24,9 +24,15 @@ Ces trois séances entendent donner aux étudiantes et étudiants une connaissan
 
 L’atelier n’a pas seulement pour but de former à des outils spécifiques des Humanités numériques mais vise à offrir aux étudiant·e·s les connaissances théoriques et pratiques fondamentales pour leur permettre d’explorer les potentialités du numérique, de constituer une réflexion critique sur les outils numériques et de développer leurs propres pratiques d’écriture et de publication.
 
+## Support de cours 
+
+Le support de cours est multiformat. Un site Web est à votre disposition à l'adresse suivante : <https://mathildevrst.github.io/hnu6051-a24/>. Vous pourrez y télécharger le PDF et afficher les slides de chaque séance. 
+
 ## Organisation des séances 
 
 Nous alternerons entre pratique théorie et pratique. Il est consillé de venir en cours avec son ordinateur personnel. 
+
+Le programme des séances est sujet à de légers changements en fonction du niveau et de l'avancement du groupe. 
 
 ### Séance 1 (4 octobre) : 
 
@@ -86,7 +92,8 @@ Le travail final consiste en la création d’un *book* multiformat avec le syst
 - Le livre doit comporter au moins 4 *chapitres* ; 
 - Le thème doit avoir été modifié ; 
 - Le fichier ```_quarto.yml``` doit avoir été personnalisé ; 
-- Une publication accessible en ligne (via *github pages*) sera particulièrement appréciée. 
+- Une publication accessible en ligne (via *github pages*) sera particulièrement appréciée ; 
+- Date de remise : vendredi 8 novembre. 
 
 ## Références et ressources 
 
