@@ -1,0 +1,10 @@
+project:
+  output-dir: _slides
+  render:
+    - index.qmd
+    - plan-de-cours.qmd
+    - introduction.qmd
+
+bibliography: references.bib
+
+format: revealjs

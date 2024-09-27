@@ -1,0 +1,104 @@
+---
+nocite: |
+  @*
+---
+
+# Plan de cours {.unnumbered}
+
+## Informations pratiques  
+
+- Sigle du cours : HNU6051 
+- Intitulé du cours : Humanités numériques : formats d'écriture 
+- Chargée de cours : [Mathilde Verstraete](mailto:mathilde.verstraete@umontreal.ca) 
+- Horaire : trois vendredi : 4, 11, 18 octobre 2024, de 9h30 à 11h30 puis de 12h30 à 15h30
+- Lieu : Pavillon Lionel-Groulx, salle C-3115. 
+
+## Description de l'atelier 
+
+La question des formats se place au cœur de la structuration du texte numérique et il est important, pour qui veut produire des connaissances organisées, pérennes et interopérables, de comprendre les enjeux culturels, techniques et politiques des formats. 
+Aujourd’hui de nombreux outils ou applications de rédaction, d’édition et de publication de contenus textuels sont accessibles au grand public sur le Web. Ces outils ne prennent pas nécessairement en compte les besoins et les pratiques d’écriture des communautés de recherche. 
+
+## Objectifs de l'atelier 
+
+Ces trois séances entendent donner aux étudiantes et étudiants une connaissance théorique et pratique sur les différents formats d'écriture, leur donner les clés pour mettre en place de bonnes pratiques éditoriales et de les former à quelques outils propices à la rédaction scientifique. 
+
+L’atelier n’a pas seulement pour but de former à des outils spécifiques des Humanités numériques mais vise à offrir aux étudiant·e·s les connaissances théoriques et pratiques fondamentales pour leur permettre d’explorer les potentialités du numérique, de constituer une réflexion critique sur les outils numériques et de développer leurs propres pratiques d’écriture et de publication.
+
+## Organisation des séances 
+
+Nous alternerons entre pratique théorie et pratique. Il est consillé de venir en cours avec son ordinateur personnel. 
+
+### Séance 1 (4 octobre) : 
+
+| Horaire | Matière | Type |
+| --- | ------ | --- | 
+| 09h30-10h00 | Présentation & Introduction de l’atelier | -- | 
+| 10h00-11h00 | Édition savante, formats de fichiers, bonnes pratiques | Théorie | 
+| 11h00-11h30 | [Markdown](https://www.arthurperret.fr/tutomd/) | Théorie et exercice | 
+| 11h30-12h30 | Pause | -- | 
+| 12h30-13h00 | [The Plain Text Project](https://plaintextproject.online/articles.html) | Théorie et exercice | 
+| 13h00-14h15 | Chaînes éditoriales, Stylo | Théorie et pratique | 
+| 14h15-15h15 | Références structurées, Zotero | Théorie et exercice | 
+| 15h15-15h30 | Présentation du rendu pour la séance 2 (stylo basique) | Rendu | 
+
+### Séance 2 (11 octobre) : 
+
+| Horaire | Matière | Type |
+| --- | ------ | --- | 
+| 09h30-10h00 | Retour sur le rendu | Rendu | 
+| 10h00-11h30 | Single Source Publishing | Théorie | 
+| 11h30-12h30 | Pause | -- | 
+| 12h30-13h30 | Utilisation du terminal, installation de Codium | Pratique |
+| 13h30-14h30 | Zotero et Bibtex | Pratique | 
+| 14h30-15h15 | Stylo en mode avancé | Exercice | 
+| 15h15-15h30 | Présentation du rendu pour la séance 3 (stylo avancé ; recherches terminal) | Rendu | 
+
+### Séance 3 (18 octobre) : 
+
+| Horaire | Matière | Type |
+| --- | ------ | --- | 
+| 09h30-10h00 | Retour sur le rendu | Rendu | 
+| 10h00-11h30 | Les caractères à l'écran | Théorie | 
+| 11h30-12h30 | Pause | -- | 
+| 12h30-13h30 | Quarto | Pratique |
+| 13h30-14h30 | Git et Github | Théorie | 
+| 14h30-15h15 | Yaml | Théorie et exercices | 
+| 15h15-15h30 | Présentation du rendu final (création multi-format avec quarto) | Rendu | 
+
+## Évaluation 
+
+### Exercices durant les séances : 20%
+
+Durant les séances de l’atelier, plusieurs exercices seront demandés à l’étudiant·e pour valider au fur et à mesure les acquis techniques. Cette évaluation se fera sur un mode continu.
+
+### Exercices hebdomadaires : 30%
+
+Chaque semaine, en préparation de la séance prochaine, un exercice sera soumis à l’étudiant·e et sera discuté par la suite en classe : 
+
+- pour le 11 octobre : Stylo en mode basique (10%) 
+- pour le 18 octobre : Stylo en mode avancé (10%) ; Apprenez-moi quelque chose quant au terminal (10%)
+
+### Travail final : 50%
+
+Le travail final consiste en la création d’un *book* multiformat avec le système de publication [*Quarto*](https://quarto.org/). Le contenu du travail est libre. Quelques critères sont à remplir : 
+
+- Le livre doit être présenté en deux formats au moins ; 
+- Le livre doit comporter au moins 4 *chapitres* ; 
+- Le thème doit avoir été modifié ; 
+- Le fichier ```_quarto.yml``` doit avoir été personnalisé ; 
+- Une publication accessible en ligne (via *github pages*) sera particulièrement appréciée. 
+
+## Références et ressources 
+
+Voici une liste de ressources utiles : 
+
+::: {#refs}
+:::
+
+## Intégrité 
+
+L’Université de Montréal s’est dotée de deux règlements disciplinaires sur la fraude et le plagiat. L'une s’adresse aux étudiant·e·s de 1^er cycle, la seconde aux étudiant·e·s des cycles supérieurs : <https://integrite.umontreal.ca/boite-a-outils/les-reglements>. 
+
+## License 
+
+Tous les contenus de ce site sont sous licence [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) : Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions. 

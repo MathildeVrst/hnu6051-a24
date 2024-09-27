@@ -1,0 +1,37 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  language: "fr"
+  title: "HNU6051-A24"
+  subtitle: "Humanités numériques : formats d'écriture"
+  author: "[Mathilde Verstraete](mailto:mathilde.verstraete@umontreal.ca)"
+  date: "[Automne] 2024"
+  date-format: "[Automne] YYYY"
+  search: true
+  downloads: pdf
+  chapters:
+    - index.qmd
+    - plan-de-cours.qmd
+    - introduction.qmd
+
+language: 
+  title-block-author-single: "Chargée de cours" 
+  toc-title-document: "Contenu" 
+  title-block-published: "Session"
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+    language: "fr"
+    header-includes: 
+    - \usepackage[francais]{babel}
+
+
+
+

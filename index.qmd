@@ -1,0 +1,26 @@
+---
+nocite: |
+  @*
+---
+
+# Bienvenue {.unnumbered}
+
+Bienvenue sur le support du cours **HNU6051 -- Humanités numériques : formats d'écriture**. Celui-ci est destiné aux étudiantes et étudiants qui suivent l'atelier à l'automne 2024. Les séances se tiendront les vendredi 4, 11, 18 octobre, de 9h30 à 11h30 puis de 12h30 à 15h30 au Pavillon Lionel-Groulx, salle C-3115. 
+
+L'objectif de cet atelier est de découvrir les différents formats d'écriture et de prendre en main le fonctionnement de différentes chaînes éditoriales de production de contenu.
+
+Aujourd’hui de nombreux outils ou applications de rédaction, d’édition et de publication de contenus textuels sont accessibles au grand public sur le Web, mais sans nécessairement prendre en compte les besoins et les pratiques d’écriture des communautés de recherche. La question des formats se place au cœur de la structuration du texte numérique et il est important, pour qui veut produire des connaissances organisées, pérennes et interopérables, de comprendre les enjeux culturels, techniques et politiques des formats.
+
+Ces trois séances entendent donner aux étudiantes et étudiants une connaissance théorique et pratique sur les différents formats d'écriture, leur donner les clés pour mettre en place de bonnes pratiques éditoriales et de les former à quelques outils propices à la rédaction scientifique. 
+
+## Support de cours 
+
+Le présent support est destiné aux étudiantes et étudiants de l’Université de Montréal suivant l'atelier [HNU6051, Humanités numériques : formats d'écriture](https://admission.umontreal.ca/cours-et-horaires/cours/hnu-6051/), au trimestre d’Automne 2024.
+
+La totalité du contenu de ce site est sous licence CC BY-NC-SA et est la propriété intellectuelle de Mathilde Verstraete.
+
+## Crédits 
+
+Le contenu de ce cours doit beaucoup aux préparations réalisées par Antoine Fauchié, Margot Mellet, Alix Chagué ainsi qu'aux séances de [*Débogue tes humanités*](https://debugue.ecrituresnumeriques.ca/). 
+
+Le support du cours a été créé avec [quarto](https://quarto.org/). 
