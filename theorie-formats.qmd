@@ -83,3 +83,106 @@ Un fichier de texte peut contenir des indications de mise en forme
 - WYSIWYM (What You See Is What You Mean) == un éditeur de texte qui présente le texte et ses informations de mise en forme dans les interpréter
 
 -->
+
+### WYSIWYM 
+
+<!-- Alix
+
+- dans un éditeur WYSIWYM : moindre confusion entre mise en forme et indication de la structure logique
+- la mise en forme apparaît après parsing du document (création d'un PDF ou ouverture dans un navigateur)
+- le paramétrage de la mise en forme peut être géré dans un fichier externe (ex: CSS pour HTML)
+
+![](img/wysiwym_styles.png)
+--> 
+
+
+## Mettre en forme =/= structurer 
+
+<!-- Alix 
+
+Séparer la structure logique de la mise en forme :
+
+-  un titre =/= un paragraphe
+-  un titre d'ouvrage ou un mot étranger
+-  une citation
+
+vs.
+
+-  du texte en gras
+-  du texte en italique
+-  du texte entre guillemets
+
+--> 
+
+## Structure logique vs apparence 
+
+> L'ouvrage *Pratiques de l'édition numérique* est *a priori*. 
+
+- tous les mots en italiques ne sont pas des mots étrangers, mais tous les mots étrangers sont en italiques
+- titres d'ouvrages cités en italiques (ou pas) et mots étrangers en italiques (ou pas)
+- on peut extraire rapidement tous les mots étrangers sans récolter aussi les titres d'ouvrages cités
+
+
+## Markdown 
+
+<!-- Alix
+
+Annotation de la structure logique avec Markdown
+
+- Markdown est un langage de balisage léger qui permet d'encoder facilement la structure et certains éléments de mise en forme du texte sans gêner sa lecture.
+- Il permet de créer des fichiers HTML ou PDF et est beaucoup utilisé sur le web, notamment sur des plateformes comme Github
+- Même non compilé, un texte Markdown est facile à lire car les annotation sont légères et limitées ;
+- On peut utiliser Markdown ou un système similaire dans Whatsapp et Messenger ;
+
+-->
+
+Voir [@simpkinDebuterAvecMarkdown2015]
+
+### Exercice markdown 
+
+- Texte : [pont_mirabeau.txt](img/pont_mirabeau.txt) 
+- Image : [pont_mirabeau.png](img/pont_mirabeau.PNG)
+- Éditeur en ligne : [Dillinger](https://dillinger.io/)
+
+Faire un encodage en Markdown du poème :
+
+- mettre le titre en niveau 1
+- faire de chaque première ligne de strophe un titre de niveau 3
+- mettre en italique le paratexte
+- mettre les noms propres en gras
+
+## LaTeX
+
+<!-- Alix
+
+Structuration logique avec LaTeX : 
+
+- LaTeX (prononcer "latek") est un langage et un système de composition de documents, + complet que Markdown ;
+- Utilisé dans le domaine des sciences car on peut facilement écrire des formules mathématiques ;
+- Les balises sémantiques de LaTeX sont plus "invasives". Exemple : \chapter{Titre de chapitre} ;
+- Pour voir la mise en forme, on doit compiler le fichier .tex. On obtient un PDF ou du HTML ;
+- LaTeX ne sert pas qu'à annoter la structuration logique : il prend en charge la mise en forme du document au sens large.
+
+--> 
+
+## CSV 
+
+CSV (Comma Separated Values) - données tabulaires
+
+- 1 ligne de texte = 1 ligne de tableau
+- 1 virgule = 1 nouvelle cellule de tableau
+- un ficher csv peut être ouvert avec Excel
+
+```csv
+Id_Monographie 	Id_Enqueté 	Serie_Tome 	Prénom 	Nom 	Place dans la famille 	Lieu de naissance
+001a 	001aE1 	1-1 (1857) 	Jean 	M** 	Père 	T** (Aube)
+001a 	001aE2 	1-1 (1857) 	Marie 	R** 	Mère 	L** (Meurthe)
+001a 	001aE3 	1-1 (1857) 	Joseph 	M** 	Fils
+```
+
+Id_Monographie,Id_Enqueté,Serie_Tome,Prénom,Nom,Place dans la famille,Lieu de naissance
+001a,001aE1,1-1 (1857),Jean,M**,Père,T** (Aube)
+001a,001aE2,1-1 (1857),Marie,R**,Mère,L** (Meurthe)
+001a,001aE3,1-1 (1857),Joseph,M**,Fils,,
+
+##

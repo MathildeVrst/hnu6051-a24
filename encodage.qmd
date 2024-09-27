@@ -142,3 +142,16 @@ UTF s'impose désormais comme la norme
 D'après W3Techs, 97,8% des pages web qui déclarent un encodage suivent UTF-8 aujourd'hui.
 
 (source du graphique: Wikimedia)
+
+## Enjeux
+
+<!-- Alix
+
+- Rendre un document compatible avec des moteurs de recherche :
+
+   - moteur de recherche plein texte
+   - moteur de recherche combinant la recherche plein texte avec une recherche à facettes (via métadonnées)
+   - création d'index (de personnes, de lieux, etc) grâce aux entités nommées
+
+- Voire réaliser une édition numérique !
+-->

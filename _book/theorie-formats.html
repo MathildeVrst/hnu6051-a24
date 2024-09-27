@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -160,7 +180,17 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#formats-de-balisage" id="toc-formats-de-balisage" class="nav-link" data-scroll-target="#formats-de-balisage"><span class="header-section-number">2.9</span> Formats de balisage</a>
   <ul class="collapse">
   <li><a href="#texte-brut-texte-enrichi" id="toc-texte-brut-texte-enrichi" class="nav-link" data-scroll-target="#texte-brut-texte-enrichi"><span class="header-section-number">2.9.1</span> Texte brut, texte enrichi</a></li>
+  <li><a href="#wysiwym" id="toc-wysiwym" class="nav-link" data-scroll-target="#wysiwym"><span class="header-section-number">2.9.2</span> WYSIWYM</a></li>
   </ul></li>
+  <li><a href="#mettre-en-forme-structurer" id="toc-mettre-en-forme-structurer" class="nav-link" data-scroll-target="#mettre-en-forme-structurer"><span class="header-section-number">2.10</span> Mettre en forme =/= structurer</a></li>
+  <li><a href="#structure-logique-vs-apparence" id="toc-structure-logique-vs-apparence" class="nav-link" data-scroll-target="#structure-logique-vs-apparence"><span class="header-section-number">2.11</span> Structure logique vs apparence</a></li>
+  <li><a href="#markdown" id="toc-markdown" class="nav-link" data-scroll-target="#markdown"><span class="header-section-number">2.12</span> Markdown</a>
+  <ul class="collapse">
+  <li><a href="#exercice-markdown" id="toc-exercice-markdown" class="nav-link" data-scroll-target="#exercice-markdown"><span class="header-section-number">2.12.1</span> Exercice markdown</a></li>
+  </ul></li>
+  <li><a href="#latex" id="toc-latex" class="nav-link" data-scroll-target="#latex"><span class="header-section-number">2.13</span> LaTeX</a></li>
+  <li><a href="#csv" id="toc-csv" class="nav-link" data-scroll-target="#csv"><span class="header-section-number">2.14</span> CSV</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"><span class="header-section-number">2.15</span> </a></li>
   </ul>
 </nav>
     </div>
@@ -267,9 +297,114 @@ Un fichier de texte peut contenir des indications de mise en forme
 - WYSIWYM (What You See Is What You Mean) == un éditeur de texte qui présente le texte et ses informations de mise en forme dans les interpréter
 
 -->
-
-
 </section>
+<section id="wysiwym" class="level3" data-number="2.9.2">
+<h3 data-number="2.9.2" class="anchored" data-anchor-id="wysiwym"><span class="header-section-number">2.9.2</span> WYSIWYM</h3>
+<!-- Alix
+
+- dans un éditeur WYSIWYM : moindre confusion entre mise en forme et indication de la structure logique
+- la mise en forme apparaît après parsing du document (création d'un PDF ou ouverture dans un navigateur)
+- le paramétrage de la mise en forme peut être géré dans un fichier externe (ex: CSS pour HTML)
+
+![](img/wysiwym_styles.png)
+-->
+</section>
+</section>
+<section id="mettre-en-forme-structurer" class="level2" data-number="2.10">
+<h2 data-number="2.10" class="anchored" data-anchor-id="mettre-en-forme-structurer"><span class="header-section-number">2.10</span> Mettre en forme =/= structurer</h2>
+<!-- Alix 
+
+Séparer la structure logique de la mise en forme :
+
+-  un titre =/= un paragraphe
+-  un titre d'ouvrage ou un mot étranger
+-  une citation
+
+vs.
+
+-  du texte en gras
+-  du texte en italique
+-  du texte entre guillemets
+
+-->
+</section>
+<section id="structure-logique-vs-apparence" class="level2" data-number="2.11">
+<h2 data-number="2.11" class="anchored" data-anchor-id="structure-logique-vs-apparence"><span class="header-section-number">2.11</span> Structure logique vs apparence</h2>
+<blockquote class="blockquote">
+<p>L’ouvrage <em>Pratiques de l’édition numérique</em> est <em>a priori</em>.</p>
+</blockquote>
+<ul>
+<li>tous les mots en italiques ne sont pas des mots étrangers, mais tous les mots étrangers sont en italiques</li>
+<li>titres d’ouvrages cités en italiques (ou pas) et mots étrangers en italiques (ou pas)</li>
+<li>on peut extraire rapidement tous les mots étrangers sans récolter aussi les titres d’ouvrages cités</li>
+</ul>
+</section>
+<section id="markdown" class="level2" data-number="2.12">
+<h2 data-number="2.12" class="anchored" data-anchor-id="markdown"><span class="header-section-number">2.12</span> Markdown</h2>
+<!-- Alix
+
+Annotation de la structure logique avec Markdown
+
+- Markdown est un langage de balisage léger qui permet d'encoder facilement la structure et certains éléments de mise en forme du texte sans gêner sa lecture.
+- Il permet de créer des fichiers HTML ou PDF et est beaucoup utilisé sur le web, notamment sur des plateformes comme Github
+- Même non compilé, un texte Markdown est facile à lire car les annotation sont légères et limitées ;
+- On peut utiliser Markdown ou un système similaire dans Whatsapp et Messenger ;
+
+-->
+<p>Voir <span class="citation" data-cites="simpkinDebuterAvecMarkdown2015">(<a href="plan-de-cours.html#ref-simpkinDebuterAvecMarkdown2015" role="doc-biblioref">Simpkin 2015</a>)</span></p>
+<section id="exercice-markdown" class="level3" data-number="2.12.1">
+<h3 data-number="2.12.1" class="anchored" data-anchor-id="exercice-markdown"><span class="header-section-number">2.12.1</span> Exercice markdown</h3>
+<ul>
+<li>Texte&nbsp;: <a href="img/pont_mirabeau.txt">pont_mirabeau.txt</a></li>
+<li>Image&nbsp;: <a href="img/pont_mirabeau.PNG">pont_mirabeau.png</a></li>
+<li>Éditeur en ligne : <a href="https://dillinger.io/">Dillinger</a></li>
+</ul>
+<p>Faire un encodage en Markdown du poème :</p>
+<ul>
+<li>mettre le titre en niveau 1</li>
+<li>faire de chaque première ligne de strophe un titre de niveau 3</li>
+<li>mettre en italique le paratexte</li>
+<li>mettre les noms propres en gras</li>
+</ul>
+</section>
+</section>
+<section id="latex" class="level2" data-number="2.13">
+<h2 data-number="2.13" class="anchored" data-anchor-id="latex"><span class="header-section-number">2.13</span> LaTeX</h2>
+<!-- Alix
+
+Structuration logique avec LaTeX : 
+
+- LaTeX (prononcer "latek") est un langage et un système de composition de documents, + complet que Markdown ;
+- Utilisé dans le domaine des sciences car on peut facilement écrire des formules mathématiques ;
+- Les balises sémantiques de LaTeX sont plus "invasives". Exemple : \chapter{Titre de chapitre} ;
+- Pour voir la mise en forme, on doit compiler le fichier .tex. On obtient un PDF ou du HTML ;
+- LaTeX ne sert pas qu'à annoter la structuration logique : il prend en charge la mise en forme du document au sens large.
+
+-->
+</section>
+<section id="csv" class="level2" data-number="2.14">
+<h2 data-number="2.14" class="anchored" data-anchor-id="csv"><span class="header-section-number">2.14</span> CSV</h2>
+<p>CSV (Comma Separated Values) - données tabulaires</p>
+<ul>
+<li>1 ligne de texte = 1 ligne de tableau</li>
+<li>1 virgule = 1 nouvelle cellule de tableau</li>
+<li>un ficher csv peut être ouvert avec Excel</li>
+</ul>
+<pre class="csv"><code>Id_Monographie  Id_Enqueté  Serie_Tome  Prénom  Nom     Place dans la famille   Lieu de naissance
+001a    001aE1  1-1 (1857)  Jean    M**     Père    T** (Aube)
+001a    001aE2  1-1 (1857)  Marie   R**     Mère    L** (Meurthe)
+001a    001aE3  1-1 (1857)  Joseph  M**     Fils</code></pre>
+<p>Id_Monographie,Id_Enqueté,Serie_Tome,Prénom,Nom,Place dans la famille,Lieu de naissance 001a,001aE1,1-1 (1857),Jean,M<strong>,Père,T</strong> (Aube) 001a,001aE2,1-1 (1857),Marie,R<strong>,Mère,L</strong> (Meurthe) 001a,001aE3,1-1 (1857),Joseph,M**,Fils,,</p>
+</section>
+<section id="section" class="level2" data-number="2.15">
+<h2 data-number="2.15" class="anchored" data-anchor-id="section"><span class="header-section-number">2.15</span> </h2>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-simpkinDebuterAvecMarkdown2015" class="csl-entry" role="listitem">
+Simpkin, Sarah. 2015. <span>“<span>D<span>é</span>buter avec Markdown</span>.”</span> <em>Programming Historian</em>, November.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
