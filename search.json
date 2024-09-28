@@ -24,7 +24,7 @@
     "href": "index.html#crédits",
     "title": "HNU6051-A24",
     "section": "Crédits",
-    "text": "Crédits\nLe contenu de ce cours doit beaucoup aux préparations réalisées par Antoine Fauchié, Margot Mellet, Alix Chagué ainsi qu’aux séances de Débogue tes humanités.\nLe support du cours a été créé avec quarto.\n\n\n\n\nSimpkin, Sarah. 2015. “Débuter avec Markdown.” Programming Historian, November.",
+    "text": "Crédits\nLe contenu de ce cours doit beaucoup aux préparations réalisées par Antoine Fauchié, Margot Mellet, Alix Chagué ainsi qu’aux séances de Débogue tes humanités.\nLe support du cours a été créé avec quarto.\n\n\n\n\nBoulétreau, Viviane, and Benoît Habert. 2014. “Les formats.” In Pratiques de l’édition numérique. Les Ateliers de [sens public].\n\n\nSimpkin, Sarah. 2015. “Débuter avec Markdown.” Programming Historian, November.",
     "crumbs": [
       "Bienvenue"
     ]
@@ -104,7 +104,7 @@
     "href": "plan-de-cours.html#références-et-ressources",
     "title": "Plan de cours",
     "section": "Références et ressources",
-    "text": "Références et ressources\nVoici une liste de ressources utiles :\n\n\nSimpkin, Sarah. 2015. “Débuter avec\nMarkdown.” Programming Historian, November.",
+    "text": "Références et ressources\nVoici une liste de ressources utiles :\n\n\nBoulétreau, Viviane, and Benoît Habert. 2014. “Les\nformats.” In Pratiques de l’édition\nnumérique. Les Ateliers de [sens public].\n\n\nSimpkin, Sarah. 2015. “Débuter avec\nMarkdown.” Programming Historian, November.",
     "crumbs": [
       "Plan de cours"
     ]
@@ -200,21 +200,31 @@
     ]
   },
   {
-    "objectID": "theorie-formats.html#structure-dun-document-numérique",
-    "href": "theorie-formats.html#structure-dun-document-numérique",
+    "objectID": "theorie-formats.html#les-formats-un-peu-détymologie",
+    "href": "theorie-formats.html#les-formats-un-peu-détymologie",
     "title": "2  Les formats : théorie",
-    "section": "2.2 Structure d’un document numérique",
-    "text": "2.2 Structure d’un document numérique",
+    "section": "",
+    "text": "Format, fromage ? ;\nDimensions d’une feuille de papier, d’un feuillet ;\nDu latin formare : donner une forme, former, conformer ; arranger, organiser, régler ; façonner\nExtension à de nombreux domaines : imprimerie, photographie, cinéma, informatique",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Les formats : théorie</span>"
     ]
   },
   {
-    "objectID": "theorie-formats.html#format-définition",
-    "href": "theorie-formats.html#format-définition",
+    "objectID": "theorie-formats.html#vers-une-définition-du-format",
+    "href": "theorie-formats.html#vers-une-définition-du-format",
     "title": "2  Les formats : théorie",
-    "section": "2.3 Format : définition",
-    "text": "2.3 Format : définition",
+    "section": "2.2 Vers une définition du format",
+    "text": "2.2 Vers une définition du format\n\nce qui donne une forme et un ensemble de caractéristiques à un ensemble d’information (image, écriture, son, etc.) ;\nla dimension (format A4 ou letter par ex.) qui va impliquer un agencement ;\nune manière de représenter des données (pdf, docx) qui impose une structure\n\n\nStructure définie de données contenues dans un fichier, établie selon des règles qui régissent notamment leur sauvegarde, leur affichage et leur manipulation par un logiciel compatible. (OQLF, 2022).",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Les formats : théorie</span>"
+    ]
+  },
+  {
+    "objectID": "theorie-formats.html#format-et-édition-savante",
+    "href": "theorie-formats.html#format-et-édition-savante",
+    "title": "2  Les formats : théorie",
+    "section": "2.3 Format et édition savante",
+    "text": "2.3 Format et édition savante\n\nProduction de documents scientifiques qui ont des caractéristiques exigées par les normes de l’édition savante :\n\nappareil critique accompagnant le texte (notes de bas de page, bibliographie, index, etc.) ;\ncitabilité (métadonnée → identification) ;\nstructuration (normalement) rigoureuse (balisage sémantique, non ambigu) ;\npérennité\n\nLes formats utilisés doivent répondre à ces exigences, permettant notamment d’expliciter la fonction de chaque élément du document (titre, citation, métadonnées, références bibliographiques,…)",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Les formats : théorie</span>"
     ]
@@ -224,37 +234,47 @@
     "href": "theorie-formats.html#format-et-extension",
     "title": "2  Les formats : théorie",
     "section": "2.4 Format et extension",
-    "text": "2.4 Format et extension",
+    "text": "2.4 Format et extension\n\nÀ chaque format de fichier est associée une extension de nom de fichier qui permet de l’identifier. [Cette] extension de nom de fichier indique au système d’exploitation quel logiciel d’application peut ouvrir le fichier et quelle icône afficher. (OQLF, 2022)\n\nL’extension d’un fichier texte indique à l’utilisateur et à l’ordinateur quel est son format, c’est-à-dire :\n\ncomment sont organisées les informations relatives au fichiers et les métadonnées\navec quel logiciel l’ouvrir\ns’il contient ou non des informations de mise en page qu’il faut interpréter",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Les formats : théorie</span>"
     ]
   },
   {
-    "objectID": "theorie-formats.html#formats-ouverts-formats-fermés",
-    "href": "theorie-formats.html#formats-ouverts-formats-fermés",
+    "objectID": "theorie-formats.html#formats-libres-formats-propriétaires",
+    "href": "theorie-formats.html#formats-libres-formats-propriétaires",
     "title": "2  Les formats : théorie",
-    "section": "2.5 Formats ouverts, formats fermés",
-    "text": "2.5 Formats ouverts, formats fermés",
+    "section": "2.5 Formats libres, formats propriétaires",
+    "text": "2.5 Formats libres, formats propriétaires\n\n\n\n\n\n\n\nFormats libres\nFormats propriétaires\n\n\n\n\nouverts\nfermés (parfois ouverts)\n\n\nspécifications techniques publiques\nspécifications techniques contrôlées par une entité privée\n\n\npas de restriction d’accès\nusage limité\n\n\ndéfinis par les pratiques\nconditionnés par les pratiques\n\n\nexigences de recherche\nexigences commerciales\n\n\n.txt ; .odt ; .tex ; .html ; .svg ; .png ; .epub ; .zip\n.pdf ; .docx ; .pptx ; .xlsx ; .ai ; .jpeg ; .psd ; .mp3",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Les formats : théorie</span>"
     ]
   },
   {
-    "objectID": "theorie-formats.html#formats-propriétaires-formats-libres",
-    "href": "theorie-formats.html#formats-propriétaires-formats-libres",
+    "objectID": "theorie-formats.html#le-format-nest-pas-neutre",
+    "href": "theorie-formats.html#le-format-nest-pas-neutre",
     "title": "2  Les formats : théorie",
-    "section": "2.6 Formats propriétaires, formats libres",
-    "text": "2.6 Formats propriétaires, formats libres",
+    "section": "2.6 Le format n’est pas neutre !",
+    "text": "2.6 Le format n’est pas neutre !\nLe format est politique en ce qu’il porte un modèle de l’information.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Les formats : théorie</span>"
     ]
   },
   {
-    "objectID": "theorie-formats.html#formats-sources-formats-de-sortie",
-    "href": "theorie-formats.html#formats-sources-formats-de-sortie",
+    "objectID": "theorie-formats.html#critères-dun-format",
+    "href": "theorie-formats.html#critères-dun-format",
     "title": "2  Les formats : théorie",
-    "section": "2.7 Formats sources, formats de sortie",
-    "text": "2.7 Formats sources, formats de sortie",
+    "section": "2.7 Critères d’un format",
+    "text": "2.7 Critères d’un format\nLe format répond à plusieurs critères : pertinence, économie, efficacité, sécurité.\n\n2.7.1 Pertinence\nCertains formats sont plus pertinents que d’autres, dépendant de la discipline, de l’utilisation, de la langue, du contexte,…\nEx. : .pdf a été conçu spécifiquement pour la mise en page de documents prévus pour l’impression\n\n\n2.7.2 Économie\nQuel modèle soutient le format ? Quel poids du document ? Pour quelle possibilité de stockage ?\nEx. : un texte à envoyer rapidement (une note) doit être relativement léger ; pour un texte plus important, on peut prioritiser des fonctionnalités plus complexes, plus permissives mais qui alourdissent le fichier.\n\n\n2.7.3 Efficacité\nQuelle temporalité pour l’écriture et la finalisation du document ?\n\n\n2.7.4 Sécurité\nLe contenu est-il garanti ? Quelles protection pour les données ? Quelle pérennité pour le document ?",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Les formats : théorie</span>"
+    ]
+  },
+  {
+    "objectID": "theorie-formats.html#format-logiciel-extension",
+    "href": "theorie-formats.html#format-logiciel-extension",
+    "title": "2  Les formats : théorie",
+    "section": "2.8 Format, logiciel, extension",
+    "text": "2.8 Format, logiciel, extension\n\nun format n’est pas un logiciel : parler du format Word, c’est faux ;\nun format n’est pas une extension : changer l’extension ne change pas le format.\n\nLe format va structurer une information, va lui donner une forme, va délimiter son utilisabilité, les manipulations qui vont être possibles ou non.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Les formats : théorie</span>"
     ]
@@ -263,8 +283,8 @@
     "objectID": "theorie-formats.html#structuration-de-linformation",
     "href": "theorie-formats.html#structuration-de-linformation",
     "title": "2  Les formats : théorie",
-    "section": "2.8 Structuration de l’information",
-    "text": "2.8 Structuration de l’information",
+    "section": "2.9 Structuration de l’information",
+    "text": "2.9 Structuration de l’information\nNous devons faire la distinction entre :\n\nle corps du document,\nles métadonnées,\nle contenu additionnel, comme la bibliographie.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Les formats : théorie</span>"
     ]
@@ -273,8 +293,8 @@
     "objectID": "theorie-formats.html#formats-de-balisage",
     "href": "theorie-formats.html#formats-de-balisage",
     "title": "2  Les formats : théorie",
-    "section": "2.9 Formats de balisage",
-    "text": "2.9 Formats de balisage\n\n\n2.9.1 Texte brut, texte enrichi\n\n\n\n2.9.2 WYSIWYM",
+    "section": "2.10 Formats de balisage",
+    "text": "2.10 Formats de balisage\n\nun format de balisage : des balises pour structurer et qualifier le texte (.md, .html, .xml) ;\nun format de balisage léger : compréhensible par les humains ;\nun format transformable : format source facilement interprétable pour obtenir un format de sortie riche\nun format pérenne : encore utilisable dans 10 ans (car porté par une communauté et des standards)\n\n\n\n2.10.1 Texte brut, texte enrichi\nLes informations de mise en forme sont des annotations qui sont formées selon plusieurs standards ou normes.\n\ntexte brut (ou plain text) : texte dépourvu d’information de mise en forme, qui se limite à l’affichage de la traduction des données binaires en caractères alphanumériques et symboles ;\ntexte enrichi (ou rich text) : texte qui comporte des éléments de mise en forme, qu’ils soient ou non affichés dans l’interface graphique ; Un fichier de texte peut contenir des indications de mise en forme.\n\nLes normes et standards encadrant la manière de former les annotations sont étroitement liées au format du document et au standard qu’il suit.\n\n\n2.10.2 WYSIWYM vs WYSIWYG\n\n\n\n\n\n\n\nWYSIWYM\nWYSIWYG\n\n\n\n\nWhat You See Is What You Mean\nWhat You See Is What You Get\n\n\néditeur de texte quie présente un texte enrichi avec sa mise en forme, de manière simultanée\néditeur de texte qui présente le texte et ses informations de mise en forme dans les interpréter\n\n\n\n\n\n2.10.3 WYSIWYM\n\ndans un éditeur WYSIWYM : moindre confusion entre mise en forme et indication de la structure logique\nla mise en forme apparaît après parsing du document (création d’un PDF ou ouverture dans un navigateur)\nle paramétrage de la mise en forme peut être géré dans un fichier externe (ex: CSS pour HTML)",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Les formats : théorie</span>"
     ]
@@ -283,18 +303,8 @@
     "objectID": "theorie-formats.html#mettre-en-forme-structurer",
     "href": "theorie-formats.html#mettre-en-forme-structurer",
     "title": "2  Les formats : théorie",
-    "section": "2.10 Mettre en forme =/= structurer",
-    "text": "2.10 Mettre en forme =/= structurer",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Les formats : théorie</span>"
-    ]
-  },
-  {
-    "objectID": "theorie-formats.html#structure-logique-vs-apparence",
-    "href": "theorie-formats.html#structure-logique-vs-apparence",
-    "title": "2  Les formats : théorie",
-    "section": "2.11 Structure logique vs apparence",
-    "text": "2.11 Structure logique vs apparence\n\nL’ouvrage Pratiques de l’édition numérique est a priori.\n\n\ntous les mots en italiques ne sont pas des mots étrangers, mais tous les mots étrangers sont en italiques\ntitres d’ouvrages cités en italiques (ou pas) et mots étrangers en italiques (ou pas)\non peut extraire rapidement tous les mots étrangers sans récolter aussi les titres d’ouvrages cités",
+    "section": "2.11 Mettre en forme =/= structurer",
+    "text": "2.11 Mettre en forme =/= structurer\n\n\n\nMise en forme\nStructure logique\n\n\n\n\nDu texte en gras\nUn titre\n\n\nDu texte en italique\nUn titre, un mot étranger\n\n\nDu texte entre guillements\nUne citation",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Les formats : théorie</span>"
     ]
@@ -304,7 +314,7 @@
     "href": "theorie-formats.html#markdown",
     "title": "2  Les formats : théorie",
     "section": "2.12 Markdown",
-    "text": "2.12 Markdown\n\nVoir (Simpkin 2015)\n\n2.12.1 Exercice markdown\n\nTexte : pont_mirabeau.txt\nImage : pont_mirabeau.png\nÉditeur en ligne : Dillinger\n\nFaire un encodage en Markdown du poème :\n\nmettre le titre en niveau 1\nfaire de chaque première ligne de strophe un titre de niveau 3\nmettre en italique le paratexte\nmettre les noms propres en gras",
+    "text": "2.12 Markdown\n\nInventé en 2004 par John Gruber et Aaron Swartz ;\nMarkdown est un langage de balisage léger qui permet d’encoder facilement la structure et certains éléments de mise en forme du texte sans gêner sa lecture ;\nIl permet de créer des fichiers HTML ou PDF et est beaucoup utilisé sur le Web, notamment sur des plateformes comme Github ;\nMême non compilé, un texte Markdown est facile à lire car les annotation sont légères et limitées ;\nOn peut utiliser Markdown ou un système similaire dans Whatsapp et Messenger.\n\n(Plus d’informations : Simpkin 2015)\nExercice : Faire ce tuto (en classe) : https://www.arthurperret.fr/tutomd/",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Les formats : théorie</span>"
     ]
@@ -314,7 +324,7 @@
     "href": "theorie-formats.html#latex",
     "title": "2  Les formats : théorie",
     "section": "2.13 LaTeX",
-    "text": "2.13 LaTeX",
+    "text": "2.13 LaTeX\n\nLaTeX est un langage et un système de composition de documents, bien plus complet que Markdown ;\nUtilisé dans le domaine des sciences car on peut facilement écrire des formules mathématiques :\n\nLes balises sémantiques de LaTeX sont plus “invasives”. Exemple : \\chapter{Titre de chapitre} ;\nPour voir la mise en forme, on doit compiler le fichier .tex. On obtient généralement un PDF ;\nLaTeX ne sert pas qu’à annoter la structuration logique : il prend en charge la mise en forme du document au sens large.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Les formats : théorie</span>"
     ]
@@ -324,99 +334,139 @@
     "href": "theorie-formats.html#csv",
     "title": "2  Les formats : théorie",
     "section": "2.14 CSV",
-    "text": "2.14 CSV\nCSV (Comma Separated Values) - données tabulaires\n\n1 ligne de texte = 1 ligne de tableau\n1 virgule = 1 nouvelle cellule de tableau\nun ficher csv peut être ouvert avec Excel\n\nId_Monographie  Id_Enqueté  Serie_Tome  Prénom  Nom     Place dans la famille   Lieu de naissance\n001a    001aE1  1-1 (1857)  Jean    M**     Père    T** (Aube)\n001a    001aE2  1-1 (1857)  Marie   R**     Mère    L** (Meurthe)\n001a    001aE3  1-1 (1857)  Joseph  M**     Fils\nId_Monographie,Id_Enqueté,Serie_Tome,Prénom,Nom,Place dans la famille,Lieu de naissance 001a,001aE1,1-1 (1857),Jean,M,Père,T (Aube) 001a,001aE2,1-1 (1857),Marie,R,Mère,L (Meurthe) 001a,001aE3,1-1 (1857),Joseph,M**,Fils,,",
+    "text": "2.14 CSV\nCSV (Comma Separated Values) - données tabulaires\n\n1 ligne de texte = 1 ligne de tableau ;\n1 virgule = 1 nouvelle cellule de tableau ;\nun ficher csv peut être ouvert avec Excel.\n\nId_Monographie  Id_Enqueté  Serie_Tome  Prénom  Nom Place dans la famille \n001a    001aE1  1-1 (1857)  Jean    M** Père \n001a    001aE2  1-1 (1857)  Marie   R** Mère \n001a    001aE3  1-1 (1857)  Joseph  M** Fils         \nId_Monographie,Id_Enqueté,Serie_Tome,Prénom,Nom,Place dans la famille 001a,001aE1,1-1 (1857),Jean,M,Père 001a,001aE2,1-1 (1857),Marie,R,Mère 001a,001aE3,1-1 (1857),Joseph,M**,Fils,",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Les formats : théorie</span>"
     ]
   },
   {
-    "objectID": "theorie-formats.html#section",
-    "href": "theorie-formats.html#section",
-    "title": "2  Les formats : théorie",
-    "section": "2.15 ",
-    "text": "2.15 \n\n\n\n\nSimpkin, Sarah. 2015. “Débuter avec Markdown.” Programming Historian, November.",
+    "objectID": "exercice-markdown.html",
+    "href": "exercice-markdown.html",
+    "title": "3  Exercice markdown",
+    "section": "",
+    "text": "3.1 Markdown : langage de balisage léger",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Les formats : théorie</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Exercice markdown</span>"
+    ]
+  },
+  {
+    "objectID": "exercice-markdown.html#markdown-langage-de-balisage-léger",
+    "href": "exercice-markdown.html#markdown-langage-de-balisage-léger",
+    "title": "3  Exercice markdown",
+    "section": "",
+    "text": "Markdown\nRendu graphique\nBalisage HTML\n\n\n\n\nUn texte _en italique_\nUn texte en italique\nUn texte &lt;em&gt;en italique&lt;/em&gt;\n\n\n### Titre de niveau 3\nTitre de niveau 3\n&lt;h3&gt;Titre de niveau 3&lt;/h3&gt;\n\n\nUn [lien](https://www.unlien.org)\nUn lien\nUn &lt;a href=\"https://www.unlien.org\"&gt;lien&lt;/a&gt;\n\n\nUn texte **en gras**\nUn texte en gras\nUn texte &lt;strong&gt;en gras&lt;/strong&gt;",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Exercice markdown</span>"
+    ]
+  },
+  {
+    "objectID": "exercice-markdown.html#rendu-pour-le-11-octobre",
+    "href": "exercice-markdown.html#rendu-pour-le-11-octobre",
+    "title": "3  Exercice markdown",
+    "section": "3.2 Rendu pour le 11 octobre",
+    "text": "3.2 Rendu pour le 11 octobre\n\nTexte : pont_mirabeau.txt\nImage : pont_mirabeau.png\nÉditeur en ligne : Dillinger\n\nFaire un encodage en Markdown du poème :\n\nmettre le titre en niveau 1\nfaire de chaque première ligne de strophe un titre de niveau 3\nmettre en italique le paratexte\nmettre les noms propres en gras\nsauver le document en .md\nle déposer sur studium",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Exercice markdown</span>"
+    ]
+  },
+  {
+    "objectID": "bonnes-pratiques.html",
+    "href": "bonnes-pratiques.html",
+    "title": "4  Bonnes pratiques d’édition",
+    "section": "",
+    "text": "4.1 Les fichiers dans votre ordinateur",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Bonnes pratiques d'édition</span>"
+    ]
+  },
+  {
+    "objectID": "bonnes-pratiques.html#les-fichiers-dans-votre-ordinateur",
+    "href": "bonnes-pratiques.html#les-fichiers-dans-votre-ordinateur",
+    "title": "4  Bonnes pratiques d’édition",
+    "section": "",
+    "text": "4.1.1 Organisation des fichiers\n\nvotre ordinateur a son propre système d’organisation ;\nil faut comprendre les systèmes de chemin ;\ntout est arborescence \n\n\n\nIl faut d’abord comprendre comment est organisé votre ordinateur et où se trouvent vos fichiers. Votre disque dur peut être compris comme une grande boîte dans laquelle se trouvent d’autres boîtes (dossiers). La boîte principale est ce qu’on appelle « racine ». Dans un ordinateur Unix (Mac ou Linux) la racine est /. Dans un ordinateur Windows, la racine est C:/. Dans la racine vous trouvez plusieurs « boîtes ».\nL’emplacement du Dossier correspond à ce qu’on appelle son « chemin » (path).\nExemple d’un dossier « Vacances » :\n\nUnix : /Document Personnel/Images/Vacances\nWindows : C:/Dossier Personnel/Images/Vacances\n\n\n\nIl est important que vous connaissiez la structure de l’arborescence de votre ordinateur car c’est ainsi qu’on accède aux fichiers.\n\n\n4.1.2 Nommage de fichier\nQuel nom donner à un fichier ? Quelques règles :\n\nles noms de fichier ne doivent pas contenir des caractères spéciaux, ni des accents, ni des espaces ;\nles noms des fichiers doivent être significatifs ;\nles noms des fichiers ne doivent pas dépasser 80 caractères ;\nfaites attention aux extensions de fichiers !\n\n\nExemple : 2024-10-04-edn6051-bonnes-pratiques.md\n\n\n\n\nCette question pas si banale que ça. Il existe des règles qui sont fondamentales pour :\n\nclasser un fichier,\nle retrouver facilement,\npartager ses fichiers avec d’autres personnes,\néviter des problèmes de comptabilité d’un système à un autre.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Bonnes pratiques d'édition</span>"
     ]
   },
   {
     "objectID": "encodage.html",
     "href": "encodage.html",
-    "title": "3  Des caractères à l’écran – encodage numérique",
+    "title": "5  Des caractères à l’écran – encodage numérique",
     "section": "",
-    "text": "3.1 Encodage numérique",
+    "text": "5.1 Encodage numérique",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
     ]
   },
   {
     "objectID": "encodage.html#mémoire",
     "href": "encodage.html#mémoire",
-    "title": "3  Des caractères à l’écran – encodage numérique",
-    "section": "3.2 Mémoire",
-    "text": "3.2 Mémoire",
+    "title": "5  Des caractères à l’écran – encodage numérique",
+    "section": "5.2 Mémoire",
+    "text": "5.2 Mémoire",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
     ]
   },
   {
     "objectID": "encodage.html#ou-1",
     "href": "encodage.html#ou-1",
-    "title": "3  Des caractères à l’écran – encodage numérique",
-    "section": "3.3 0 ou 1 ?",
-    "text": "3.3 0 ou 1 ?\nTout document conservé sur un ordinateur est constitué d’une série de 0 et de 1.\nCe sont les normes d’encodage et les formats qui permettent d’interpréter le sens de ces 0 et 1.",
+    "title": "5  Des caractères à l’écran – encodage numérique",
+    "section": "5.3 0 ou 1 ?",
+    "text": "5.3 0 ou 1 ?\nTout document conservé sur un ordinateur est constitué d’une série de 0 et de 1.\nCe sont les normes d’encodage et les formats qui permettent d’interpréter le sens de ces 0 et 1.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
     ]
   },
   {
     "objectID": "encodage.html#normes-dencodage",
     "href": "encodage.html#normes-dencodage",
-    "title": "3  Des caractères à l’écran – encodage numérique",
-    "section": "3.4 Normes d’encodage",
-    "text": "3.4 Normes d’encodage",
+    "title": "5  Des caractères à l’écran – encodage numérique",
+    "section": "5.4 Normes d’encodage",
+    "text": "5.4 Normes d’encodage",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
     ]
   },
   {
     "objectID": "encodage.html#encodage-des-données-textuelles",
     "href": "encodage.html#encodage-des-données-textuelles",
-    "title": "3  Des caractères à l’écran – encodage numérique",
-    "section": "3.5 Encodage des données textuelles",
-    "text": "3.5 Encodage des données textuelles\n\n\n3.5.1 ASCII\n\n\n\n3.5.2 ISO 8859-1\n\n\n\n3.5.3 UTF-8\n\nUniversal Character Set Transformation Format + base d’encodage (8, 16, 32, …)\nEn fonction de la base d’encodage, un caractère peut être représenté par 1, 2, 3 ou 4 octets.\nUTF est rétrocompatible avec ASCII, mais pas avec ISO 8859-1. Il s’inscrit dans le cadre établi par Unicode qui vise à faciliter l’échange de textes numériques en assurant leur compatibilité.\nUnicode définit plus de 137 000 caractères, issus de multiples alphabets, et prévoit aussi des symboles comme les emojis.\nExemple : 🤓 = 11110000 10011111 10100100 10010011",
+    "title": "5  Des caractères à l’écran – encodage numérique",
+    "section": "5.5 Encodage des données textuelles",
+    "text": "5.5 Encodage des données textuelles\n\n\n5.5.1 ASCII\n\n\n\n5.5.2 ISO 8859-1\n\n\n\n5.5.3 UTF-8\n\nUniversal Character Set Transformation Format + base d’encodage (8, 16, 32, …)\nEn fonction de la base d’encodage, un caractère peut être représenté par 1, 2, 3 ou 4 octets.\nUTF est rétrocompatible avec ASCII, mais pas avec ISO 8859-1. Il s’inscrit dans le cadre établi par Unicode qui vise à faciliter l’échange de textes numériques en assurant leur compatibilité.\nUnicode définit plus de 137 000 caractères, issus de multiples alphabets, et prévoit aussi des symboles comme les emojis.\nExemple : 🤓 = 11110000 10011111 10100100 10010011",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
     ]
   },
   {
     "objectID": "encodage.html#mauvais-encodagedécodage",
     "href": "encodage.html#mauvais-encodagedécodage",
-    "title": "3  Des caractères à l’écran – encodage numérique",
-    "section": "3.6 Mauvais encodage/décodage",
-    "text": "3.6 Mauvais encodage/décodage\nSi on n’utilise pas la bonne clef d’encodage ou de décodage d’un texte, on risque d’obtenir un texte partiellement ou entièrement illisible.\nUTF-8 ouvert avec 8859-1 (Latin 1)\n\nLa Joconde, ou Portrait de Mona Lisa, est un tableau de l’artiste LÃ©onard de Vinci, rÃ©alisÃ© entre 1503 et 1506 ou entre 1513 et 15161,2, et peut-Ãªtre jusqu’Ã 1519 (l’artiste Ã©tant mort cette annÃ©e-lÃ , le 2 mai)3, qui reprÃ©sente un portrait mi-corps, probablement celui de la Florentine Lisa Gherardini, Ã©pouse de Francesco del Giocondo. Acquise par FranÃ§ois Ier, cette peinture Ã l’huile sur panneau de bois de peuplier de 77 Ã 53 cm est exposÃ©e au musÃ©e du Louvre Ã Paris. La Joconde est l’un des rares tableaux attribuÃ©s de faÃ§on certaine Ã LÃ©onard de Vinci.",
+    "title": "5  Des caractères à l’écran – encodage numérique",
+    "section": "5.6 Mauvais encodage/décodage",
+    "text": "5.6 Mauvais encodage/décodage\nSi on n’utilise pas la bonne clef d’encodage ou de décodage d’un texte, on risque d’obtenir un texte partiellement ou entièrement illisible.\nUTF-8 ouvert avec 8859-1 (Latin 1)\n\nLa Joconde, ou Portrait de Mona Lisa, est un tableau de l’artiste LÃ©onard de Vinci, rÃ©alisÃ© entre 1503 et 1506 ou entre 1513 et 15161,2, et peut-Ãªtre jusqu’Ã 1519 (l’artiste Ã©tant mort cette annÃ©e-lÃ , le 2 mai)3, qui reprÃ©sente un portrait mi-corps, probablement celui de la Florentine Lisa Gherardini, Ã©pouse de Francesco del Giocondo. Acquise par FranÃ§ois Ier, cette peinture Ã l’huile sur panneau de bois de peuplier de 77 Ã 53 cm est exposÃ©e au musÃ©e du Louvre Ã Paris. La Joconde est l’un des rares tableaux attribuÃ©s de faÃ§on certaine Ã LÃ©onard de Vinci.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
     ]
   },
   {
     "objectID": "encodage.html#une-norme",
     "href": "encodage.html#une-norme",
-    "title": "3  Des caractères à l’écran – encodage numérique",
-    "section": "3.7 Une norme ?",
-    "text": "3.7 Une norme ?\nUTF s’impose désormais comme la norme\n\n\n\ndiagramme montrant qu’UTF s’impose sur les autres normes depuis 2006\n\n\nD’après W3Techs, 97,8% des pages web qui déclarent un encodage suivent UTF-8 aujourd’hui.\n(source du graphique: Wikimedia)",
+    "title": "5  Des caractères à l’écran – encodage numérique",
+    "section": "5.7 Une norme ?",
+    "text": "5.7 Une norme ?\nUTF s’impose désormais comme la norme\n\n\n\ndiagramme montrant qu’UTF s’impose sur les autres normes depuis 2006\n\n\nD’après W3Techs, 97,8% des pages web qui déclarent un encodage suivent UTF-8 aujourd’hui.\n(source du graphique: Wikimedia)",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
     ]
   },
   {
     "objectID": "encodage.html#enjeux",
     "href": "encodage.html#enjeux",
-    "title": "3  Des caractères à l’écran – encodage numérique",
-    "section": "3.8 Enjeux",
-    "text": "3.8 Enjeux",
+    "title": "5  Des caractères à l’écran – encodage numérique",
+    "section": "5.8 Enjeux",
+    "text": "5.8 Enjeux",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
     ]
   }
 ]
