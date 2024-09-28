@@ -1,3 +1,7 @@
+---
+suppress-bibliography: true
+---
+
 # Les formats : théorie 
 
 ::: {.content-visible when-format="html" unless-format="revealjs"}
@@ -11,17 +15,33 @@
 
 ## Les formats : un peu d'étymologie 
 
-## Structure d'un document numérique 
+- Format, fromage ? ; 
+- Dimensions d'une feuille de papier, d'un feuillet ; 
+- Du latin *formare* : donner une forme, former, conformer ; arranger, organiser, régler ; façonner 
+- Extension à de nombreux domaines : imprimerie, photographie, cinéma, **informatique**
+
+## Vers une définition du format 
+
+- ce qui donne une forme et un ensemble de caractéristiques à un ensemble d'information (image, écriture, son, etc.) ; 
+- la dimension (format A4 ou *letter* par ex.) qui va impliquer un agencement ; 
+- une manière de représenter des données (pdf, docx) qui impose une structure
+
+> Structure définie de données contenues dans un fichier, établie selon des règles qui régissent notamment leur sauvegarde, leur affichage et leur manipulation par un logiciel compatible. ([OQLF, 2022](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8368613/format-de-fichier?)). 
+
 
 <!--Alix
 
+## Structure d'un document numérique 
+
+--> 
+
+<!--
 - plusieurs couches d'appareillage technique sont nécessaires
 - un document numérique est un fichier, mais un fichier n'est pas forcément un document
 - le format définit un gabarit public ou non, libre ou non, pour structurer l'information
 - le statut d'un format dépend en grande partie du statut des spécifications techniques
 - il existe une grande variété de types de fichiers, indiqué par leur extension
 - certains fichiers sont des combinaison de plusieurs fichiers
-
 -->
 
 <!--Margot
@@ -33,87 +53,184 @@
 
 --> 
 
-## Format : définition 
+## Format et édition savante 
+
+- Production de documents scientifiques qui ont des caractéristiques exigées par les normes de l'édition savante : 
+  - appareil critique accompagnant le texte (notes de bas de page, bibliographie, index, etc.) ; 
+  - citabilité (métadonnée → identification) ; 
+  - structuration (normalement) rigoureuse (balisage sémantique, non ambigu) ; 
+  - pérennité 
+- Les formats utilisés doivent répondre à ces exigences, permettant notamment d'expliciter la fonction de chaque élément du document (titre, citation, métadonnées, références bibliographiques,...)
+
+<!-- Mathilde
+Dans cet atelier, nous nous intéresserons aux formats d'écriture informatique, aux formats des données que nous encodons lorsque nous écrivons. Dans la plupart des cas, nous écrivons pour produire des documents scientifiques. Ces documents ont plusieurs caractéristiques, exigées par les normes de l'édition savante
+L'objectif principal de cet atelier est de vous fournir les bonnes pratiques à adopter pour être conscient des matériels sur et avec lesquels on travaille.  
+--> 
 
 ## Format et extension 
 
-<!-- Alix
+> À chaque format de fichier est associée une extension de nom de fichier qui permet de l'identifier. [Cette] extension de nom de fichier indique au système d'exploitation quel logiciel d'application peut ouvrir le fichier et quelle icône afficher. ([OQLF, 2022](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8382262/extension-de-nom-de-fichier))
 
-- L'extension d'un fichier texte indique à l'utilisateur et à l'ordinateur quel est son format, c'est-à-dire :
+L'extension d'un fichier texte indique à l'utilisateur et à l'ordinateur quel est son format, c'est-à-dire :
 
-    - comment sont organisées les informations relatives au fichiers et les métadonnées
-    - avec quel logiciel l'ouvrir
-    - s'il contient ou non des informations de mise en page qu'il faut interpréter
+- comment sont organisées les informations relatives au fichiers et les métadonnées
+- avec quel logiciel l'ouvrir
+- s'il contient ou non des informations de mise en page qu'il faut interpréter
 
-- On peut classer les fichiers en 2 catégories en fonction de leurs extensions :
+<!-- Mathilde 
 
-    - .txt : texte brut
-    - .doc), .docx, .rtf, .tex, .md, epub) etc. : texte enrichi
+Opacité du phénomène par les icones 
 
 -->
 
-## Formats ouverts, formats fermés 
+## Formats libres, formats propriétaires
 
-## Formats propriétaires, formats libres 
+| Formats libres | Formats propriétaires | 
+| --- | --- | 
+| ouverts | fermés (parfois ouverts) | 
+| spécifications techniques publiques | spécifications techniques contrôlées par une entité privée  |
+| pas de restriction d'accès | usage limité |
+| définis par les pratiques | conditionnés par les pratiques |
+| exigences de recherche | exigences commerciales | 
+| .txt ; .odt ; .tex ; .html ; .svg ; .png ; .epub ; .zip | .pdf ; .docx ; .pptx ; .xlsx ; .ai ; .jpeg ; .psd ; .mp3 | 
 
-## Formats sources, formats de sortie 
+<!-- Mathilde 
+
+Ces spécifications ne sont pas diffusées, on parle alors de « format opaque » ; les données ne peuvent donc être utilisées que par leur application d’origine, ce qui pose de nombreux problèmes de compatibilité et de portabilité. 
+
+Ces spécifications ont été publiées, mais sont associées à des autorisations d’utilisation liées aux brevets. Dans ce cas, les données sont la plupart du temps exploitables par d’autres applications, mais le risque de perte d’information existe et ne doit pas être négligé.
+
+Un format fermé est nécessairement un format propriétaire, mais le contraire n'est pas forcément vrai. En effet, un format propriétaire peut être fermé (par exemple, le format.DOC) ou ouvert (par exemple, le format DOCX).
+
+les standards ouverts et libres permettent de se libérer de l’outil, de la chaîne, etc. ; les standards propriétaires ont tendance à enfermer les pratiques dans une chaîne et dans un outil.
+
+
+Dans le cas des formats privés, les motivations ne relèvent pas de la recherche, ce sont des motivations commerciales, on est pas sur le principe de médiation du savoir en premier, on est sur l'idée d'abord de monnayer le savoir. On est sur un Produit. Ça ne veut pas dire que ce produit ne sera pas bon, il peut au contraire si il y a des moyens employés, être très performant, mais il n'est pas soutenu par la communauté qui l'utilise mais par l'entreprise qui la vend.
+
+Donc les formats libres sont pensés au sein d'une communauté de recherche, d'individus, de pratiques et se trouvent protégés par cette assise justement : d'abord parce qu'ils deviennent des standards sans être au centre d'un monopole, ils sont pensés en terme d'évolution en cohérence avec l'évolution des pratiques, ils sont donc pensés dans un temps long, avec un critère de pérennité
+
+- PDF est propriétaire et ouvert, donc il est une propriété de Adobe mais les spécifications de son modèle ont été publiées. 
+
+--> 
+
+## Le format n'est pas neutre ! 
+
+Le format est politique en ce qu'il porte un modèle de l'information. 
+
+<!-- Mathilde
+
+on est pas juste sur j'ai un contenu et je le mets dans un contenant, qui ne va pas altérer ou déterminer ce contenu. Le format est politique parce qu'il porte un modèle de l'information : 
+
+Exemple entre deux formats : 
+
+Le txt est un format pour texte brut ou le plein texte, il n'y a que du texte, on est sur la vue séquentielle, sans style ni enrichissement, il est pérenne, lisible par tous types d'éditeurs de texte et convertisable. Épuré 
+
+Le docx est pour format pour texte stylisé, et il a été conçu par des informaticiens et programmeurs qui ne l'utilisent pas, et qui ne sont pas en contact avec la communauté qui l'utilise. 
+
+D'un format à l'autre, il n'y a pas les mêmes caractéristiques, pas la même définition et utilisabilité du texte, cela n'implique pas les mêmes pratiques d'édition. 
+
+Avec le choix d'un format propriétaire, on forme des savoirs qui sont aussi propriétaires, qui sont dépendants d'une industrie et de sa prospérité économique, et qui sont définis à l'origine par cette industrie. Les textes écrits en docx sont dépositaires de Microsoft, ils ne sont pas portés par une communauté de recherche, mais pas seulement les objets textes : aussi les pratiques d'écriture. 
+
+-->
+
+
+## Critères d'un format 
+
+Le format répond à plusieurs critères : pertinence, économie, efficacité, sécurité. 
+
+### Pertinence 
+
+Certains formats sont plus pertinents que d'autres, dépendant de la discipline, de l'utilisation, de la langue, du contexte,... 
+
+Ex. : .pdf a été conçu spécifiquement pour la mise en page de documents prévus pour l'impression
+
+### Économie 
+
+Quel modèle soutient le format ? Quel poids du document ? Pour quelle possibilité de stockage ? 
+
+Ex. : un texte à envoyer rapidement (une note) doit être relativement léger ; pour un texte plus important, on peut prioritiser des fonctionnalités plus complexes, plus permissives mais qui alourdissent le fichier. 
+
+### Efficacité 
+
+Quelle temporalité pour l'écriture et la finalisation du document ? 
+
+### Sécurité 
+
+Le contenu est-il garanti ? Quelles protection pour les données ? Quelle pérennité pour le document ? 
+
+## Format, logiciel, extension 
+
+- un format n'est pas un logiciel : parler du format Word, c'est faux ; 
+- un format n'est pas une extension : changer l'extension ne change pas le format. 
+
+Le format va structurer une information, va lui donner une forme, va délimiter son utilisabilité, les manipulations qui vont être possibles ou non. 
+
+<!-- Mathilde 
+
+Mais ce n'est pas juste un rapport de contenu/contenant ici. Ça va bien plus loin. Le format définit en fait le contenu. 
+
+--> 
 
 ## Structuration de l'information 
 
+Nous devons faire la distinction entre : 
+
+- le corps du document, 
+- les métadonnées, 
+- le contenu additionnel, comme la bibliographie. 
+
 ## Formats de balisage 
 
-<!-- Alix
+- un format de balisage : des balises pour structurer et qualifier le texte (.md, .html, .xml) ; 
+- un format de balisage léger : compréhensible par les humains ; 
+- un format transformable : format source facilement interprétable pour obtenir un format de sortie riche 
+- un format pérenne : encore utilisable dans 10 ans (car porté par une communauté et des standards)
 
-- les informations de mise en forme sont des annotations qui sont formées selon plusieurs standards ou normes.
-- parser un document == le traiter de manière à afficher la mise en forme
+<!-- Mathilde
 
-    -  pas de mise en forme : <gras>du texte</gras>
-    -  mise en forme : du texte
+- Un langage de balisage est l’ensemble des règles et conventions (comme HTML, XML) utilisé pour structurer des données avec des balises.
+- Un format de balisage est la manière concrète dont un document ou un fichier est codé en utilisant un langage de balisage (comme un fichier .html ou .xml).
 
-- les normes et standards encadrant la manière de former les annotations sont étroitement liées au format du document et au standard qu'il suit.
+En d'autres termes, le langage est l'outil pour baliser, tandis que le format est le résultat codé de l'usage de ce langage.
+
+Dans le cadre de l'atelier, on va avoir à faire avec des formats ouverts et principalement libres (à l'exception de PDF). 
+
 -->
 
 ### Texte brut, texte enrichi 
-<!--
-Un fichier de texte peut contenir des indications de mise en forme
 
-- texte brut (ou plain text) == un texte dépourvu d'information de mise en forme, qui se limite à l'affichage de la traduction des données binaires en caractères alphanumériques et symboles
-- texte enrichi (ou rich text) == un texte qui comporte des éléments de mise en forme, qu'ils soient ou non affichés dans l'interface graphique
-- WYSIWYG (What You See Is What You Get) == un éditeur de texte quie présente un texte enrichi **avec** sa mise en forme, de manière simultanée
-- WYSIWYM (What You See Is What You Mean) == un éditeur de texte qui présente le texte et ses informations de mise en forme dans les interpréter
+Les informations de mise en forme sont des annotations qui sont formées selon plusieurs standards ou normes.
 
--->
+- texte brut (ou *plain text*) : texte dépourvu d'information de mise en forme, qui se limite à l'affichage de la traduction des données binaires en caractères alphanumériques et symboles ; 
+- texte enrichi (ou *rich text*) : texte qui comporte des éléments de mise en forme, qu'ils soient ou non affichés dans l'interface graphique ; Un fichier de texte peut contenir des indications de mise en forme. 
 
-### WYSIWYM 
+Les normes et standards encadrant la manière de former les annotations sont étroitement liées au format du document et au standard qu'il suit. 
 
-<!-- Alix
+### WYSIWYM vs WYSIWYG 
+
+| WYSIWYM | WYSIWYG | 
+| --- | --- | 
+| *What You See Is What You Mean* | *What You See Is What You Get* | 
+| éditeur de texte quie présente un texte enrichi **avec** sa mise en forme, de manière simultanée | éditeur de texte qui présente le texte et ses informations de mise en forme dans les interpréter |
+
+### WYSIWYM
 
 - dans un éditeur WYSIWYM : moindre confusion entre mise en forme et indication de la structure logique
 - la mise en forme apparaît après parsing du document (création d'un PDF ou ouverture dans un navigateur)
 - le paramétrage de la mise en forme peut être géré dans un fichier externe (ex: CSS pour HTML)
 
 ![](img/wysiwym_styles.png)
---> 
-
 
 ## Mettre en forme =/= structurer 
 
-<!-- Alix 
 
-Séparer la structure logique de la mise en forme :
+| Mise en forme | Structure logique | 
+| --- | --- | 
+| Du texte en gras | Un titre | 
+| Du texte en italique | Un titre, un mot étranger | 
+| Du texte entre guillements | Une citation | 
 
--  un titre =/= un paragraphe
--  un titre d'ouvrage ou un mot étranger
--  une citation
-
-vs.
-
--  du texte en gras
--  du texte en italique
--  du texte entre guillemets
-
---> 
-
+<!--
 ## Structure logique vs apparence 
 
 > L'ouvrage *Pratiques de l'édition numérique* est *a priori*. 
@@ -121,68 +238,84 @@ vs.
 - tous les mots en italiques ne sont pas des mots étrangers, mais tous les mots étrangers sont en italiques
 - titres d'ouvrages cités en italiques (ou pas) et mots étrangers en italiques (ou pas)
 - on peut extraire rapidement tous les mots étrangers sans récolter aussi les titres d'ouvrages cités
-
+-->
 
 ## Markdown 
 
-<!-- Alix
-
-Annotation de la structure logique avec Markdown
-
-- Markdown est un langage de balisage léger qui permet d'encoder facilement la structure et certains éléments de mise en forme du texte sans gêner sa lecture.
-- Il permet de créer des fichiers HTML ou PDF et est beaucoup utilisé sur le web, notamment sur des plateformes comme Github
+- Inventé en 2004 par John Gruber et Aaron Swartz ; 
+- Markdown est un langage de balisage léger qui permet d'encoder facilement la structure et certains éléments de mise en forme du texte sans gêner sa lecture ; 
+- Il permet de créer des fichiers HTML ou PDF et est beaucoup utilisé sur le Web, notamment sur des plateformes comme Github ; 
 - Même non compilé, un texte Markdown est facile à lire car les annotation sont légères et limitées ;
-- On peut utiliser Markdown ou un système similaire dans Whatsapp et Messenger ;
+- On peut utiliser Markdown ou un système similaire dans Whatsapp et Messenger. 
+
+[Plus d'informations : @simpkinDebuterAvecMarkdown2015]
+
+Exercice : Faire ce tuto (en classe) : <https://www.arthurperret.fr/tutomd/>
+
+<!-- Mathilde
+L’idée qui motive la création de ce langage est celle de la facilité : il s’agit de penser un langage qui facilite la création notamment de pages web.
+
+Derrière une page web en effet se trouve le code HTML, et toute les balises qui composent ce langage d’interface complique la lecture comme l’écriture.
+
+Avec le HTML, on est davantage sur une inscription qui n’est pas fait pour la lecture humaine.
+
+Alors comment réattribuer cet enjeu de la lecture et de l’écriture humaine au sein du processus de création d’un espace textuel numérique ?
+
+**Comment réassigner cette question de la lecture et de l'écriture humaine, de ses yeux, au sein du processus de création d'un environnement textuel numérique ?**.
+
+Le markdown se situe dans le temps de l’écriture : c’est un outil d’écriture, tandis que dans cette nouvelle dynamique, le html est lui un format de publication. On a là deux dynamiques qui sont des dynamiques éditoriales mais qui sont pas placées au même temps du moment de l'édition. 
+
+Parce que le langage doit être simple, la syntaxe se réduit : le principe des balises html est réduit à un fonctionnement plus simple pour identifier les éléments qui peuvent être transmis dans un texte brut.
+
+Le Markdown s’inspire notamment du type de formatage que les gens utilisent dans le courrier électronique en texte clair.
+
+Markdown s'inspire notamment du type de mise en forme que les gens utilisaient dans les courriers électroniques en texte brut.
+Pour Gruber, il s'agit d'"écrire en utilisant un texte brut semblable à celui d'un e-mail".
+
+Donc à la base de Markdown, il y a un besoin de reprendre la main par l'œil sur l'écriture numérique mais il y a aussi un usage déjà présent, un usage de simplicité.
+
+Markdown est comme un pont entre l'œil humain et l'intelligence de la machine : ce langage doit être lisible par l'homme et compréhensible par la machine.
+
+La mécanique de l’écriture dans le Markdown se veut claire, simple, sans ambiguité. Une inscription = un sens. C’est le compromis du Markdown qui s’oriente donc vers l’écriture sémantique. Parce qu’il restreint, le markdown nous fait nous interroger sur ce que nous souhaitons poser comme nécessaire et participant au texte que nous écrivons.
+
+Je peux placer un élément de mon texte comme titre, mais je ne peux pas en dire beaucoup plus sur ce titre, mais est-ce que j’ai besoin d’en dire plus ? Et surtout si je veux que les autres puissent me lire et me comprendre, est-ce que je dois vraiment faire varier des aspects principalement visuels comme la taille de police, le crénage, les marges ?
+
+Écrire en Markdown repose la question d’un économie dans la dynamique d’écriture.
+
+Mais le Markdown est interopérable, il accepte le HTML, donc il permet en soit l’extension de ces potentialités.
+
+Ce qui va venir structurer, formater le texte, ses marqueurs sont en ce sens en adéquation avec ce qu'ils représentent sémantiquement. 
+
+Pour vous donner un exemple, si je considère une portion du texte comme appartenant au niveau de discours du titre, l'écriture sémantique va me permettre d'éditer ce contenu comme du titre à l'aide de marqueurs qui n'ont pas d'autres fonctions, pas d'autres sens que de signifier du titre. 
+
+C'est, dans ce cas, la sémantique de mon texte qui va dicter sa structuration. 
 
 -->
 
-Voir [@simpkinDebuterAvecMarkdown2015]
-
-### Exercice markdown 
-
-- Texte : [pont_mirabeau.txt](img/pont_mirabeau.txt) 
-- Image : [pont_mirabeau.png](img/pont_mirabeau.PNG)
-- Éditeur en ligne : [Dillinger](https://dillinger.io/)
-
-Faire un encodage en Markdown du poème :
-
-- mettre le titre en niveau 1
-- faire de chaque première ligne de strophe un titre de niveau 3
-- mettre en italique le paratexte
-- mettre les noms propres en gras
-
 ## LaTeX
 
-<!-- Alix
-
-Structuration logique avec LaTeX : 
-
-- LaTeX (prononcer "latek") est un langage et un système de composition de documents, + complet que Markdown ;
-- Utilisé dans le domaine des sciences car on peut facilement écrire des formules mathématiques ;
-- Les balises sémantiques de LaTeX sont plus "invasives". Exemple : \chapter{Titre de chapitre} ;
-- Pour voir la mise en forme, on doit compiler le fichier .tex. On obtient un PDF ou du HTML ;
+- LaTeX est un langage et un système de composition de documents, bien plus complet que Markdown ; 
+- Utilisé dans le domaine des sciences car on peut facilement écrire des formules mathématiques :  
+- Les balises sémantiques de LaTeX sont plus "invasives". Exemple : ```\chapter{Titre de chapitre}``` ; 
+- Pour voir la mise en forme, on doit *compiler* le fichier .tex. On obtient généralement un PDF ; 
 - LaTeX ne sert pas qu'à annoter la structuration logique : il prend en charge la mise en forme du document au sens large.
-
---> 
 
 ## CSV 
 
 CSV (Comma Separated Values) - données tabulaires
 
-- 1 ligne de texte = 1 ligne de tableau
-- 1 virgule = 1 nouvelle cellule de tableau
-- un ficher csv peut être ouvert avec Excel
+- 1 ligne de texte = 1 ligne de tableau ; 
+- 1 virgule = 1 nouvelle cellule de tableau ; 
+- un ficher csv peut être ouvert avec Excel. 
 
-```csv
-Id_Monographie 	Id_Enqueté 	Serie_Tome 	Prénom 	Nom 	Place dans la famille 	Lieu de naissance
-001a 	001aE1 	1-1 (1857) 	Jean 	M** 	Père 	T** (Aube)
-001a 	001aE2 	1-1 (1857) 	Marie 	R** 	Mère 	L** (Meurthe)
-001a 	001aE3 	1-1 (1857) 	Joseph 	M** 	Fils
+```{csv}
+Id_Monographie  Id_Enqueté  Serie_Tome  Prénom  Nom Place dans la famille 
+001a    001aE1  1-1 (1857)  Jean    M** Père 
+001a    001aE2  1-1 (1857)  Marie   R** Mère 
+001a    001aE3  1-1 (1857)  Joseph  M** Fils         
 ```
 
-Id_Monographie,Id_Enqueté,Serie_Tome,Prénom,Nom,Place dans la famille,Lieu de naissance
-001a,001aE1,1-1 (1857),Jean,M**,Père,T** (Aube)
-001a,001aE2,1-1 (1857),Marie,R**,Mère,L** (Meurthe)
-001a,001aE3,1-1 (1857),Joseph,M**,Fils,,
-
-##
+Id_Monographie,Id_Enqueté,Serie_Tome,Prénom,Nom,Place dans la famille 
+001a,001aE1,1-1 (1857),Jean,M**,Père 
+001a,001aE2,1-1 (1857),Marie,R**,Mère 
+001a,001aE3,1-1 (1857),Joseph,M**,Fils, 

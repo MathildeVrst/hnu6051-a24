@@ -20,27 +20,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -50,7 +30,7 @@ div.csl-indent {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./encodage.html" rel="next">
+<link href="./exercice-markdown.html" rel="next">
 <link href="./introduction.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -155,8 +135,20 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./exercice-markdown.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Exercice markdown</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./bonnes-pratiques.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Bonnes pratiques d’édition</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./encodage.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Des caractères à l’écran – encodage numérique</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Des caractères à l’écran – encodage numérique</span></span></a>
   </div>
 </li>
     </ul>
@@ -170,27 +162,30 @@ div.csl-indent {
    
   <ul>
   <li><a href="#les-formats-un-peu-détymologie" id="toc-les-formats-un-peu-détymologie" class="nav-link active" data-scroll-target="#les-formats-un-peu-détymologie"><span class="header-section-number">2.1</span> Les formats&nbsp;: un peu d’étymologie</a></li>
-  <li><a href="#structure-dun-document-numérique" id="toc-structure-dun-document-numérique" class="nav-link" data-scroll-target="#structure-dun-document-numérique"><span class="header-section-number">2.2</span> Structure d’un document numérique</a></li>
-  <li><a href="#format-définition" id="toc-format-définition" class="nav-link" data-scroll-target="#format-définition"><span class="header-section-number">2.3</span> Format : définition</a></li>
+  <li><a href="#vers-une-définition-du-format" id="toc-vers-une-définition-du-format" class="nav-link" data-scroll-target="#vers-une-définition-du-format"><span class="header-section-number">2.2</span> Vers une définition du format</a></li>
+  <li><a href="#format-et-édition-savante" id="toc-format-et-édition-savante" class="nav-link" data-scroll-target="#format-et-édition-savante"><span class="header-section-number">2.3</span> Format et édition savante</a></li>
   <li><a href="#format-et-extension" id="toc-format-et-extension" class="nav-link" data-scroll-target="#format-et-extension"><span class="header-section-number">2.4</span> Format et extension</a></li>
-  <li><a href="#formats-ouverts-formats-fermés" id="toc-formats-ouverts-formats-fermés" class="nav-link" data-scroll-target="#formats-ouverts-formats-fermés"><span class="header-section-number">2.5</span> Formats ouverts, formats fermés</a></li>
-  <li><a href="#formats-propriétaires-formats-libres" id="toc-formats-propriétaires-formats-libres" class="nav-link" data-scroll-target="#formats-propriétaires-formats-libres"><span class="header-section-number">2.6</span> Formats propriétaires, formats libres</a></li>
-  <li><a href="#formats-sources-formats-de-sortie" id="toc-formats-sources-formats-de-sortie" class="nav-link" data-scroll-target="#formats-sources-formats-de-sortie"><span class="header-section-number">2.7</span> Formats sources, formats de sortie</a></li>
-  <li><a href="#structuration-de-linformation" id="toc-structuration-de-linformation" class="nav-link" data-scroll-target="#structuration-de-linformation"><span class="header-section-number">2.8</span> Structuration de l’information</a></li>
-  <li><a href="#formats-de-balisage" id="toc-formats-de-balisage" class="nav-link" data-scroll-target="#formats-de-balisage"><span class="header-section-number">2.9</span> Formats de balisage</a>
+  <li><a href="#formats-libres-formats-propriétaires" id="toc-formats-libres-formats-propriétaires" class="nav-link" data-scroll-target="#formats-libres-formats-propriétaires"><span class="header-section-number">2.5</span> Formats libres, formats propriétaires</a></li>
+  <li><a href="#le-format-nest-pas-neutre" id="toc-le-format-nest-pas-neutre" class="nav-link" data-scroll-target="#le-format-nest-pas-neutre"><span class="header-section-number">2.6</span> Le format n’est pas neutre !</a></li>
+  <li><a href="#critères-dun-format" id="toc-critères-dun-format" class="nav-link" data-scroll-target="#critères-dun-format"><span class="header-section-number">2.7</span> Critères d’un format</a>
   <ul class="collapse">
-  <li><a href="#texte-brut-texte-enrichi" id="toc-texte-brut-texte-enrichi" class="nav-link" data-scroll-target="#texte-brut-texte-enrichi"><span class="header-section-number">2.9.1</span> Texte brut, texte enrichi</a></li>
-  <li><a href="#wysiwym" id="toc-wysiwym" class="nav-link" data-scroll-target="#wysiwym"><span class="header-section-number">2.9.2</span> WYSIWYM</a></li>
+  <li><a href="#pertinence" id="toc-pertinence" class="nav-link" data-scroll-target="#pertinence"><span class="header-section-number">2.7.1</span> Pertinence</a></li>
+  <li><a href="#économie" id="toc-économie" class="nav-link" data-scroll-target="#économie"><span class="header-section-number">2.7.2</span> Économie</a></li>
+  <li><a href="#efficacité" id="toc-efficacité" class="nav-link" data-scroll-target="#efficacité"><span class="header-section-number">2.7.3</span> Efficacité</a></li>
+  <li><a href="#sécurité" id="toc-sécurité" class="nav-link" data-scroll-target="#sécurité"><span class="header-section-number">2.7.4</span> Sécurité</a></li>
   </ul></li>
-  <li><a href="#mettre-en-forme-structurer" id="toc-mettre-en-forme-structurer" class="nav-link" data-scroll-target="#mettre-en-forme-structurer"><span class="header-section-number">2.10</span> Mettre en forme =/= structurer</a></li>
-  <li><a href="#structure-logique-vs-apparence" id="toc-structure-logique-vs-apparence" class="nav-link" data-scroll-target="#structure-logique-vs-apparence"><span class="header-section-number">2.11</span> Structure logique vs apparence</a></li>
-  <li><a href="#markdown" id="toc-markdown" class="nav-link" data-scroll-target="#markdown"><span class="header-section-number">2.12</span> Markdown</a>
+  <li><a href="#format-logiciel-extension" id="toc-format-logiciel-extension" class="nav-link" data-scroll-target="#format-logiciel-extension"><span class="header-section-number">2.8</span> Format, logiciel, extension</a></li>
+  <li><a href="#structuration-de-linformation" id="toc-structuration-de-linformation" class="nav-link" data-scroll-target="#structuration-de-linformation"><span class="header-section-number">2.9</span> Structuration de l’information</a></li>
+  <li><a href="#formats-de-balisage" id="toc-formats-de-balisage" class="nav-link" data-scroll-target="#formats-de-balisage"><span class="header-section-number">2.10</span> Formats de balisage</a>
   <ul class="collapse">
-  <li><a href="#exercice-markdown" id="toc-exercice-markdown" class="nav-link" data-scroll-target="#exercice-markdown"><span class="header-section-number">2.12.1</span> Exercice markdown</a></li>
+  <li><a href="#texte-brut-texte-enrichi" id="toc-texte-brut-texte-enrichi" class="nav-link" data-scroll-target="#texte-brut-texte-enrichi"><span class="header-section-number">2.10.1</span> Texte brut, texte enrichi</a></li>
+  <li><a href="#wysiwym-vs-wysiwyg" id="toc-wysiwym-vs-wysiwyg" class="nav-link" data-scroll-target="#wysiwym-vs-wysiwyg"><span class="header-section-number">2.10.2</span> WYSIWYM vs WYSIWYG</a></li>
+  <li><a href="#wysiwym" id="toc-wysiwym" class="nav-link" data-scroll-target="#wysiwym"><span class="header-section-number">2.10.3</span> WYSIWYM</a></li>
   </ul></li>
+  <li><a href="#mettre-en-forme-structurer" id="toc-mettre-en-forme-structurer" class="nav-link" data-scroll-target="#mettre-en-forme-structurer"><span class="header-section-number">2.11</span> Mettre en forme =/= structurer</a></li>
+  <li><a href="#markdown" id="toc-markdown" class="nav-link" data-scroll-target="#markdown"><span class="header-section-number">2.12</span> Markdown</a></li>
   <li><a href="#latex" id="toc-latex" class="nav-link" data-scroll-target="#latex"><span class="header-section-number">2.13</span> LaTeX</a></li>
   <li><a href="#csv" id="toc-csv" class="nav-link" data-scroll-target="#csv"><span class="header-section-number">2.14</span> CSV</a></li>
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"><span class="header-section-number">2.15</span> </a></li>
   </ul>
 </nav>
     </div>
@@ -220,18 +215,35 @@ div.csl-indent {
 <p><a href="_slides/theorie-formats.html" target="_blank">Ouvrir dans mon navigateur</a></p>
 <section id="les-formats-un-peu-détymologie" class="level2" data-number="2.1">
 <h2 data-number="2.1" class="anchored" data-anchor-id="les-formats-un-peu-détymologie"><span class="header-section-number">2.1</span> Les formats&nbsp;: un peu d’étymologie</h2>
+<ul>
+<li>Format, fromage ? ;</li>
+<li>Dimensions d’une feuille de papier, d’un feuillet ;</li>
+<li>Du latin <em>formare</em>&nbsp;: donner une forme, former, conformer ; arranger, organiser, régler&nbsp;; façonner</li>
+<li>Extension à de nombreux domaines&nbsp;: imprimerie, photographie, cinéma, <strong>informatique</strong></li>
+</ul>
 </section>
-<section id="structure-dun-document-numérique" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="structure-dun-document-numérique"><span class="header-section-number">2.2</span> Structure d’un document numérique</h2>
+<section id="vers-une-définition-du-format" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="vers-une-définition-du-format"><span class="header-section-number">2.2</span> Vers une définition du format</h2>
+<ul>
+<li>ce qui donne une forme et un ensemble de caractéristiques à un ensemble d’information (image, écriture, son, etc.) ;</li>
+<li>la dimension (format A4 ou <em>letter</em> par ex.) qui va impliquer un agencement ;</li>
+<li>une manière de représenter des données (pdf, docx) qui impose une structure</li>
+</ul>
+<blockquote class="blockquote">
+<p>Structure définie de données contenues dans un fichier, établie selon des règles qui régissent notamment leur sauvegarde, leur affichage et leur manipulation par un logiciel compatible. (<a href="https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8368613/format-de-fichier?">OQLF, 2022</a>).</p>
+</blockquote>
 <!--Alix
 
+## Structure d'un document numérique 
+
+-->
+<!--
 - plusieurs couches d'appareillage technique sont nécessaires
 - un document numérique est un fichier, mais un fichier n'est pas forcément un document
 - le format définit un gabarit public ou non, libre ou non, pour structurer l'information
 - le statut d'un format dépend en grande partie du statut des spécifications techniques
 - il existe une grande variété de types de fichiers, indiqué par leur extension
 - certains fichiers sont des combinaison de plusieurs fichiers
-
 -->
 <!--Margot
 
@@ -242,169 +254,335 @@ div.csl-indent {
 
 -->
 </section>
-<section id="format-définition" class="level2" data-number="2.3">
-<h2 data-number="2.3" class="anchored" data-anchor-id="format-définition"><span class="header-section-number">2.3</span> Format : définition</h2>
+<section id="format-et-édition-savante" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="format-et-édition-savante"><span class="header-section-number">2.3</span> Format et édition savante</h2>
+<ul>
+<li>Production de documents scientifiques&nbsp;qui ont des caractéristiques exigées par les normes de l’édition savante&nbsp;:
+<ul>
+<li>appareil critique accompagnant le texte (notes de bas de page, bibliographie, index, etc.) ;</li>
+<li>citabilité (métadonnée → identification) ;</li>
+<li>structuration (normalement) rigoureuse (balisage sémantique, non ambigu) ;</li>
+<li>pérennité</li>
+</ul></li>
+<li>Les formats utilisés doivent répondre à ces exigences, permettant notamment d’expliciter la fonction de chaque élément du document (titre, citation, métadonnées, références bibliographiques,…)</li>
+</ul>
+<!-- Mathilde
+Dans cet atelier, nous nous intéresserons aux formats d'écriture informatique, aux formats des données que nous encodons lorsque nous écrivons. Dans la plupart des cas, nous écrivons pour produire des documents scientifiques. Ces documents ont plusieurs caractéristiques, exigées par les normes de l'édition savante
+L'objectif principal de cet atelier est de vous fournir les bonnes pratiques à adopter pour être conscient des matériels sur et avec lesquels on travaille.  
+-->
 </section>
 <section id="format-et-extension" class="level2" data-number="2.4">
 <h2 data-number="2.4" class="anchored" data-anchor-id="format-et-extension"><span class="header-section-number">2.4</span> Format et extension</h2>
-<!-- Alix
-
-- L'extension d'un fichier texte indique à l'utilisateur et à l'ordinateur quel est son format, c'est-à-dire :
-
-    - comment sont organisées les informations relatives au fichiers et les métadonnées
-    - avec quel logiciel l'ouvrir
-    - s'il contient ou non des informations de mise en page qu'il faut interpréter
-
-- On peut classer les fichiers en 2 catégories en fonction de leurs extensions :
-
-    - .txt : texte brut
-    - .doc), .docx, .rtf, .tex, .md, epub) etc. : texte enrichi
-
--->
-</section>
-<section id="formats-ouverts-formats-fermés" class="level2" data-number="2.5">
-<h2 data-number="2.5" class="anchored" data-anchor-id="formats-ouverts-formats-fermés"><span class="header-section-number">2.5</span> Formats ouverts, formats fermés</h2>
-</section>
-<section id="formats-propriétaires-formats-libres" class="level2" data-number="2.6">
-<h2 data-number="2.6" class="anchored" data-anchor-id="formats-propriétaires-formats-libres"><span class="header-section-number">2.6</span> Formats propriétaires, formats libres</h2>
-</section>
-<section id="formats-sources-formats-de-sortie" class="level2" data-number="2.7">
-<h2 data-number="2.7" class="anchored" data-anchor-id="formats-sources-formats-de-sortie"><span class="header-section-number">2.7</span> Formats sources, formats de sortie</h2>
-</section>
-<section id="structuration-de-linformation" class="level2" data-number="2.8">
-<h2 data-number="2.8" class="anchored" data-anchor-id="structuration-de-linformation"><span class="header-section-number">2.8</span> Structuration de l’information</h2>
-</section>
-<section id="formats-de-balisage" class="level2" data-number="2.9">
-<h2 data-number="2.9" class="anchored" data-anchor-id="formats-de-balisage"><span class="header-section-number">2.9</span> Formats de balisage</h2>
-<!-- Alix
-
-- les informations de mise en forme sont des annotations qui sont formées selon plusieurs standards ou normes.
-- parser un document == le traiter de manière à afficher la mise en forme
-
-    -  pas de mise en forme : <gras>du texte</gras>
-    -  mise en forme : du texte
-
-- les normes et standards encadrant la manière de former les annotations sont étroitement liées au format du document et au standard qu'il suit.
--->
-<section id="texte-brut-texte-enrichi" class="level3" data-number="2.9.1">
-<h3 data-number="2.9.1" class="anchored" data-anchor-id="texte-brut-texte-enrichi"><span class="header-section-number">2.9.1</span> Texte brut, texte enrichi</h3>
-<!--
-Un fichier de texte peut contenir des indications de mise en forme
-
-- texte brut (ou plain text) == un texte dépourvu d'information de mise en forme, qui se limite à l'affichage de la traduction des données binaires en caractères alphanumériques et symboles
-- texte enrichi (ou rich text) == un texte qui comporte des éléments de mise en forme, qu'ils soient ou non affichés dans l'interface graphique
-- WYSIWYG (What You See Is What You Get) == un éditeur de texte quie présente un texte enrichi **avec** sa mise en forme, de manière simultanée
-- WYSIWYM (What You See Is What You Mean) == un éditeur de texte qui présente le texte et ses informations de mise en forme dans les interpréter
-
--->
-</section>
-<section id="wysiwym" class="level3" data-number="2.9.2">
-<h3 data-number="2.9.2" class="anchored" data-anchor-id="wysiwym"><span class="header-section-number">2.9.2</span> WYSIWYM</h3>
-<!-- Alix
-
-- dans un éditeur WYSIWYM : moindre confusion entre mise en forme et indication de la structure logique
-- la mise en forme apparaît après parsing du document (création d'un PDF ou ouverture dans un navigateur)
-- le paramétrage de la mise en forme peut être géré dans un fichier externe (ex: CSS pour HTML)
-
-![](img/wysiwym_styles.png)
--->
-</section>
-</section>
-<section id="mettre-en-forme-structurer" class="level2" data-number="2.10">
-<h2 data-number="2.10" class="anchored" data-anchor-id="mettre-en-forme-structurer"><span class="header-section-number">2.10</span> Mettre en forme =/= structurer</h2>
-<!-- Alix 
-
-Séparer la structure logique de la mise en forme :
-
--  un titre =/= un paragraphe
--  un titre d'ouvrage ou un mot étranger
--  une citation
-
-vs.
-
--  du texte en gras
--  du texte en italique
--  du texte entre guillemets
-
--->
-</section>
-<section id="structure-logique-vs-apparence" class="level2" data-number="2.11">
-<h2 data-number="2.11" class="anchored" data-anchor-id="structure-logique-vs-apparence"><span class="header-section-number">2.11</span> Structure logique vs apparence</h2>
 <blockquote class="blockquote">
-<p>L’ouvrage <em>Pratiques de l’édition numérique</em> est <em>a priori</em>.</p>
+<p>À chaque format de fichier est associée une extension de nom de fichier qui permet de l’identifier. [Cette] extension de nom de fichier indique au système d’exploitation quel logiciel d’application peut ouvrir le fichier et quelle icône afficher. (<a href="https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8382262/extension-de-nom-de-fichier">OQLF, 2022</a>)</p>
 </blockquote>
+<p>L’extension d’un fichier texte indique à l’utilisateur et à l’ordinateur quel est son format, c’est-à-dire :</p>
 <ul>
-<li>tous les mots en italiques ne sont pas des mots étrangers, mais tous les mots étrangers sont en italiques</li>
-<li>titres d’ouvrages cités en italiques (ou pas) et mots étrangers en italiques (ou pas)</li>
-<li>on peut extraire rapidement tous les mots étrangers sans récolter aussi les titres d’ouvrages cités</li>
+<li>comment sont organisées les informations relatives au fichiers et les métadonnées</li>
+<li>avec quel logiciel l’ouvrir</li>
+<li>s’il contient ou non des informations de mise en page qu’il faut interpréter</li>
 </ul>
+<!-- Mathilde 
+
+Opacité du phénomène par les icones 
+
+-->
+</section>
+<section id="formats-libres-formats-propriétaires" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="formats-libres-formats-propriétaires"><span class="header-section-number">2.5</span> Formats libres, formats propriétaires</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Formats libres</th>
+<th>Formats propriétaires</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ouverts</td>
+<td>fermés (parfois ouverts)</td>
+</tr>
+<tr class="even">
+<td>spécifications techniques publiques</td>
+<td>spécifications techniques contrôlées par une entité privée</td>
+</tr>
+<tr class="odd">
+<td>pas de restriction d’accès</td>
+<td>usage limité</td>
+</tr>
+<tr class="even">
+<td>définis par les pratiques</td>
+<td>conditionnés par les pratiques</td>
+</tr>
+<tr class="odd">
+<td>exigences de recherche</td>
+<td>exigences commerciales</td>
+</tr>
+<tr class="even">
+<td>.txt ; .odt ; .tex ; .html ; .svg ; .png ; .epub ; .zip</td>
+<td>.pdf ; .docx ; .pptx ; .xlsx ; .ai ; .jpeg ; .psd ; .mp3</td>
+</tr>
+</tbody>
+</table>
+<!-- Mathilde 
+
+Ces spécifications ne sont pas diffusées, on parle alors de « format opaque » ; les données ne peuvent donc être utilisées que par leur application d’origine, ce qui pose de nombreux problèmes de compatibilité et de portabilité. 
+
+Ces spécifications ont été publiées, mais sont associées à des autorisations d’utilisation liées aux brevets. Dans ce cas, les données sont la plupart du temps exploitables par d’autres applications, mais le risque de perte d’information existe et ne doit pas être négligé.
+
+Un format fermé est nécessairement un format propriétaire, mais le contraire n'est pas forcément vrai. En effet, un format propriétaire peut être fermé (par exemple, le format.DOC) ou ouvert (par exemple, le format DOCX).
+
+les standards ouverts et libres permettent de se libérer de l’outil, de la chaîne, etc. ; les standards propriétaires ont tendance à enfermer les pratiques dans une chaîne et dans un outil.
+
+
+Dans le cas des formats privés, les motivations ne relèvent pas de la recherche, ce sont des motivations commerciales, on est pas sur le principe de médiation du savoir en premier, on est sur l'idée d'abord de monnayer le savoir. On est sur un Produit. Ça ne veut pas dire que ce produit ne sera pas bon, il peut au contraire si il y a des moyens employés, être très performant, mais il n'est pas soutenu par la communauté qui l'utilise mais par l'entreprise qui la vend.
+
+Donc les formats libres sont pensés au sein d'une communauté de recherche, d'individus, de pratiques et se trouvent protégés par cette assise justement : d'abord parce qu'ils deviennent des standards sans être au centre d'un monopole, ils sont pensés en terme d'évolution en cohérence avec l'évolution des pratiques, ils sont donc pensés dans un temps long, avec un critère de pérennité
+
+- PDF est propriétaire et ouvert, donc il est une propriété de Adobe mais les spécifications de son modèle ont été publiées. 
+
+-->
+</section>
+<section id="le-format-nest-pas-neutre" class="level2" data-number="2.6">
+<h2 data-number="2.6" class="anchored" data-anchor-id="le-format-nest-pas-neutre"><span class="header-section-number">2.6</span> Le format n’est pas neutre !</h2>
+<p>Le format est politique en ce qu’il porte un modèle de l’information.</p>
+<!-- Mathilde
+
+on est pas juste sur j'ai un contenu et je le mets dans un contenant, qui ne va pas altérer ou déterminer ce contenu. Le format est politique parce qu'il porte un modèle de l'information : 
+
+Exemple entre deux formats : 
+
+Le txt est un format pour texte brut ou le plein texte, il n'y a que du texte, on est sur la vue séquentielle, sans style ni enrichissement, il est pérenne, lisible par tous types d'éditeurs de texte et convertisable. Épuré 
+
+Le docx est pour format pour texte stylisé, et il a été conçu par des informaticiens et programmeurs qui ne l'utilisent pas, et qui ne sont pas en contact avec la communauté qui l'utilise. 
+
+D'un format à l'autre, il n'y a pas les mêmes caractéristiques, pas la même définition et utilisabilité du texte, cela n'implique pas les mêmes pratiques d'édition. 
+
+Avec le choix d'un format propriétaire, on forme des savoirs qui sont aussi propriétaires, qui sont dépendants d'une industrie et de sa prospérité économique, et qui sont définis à l'origine par cette industrie. Les textes écrits en docx sont dépositaires de Microsoft, ils ne sont pas portés par une communauté de recherche, mais pas seulement les objets textes : aussi les pratiques d'écriture. 
+
+-->
+</section>
+<section id="critères-dun-format" class="level2" data-number="2.7">
+<h2 data-number="2.7" class="anchored" data-anchor-id="critères-dun-format"><span class="header-section-number">2.7</span> Critères d’un format</h2>
+<p>Le format répond à plusieurs critères&nbsp;: pertinence, économie, efficacité, sécurité.</p>
+<section id="pertinence" class="level3" data-number="2.7.1">
+<h3 data-number="2.7.1" class="anchored" data-anchor-id="pertinence"><span class="header-section-number">2.7.1</span> Pertinence</h3>
+<p>Certains formats sont plus pertinents que d’autres, dépendant de la discipline, de l’utilisation, de la langue, du contexte,…</p>
+<p>Ex. : .pdf a été conçu spécifiquement pour la mise en page de documents prévus pour l’impression</p>
+</section>
+<section id="économie" class="level3" data-number="2.7.2">
+<h3 data-number="2.7.2" class="anchored" data-anchor-id="économie"><span class="header-section-number">2.7.2</span> Économie</h3>
+<p>Quel modèle soutient le format ? Quel poids du document ? Pour quelle possibilité de stockage ?</p>
+<p>Ex.&nbsp;: un texte à envoyer rapidement (une note) doit être relativement léger ; pour un texte plus important, on peut prioritiser des fonctionnalités plus complexes, plus permissives mais qui alourdissent le fichier.</p>
+</section>
+<section id="efficacité" class="level3" data-number="2.7.3">
+<h3 data-number="2.7.3" class="anchored" data-anchor-id="efficacité"><span class="header-section-number">2.7.3</span> Efficacité</h3>
+<p>Quelle temporalité pour l’écriture et la finalisation du document ?</p>
+</section>
+<section id="sécurité" class="level3" data-number="2.7.4">
+<h3 data-number="2.7.4" class="anchored" data-anchor-id="sécurité"><span class="header-section-number">2.7.4</span> Sécurité</h3>
+<p>Le contenu est-il garanti&nbsp;? Quelles protection pour les données&nbsp;? Quelle pérennité pour le document&nbsp;?</p>
+</section>
+</section>
+<section id="format-logiciel-extension" class="level2" data-number="2.8">
+<h2 data-number="2.8" class="anchored" data-anchor-id="format-logiciel-extension"><span class="header-section-number">2.8</span> Format, logiciel, extension</h2>
+<ul>
+<li>un format n’est pas un logiciel : parler du format Word, c’est faux ;</li>
+<li>un format n’est pas une extension : changer l’extension ne change pas le format.</li>
+</ul>
+<p>Le format va structurer une information, va lui donner une forme, va délimiter son utilisabilité, les manipulations qui vont être possibles ou non.</p>
+<!-- Mathilde 
+
+Mais ce n'est pas juste un rapport de contenu/contenant ici. Ça va bien plus loin. Le format définit en fait le contenu. 
+
+-->
+</section>
+<section id="structuration-de-linformation" class="level2" data-number="2.9">
+<h2 data-number="2.9" class="anchored" data-anchor-id="structuration-de-linformation"><span class="header-section-number">2.9</span> Structuration de l’information</h2>
+<p>Nous devons faire la distinction entre&nbsp;:</p>
+<ul>
+<li>le corps du document,</li>
+<li>les métadonnées,</li>
+<li>le contenu additionnel, comme la bibliographie.</li>
+</ul>
+</section>
+<section id="formats-de-balisage" class="level2" data-number="2.10">
+<h2 data-number="2.10" class="anchored" data-anchor-id="formats-de-balisage"><span class="header-section-number">2.10</span> Formats de balisage</h2>
+<ul>
+<li>un format de balisage : des balises pour structurer et qualifier le texte (.md, .html, .xml)&nbsp;;</li>
+<li>un format de balisage léger : compréhensible par les humains ;</li>
+<li>un format transformable : format source facilement interprétable pour obtenir un format de sortie riche</li>
+<li>un format pérenne : encore utilisable dans 10 ans (car porté par une communauté et des standards)</li>
+</ul>
+<!-- Mathilde
+
+- Un langage de balisage est l’ensemble des règles et conventions (comme HTML, XML) utilisé pour structurer des données avec des balises.
+- Un format de balisage est la manière concrète dont un document ou un fichier est codé en utilisant un langage de balisage (comme un fichier .html ou .xml).
+
+En d'autres termes, le langage est l'outil pour baliser, tandis que le format est le résultat codé de l'usage de ce langage.
+
+Dans le cadre de l'atelier, on va avoir à faire avec des formats ouverts et principalement libres (à l'exception de PDF). 
+
+-->
+<section id="texte-brut-texte-enrichi" class="level3" data-number="2.10.1">
+<h3 data-number="2.10.1" class="anchored" data-anchor-id="texte-brut-texte-enrichi"><span class="header-section-number">2.10.1</span> Texte brut, texte enrichi</h3>
+<p>Les informations de mise en forme sont des annotations qui sont formées selon plusieurs standards ou normes.</p>
+<ul>
+<li>texte brut (ou <em>plain text</em>) : texte dépourvu d’information de mise en forme, qui se limite à l’affichage de la traduction des données binaires en caractères alphanumériques et symboles ;</li>
+<li>texte enrichi (ou <em>rich text</em>) : texte qui comporte des éléments de mise en forme, qu’ils soient ou non affichés dans l’interface graphique ; Un fichier de texte peut contenir des indications de mise en forme.</li>
+</ul>
+<p>Les normes et standards encadrant la manière de former les annotations sont étroitement liées au format du document et au standard qu’il suit.</p>
+</section>
+<section id="wysiwym-vs-wysiwyg" class="level3" data-number="2.10.2">
+<h3 data-number="2.10.2" class="anchored" data-anchor-id="wysiwym-vs-wysiwyg"><span class="header-section-number">2.10.2</span> WYSIWYM vs WYSIWYG</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>WYSIWYM</th>
+<th>WYSIWYG</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><em>What You See Is What You Mean</em></td>
+<td><em>What You See Is What You Get</em></td>
+</tr>
+<tr class="even">
+<td>éditeur de texte quie présente un texte enrichi <strong>avec</strong> sa mise en forme, de manière simultanée</td>
+<td>éditeur de texte qui présente le texte et ses informations de mise en forme dans les interpréter</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="wysiwym" class="level3" data-number="2.10.3">
+<h3 data-number="2.10.3" class="anchored" data-anchor-id="wysiwym"><span class="header-section-number">2.10.3</span> WYSIWYM</h3>
+<ul>
+<li>dans un éditeur WYSIWYM : moindre confusion entre mise en forme et indication de la structure logique</li>
+<li>la mise en forme apparaît après parsing du document (création d’un PDF ou ouverture dans un navigateur)</li>
+<li>le paramétrage de la mise en forme peut être géré dans un fichier externe (ex: CSS pour HTML)</li>
+</ul>
+<p><img src="img/wysiwym_styles.png" class="img-fluid"></p>
+</section>
+</section>
+<section id="mettre-en-forme-structurer" class="level2" data-number="2.11">
+<h2 data-number="2.11" class="anchored" data-anchor-id="mettre-en-forme-structurer"><span class="header-section-number">2.11</span> Mettre en forme =/= structurer</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Mise en forme</th>
+<th>Structure logique</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Du texte en gras</td>
+<td>Un titre</td>
+</tr>
+<tr class="even">
+<td>Du texte en italique</td>
+<td>Un titre, un mot étranger</td>
+</tr>
+<tr class="odd">
+<td>Du texte entre guillements</td>
+<td>Une citation</td>
+</tr>
+</tbody>
+</table>
+<!--
+## Structure logique vs apparence 
+
+> L'ouvrage *Pratiques de l'édition numérique* est *a priori*. 
+
+- tous les mots en italiques ne sont pas des mots étrangers, mais tous les mots étrangers sont en italiques
+- titres d'ouvrages cités en italiques (ou pas) et mots étrangers en italiques (ou pas)
+- on peut extraire rapidement tous les mots étrangers sans récolter aussi les titres d'ouvrages cités
+-->
 </section>
 <section id="markdown" class="level2" data-number="2.12">
 <h2 data-number="2.12" class="anchored" data-anchor-id="markdown"><span class="header-section-number">2.12</span> Markdown</h2>
-<!-- Alix
+<ul>
+<li>Inventé en 2004 par John Gruber et Aaron Swartz ;</li>
+<li>Markdown est un langage de balisage léger qui permet d’encoder facilement la structure et certains éléments de mise en forme du texte sans gêner sa lecture ;</li>
+<li>Il permet de créer des fichiers HTML ou PDF et est beaucoup utilisé sur le Web, notamment sur des plateformes comme Github ;</li>
+<li>Même non compilé, un texte Markdown est facile à lire car les annotation sont légères et limitées ;</li>
+<li>On peut utiliser Markdown ou un système similaire dans Whatsapp et Messenger.</li>
+</ul>
+<p><span class="citation" data-cites="simpkinDebuterAvecMarkdown2015">(Plus d’informations&nbsp;: Simpkin 2015)</span></p>
+<p>Exercice : Faire ce tuto (en classe) : <a href="https://www.arthurperret.fr/tutomd/" class="uri">https://www.arthurperret.fr/tutomd/</a></p>
+<!-- Mathilde
+L’idée qui motive la création de ce langage est celle de la facilité : il s’agit de penser un langage qui facilite la création notamment de pages web.
 
-Annotation de la structure logique avec Markdown
+Derrière une page web en effet se trouve le code HTML, et toute les balises qui composent ce langage d’interface complique la lecture comme l’écriture.
 
-- Markdown est un langage de balisage léger qui permet d'encoder facilement la structure et certains éléments de mise en forme du texte sans gêner sa lecture.
-- Il permet de créer des fichiers HTML ou PDF et est beaucoup utilisé sur le web, notamment sur des plateformes comme Github
-- Même non compilé, un texte Markdown est facile à lire car les annotation sont légères et limitées ;
-- On peut utiliser Markdown ou un système similaire dans Whatsapp et Messenger ;
+Avec le HTML, on est davantage sur une inscription qui n’est pas fait pour la lecture humaine.
+
+Alors comment réattribuer cet enjeu de la lecture et de l’écriture humaine au sein du processus de création d’un espace textuel numérique ?
+
+**Comment réassigner cette question de la lecture et de l'écriture humaine, de ses yeux, au sein du processus de création d'un environnement textuel numérique ?**.
+
+Le markdown se situe dans le temps de l’écriture : c’est un outil d’écriture, tandis que dans cette nouvelle dynamique, le html est lui un format de publication. On a là deux dynamiques qui sont des dynamiques éditoriales mais qui sont pas placées au même temps du moment de l'édition. 
+
+Parce que le langage doit être simple, la syntaxe se réduit : le principe des balises html est réduit à un fonctionnement plus simple pour identifier les éléments qui peuvent être transmis dans un texte brut.
+
+Le Markdown s’inspire notamment du type de formatage que les gens utilisent dans le courrier électronique en texte clair.
+
+Markdown s'inspire notamment du type de mise en forme que les gens utilisaient dans les courriers électroniques en texte brut.
+Pour Gruber, il s'agit d'"écrire en utilisant un texte brut semblable à celui d'un e-mail".
+
+Donc à la base de Markdown, il y a un besoin de reprendre la main par l'œil sur l'écriture numérique mais il y a aussi un usage déjà présent, un usage de simplicité.
+
+Markdown est comme un pont entre l'œil humain et l'intelligence de la machine : ce langage doit être lisible par l'homme et compréhensible par la machine.
+
+La mécanique de l’écriture dans le Markdown se veut claire, simple, sans ambiguité. Une inscription = un sens. C’est le compromis du Markdown qui s’oriente donc vers l’écriture sémantique. Parce qu’il restreint, le markdown nous fait nous interroger sur ce que nous souhaitons poser comme nécessaire et participant au texte que nous écrivons.
+
+Je peux placer un élément de mon texte comme titre, mais je ne peux pas en dire beaucoup plus sur ce titre, mais est-ce que j’ai besoin d’en dire plus ? Et surtout si je veux que les autres puissent me lire et me comprendre, est-ce que je dois vraiment faire varier des aspects principalement visuels comme la taille de police, le crénage, les marges ?
+
+Écrire en Markdown repose la question d’un économie dans la dynamique d’écriture.
+
+Mais le Markdown est interopérable, il accepte le HTML, donc il permet en soit l’extension de ces potentialités.
+
+Ce qui va venir structurer, formater le texte, ses marqueurs sont en ce sens en adéquation avec ce qu'ils représentent sémantiquement. 
+
+Pour vous donner un exemple, si je considère une portion du texte comme appartenant au niveau de discours du titre, l'écriture sémantique va me permettre d'éditer ce contenu comme du titre à l'aide de marqueurs qui n'ont pas d'autres fonctions, pas d'autres sens que de signifier du titre. 
+
+C'est, dans ce cas, la sémantique de mon texte qui va dicter sa structuration. 
 
 -->
-<p>Voir <span class="citation" data-cites="simpkinDebuterAvecMarkdown2015">(<a href="plan-de-cours.html#ref-simpkinDebuterAvecMarkdown2015" role="doc-biblioref">Simpkin 2015</a>)</span></p>
-<section id="exercice-markdown" class="level3" data-number="2.12.1">
-<h3 data-number="2.12.1" class="anchored" data-anchor-id="exercice-markdown"><span class="header-section-number">2.12.1</span> Exercice markdown</h3>
-<ul>
-<li>Texte&nbsp;: <a href="img/pont_mirabeau.txt">pont_mirabeau.txt</a></li>
-<li>Image&nbsp;: <a href="img/pont_mirabeau.PNG">pont_mirabeau.png</a></li>
-<li>Éditeur en ligne : <a href="https://dillinger.io/">Dillinger</a></li>
-</ul>
-<p>Faire un encodage en Markdown du poème :</p>
-<ul>
-<li>mettre le titre en niveau 1</li>
-<li>faire de chaque première ligne de strophe un titre de niveau 3</li>
-<li>mettre en italique le paratexte</li>
-<li>mettre les noms propres en gras</li>
-</ul>
-</section>
 </section>
 <section id="latex" class="level2" data-number="2.13">
 <h2 data-number="2.13" class="anchored" data-anchor-id="latex"><span class="header-section-number">2.13</span> LaTeX</h2>
-<!-- Alix
-
-Structuration logique avec LaTeX : 
-
-- LaTeX (prononcer "latek") est un langage et un système de composition de documents, + complet que Markdown ;
-- Utilisé dans le domaine des sciences car on peut facilement écrire des formules mathématiques ;
-- Les balises sémantiques de LaTeX sont plus "invasives". Exemple : \chapter{Titre de chapitre} ;
-- Pour voir la mise en forme, on doit compiler le fichier .tex. On obtient un PDF ou du HTML ;
-- LaTeX ne sert pas qu'à annoter la structuration logique : il prend en charge la mise en forme du document au sens large.
-
--->
+<ul>
+<li>LaTeX est un langage et un système de composition de documents, bien plus complet que Markdown&nbsp;;</li>
+<li>Utilisé dans le domaine des sciences car on peut facilement écrire des formules mathématiques&nbsp;:<br>
+</li>
+<li>Les balises sémantiques de LaTeX sont plus “invasives”. Exemple : <code>\chapter{Titre de chapitre}</code>&nbsp;;</li>
+<li>Pour voir la mise en forme, on doit <em>compiler</em> le fichier .tex. On obtient généralement un PDF&nbsp;;</li>
+<li>LaTeX ne sert pas qu’à annoter la structuration logique : il prend en charge la mise en forme du document au sens large.</li>
+</ul>
 </section>
 <section id="csv" class="level2" data-number="2.14">
 <h2 data-number="2.14" class="anchored" data-anchor-id="csv"><span class="header-section-number">2.14</span> CSV</h2>
 <p>CSV (Comma Separated Values) - données tabulaires</p>
 <ul>
-<li>1 ligne de texte = 1 ligne de tableau</li>
-<li>1 virgule = 1 nouvelle cellule de tableau</li>
-<li>un ficher csv peut être ouvert avec Excel</li>
+<li>1 ligne de texte = 1 ligne de tableau ;</li>
+<li>1 virgule = 1 nouvelle cellule de tableau ;</li>
+<li>un ficher csv peut être ouvert avec Excel.</li>
 </ul>
-<pre class="csv"><code>Id_Monographie  Id_Enqueté  Serie_Tome  Prénom  Nom     Place dans la famille   Lieu de naissance
-001a    001aE1  1-1 (1857)  Jean    M**     Père    T** (Aube)
-001a    001aE2  1-1 (1857)  Marie   R**     Mère    L** (Meurthe)
-001a    001aE3  1-1 (1857)  Joseph  M**     Fils</code></pre>
-<p>Id_Monographie,Id_Enqueté,Serie_Tome,Prénom,Nom,Place dans la famille,Lieu de naissance 001a,001aE1,1-1 (1857),Jean,M<strong>,Père,T</strong> (Aube) 001a,001aE2,1-1 (1857),Marie,R<strong>,Mère,L</strong> (Meurthe) 001a,001aE3,1-1 (1857),Joseph,M**,Fils,,</p>
-</section>
-<section id="section" class="level2" data-number="2.15">
-<h2 data-number="2.15" class="anchored" data-anchor-id="section"><span class="header-section-number">2.15</span> </h2>
+<pre class="{csv}"><code>Id_Monographie  Id_Enqueté  Serie_Tome  Prénom  Nom Place dans la famille 
+001a    001aE1  1-1 (1857)  Jean    M** Père 
+001a    001aE2  1-1 (1857)  Marie   R** Mère 
+001a    001aE3  1-1 (1857)  Joseph  M** Fils         </code></pre>
+<p>Id_Monographie,Id_Enqueté,Serie_Tome,Prénom,Nom,Place dans la famille 001a,001aE1,1-1 (1857),Jean,M<strong>,Père 001a,001aE2,1-1 (1857),Marie,R</strong>,Mère 001a,001aE3,1-1 (1857),Joseph,M**,Fils,</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
-<div id="ref-simpkinDebuterAvecMarkdown2015" class="csl-entry" role="listitem">
-Simpkin, Sarah. 2015. <span>“<span>D<span>é</span>buter avec Markdown</span>.”</span> <em>Programming Historian</em>, November.
-</div>
-</div>
 </section>
 
 </main> <!-- /main -->
@@ -835,8 +1013,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./encodage.html" class="pagination-link" aria-label="Des caractères à l'écran -- encodage numérique">
-        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Des caractères à l’écran – encodage numérique</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./exercice-markdown.html" class="pagination-link" aria-label="Exercice markdown">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Exercice markdown</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

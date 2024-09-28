@@ -1,0 +1,47 @@
+---
+suppress-bibliography: true
+---
+
+# Exercice markdown 
+
+::: {.content-visible when-format="html" unless-format="revealjs"}
+
+```{=html}
+<iframe src="_slides/exercice-markdown.html"></iframe>
+```
+[Ouvrir dans mon navigateur](_slides/exercice-markdown.html){target="_blank"} 
+
+::: 
+
+<!-- Mathilde 
+
+Cette citation exprime la frustration de l'auteur face à la manière dont les outils numériques, notamment les logiciels de traitement de texte traditionnels, imposent des contraintes à l'écriture. 
+
+L'auteur semble dire : « Je suis fatigué de devoir simplifier ou déformer mon écriture pour l'adapter aux besoins des outils numériques. » Markdown est précisément conçu pour éliminer ce type de frustration, car il permet de se concentrer sur le contenu, en ne demandant qu’un effort minimal pour le formatage. Cela allège le fardeau technique et redonne à l’écrivain le contrôle créatif.
+
+
+-->
+
+## Markdown : langage de balisage léger 
+
+| Markdown             | Rendu graphique         | Balisage HTML                    |
+|----------------------|-------------------------|----------------------------------|
+| `Un texte _en italique_` | Un texte _en italique_ | `Un texte <em>en italique</em>` |
+| `### Titre de niveau 3` | **Titre de niveau 3** | `<h3>Titre de niveau 3</h3>` |
+| `Un [lien](https://www.unlien.org)` | Un [lien](https://www.unlien.org) | `Un <a href="https://www.unlien.org">lien</a>` |
+| `Un texte **en gras**` | Un texte **en gras** | `Un texte <strong>en gras</strong>` |
+
+## Rendu pour le 11 octobre 
+
+- Texte : [pont_mirabeau.txt](img/pont_mirabeau.txt) 
+- Image : [pont_mirabeau.png](img/pont_mirabeau.PNG)
+- Éditeur en ligne : [Dillinger](https://dillinger.io/)
+
+Faire un encodage en Markdown du poème :
+
+- mettre le titre en niveau 1
+- faire de chaque première ligne de strophe un titre de niveau 3
+- mettre en italique le paratexte
+- mettre les noms propres en gras 
+- sauver le document en ```.md``` 
+- le déposer sur studium 

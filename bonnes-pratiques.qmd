@@ -1,0 +1,65 @@
+# Bonnes pratiques d'édition 
+
+::: {.content-visible when-format="html" unless-format="revealjs"}
+
+```{=html}
+<iframe src="_slides/bonnes-pratiques.html"></iframe>
+```
+[Ouvrir dans mon navigateur](_slides/bonnes-pratiques.html){target="_blank"} 
+
+::: 
+
+## Les fichiers dans votre ordinateur 
+
+### Organisation des fichiers 
+
+- votre ordinateur a son propre système d’organisation ; 
+- il faut comprendre les systèmes de chemin ; 
+- tout est arborescence 
+
+</section>
+<section>
+
+Il faut d’abord comprendre comment est organisé votre ordinateur et où se trouvent vos fichiers. Votre disque dur peut être compris comme une grande boîte dans laquelle se trouvent d’autres boîtes (dossiers). La boîte principale est ce qu’on appelle « racine ». Dans un ordinateur Unix (Mac ou Linux) la racine est /. Dans un ordinateur Windows, la racine est C:/. Dans la racine vous trouvez plusieurs « boîtes ».
+
+L’emplacement du Dossier correspond à ce qu’on appelle son « chemin » (path).
+
+Exemple d’un dossier « Vacances » : 
+
+- Unix : /Document Personnel/Images/Vacances 
+- Windows :  C:/Dossier Personnel/Images/Vacances 
+
+</section>
+<section>
+
+Il est important que vous connaissiez la structure de l’arborescence de votre ordinateur car c’est ainsi qu’on accède aux fichiers.
+
+### Nommage de fichier 
+
+Quel nom donner à un fichier ? Quelques règles :
+
+- les noms de fichier ne doivent pas contenir des caractères spéciaux, ni des accents, ni des espaces ; 
+- les noms des fichiers doivent être significatifs ; 
+- les noms des fichiers ne doivent pas dépasser 80 caractères ; 
+- faites attention aux extensions de fichiers ! 
+
+> Exemple : 2024-10-04-edn6051-bonnes-pratiques.md
+
+<!-- Mathilde 
+
+- Les noms de fichier ne doivent pas contenir des caractères spéciaux, des accents NI des espaces. Ce types de caractères peuvent poser des problèmes car l’ordinateur ne les reconnais pas immédiatement, il doit les convertir et dans la conversion il y a souvent des erreurs. Le fichier mémoire de maîtrise.doc sera difficile à retrouver. On préférera memoire-de-maitrise.doc.
+- Les noms des fichiers doivent être significatifs. Il faut jongler entre cet impératif et la contextualisation.
+- Faites attention aux extensions que vous utilisez. Par principe, ne masquez pas les extensions de fichiers dans vos navigateurs de fichiers. L’extension est une information primordiale pour la machine et les utilisateurs. Elle renseigne sur le format du contenu du fichier et sur ce qu’on doit/peut faire avec ce fichier. Un fichier .doc ne contient pas les mêmes données qu’un fichier .pdf par exemple.
+
+--> 
+
+</section>
+<section>
+
+Cette question pas si banale que ça. Il existe des règles qui sont fondamentales pour :
+
+- classer un fichier, 
+- le retrouver facilement, 
+- partager ses fichiers avec d’autres personnes, 
+- éviter des problèmes de comptabilité d’un système à un autre.
+

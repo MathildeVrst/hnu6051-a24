@@ -16,6 +16,8 @@ book:
     - plan-de-cours.qmd
     - introduction.qmd
     - theorie-formats.qmd
+    - exercice-markdown.qmd 
+    - bonnes-pratiques.qmd
     - encodage.qmd
 
 language: 

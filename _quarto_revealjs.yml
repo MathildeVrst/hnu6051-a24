@@ -4,8 +4,11 @@ project:
     - index.qmd
     - plan-de-cours.qmd
     - introduction.qmd
-    - theorie-formats.qmd
+    - theorie-formats.qmd 
+    - exercice-markdown.qmd
+    - bonnes-pratiques.qmd
     - encodage.qmd
+
 
 
 bibliography: references.bib
