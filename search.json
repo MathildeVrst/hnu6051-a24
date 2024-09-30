@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "HNU6051-A24",
     "section": "",
-    "text": "Bienvenue\nBienvenue sur le support du cours HNU6051 – Humanités numériques : formats d’écriture. Celui-ci est destiné aux étudiantes et étudiants qui suivent l’atelier à l’automne 2024. Les séances se tiendront les vendredi 4, 11, 18 octobre, de 9h30 à 11h30 puis de 12h30 à 15h30 au Pavillon Lionel-Groulx, salle C-3115.\nL’objectif de cet atelier est de découvrir les différents formats d’écriture et de prendre en main le fonctionnement de différentes chaînes éditoriales de production de contenu.\nAujourd’hui de nombreux outils ou applications de rédaction, d’édition et de publication de contenus textuels sont accessibles au grand public sur le Web, mais sans nécessairement prendre en compte les besoins et les pratiques d’écriture des communautés de recherche. La question des formats se place au cœur de la structuration du texte numérique et il est important, pour qui veut produire des connaissances organisées, pérennes et interopérables, de comprendre les enjeux culturels, techniques et politiques des formats.\nCes trois séances entendent donner aux étudiantes et étudiants une connaissance théorique et pratique sur les différents formats d’écriture, leur donner les clés pour mettre en place de bonnes pratiques éditoriales et de les former à quelques outils propices à la rédaction scientifique.",
+    "text": "Bienvenue\nBienvenue sur le support du cours HNU6051 – Humanités numériques : formats d’écriture. Celui-ci est destiné aux étudiantes et étudiants qui suivent l’atelier à l’automne 2024. Les séances se tiendront les vendredi 4, 11, 18 octobre, de 9h30 à 11h30 puis de 12h30 à 15h30 au Pavillon Lionel-Groulx, salle C-3115.\nL’objectif de cet atelier est de découvrir les différents formats d’écriture et de prendre en main le fonctionnement de différentes chaînes éditoriales de production de contenu.\nAujourd’hui de nombreux outils ou applications de rédaction, d’édition et de publication de contenus textuels sont accessibles au grand public sur le Web, mais sans nécessairement prendre en compte les besoins et les pratiques d’écriture des communautés de recherche. La question des formats se place au cœur de la structuration du texte numérique et il est important, pour qui veut produire des connaissances organisées, pérennes et interopérables, de comprendre les enjeux culturels, techniques et politiques des formats.\nCes trois séances entendent donner aux étudiantes et étudiants une connaissance théorique et pratique sur les différents formats d’écriture, leur donner les clés pour mettre en place de bonnes pratiques éditoriales et les former à quelques outils propices à la rédaction scientifique.",
     "crumbs": [
       "Bienvenue"
     ]
@@ -14,7 +14,7 @@
     "href": "index.html#support-de-cours",
     "title": "HNU6051-A24",
     "section": "Support de cours",
-    "text": "Support de cours\nLe présent support est destiné aux étudiantes et étudiants de l’Université de Montréal suivant l’atelier HNU6051, Humanités numériques : formats d’écriture, au trimestre d’Automne 2024.\nLa totalité du contenu de ce site est sous licence CC BY-NC-SA et est la propriété intellectuelle de Mathilde Verstraete.",
+    "text": "Support de cours\nLe présent support est destiné aux étudiantes et étudiants de l’Université de Montréal suivant l’atelier HNU6051, Humanités numériques : formats d’écriture, au trimestre d’Automne 2024.",
     "crumbs": [
       "Bienvenue"
     ]
@@ -24,7 +24,17 @@
     "href": "index.html#crédits",
     "title": "HNU6051-A24",
     "section": "Crédits",
-    "text": "Crédits\nLe contenu de ce cours doit beaucoup aux préparations réalisées par Antoine Fauchié, Margot Mellet, Alix Chagué ainsi qu’aux séances de Débogue tes humanités.\nLe support du cours a été créé avec quarto.\n\n\n\n\nBoulétreau, Viviane, and Benoît Habert. 2014. “Les formats.” In Pratiques de l’édition numérique. Les Ateliers de [sens public].\n\n\nMerten, Pascaline. 2005. “La traduction de documents XML dans les mémoires de traduction.” Equivalences 32 (1): 63–78. https://doi.org/10.3406/equiv.2005.890.\n\n\nSimpkin, Sarah. 2015. “Débuter avec Markdown.” Programming Historian, November.",
+    "text": "Crédits\nLe contenu de ce cours doit beaucoup aux préparations réalisées par Antoine Fauchié, Margot Mellet, Alix Chagué ainsi qu’aux séances de Débogue tes humanités.\nLe support du cours a été créé avec quarto, les slides suivent un modèle développé par Alison Presmanes Hill.",
+    "crumbs": [
+      "Bienvenue"
+    ]
+  },
+  {
+    "objectID": "index.html#license",
+    "href": "index.html#license",
+    "title": "HNU6051-A24",
+    "section": "License",
+    "text": "License\nTous les contenus de ce site ou de ce document sont sous licence CC BY-NC-SA : Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions.\n\n\n\n\nBoulétreau, Viviane, and Benoît Habert. 2014. “Les formats.” In Pratiques de l’édition numérique. Les Ateliers de [sens public].\n\n\nCoombs, James H., Allen H. Renear, and Steven J. DeRose. 1987. “Markup Systems and the Future of Scholarly Text Processing.” Commun. ACM 30 (11): 933–47. https://doi.org/10.1145/32206.32209.\n\n\nDaniel, Johanna. 2022. “Ode à Zotero, une décennie d’usage de Zotero.” {Billet}. Isidore & Ganesh. https://doi.org/10.58079/pw5v.\n\n\nFauchié, Antoine. 2017/2018. “Markdown Comme Condition d’une Norme de l’écriture Numérique.” Réel-Virtuel, no. 6 (2017/2018).\n\n\nMerten, Pascaline. 2005. “La traduction de documents XML dans les mémoires de traduction.” Equivalences 32 (1): 63–78. https://doi.org/10.3406/equiv.2005.890.\n\n\nSimpkin, Sarah. 2015. “Débuter avec Markdown.” Programming Historian, November.",
     "crumbs": [
       "Bienvenue"
     ]
@@ -74,7 +84,7 @@
     "href": "plan-de-cours.html#organisation-des-séances",
     "title": "Plan de cours",
     "section": "Organisation des séances",
-    "text": "Organisation des séances\nNous alternerons entre pratique théorie et pratique. Il est conseillé de venir en cours avec son ordinateur personnel.\n\n\n\n\n\n\nImportant\n\n\n\nLe programme des séances est sujet à de légers changements en fonction du niveau et de l’avancement du groupe.\n\n\n\nSéance 1 (4 octobre) :\n\n\n\nHoraire\nMatière\nType\n\n\n\n\n09h30-10h00\nPrésentation & Introduction de l’atelier\n–\n\n\n10h00-11h00\nÉdition savante, formats de fichiers\nThéorie 📚\n\n\n10h50-11h10\nBonnes pratiques de l’édition\nThéorie 📚\n\n\n11h10-11h30\nThe Plain Text Project\nThéorie 📚 et exercice 🏋️‍♂️\n\n\n11h30-12h30\nPause\n–\n\n\n12h30-13h00\nMarkdown\nThéorie 📚 et exercice 🏋️‍♂️\n\n\n13h00-14h15\nChaînes éditoriales, Stylo\nThéorie 📚 et pratique 🛠️\n\n\n14h15-15h15\nRéférences structurées, Zotero\nThéorie 📚 et exercice 🏋️‍♂️\n\n\n15h15-15h30\nPrésentation du rendu pour la séance 2 (stylo basique)\nRendu 📋\n\n\n\n\n\nSéance 2 (11 octobre) :\n\n\n\nHoraire\nMatière\nType\n\n\n\n\n09h30-10h00\nRetour sur le rendu\nRendu 📋\n\n\n10h00-11h30\nSingle Source Publishing\nThéorie 📚\n\n\n11h30-12h30\nPause\n–\n\n\n12h30-13h30\nUtilisation du terminal, installation de Codium\nPratique 🛠️\n\n\n13h30-14h30\nZotero et Bibtex\nPratique 🛠️\n\n\n14h30-15h15\nStylo en mode avancé\nExercice 🏋️‍♂️\n\n\n15h15-15h30\nPrésentation du rendu pour la séance 3 (stylo avancé ; recherches terminal)\nRendu 📋\n\n\n\n\n\nSéance 3 (18 octobre) :\n\n\n\nHoraire\nMatière\nType\n\n\n\n\n09h30-10h00\nRetour sur le rendu\nRendu 📋\n\n\n10h00-11h30\nLes caractères à l’écran\nThéorie 📚\n\n\n11h30-12h30\nPause\n–\n\n\n12h30-13h30\nQuarto\nPratique 🛠️\n\n\n13h30-14h30\nGit et Github\nThéorie 📚\n\n\n14h30-15h15\nYaml\nThéorie et exercices 🏋️‍♂️\n\n\n15h15-15h30\nPrésentation du rendu final (création multi-format avec quarto)\nRendu 📋",
+    "text": "Organisation des séances\nNous alternerons entre pratique théorie et pratique. Il est conseillé de venir en cours avec son ordinateur personnel.\n\n\n\n\n\n\nImportant\n\n\n\nLe programme des séances est sujet à de légers changements en fonction du niveau et de l’avancement du groupe.\n\n\n\nSéance 1 (4 octobre) :\n\n\n\nHoraire\nMatière\nType\n\n\n\n\n09h30-10h00\nPrésentation & Introduction de l’atelier\n–\n\n\n10h00-10h50\nÉdition savante, formats de fichiers\nThéorie 📚\n\n\n10h50-11h10\nBonnes pratiques de l’édition\nThéorie 📚\n\n\n11h10-11h30\nThe Plain Text Project\nThéorie 📚 et exercice 🏋️‍♂️\n\n\n11h30-12h30\nPause\n–\n\n\n12h30-13h00\nMarkdown\nThéorie 📚 et exercice 🏋️‍♂️\n\n\n13h00-14h15\nChaînes éditoriales, Stylo\nThéorie 📚 et pratique 🛠️\n\n\n14h15-15h15\nRéférences structurées, Zotero\nThéorie 📚 et exercice 🏋️‍♂️\n\n\n15h15-15h30\nPrésentation du rendu pour la séance 2 (stylo basique)\nRendu 📋\n\n\n\n\n\nSéance 2 (11 octobre) :\n\n\n\nHoraire\nMatière\nType\n\n\n\n\n09h30-10h00\nRetour sur le rendu\nRendu 📋\n\n\n10h00-11h15\nSingle Source Publishing\nThéorie 📚\n\n\n11h15-11h30\nInstallation de Codium\n–\n\n\n11h30-12h30\nPause\n–\n\n\n12h30-13h30\nUtilisation du terminal\nPratique 🛠️\n\n\n13h30-14h30\nZotero et Bibtex\nPratique 🛠️\n\n\n14h30-15h15\nStylo en mode avancé\nExercice 🏋️‍♂️\n\n\n15h15-15h30\nPrésentation du rendu pour la séance 3 (stylo avancé ; recherches terminal)\nRendu 📋\n\n\n\n\n\nSéance 3 (18 octobre) :\n\n\n\nHoraire\nMatière\nType\n\n\n\n\n09h30-10h00\nRetour sur le rendu\nRendu 📋\n\n\n10h00-10h45\nLes caractères à l’écran\nThéorie 📚\n\n\n10h45-11h30\nPandoc\nPratique 🛠️\n\n\n11h30-12h30\nPause\n–\n\n\n12h30-13h30\nQuarto\nPratique 🛠️\n\n\n13h30-14h30\nGit et Github\nThéorie 📚\n\n\n14h30-15h15\nYaml\nThéorie et exercices 🏋️‍♂️\n\n\n15h15-15h30\nPrésentation du rendu final (création multi-format avec quarto)\nRendu 📋",
     "crumbs": [
       "Plan de cours"
     ]
@@ -84,7 +94,7 @@
     "href": "plan-de-cours.html#évaluation",
     "title": "Plan de cours",
     "section": "Évaluation",
-    "text": "Évaluation\n\nExercices durant les séances : 20%\nDurant les séances de l’atelier, plusieurs exercices seront demandés à l’étudiant·e pour valider au fur et à mesure les acquis techniques. Cette évaluation se fera sur un mode continu.\n\n\nExercices hebdomadaires : 30%\nChaque semaine, en préparation de la séance prochaine, un exercice sera soumis à l’étudiant·e et sera discuté par la suite en classe :\n\npour le 11 octobre : Markdown (10%)\npour le 18 octobre : Stylo en mode avancé (10%) ; Apprenez-moi quelque chose quant au terminal (10%)\n\n\n\nTravail final : 50%\nLe travail final consiste en la création d’un book multiformat avec le système de publication Quarto. Le contenu du travail est libre. Quelques critères sont à remplir :\n\nLe livre doit être présenté en deux formats au moins ;\nLe livre doit comporter au moins 4 chapitres ;\nLe thème doit avoir été modifié ;\nLe fichier _quarto.yml doit avoir été personnalisé ;\nUne publication accessible en ligne (via github pages) sera particulièrement appréciée ;\nDate de remise : vendredi 8 novembre.",
+    "text": "Évaluation\n\nExercices durant les séances : 20%\nDurant les séances de l’atelier, plusieurs exercices seront demandés à l’étudiant·e pour valider au fur et à mesure les acquis techniques. Cette évaluation se fera sur un mode continu.\n\n\nExercices hebdomadaires : 30%\nChaque semaine, en préparation de la séance prochaine, un exercice sera soumis à l’étudiant·e et sera discuté par la suite en classe :\n\npour le 11 octobre : Markdown (10%)\npour le 18 octobre : Stylo en mode avancé (10%) ; Apprenez-moi quelque chose quant au terminal (10%)\n\n\n\nTravail final : 50%\nLe travail final consiste en la création d’un book multiformat avec le système de publication Quarto. Le contenu du travail est libre. Je vous invite, dans la mesure du possible, à réutiliser un rendu d’un autre cours.\nQuelques critères sont à remplir :\n\nLe livre doit être présenté en deux formats au moins ;\nLe livre doit comporter au moins 4 chapitres ;\nLe thème doit avoir été – au moins légèrement – modifié ;\nLe fichier _quarto.yml doit avoir été personnalisé ;\nUne publication accessible en ligne (via github pages) sera particulièrement appréciée ;\nDate de remise : vendredi 8 novembre.",
     "crumbs": [
       "Plan de cours"
     ]
@@ -104,7 +114,7 @@
     "href": "plan-de-cours.html#intégrité",
     "title": "Plan de cours",
     "section": "Intégrité",
-    "text": "Intégrité\nL’Université de Montréal s’est dotée de deux règlements disciplinaires sur la fraude et le plagiat. L’une s’adresse aux étudiant·e·s de 1^er cycle, la seconde aux étudiant·e·s des cycles supérieurs : https://integrite.umontreal.ca/boite-a-outils/les-reglements.",
+    "text": "Intégrité\nL’Université de Montréal s’est dotée de deux règlements disciplinaires sur la fraude et le plagiat. L’une s’adresse aux étudiant·e·s de 1er cycle, la seconde aux étudiant·e·s des cycles supérieurs : https://integrite.umontreal.ca/boite-a-outils/les-reglements.",
     "crumbs": [
       "Plan de cours"
     ]
@@ -114,7 +124,7 @@
     "href": "plan-de-cours.html#crédits",
     "title": "Plan de cours",
     "section": "Crédits",
-    "text": "Crédits\nLe contenu de ce cours doit beaucoup aux préparations réalisées par Antoine Fauchié, Margot Mellet, Alix Chagué ainsi qu’aux séances de Débogue tes humanités.\nLe support du cours a été créé avec quarto.",
+    "text": "Crédits\nLe contenu de ce cours doit beaucoup aux préparations réalisées par Antoine Fauchié, Margot Mellet, Alix Chagué ainsi qu’aux séances de Débogue tes humanités.\nLe support du cours a été créé avec quarto, les slides suivent un modèle développé par Alison Presmanes Hill.",
     "crumbs": [
       "Plan de cours"
     ]
@@ -124,7 +134,7 @@
     "href": "plan-de-cours.html#license",
     "title": "Plan de cours",
     "section": "License",
-    "text": "License\nTous les contenus de ce site sont sous licence CC BY-NC-SA : Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions.\n\n\n\n\nBoulétreau, Viviane, and Benoît Habert. 2014. “Les formats.” In Pratiques de l’édition numérique. Les Ateliers de [sens public].\n\n\nMerten, Pascaline. 2005. “La traduction de documents XML dans les mémoires de traduction.” Equivalences 32 (1): 63–78. https://doi.org/10.3406/equiv.2005.890.\n\n\nSimpkin, Sarah. 2015. “Débuter avec Markdown.” Programming Historian, November.",
+    "text": "License\nTous les contenus de ce site ou de ce document sont sous licence CC BY-NC-SA : Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions.\n\n\n\n\nBoulétreau, Viviane, and Benoît Habert. 2014. “Les formats.” In Pratiques de l’édition numérique. Les Ateliers de [sens public].\n\n\nCoombs, James H., Allen H. Renear, and Steven J. DeRose. 1987. “Markup Systems and the Future of Scholarly Text Processing.” Commun. ACM 30 (11): 933–47. https://doi.org/10.1145/32206.32209.\n\n\nDaniel, Johanna. 2022. “Ode à Zotero, une décennie d’usage de Zotero.” {Billet}. Isidore & Ganesh. https://doi.org/10.58079/pw5v.\n\n\nFauchié, Antoine. 2017/2018. “Markdown Comme Condition d’une Norme de l’écriture Numérique.” Réel-Virtuel, no. 6 (2017/2018).\n\n\nMerten, Pascaline. 2005. “La traduction de documents XML dans les mémoires de traduction.” Equivalences 32 (1): 63–78. https://doi.org/10.3406/equiv.2005.890.\n\n\nSimpkin, Sarah. 2015. “Débuter avec Markdown.” Programming Historian, November.",
     "crumbs": [
       "Plan de cours"
     ]
@@ -156,7 +166,7 @@
     "href": "introduction.html#tour-de-table",
     "title": "1  Introduction",
     "section": "1.3 Tour de table",
-    "text": "1.3 Tour de table\nQuelques informations pour savoir qui vous êtes, quel est l’objectif de cet atelier et comment les séances vont être organisées.\n5 questions :\n\nquel est votre nom ?\noù étiez-vous l’année dernière ?\nquel cursus suivez-vous cette année ?\npourquoi suivez-vous cet atelier ?\nqu’est-ce qui vous vient instinctivement à l’esprit quand je vous dis format ?",
+    "text": "1.3 Tour de table\nQuelques informations pour savoir qui vous êtes, quel est l’objectif de cet atelier et comment les séances vont être organisées. 5 questions :\n\nQuel est votre nom ?\nOù étiez-vous l’année dernière ?\nQuel cursus suivez-vous cette année ?\nPourquoi suivez-vous cet atelier ?\nQu’est-ce qui vous vient instinctivement à l’esprit quand je vous dis format ?",
     "crumbs": [
       "session 1",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
@@ -167,7 +177,7 @@
     "href": "introduction.html#en-ce-qui-me-concerne",
     "title": "1  Introduction",
     "section": "1.4 En ce qui me concerne",
-    "text": "1.4 En ce qui me concerne\nEn ce qui me concerne, je m’appelle Mathilde Verstrate. Je suis doctorante au Département de littératures et de langues du monde à l’Université de Montréal, dans l’option humanités numériques. J’ai une formation en lettres classiques – que j’ai suivie en Belgique, à l’Université Catholique de Louvain. Je suis passée du côté obscur de la force en rejoignant la Chaire de recherche du Canada sur les écritures numériques (dirigée par Marcello Vitali-Rosati). C’est à partir de ce moment là que j’ai commencé à m’intéresser et à me spécialiser dans les humanités numériques. J’étais donc grande débutante il y a peu, mais vous verrez, la courbe d’apprentissage n’est pas trop abrupte. C’est néanmoins la première fois que j’enseigne ce cours – j’enseignais un cours de latin les années précédentes.",
+    "text": "1.4 En ce qui me concerne\nEn ce qui me concerne, je m’appelle Mathilde Verstrate. Je suis doctorante au Département de littératures et de langues du monde à l’Université de Montréal, dans l’option humanités numériques. J’ai une formation en lettres classiques – que j’ai suivie en Belgique, à l’Université Catholique de Louvain. Je suis passée du côté obscur de la force en rejoignant la Chaire de recherche du Canada sur les écritures numériques (dirigée par Marcello Vitali-Rosati). C’est à partir de ce moment là que j’ai commencé à sérieusement m’intéresser et à me spécialiser dans les humanités numériques. C’est la première fois que j’enseigne ce cours – j’enseignais un cours de latin les années précédentes.",
     "crumbs": [
       "session 1",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
@@ -200,7 +210,7 @@
     "href": "theorie-formats.html#les-formats-un-peu-détymologie",
     "title": "2  Les formats : théorie",
     "section": "",
-    "text": "Format, fromage ? ;\nDimensions d’une feuille de papier, d’un feuillet ;\nDu latin formare : donner une forme, former, conformer ; arranger, organiser, régler ; façonner\nExtension à de nombreux domaines : imprimerie, photographie, cinéma, informatique",
+    "text": "Format, fromage ? ;\nDimensions d’une feuille de papier, d’un feuillet ;\nDu latin formare : donner une forme, former, conformer ; arranger, organiser, régler ; façonner ;\nExtension à de nombreux domaines : imprimerie, photographie, cinéma, informatique",
     "crumbs": [
       "session 1",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Les formats : théorie</span>"
@@ -211,7 +221,7 @@
     "href": "theorie-formats.html#vers-une-définition-du-format",
     "title": "2  Les formats : théorie",
     "section": "2.2 Vers une définition du format",
-    "text": "2.2 Vers une définition du format\n\nce qui donne une forme et un ensemble de caractéristiques à un ensemble d’information (image, écriture, son, etc.) ;\nla dimension (format A4 ou letter par ex.) qui va impliquer un agencement ;\nune manière de représenter des données (pdf, docx) qui impose une structure\n\n\nStructure définie de données contenues dans un fichier, établie selon des règles qui régissent notamment leur sauvegarde, leur affichage et leur manipulation par un logiciel compatible. (OQLF, 2022).",
+    "text": "2.2 Vers une définition du format\n\nCe qui donne une forme et un ensemble de caractéristiques à un ensemble d’informations (image, écriture, son, etc.) ;\nLa dimension (format A4 ou letter par ex.) qui va impliquer un agencement ;\nUne manière de représenter des données (pdf, docx) qui impose une structure\n\n\nStructure définie de données contenues dans un fichier, établie selon des règles qui régissent notamment leur sauvegarde, leur affichage et leur manipulation par un logiciel compatible. (OQLF, 2022).",
     "crumbs": [
       "session 1",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Les formats : théorie</span>"
@@ -222,7 +232,7 @@
     "href": "theorie-formats.html#format-et-édition-savante",
     "title": "2  Les formats : théorie",
     "section": "2.3 Format et édition savante",
-    "text": "2.3 Format et édition savante\n\nProduction de documents scientifiques qui ont des caractéristiques exigées par les normes de l’édition savante :\n\nappareil critique accompagnant le texte (notes de bas de page, bibliographie, index, etc.) ;\ncitabilité (métadonnée → identification) ;\nstructuration (normalement) rigoureuse (balisage sémantique, non ambigu) ;\npérennité\n\nLes formats utilisés doivent répondre à ces exigences, permettant notamment d’expliciter la fonction de chaque élément du document (titre, citation, métadonnées, références bibliographiques,…)",
+    "text": "2.3 Format et édition savante\n\nProduction de documents scientifiques qui ont des caractéristiques exigées par les normes de l’édition savante :\n\nappareil critique accompagnant le texte (notes de bas de page, bibliographie, index, etc.) ;\ncitabilité (métadonnées → identification) ;\nstructuration (normalement) rigoureuse (balisage sémantique, non ambigu) ;\npérennité\n\nLes formats utilisés doivent répondre à ces exigences, permettant notamment d’expliciter la fonction de chaque élément du document (titre, citation, métadonnées, références bibliographiques,…)",
     "crumbs": [
       "session 1",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Les formats : théorie</span>"
@@ -233,7 +243,7 @@
     "href": "theorie-formats.html#format-et-extension",
     "title": "2  Les formats : théorie",
     "section": "2.4 Format et extension",
-    "text": "2.4 Format et extension\n\nÀ chaque format de fichier est associée une extension de nom de fichier qui permet de l’identifier. [Cette] extension de nom de fichier indique au système d’exploitation quel logiciel d’application peut ouvrir le fichier et quelle icône afficher. (OQLF, 2022)\n\nL’extension d’un fichier texte indique à l’utilisateur et à l’ordinateur quel est son format, c’est-à-dire :\n\ncomment sont organisées les informations relatives au fichiers et les métadonnées\navec quel logiciel l’ouvrir\ns’il contient ou non des informations de mise en page qu’il faut interpréter",
+    "text": "2.4 Format et extension\n\nÀ chaque format de fichier est associée une extension de nom de fichier qui permet de l’identifier. [Cette] extension de nom de fichier indique au système d’exploitation quel logiciel d’application peut ouvrir le fichier et quelle icône afficher. (OQLF, 2022)\n\nL’extension d’un fichier texte indique à l’utilisateur et à l’ordinateur quel est son format, c’est-à-dire :\n\nComment sont organisées les informations relatives au fichiers et les métadonnées ;\nAvec quel logiciel l’ouvrir ;\nS’il contient ou non des informations de mise en page qu’il faut interpréter.",
     "crumbs": [
       "session 1",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Les formats : théorie</span>"
@@ -299,7 +309,7 @@
     "href": "theorie-formats.html#formats-de-balisage",
     "title": "2  Les formats : théorie",
     "section": "2.10 Formats de balisage",
-    "text": "2.10 Formats de balisage\n\nun format de balisage : des balises pour structurer et qualifier le texte (.md, .html, .xml) ;\nun format de balisage léger : compréhensible par les humains ;\nun format transformable : format source facilement interprétable pour obtenir un format de sortie riche\nun format pérenne : encore utilisable dans 10 ans (car porté par une communauté et des standards)\n\n\n\n2.10.1 Texte brut, texte enrichi\nLes informations de mise en forme sont des annotations qui sont formées selon plusieurs standards ou normes.\n\ntexte brut (ou plain text) : texte dépourvu d’information de mise en forme, qui se limite à l’affichage de la traduction des données binaires en caractères alphanumériques et symboles ;\ntexte enrichi (ou rich text) : texte qui comporte des éléments de mise en forme, qu’ils soient ou non affichés dans l’interface graphique ; Un fichier de texte peut contenir des indications de mise en forme.\n\nLes normes et standards encadrant la manière de former les annotations sont étroitement liées au format du document et au standard qu’il suit.\n\n\n2.10.2 WYSIWYM vs WYSIWYG\n\n\n\n\n\n\n\nWYSIWYM\nWYSIWYG\n\n\n\n\nWhat You See Is What You Mean\nWhat You See Is What You Get\n\n\néditeur de texte quie présente un texte enrichi avec sa mise en forme, de manière simultanée\néditeur de texte qui présente le texte et ses informations de mise en forme dans les interpréter\n\n\n\n\n\n2.10.3 WYSIWYM\n\ndans un éditeur WYSIWYM : moindre confusion entre mise en forme et indication de la structure logique\nla mise en forme apparaît après parsing du document (création d’un PDF ou ouverture dans un navigateur)\nle paramétrage de la mise en forme peut être géré dans un fichier externe (ex: CSS pour HTML)",
+    "text": "2.10 Formats de balisage\n\nun format de balisage : des balises pour structurer et qualifier le texte (.md, .html, .xml) ;\nun format de balisage léger : compréhensible par les humains ;\nun format transformable : format source facilement interprétable pour obtenir un format de sortie riche\nun format pérenne : encore utilisable dans 10 ans (car porté par une communauté et des standards)\n\n\n\n\n\n\n\nTip\n\n\n\nLecture recommandée : (Coombs, Renear, and DeRose 1987).\n\n\n\n2.10.1 Texte brut, texte enrichi\nLes informations de mise en forme sont des annotations qui sont formées selon plusieurs standards ou normes.\n\ntexte brut (ou plain text) : texte dépourvu d’information de mise en forme, qui se limite à l’affichage de la traduction des données binaires en caractères alphanumériques et symboles ;\ntexte enrichi (ou rich text) : texte qui comporte des éléments de mise en forme, qu’ils soient ou non affichés dans l’interface graphique ; Un fichier de texte peut contenir des indications de mise en forme.\n\nLes normes et standards encadrant la manière de former les annotations sont étroitement liées au format du document et au standard qu’il suit.\n\n\n2.10.2 WYSIWYM vs WYSIWYG\n\n\n\n\n\n\n\nWYSIWYM\nWYSIWYG\n\n\n\n\nWhat You See Is What You Mean\nWhat You See Is What You Get\n\n\néditeur de texte qui présente le texte et ses informations de mise en forme sans les interpréter\néditeur de texte quie présente un texte enrichi avec sa mise en forme, de manière simultanée\n\n\n\n\nLe logiciel de traitement de texte Word est-il WYSIWYM ou WYSIWYG ?\n\n\n\n2.10.3 WYSIWYM\n\nMoindre confusion entre mise en forme et indication de la structure logique ;\nLa mise en forme apparaît après parsing du document (création d’un PDF ou ouverture dans un navigateur) ;\nLe paramétrage de la mise en forme peut être géré dans un fichier externe (ex: CSS pour HTML).",
     "crumbs": [
       "session 1",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Les formats : théorie</span>"
@@ -321,7 +331,7 @@
     "href": "theorie-formats.html#markdown",
     "title": "2  Les formats : théorie",
     "section": "2.12 Markdown",
-    "text": "2.12 Markdown\n\nInventé en 2004 par John Gruber et Aaron Swartz ;\nMarkdown est un langage de balisage léger qui permet d’encoder facilement la structure et certains éléments de mise en forme du texte sans gêner sa lecture ;\nIl permet de créer des fichiers HTML ou PDF et est beaucoup utilisé sur le Web, notamment sur des plateformes comme Github ;\nMême non compilé, un texte Markdown est facile à lire car les annotation sont légères et limitées ;\nOn peut utiliser Markdown ou un système similaire dans Whatsapp et Messenger.\n\n(Plus d’informations : Simpkin 2015)\nExercice : Faire ce tuto (en classe) : https://www.arthurperret.fr/tutomd/",
+    "text": "2.12 Markdown\n\nInventé en 2004 par John Gruber et Aaron Swartz ;\nMarkdown est un langage de balisage léger qui permet d’encoder facilement la structure et certains éléments de mise en forme du texte sans gêner sa lecture ;\nIl permet de créer des fichiers HTML ou PDF et est beaucoup utilisé sur le Web, notamment sur des plateformes comme Github ;\nMême non compilé, un texte Markdown est facile à lire car les annotation sont légères et limitées ;\nOn peut utiliser Markdown ou un système similaire dans Whatsapp et Messenger.\n\n\n\n\n\n\n\nTip\n\n\n\nLectures recommandées : (Simpkin 2015; Fauchié 2017/2018).",
     "crumbs": [
       "session 1",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Les formats : théorie</span>"
@@ -332,7 +342,7 @@
     "href": "theorie-formats.html#latex",
     "title": "2  Les formats : théorie",
     "section": "2.13 LaTeX",
-    "text": "2.13 LaTeX\n\nLaTeX est un langage et un système de composition de documents, bien plus complet que Markdown ;\nUtilisé dans le domaine des sciences car on peut facilement écrire des formules mathématiques :\n\nLes balises sémantiques de LaTeX sont plus “invasives”. Exemple : \\chapter{Titre de chapitre} ;\nPour voir la mise en forme, on doit compiler le fichier .tex. On obtient généralement un PDF ;\nLaTeX ne sert pas qu’à annoter la structuration logique : il prend en charge la mise en forme du document au sens large.",
+    "text": "2.13 LaTeX\n\nLaTeX est un langage et un système de composition de documents, bien plus complet que Markdown ;\nUtilisé dans le domaine des sciences car on peut facilement écrire des formules mathématiques  ;\nLes balises sémantiques de LaTeX sont plus “invasives”. Exemple : \\chapter{Titre de chapitre} ;\nPour voir la mise en forme, on doit compiler le fichier .tex. On obtient généralement un PDF ;\nLaTeX ne sert pas qu’à annoter la structuration logique : il prend en charge la mise en forme du document au sens large.",
     "crumbs": [
       "session 1",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Les formats : théorie</span>"
@@ -343,131 +353,197 @@
     "href": "theorie-formats.html#csv",
     "title": "2  Les formats : théorie",
     "section": "2.14 CSV",
-    "text": "2.14 CSV\nCSV (Comma Separated Values) - données tabulaires\n\n1 ligne de texte = 1 ligne de tableau ;\n1 virgule = 1 nouvelle cellule de tableau ;\nun ficher csv peut être ouvert avec Excel.\n\n\nId_Monographie,Id_Enqueté,Serie_Tome,Prénom,Nom,Place dans la famille 001a,001aE1,1-1 (1857),Jean,M,Père 001a,001aE2,1-1 (1857),Marie,R,Mère 001a,001aE3,1-1 (1857),Joseph,M**,Fils,",
+    "text": "2.14 CSV\nCSV (Comma Separated Values) - données tabulaires\n\n1 ligne de texte = 1 ligne de tableau ;\n1 virgule = 1 nouvelle cellule de tableau ;\nun ficher csv peut être ouvert avec Excel.",
     "crumbs": [
       "session 1",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Les formats : théorie</span>"
     ]
   },
   {
-    "objectID": "exercice-markdown.html",
-    "href": "exercice-markdown.html",
-    "title": "3  Exercice markdown",
-    "section": "",
-    "text": "3.1 Markdown : langage de balisage léger",
+    "objectID": "theorie-formats.html#questions",
+    "href": "theorie-formats.html#questions",
+    "title": "2  Les formats : théorie",
+    "section": "2.15 Questions ?",
+    "text": "2.15 Questions ?",
     "crumbs": [
       "session 1",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Exercice markdown</span>"
-    ]
-  },
-  {
-    "objectID": "exercice-markdown.html#markdown-langage-de-balisage-léger",
-    "href": "exercice-markdown.html#markdown-langage-de-balisage-léger",
-    "title": "3  Exercice markdown",
-    "section": "",
-    "text": "Markdown\nRendu graphique\nBalisage HTML\n\n\n\n\nUn texte _en italique_\nUn texte en italique\nUn texte &lt;em&gt;en italique&lt;/em&gt;\n\n\n### Titre de niveau 3\nTitre de niveau 3\n&lt;h3&gt;Titre de niveau 3&lt;/h3&gt;\n\n\nUn [lien](https://www.unlien.org)\nUn lien\nUn &lt;a href=\"https://www.unlien.org\"&gt;lien&lt;/a&gt;\n\n\nUn texte **en gras**\nUn texte en gras\nUn texte &lt;strong&gt;en gras&lt;/strong&gt;",
-    "crumbs": [
-      "session 1",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Exercice markdown</span>"
-    ]
-  },
-  {
-    "objectID": "exercice-markdown.html#rendu-pour-le-11-octobre",
-    "href": "exercice-markdown.html#rendu-pour-le-11-octobre",
-    "title": "3  Exercice markdown",
-    "section": "3.2 Rendu pour le 11 octobre",
-    "text": "3.2 Rendu pour le 11 octobre\n\nTexte : pont_mirabeau.txt\nImage : pont_mirabeau.png\nÉditeur en ligne : Dillinger\n\nFaire un encodage en Markdown du poème :\n\nmettre le titre en niveau 1\nfaire de chaque première ligne de strophe un titre de niveau 3\nmettre en italique le paratexte\nmettre les noms propres en gras\nsauver le document en .md\nle déposer sur studium",
-    "crumbs": [
-      "session 1",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Exercice markdown</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Les formats : théorie</span>"
     ]
   },
   {
     "objectID": "bonnes-pratiques.html",
     "href": "bonnes-pratiques.html",
-    "title": "4  Bonnes pratiques d’édition",
+    "title": "3  Bonnes pratiques d’édition",
     "section": "",
-    "text": "4.1 Les fichiers dans votre ordinateur",
+    "text": "3.1 Les fichiers dans votre ordinateur",
     "crumbs": [
       "session 1",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Bonnes pratiques d'édition</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Bonnes pratiques d'édition</span>"
     ]
   },
   {
     "objectID": "bonnes-pratiques.html#les-fichiers-dans-votre-ordinateur",
     "href": "bonnes-pratiques.html#les-fichiers-dans-votre-ordinateur",
-    "title": "4  Bonnes pratiques d’édition",
+    "title": "3  Bonnes pratiques d’édition",
     "section": "",
-    "text": "4.1.1 Organisation des fichiers\n\nvotre ordinateur a son propre système d’organisation ;\nil faut comprendre les systèmes de chemin ;\ntout est arborescence \n\n\n\nIl faut d’abord comprendre comment est organisé votre ordinateur et où se trouvent vos fichiers. Votre disque dur peut être compris comme une grande boîte dans laquelle se trouvent d’autres boîtes (dossiers). La boîte principale est ce qu’on appelle « racine ». Dans un ordinateur Unix (Mac ou Linux) la racine est /. Dans un ordinateur Windows, la racine est C:/. Dans la racine vous trouvez plusieurs « boîtes ».\nL’emplacement du Dossier correspond à ce qu’on appelle son « chemin » (path).\nExemple d’un dossier « Vacances » :\n\nUnix : /Document Personnel/Images/Vacances\nWindows : C:/Dossier Personnel/Images/Vacances\n\n\n\nIl est important que vous connaissiez la structure de l’arborescence de votre ordinateur car c’est ainsi qu’on accède aux fichiers.\n\n\n4.1.2 Nommage de fichier\nQuel nom donner à un fichier ? Quelques règles :\n\nles noms de fichier ne doivent pas contenir des caractères spéciaux, ni des accents, ni des espaces ;\nles noms des fichiers doivent être significatifs ;\nles noms des fichiers ne doivent pas dépasser 80 caractères ;\nfaites attention aux extensions de fichiers !\n\n\nExemple : 2024-10-04-edn6051-bonnes-pratiques.md\n\n\n\n\nCette question pas si banale que ça. Il existe des règles qui sont fondamentales pour :\n\nclasser un fichier,\nle retrouver facilement,\npartager ses fichiers avec d’autres personnes,\néviter des problèmes de comptabilité d’un système à un autre.",
+    "text": "3.1.1 Organisation des fichiers\n\nVotre ordinateur a son propre système d’organisation ;\nIl faut comprendre les systèmes de chemin ;\nTout est arborescence \n\n\n\n\nIl faut d’abord comprendre comment est organisé votre ordinateur et où se trouvent vos fichiers. Votre disque dur peut être compris comme une grande boîte dans laquelle se trouvent d’autres boîtes (dossiers). La boîte principale est ce qu’on appelle « racine ». Dans un ordinateur Unix (Mac ou Linux) la racine est /. Dans un ordinateur Windows, la racine est C:/. Dans la racine vous trouvez plusieurs « boîtes ».\nL’emplacement du Dossier correspond à ce qu’on appelle son « chemin » (path).\nExemple d’un dossier « Vacances » :\n\nUnix : /Document Personnel/Images/Vacances\nWindows : C:/Dossier Personnel/Images/Vacances\n\n\nIl est important que vous connaissiez la structure de l’arborescence de votre ordinateur car c’est ainsi qu’on accède aux fichiers.\n\n\n\n3.1.2 Nommage de fichier\nQuel nom donner à un fichier ? Quelques règles :\n\nLes noms de fichier ne doivent pas contenir des caractères spéciaux, ni des accents, ni des espaces : l’ordintateur ne les reconnaît pas immédiatement, il doit les convertir, ce qui peut provoquer des erreurs ;\nLes noms des fichiers doivent être significatifs ;\nLes noms des fichiers ne doivent pas dépasser 80 caractères ;\nFaites attention aux extensions de fichiers ! Il est préférable de ne pas les masquer : information primordiale pour la machine ET les utilisateurs.\n\n\nExemple : 2024-10-04-edn6051-bonnes-pratiques.md\n\n\n\nCette question pas si banale que ça. Il existe des règles qui sont fondamentales pour :\n\nClasser un fichier ;\nLe retrouver facilement ;\n\nPartager ses fichiers avec d’autres personnes ;\nÉviter des problèmes de comptabilité d’un système à un autre.",
     "crumbs": [
       "session 1",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Bonnes pratiques d'édition</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Bonnes pratiques d'édition</span>"
     ]
   },
   {
     "objectID": "plein-texte.html",
     "href": "plein-texte.html",
-    "title": "5  Le plein texte",
+    "title": "4  Le texte brut",
     "section": "",
-    "text": "5.1 Plein / Plain",
+    "text": "4.1 Plain text / Plein texte / Texte brut\nLe terme plein text, largemnt utilisé, est une mauvaise traduction du terme anglais plain text. On préférera l’appellation texte brut en français.",
     "crumbs": [
       "session 1",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Le plein texte</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Le texte brut</span>"
+    ]
+  },
+  {
+    "objectID": "plein-texte.html#texte-brut-introduction",
+    "href": "plein-texte.html#texte-brut-introduction",
+    "title": "4  Le texte brut",
+    "section": "4.2 Texte brut : introduction",
+    "text": "4.2 Texte brut : introduction\n\nFichier texte non formaté qui ne nécessite aucun programme spécial pour être créé et ouvert ;\nFormat extrêment simple ;\nStockage d’information en texte brut ;\nPas de mise en forme, pas d’images, pas d’éléments multimédia ;\nUtile pour documents simples, prise de notes,..\n\n\n4.2.1 Simplicité\n\nUniquement des caractères alphanumériques, des symboles\n\n\n\n4.2.2 Absence de style\n\nChaque caractère est traité de manière identique.\n\n\n\n4.2.3 Universalité\n\nLe “plain text” est facilement lisible et compréhensible par n’importe quel éditeur de texte, quel que soit le système d’exploitation ou le logiciel utilisé.\n\n\n\n4.2.4 Interopérabilité\n\nLes fichiers en “plain text” peuvent être utilisés et interprétés par de nombreux systèmes, langages de programmation et applications.\n\n\n\n4.2.5 Poids\n\nLes fichiers .txt sont généralement très légers, car ils n’incluent pas de mises en forme ou d’éléments graphiques. Cela les rend rapides à transférer et à charger.\n\nFaisons le test !\n\nCréer un dossier dans votre ordinateur ;\nCréez un fichier test : hnu6051-test.txt ;\nAjoutez-y quelques phrases :\n\nCatullus \nAd Lesbiam (V)\nVivamus mea Lesbia, atque amemus, \nrumoresque senum seueriorum \nomnes unius aestimemus assis! \nsoles occidere et redire possunt: \n(5) nobis cum semel occidit breuis lux, \nnox est perpetua una dormienda.  \n\nSauvez le document ;\nFaites de même avec un document sur Word. Mettez-en forme le titre, ajoutez de l’italique, du gras… puis sauvez-le ;\nComparez la taille des deux documents ;\nEssayez d’extraire l’archive de votre document .docx (clic droit; décompresser, extraire vers…)",
+    "crumbs": [
+      "session 1",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Le texte brut</span>"
+    ]
+  },
+  {
+    "objectID": "plein-texte.html#pourquoi-utiliser-le-texte-brut",
+    "href": "plein-texte.html#pourquoi-utiliser-le-texte-brut",
+    "title": "4  Le texte brut",
+    "section": "4.3 Pourquoi utiliser le texte brut ?",
+    "text": "4.3 Pourquoi utiliser le texte brut ?",
+    "crumbs": [
+      "session 1",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Le texte brut</span>"
     ]
   },
   {
     "objectID": "plein-texte.html#un-exemple-the-plain-text-project",
     "href": "plein-texte.html#un-exemple-the-plain-text-project",
-    "title": "5  Le plein texte",
-    "section": "5.2 Un exemple : The Plain Text Project",
-    "text": "5.2 Un exemple : The Plain Text Project",
+    "title": "4  Le texte brut",
+    "section": "4.4 Un exemple : The Plain Text Project",
+    "text": "4.4 Un exemple : The Plain Text Project\nParcourez le site\nQu’en pensez-vous ?",
     "crumbs": [
       "session 1",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Le plein texte</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Le texte brut</span>"
+    ]
+  },
+  {
+    "objectID": "exercice-markdown.html",
+    "href": "exercice-markdown.html",
+    "title": "5  Exercice markdown",
+    "section": "",
+    "text": "5.1 Markdown : langage de balisage léger\nNous en avons parlé ici",
+    "crumbs": [
+      "session 1",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Exercice markdown</span>"
+    ]
+  },
+  {
+    "objectID": "exercice-markdown.html#markdown-langage-de-balisage-léger",
+    "href": "exercice-markdown.html#markdown-langage-de-balisage-léger",
+    "title": "5  Exercice markdown",
+    "section": "",
+    "text": "Markdown\nRendu graphique\nBalisage HTML\n\n\n\n\nUn texte _en italique_\nUn texte en italique\nUn texte &lt;em&gt;en italique&lt;/em&gt;\n\n\n### Titre de niveau 3\nTitre de niveau 3\n&lt;h3&gt;Titre de niveau 3&lt;/h3&gt;\n\n\nUn [lien](https://www.unlien.org)\nUn lien\nUn &lt;a href=\"https://www.unlien.org\"&gt;lien&lt;/a&gt;\n\n\nUn texte **en gras**\nUn texte en gras\nUn texte &lt;strong&gt;en gras&lt;/strong&gt;",
+    "crumbs": [
+      "session 1",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Exercice markdown</span>"
+    ]
+  },
+  {
+    "objectID": "exercice-markdown.html#tutoriel-à-faire-en-classe",
+    "href": "exercice-markdown.html#tutoriel-à-faire-en-classe",
+    "title": "5  Exercice markdown",
+    "section": "5.2 Tutoriel (à faire en classe)",
+    "text": "5.2 Tutoriel (à faire en classe)\nhttps://www.arthurperret.fr/tutomd/",
+    "crumbs": [
+      "session 1",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Exercice markdown</span>"
+    ]
+  },
+  {
+    "objectID": "exercice-markdown.html#rendu-pour-le-11-octobre",
+    "href": "exercice-markdown.html#rendu-pour-le-11-octobre",
+    "title": "5  Exercice markdown",
+    "section": "5.3 Rendu pour le 11 octobre",
+    "text": "5.3 Rendu pour le 11 octobre\n\nTexte : pont_mirabeau.txt ;\nImage : pont_mirabeau.png ;\nÉditeur en ligne : Dillinger\n\nFaire un encodage en Markdown du poème :\n\nmettre le titre en niveau 1 ;\nfaire de chaque première ligne de strophe un titre de niveau 3 ;\nmettre en italique le paratexte ;\nmettre les noms propres en gras ;\nsauver le document en .md ;\nle déposer sur studium / me l’envoyer par mail.",
+    "crumbs": [
+      "session 1",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Exercice markdown</span>"
     ]
   },
   {
     "objectID": "stylo.html",
     "href": "stylo.html",
-    "title": "6  Stylo",
+    "title": "6  Chaînes éditoriales & Stylo",
     "section": "",
-    "text": "6.1 Chaînes modulaires",
+    "text": "6.1 Chaînes éditoriales\nEncore un peu de théorie avant de prolonger les manipulations.",
     "crumbs": [
       "session 1",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Stylo</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Chaînes éditoriales & Stylo</span>"
     ]
   },
   {
-    "objectID": "stylo.html#un-projet-de-recherche-un-éditeur-de-texte",
-    "href": "stylo.html#un-projet-de-recherche-un-éditeur-de-texte",
-    "title": "6  Stylo",
-    "section": "6.2 Un projet de recherche & un éditeur de texte",
-    "text": "6.2 Un projet de recherche & un éditeur de texte",
+    "objectID": "stylo.html#définition",
+    "href": "stylo.html#définition",
+    "title": "6  Chaînes éditoriales & Stylo",
+    "section": "6.2 Définition",
+    "text": "6.2 Définition\n\nEnsemble des processus, outils et méthodes mis en place pour réaliser une activité d’édition.\nOn peut aussi parler de systèmes de publication, de fabriques d’édition ou de chaînes d’édition.",
     "crumbs": [
       "session 1",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Stylo</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Chaînes éditoriales & Stylo</span>"
+    ]
+  },
+  {
+    "objectID": "stylo.html#chaînes-éditoriales-variées",
+    "href": "stylo.html#chaînes-éditoriales-variées",
+    "title": "6  Chaînes éditoriales & Stylo",
+    "section": "6.3 Chaînes éditoriales variées",
+    "text": "6.3 Chaînes éditoriales variées\n\nclassiques : traitement de texte + logiciel de publication assistée par ordinateur (essentiellement Adobe InDesign ou Microsoft Publisher);\nsavantes : traitement de texte + logiciel de publication assistée par ordinateur + éditeur XML ;\nnon conventionnelles : Stylo, Zettlr, Quire, etc.",
+    "crumbs": [
+      "session 1",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Chaînes éditoriales & Stylo</span>"
+    ]
+  },
+  {
+    "objectID": "stylo.html#stylo-un-projet-de-recherche-un-éditeur-de-texte",
+    "href": "stylo.html#stylo-un-projet-de-recherche-un-éditeur-de-texte",
+    "title": "6  Chaînes éditoriales & Stylo",
+    "section": "6.4 Stylo : un projet de recherche & un éditeur de texte",
+    "text": "6.4 Stylo : un projet de recherche & un éditeur de texte\n\nÉditeur de texte sémantique pour la rédaction scientifique ;\nÉcrire, structurer, prévisualiser, réviser, exporter ;\nUtilisation d’un langage de balisage léger (Markdown), d’un langage de description de métadonnées (YAML) et d’un langage de description bibliographique (BibTeX) ;\nUtilisation de briques logicielles existantes (et libres).\n\n\n6.4.1 Démonstration\n\nCréation d’un compte stylo : https://stylo.huma-num.fr ;\nReprendre le texte de Catulle ici ;\nAjouter le à votre document Stylo ; ajoutez-lui un titre, éventuellement des titres de deuxième niveau, mettez des passages en italique, cherchez-lui une traduction et ajoutez des métadonnées ;\nPartagez le document avec moi : mathilde.verstraete@umontreal.ca ;\nTestez la preview et faites différents exports (.html, .pdf, .docx), comparez les résultats obtenus.\n\nAlors Stylo, WYSIWYM ou WYSIWYG ?",
+    "crumbs": [
+      "session 1",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Chaînes éditoriales & Stylo</span>"
     ]
   },
   {
     "objectID": "stylo.html#stylo-en-mode-avancé",
     "href": "stylo.html#stylo-en-mode-avancé",
-    "title": "6  Stylo",
-    "section": "6.3 Stylo en mode avancé",
-    "text": "6.3 Stylo en mode avancé",
+    "title": "6  Chaînes éditoriales & Stylo",
+    "section": "6.5 Stylo en mode avancé",
+    "text": "6.5 Stylo en mode avancé\nAprès avoir vu Zotero et BibTex (zotero avancé), nous pourrons nous essayez à une utilisation plus avancée de Stylo.",
     "crumbs": [
       "session 1",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Stylo</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Chaînes éditoriales & Stylo</span>"
     ]
   },
   {
     "objectID": "stylo.html#rendu-pour-le-18-octobre",
     "href": "stylo.html#rendu-pour-le-18-octobre",
-    "title": "6  Stylo",
-    "section": "6.4 Rendu pour le 18 octobre",
-    "text": "6.4 Rendu pour le 18 octobre\nCréation d’un article à partir de l’article «  La traduction de documents XML dans les mémoires de traduction » (https://www.persee.fr/doc/equiv_0751-9532_2005_num_32_1_890) de Pascaline Merten :\nMéthode :\n\nparcourir le document et relevé les différentes tâches à réaliser (structuration, métadonnées) ;\ncommencer par intégrer le texte en copiant-collant la « version texte » – à retrouver sur la page Persée –, puis en le structurant en vous référant à la version graphique : niveaux de titres, italiques, notes de bas de page, références bibliographiques, images ;\najouter au moins quelques références bibliographiques ;\najouter toutes les métadonnées dont vous disposez via le mode « Editor Mode ».\n\nUne fois le travail terminé, partagez votre article avec moi (mathilde.verstraete@umontreal.ca) et prévenez-moi par courriel.",
+    "title": "6  Chaînes éditoriales & Stylo",
+    "section": "6.6 Rendu pour le 18 octobre",
+    "text": "6.6 Rendu pour le 18 octobre\nCréation d’un article à partir de l’article «  La traduction de documents XML dans les mémoires de traduction » (https://www.persee.fr/doc/equiv_0751-9532_2005_num_32_1_890) de Pascaline Merten (Merten 2005):\nMéthode :\n\nparcourir le document et relevé les différentes tâches à réaliser (structuration, métadonnées) ;\ncommencer par intégrer le texte en copiant-collant la « version texte » – à retrouver sur la page Persée –, puis en le structurant en vous référant à la version graphique : niveaux de titres, italiques, notes de bas de page, références bibliographiques, images ;\najouter au moins quelques références bibliographiques ;\najouter toutes les métadonnées dont vous disposez via le mode « Editor Mode ».\n\nUne fois le travail terminé, partagez votre article avec moi (mathilde.verstraete@umontreal.ca) et prévenez-moi par courriel.",
     "crumbs": [
       "session 1",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Stylo</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Chaînes éditoriales & Stylo</span>"
     ]
   },
   {
@@ -475,7 +551,106 @@
     "href": "zotero.html",
     "title": "7  Zotero",
     "section": "",
-    "text": "7.1 Zotero : introduction",
+    "text": "7.1 L’importance de structurer ses références bibliographiques",
+    "crumbs": [
+      "session 1",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Zotero</span>"
+    ]
+  },
+  {
+    "objectID": "zotero.html#limportance-de-structurer-ses-références-bibliographiques",
+    "href": "zotero.html#limportance-de-structurer-ses-références-bibliographiques",
+    "title": "7  Zotero",
+    "section": "",
+    "text": "Communauté scientifique & standards : inscrire votre travail dans les standards scientifiques d’une communauté ;\nÉthique : qui réfère bien respecte le travail cité ;\nPérennité : pour retrouver vos sources – médiation d’un travail de sources à la base de votre recherche ;\nEsthétique : une bibliographie imparfaite fait tâche dans un travail de recherche ;\nPersonnel : vous avez le choix de structurer ces références selon le type de style bibliographique.",
+    "crumbs": [
+      "session 1",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Zotero</span>"
+    ]
+  },
+  {
+    "objectID": "zotero.html#zotero-introduction",
+    "href": "zotero.html#zotero-introduction",
+    "title": "7  Zotero",
+    "section": "7.2 Zotero : introduction",
+    "text": "7.2 Zotero : introduction\n\n\n\n\n\n\nTip\n\n\n\nLecture recommandée : (Daniel 2022).\n\n\n\n7.2.1 Qu’est-ce que Zotero ?\n\nUn logiciel et un service qui permet de gérer des références bibliographiques : conserver, organiser, citer et créer des bibliographies ;\nUn logiciel libre, et gratuit ;\nUn outil qui peut être collaboratif ;\nUn logiciel + une extension de navigateur pour récupérer des références.\n\n\n\n7.2.2 Fonctionnalités\n\nCollecter : collecter des références bibliographiques en ligne et les conserver ;\nOrganiser : organiser ses références en collections et sous-collections, et en attribuant des tags et des marqueurs ;\nCiter : citer ses références facilement et les exporter/intégrer dynamiquement dans des documents ;\nSynchroniser : synchroniser ses références avec un compte en ligne ;\nCollaborer : échanger ses références avec d’autres utilisateurs.\n\n\n\n7.2.3 Un logiciel libre\nZotero est logiciel libre qui peut être téléchargé puis installé sur tous les ordinateurs.\nIl faut également utiliser un connecteur pour récupérer des références sur le web puis faire le lien avec le logiciel qui les conserve.",
+    "crumbs": [
+      "session 1",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Zotero</span>"
+    ]
+  },
+  {
+    "objectID": "zotero.html#utilisation-de-zotero",
+    "href": "zotero.html#utilisation-de-zotero",
+    "title": "7  Zotero",
+    "section": "7.3 Utilisation de Zotero",
+    "text": "7.3 Utilisation de Zotero\n\n7.3.1 Utilisation générale\n\nRécupérer des références depuis un navigateur web (grâce à l’extension Zotero) ;\nUne icône apparaît pour enregistrer une référence (plusieurs types de documents) ;\nLa référence est enregistrée dans le logiciel Zotero sous la forme d’une notice ;\nIl est possible de compléter la notice s’il manque des informations ;\nLa synchronisation permet de sauvegarder les données en ligne (pour cela il faut créer un compte Zotero).\n\n\n\n7.3.2 Fonctionnalités proposées avec un compte\n\nSynchronisation : vos références sont sauvegardées et disponibles en se connectant depuis n’importe quel ordinateur ;\nSauvegarde ;\nInterface web : un peu moins pratique que le logiciel ;\nAfficher ses références ;\nCréer ou participer à des groupes ;\nEtc.\n\n\n\n7.3.3 Installation\n\nInstaller le logiciel Zotero en suivant les recommandations du site web officiel ;\nInstaller l’extension pour Firefox/Chrome/Safari ;\nCréer un compte en ligne ;\nConnecter votre logiciel à ce compte (Édition &gt; Préférence &gt; Synchronisation).\n\n\n\n7.3.4 Exemple à partir du catalogue de la Bibliothèque universitaire de l’UdeM\nÀ voir en cours.\n\n\n7.3.5 De nombreuses bases de données compatibles\nDe nombreux catalogues, bases de données, revues en ligne, journaux, blog, réseaux sociaux proposent des références :\n\nSudoc ;\nGallica ;\nOpenEdition, revues.org, Hypothèses ;\nÉrudit ;\nGoogle Livres, Google Scholar, YouTube ;\nInternet Archive ;\nCairn.info ;\netc.\n\n\n\n7.3.6 Description d’une utilisation classique\nPrérequis : logiciel installé et extension installée (par exemple dans Firefox).\n\nOuvrir le logiciel (Zotero Standalone) ;\nRechercher un document sur le web ;\nEnregistrer la référence via l’extension du navigateur ;\nVérifier dans le logiciel si la référence convient (et si elle est placée au bon endroit) ;\nCompléter les informations.\n\n\n\n7.3.7 Quelques points importants\n\nPas besoin d’être en ligne pour utiliser Zotero (mais vous ne pourrez pas afficher de pages web ou synchroniser vos collections) ;\nLes fonctions de Zotero sont nombreuses, n’hésitez pas à les tester et à les utiliser !\nZotero permet de conserver et de gérer des références de pages web, mais ce n’est pas sa fonction première ;\nN’oubliez pas d’ouvrir le logiciel Zotero pour enregistrer vos références.\n\n\n\n7.3.8 Collecter\n\nVia la navigateur en cliquant sur l’icône : Zotero récupère les métadonnées de la page web (page web qui présente un document) ;\nSi le texte intégral est disponible en PDF, Zotero le récupère et le sauvegarde ;\nSi la page web contient plusieurs références (par exemple une page de résultats), alors l’icône est un dossier et il est possible de sélectionner les résultats que vous souhaitez conserver ;\nZotero peut ajouter une référence automatiquement grâce à un identifiant – ISBN ou DOI : cliquez sur « Ajouter un élément par son identifiant » dans la barre d’outils Zotero, puis tapez le numéro d’identification, l’élément sera ajouté à votre bibliothèque.\n\n\n\n7.3.9 Créer\nVous pouvez aussi créer manuellement des références en sélectionnant le type de document que vous souhaitez référencer et en remplissant les champs de la notice.",
+    "crumbs": [
+      "session 1",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Zotero</span>"
+    ]
+  },
+  {
+    "objectID": "zotero.html#organiser",
+    "href": "zotero.html#organiser",
+    "title": "7  Zotero",
+    "section": "7.4 Organiser",
+    "text": "7.4 Organiser\n\n7.4.1 Collections\n\nDans colonne de gauche, « Mes collections » ou « Ma bibliothèque », il est possible de créer plusieurs collections ;\nCréez une nouvelle collection en cliquant sur le bouton « Nouvelle collection » ;\nIl est possible de créer, renommer ou supprimer une collection (via un clic droit sur une collection) ;\nPour organiser vos références il suffit de les déplacer d’un dossier d’une collection à une autre ;\nLes collections peuvent comprendre des sous-collections !\n\n\n\n7.4.2 Tags et marqueurs\n\nLes tags et les marqueurs servent à ajouter des informations de description ;\nVous pouvez vous créer votre propre système de marqueurs et de tags pour organiser plus finement vos références ;\nCertaines références importées comportent parfois des marqueurs, vous pouvez vous en inspirer ou les supprimer ;\nUne recherche dans Zotero interroge tous les champs, y compris les marqueurs et les tags !\n\n\n\n7.4.3 Champ « note »\n\nIl permet de saisir du texte libre lié à une référence précise ;\nIl peut y avoir plusieurs notes pour une même référence ;\nIl est possible de les visualiser rapidement, de les supprimer, et elles sont synchronisées si vous avez un compte Zotero ;\nUne recherche dans Zotero interroge tous les champs, y compris les notes !",
+    "crumbs": [
+      "session 1",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Zotero</span>"
+    ]
+  },
+  {
+    "objectID": "zotero.html#exercice",
+    "href": "zotero.html#exercice",
+    "title": "7  Zotero",
+    "section": "7.5 Exercice",
+    "text": "7.5 Exercice\n\nCréer une référence depuis Zotero : un livre de votre choix (titre, auteur·trice, maison d’édition, lieu, date, langue, ISBN) ;\nIntégrer 4 références : un article, un livre, un chapitre et une thèse ;\nDéplacer toutes vos références dans un dossier/répertoire edn6102.",
+    "crumbs": [
+      "session 1",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Zotero</span>"
+    ]
+  },
+  {
+    "objectID": "zotero.html#zotero-avancé",
+    "href": "zotero.html#zotero-avancé",
+    "title": "7  Zotero",
+    "section": "7.6 Zotero avancé",
+    "text": "7.6 Zotero avancé",
+    "crumbs": [
+      "session 1",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Zotero</span>"
+    ]
+  },
+  {
+    "objectID": "zotero.html#création-de-bibliographies",
+    "href": "zotero.html#création-de-bibliographies",
+    "title": "7  Zotero",
+    "section": "7.7 Création de bibliographies",
+    "text": "7.7 Création de bibliographies\n\n7.7.1 Comment créer une bibliographie ?\n\nPlusieurs milliers de styles bibliographiques : https://www.zotero.org/styles (choisir la norme que l’on va utiliser) ;\nExemple : « Université de Montréal - APA (French - Canada) » ;\n\nPour modifier le style par défaut de Zotero : Édition &gt; Préférences &gt; Citer ;\n\nCréation d’une bibliographie : chaque référence ou groupe de références peut être récupéré sous différents formats pour être intégré dans un document via un traitement de texte par exemple.\n\n\nPlus d’informations : https://www.zotero.org/support/fr/creating_bibliographies\n\n\n\n7.7.2 Citer et créer une bibliographique directement dans un traitement de texte\n\nCitations et bibliographies dynamiques dans des outils de traitement de texte (Word ou LibreOffice) :\nOuvrez LibreOffice/Word et vérifiez que vous disposez bien des options de Zotero (dans la partie supérieure gauche) ;\nsi vous n’avez pas l’extension Zotero pour LibreOffice, installez là via le logiciel Zotero : Édition &gt; Préférences &gt; Citer &gt; Traitements de texte &gt; Installer le module LibreOffice\nvous pouvez ajouter une citation d’une référence préalablement enregistrée dans Zotero ;\nune fois des citations ajoutées, vous pouvez créer une bibliographie de ces citations ;\nsi vous modifier vos références dans Zotero, vous pouvez mettre à jour votre document LibreOffice.",
+    "crumbs": [
+      "session 1",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Zotero</span>"
+    ]
+  },
+  {
+    "objectID": "zotero.html#création-et-gestion-de-groupes",
+    "href": "zotero.html#création-et-gestion-de-groupes",
+    "title": "7  Zotero",
+    "section": "7.8 Création et gestion de groupes",
+    "text": "7.8 Création et gestion de groupes\n\n7.8.1 À quoi sert un groupe ?\nUn groupe est une collection à laquelle plusieurs personnes peuvent participer :\n\nPartager des références ;\nOuvrir les contributions ;\nAfficher les contributions ;\nPlusieurs rôles dans un même groupe : consulter, créer, modifier, administrer ;\nLe groupe peut être public avec des permissions plus ou moins ouvertes",
+    "crumbs": [
+      "session 1",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Zotero</span>"
+    ]
+  },
+  {
+    "objectID": "zotero.html#bibtex",
+    "href": "zotero.html#bibtex",
+    "title": "7  Zotero",
+    "section": "7.9 BibTeX",
+    "text": "7.9 BibTeX\nBibTeX est un format de fichier structurant une bibliographie :\n\nFormat qui a été créé en 1985 pour gérer les bases de données bibliographiques dans des fichier LaTeX ;\nLe format BibTeX fonctionne par entrée bibliographiques : chaque entrée correspond à une description d’un document avec des items « mot-clef = valeur ».\n\n@book{kirschenbaum_track_2016,\n  address = {{Cambridge, Massachusetts, Etats-Unis d'Am{\\'e}rique}},\n  title = {Track Changes: A Literary History of Word Processing},\n  isbn = {978-0-674-41707-6},\n  shorttitle = {Track Changes},\n  language = {anglais},\n  publisher = {{The Belknap Press of Harvard University Press, 2016}},\n  author = {Kirschenbaum, Matthew G.},\n  year = {2016, cop. 2016}\n}",
     "crumbs": [
       "session 1",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Zotero</span>"
@@ -485,8 +660,19 @@
     "objectID": "zotero.html#better-bibtex",
     "href": "zotero.html#better-bibtex",
     "title": "7  Zotero",
-    "section": "7.2 Better Bibtex",
-    "text": "7.2 Better Bibtex",
+    "section": "7.10 Better BibTeX",
+    "text": "7.10 Better BibTeX\nBetter BibTex (https://retorque.re/zotero-better-bibtex/installation/) ajoute à Zotero des fonctionnalités très pratiques :\n\nAffichage des clés de citation ;\nNouveaux formats d’export ;\nExports dynamiques (mises à jour automatiques) de bibliographies.\n\n\n7.10.1 Installez Better BibTeX\nhttps://retorque.re/zotero-better-bibtex/installation/\n\n\n7.10.2 Exercices\n\nCréez une collection avec plusieurs références que vous exportez au format BetterBibTeX avec l’option « Garder à jour » ;\nAjouter une référence à cette collection ;\nEst-ce que le fichier BibTeX a été modifié ? ;\nVerrouillez une clé de citation d’une référence de ce export ;\nModifiez les formats de clé, que s’est-il passé dans votre fichier BibTeX ?",
+    "crumbs": [
+      "session 1",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Zotero</span>"
+    ]
+  },
+  {
+    "objectID": "zotero.html#questions",
+    "href": "zotero.html#questions",
+    "title": "7  Zotero",
+    "section": "7.11 Questions ?",
+    "text": "7.11 Questions ?",
     "crumbs": [
       "session 1",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Zotero</span>"
@@ -499,7 +685,7 @@
     "section": "",
     "text": "8.1 Kézako",
     "crumbs": [
-      "session 2",
+      "session 2 (à venir)",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Le *single source publishing*</span>"
     ]
   },
@@ -510,7 +696,7 @@
     "section": "8.2 Intérêts",
     "text": "8.2 Intérêts",
     "crumbs": [
-      "session 2",
+      "session 2 (à venir)",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Le *single source publishing*</span>"
     ]
   },
@@ -521,7 +707,7 @@
     "section": "8.3 Limites",
     "text": "8.3 Limites\nAvez-vous remarquer les émojis dans mon plan de cours ? Sont-ils dans la sortie PDF ?",
     "crumbs": [
-      "session 2",
+      "session 2 (à venir)",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Le *single source publishing*</span>"
     ]
   },
@@ -532,7 +718,7 @@
     "section": "8.4 Quelques exemples",
     "text": "8.4 Quelques exemples",
     "crumbs": [
-      "session 2",
+      "session 2 (à venir)",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Le *single source publishing*</span>"
     ]
   },
@@ -543,7 +729,7 @@
     "section": "",
     "text": "9.1 Terminal",
     "crumbs": [
-      "session 2",
+      "session 2 (à venir)",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Utiliser son terminal</span>"
     ]
   },
@@ -554,7 +740,7 @@
     "section": "9.2 À quoi ça sert",
     "text": "9.2 À quoi ça sert",
     "crumbs": [
-      "session 2",
+      "session 2 (à venir)",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Utiliser son terminal</span>"
     ]
   },
@@ -565,7 +751,7 @@
     "section": "9.3 Quelques commandes",
     "text": "9.3 Quelques commandes",
     "crumbs": [
-      "session 2",
+      "session 2 (à venir)",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Utiliser son terminal</span>"
     ]
   },
@@ -576,7 +762,7 @@
     "section": "9.4 Rendu pour le 18 octobre",
     "text": "9.4 Rendu pour le 18 octobre\nApprenez-moi quelque chose à propos du terminal ! Cela peut concerner une commande que vous trouvez utile, une astuce pour gagner du temps, ou une fonctionnalité du terminal que peu de gens connaissent. Nous commencerons le cours du 18 par vos trouvailles : une simple explication suffit, une démonstration est bienvenue.",
     "crumbs": [
-      "session 2",
+      "session 2 (à venir)",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Utiliser son terminal</span>"
     ]
   },
@@ -587,7 +773,7 @@
     "section": "",
     "text": "Ouvrir dans mon navigateur",
     "crumbs": [
-      "session 2",
+      "session 2 (à venir)",
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Convertisseurs : le cas de *pandoc*</span>"
     ]
   },
@@ -598,7 +784,7 @@
     "section": "",
     "text": "11.1 Encodage numérique",
     "crumbs": [
-      "session 3",
+      "session 3 (à venir)",
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
     ]
   },
@@ -609,7 +795,7 @@
     "section": "11.2 Mémoire",
     "text": "11.2 Mémoire",
     "crumbs": [
-      "session 3",
+      "session 3 (à venir)",
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
     ]
   },
@@ -620,7 +806,7 @@
     "section": "11.3 0 ou 1 ?",
     "text": "11.3 0 ou 1 ?\nTout document conservé sur un ordinateur est constitué d’une série de 0 et de 1.\nCe sont les normes d’encodage et les formats qui permettent d’interpréter le sens de ces 0 et 1.",
     "crumbs": [
-      "session 3",
+      "session 3 (à venir)",
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
     ]
   },
@@ -631,7 +817,7 @@
     "section": "11.4 Normes d’encodage",
     "text": "11.4 Normes d’encodage",
     "crumbs": [
-      "session 3",
+      "session 3 (à venir)",
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
     ]
   },
@@ -642,7 +828,7 @@
     "section": "11.5 Encodage des données textuelles",
     "text": "11.5 Encodage des données textuelles\n\n\n11.5.1 ASCII\n\n\n\n11.5.2 ISO 8859-1\n\n\n\n11.5.3 UTF-8\n\nUniversal Character Set Transformation Format + base d’encodage (8, 16, 32, …)\nEn fonction de la base d’encodage, un caractère peut être représenté par 1, 2, 3 ou 4 octets.\nUTF est rétrocompatible avec ASCII, mais pas avec ISO 8859-1. Il s’inscrit dans le cadre établi par Unicode qui vise à faciliter l’échange de textes numériques en assurant leur compatibilité.\nUnicode définit plus de 137 000 caractères, issus de multiples alphabets, et prévoit aussi des symboles comme les emojis.\nExemple : 🤓 = 11110000 10011111 10100100 10010011",
     "crumbs": [
-      "session 3",
+      "session 3 (à venir)",
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
     ]
   },
@@ -653,7 +839,7 @@
     "section": "11.6 Mauvais encodage/décodage",
     "text": "11.6 Mauvais encodage/décodage\nSi on n’utilise pas la bonne clef d’encodage ou de décodage d’un texte, on risque d’obtenir un texte partiellement ou entièrement illisible.\nUTF-8 ouvert avec 8859-1 (Latin 1)\n\nLa Joconde, ou Portrait de Mona Lisa, est un tableau de l’artiste LÃ©onard de Vinci, rÃ©alisÃ© entre 1503 et 1506 ou entre 1513 et 15161,2, et peut-Ãªtre jusqu’Ã 1519 (l’artiste Ã©tant mort cette annÃ©e-lÃ , le 2 mai)3, qui reprÃ©sente un portrait mi-corps, probablement celui de la Florentine Lisa Gherardini, Ã©pouse de Francesco del Giocondo. Acquise par FranÃ§ois Ier, cette peinture Ã l’huile sur panneau de bois de peuplier de 77 Ã 53 cm est exposÃ©e au musÃ©e du Louvre Ã Paris. La Joconde est l’un des rares tableaux attribuÃ©s de faÃ§on certaine Ã LÃ©onard de Vinci.",
     "crumbs": [
-      "session 3",
+      "session 3 (à venir)",
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
     ]
   },
@@ -664,7 +850,7 @@
     "section": "11.7 Une norme ?",
     "text": "11.7 Une norme ?\nUTF s’impose désormais comme la norme\n\n\n\ndiagramme montrant qu’UTF s’impose sur les autres normes depuis 2006\n\n\nD’après W3Techs, 97,8% des pages web qui déclarent un encodage suivent UTF-8 aujourd’hui.\n(source du graphique: Wikimedia)",
     "crumbs": [
-      "session 3",
+      "session 3 (à venir)",
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
     ]
   },
@@ -675,7 +861,7 @@
     "section": "11.8 Enjeux",
     "text": "11.8 Enjeux",
     "crumbs": [
-      "session 3",
+      "session 3 (à venir)",
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
     ]
   },
@@ -686,7 +872,7 @@
     "section": "",
     "text": "Ouvrir dans mon navigateur",
     "crumbs": [
-      "session 3",
+      "session 3 (à venir)",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>Quarto</span>"
     ]
   },
@@ -697,7 +883,7 @@
     "section": "",
     "text": "13.1 Versionnement",
     "crumbs": [
-      "session 3",
+      "session 3 (à venir)",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Git et GitHub</span>"
     ]
   },
@@ -708,7 +894,7 @@
     "section": "13.2 Git vs Github",
     "text": "13.2 Git vs Github",
     "crumbs": [
-      "session 3",
+      "session 3 (à venir)",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Git et GitHub</span>"
     ]
   },
@@ -719,7 +905,7 @@
     "section": "",
     "text": "14.1 À venir",
     "crumbs": [
-      "session 3",
+      "session 3 (à venir)",
       "<span class='chapter-number'>14</span>  <span class='chapter-title'>YAML</span>"
     ]
   },
@@ -728,7 +914,7 @@
     "href": "references.html",
     "title": "Références",
     "section": "",
-    "text": "Boulétreau, Viviane, and Benoît Habert. 2014. “Les\nformats.” In Pratiques de l’édition\nnumérique. Les Ateliers de [sens public].\n\n\nMerten, Pascaline. 2005. “La traduction de documents XML\ndans les mémoires de traduction.”\nEquivalences 32 (1): 63–78. https://doi.org/10.3406/equiv.2005.890.\n\n\nSimpkin, Sarah. 2015. “Débuter avec\nMarkdown.” Programming Historian, November.",
+    "text": "Boulétreau, Viviane, and Benoît Habert. 2014. “Les\nformats.” In Pratiques de l’édition\nnumérique. Les Ateliers de [sens public].\n\n\nCoombs, James H., Allen H. Renear, and Steven J. DeRose. 1987.\n“Markup Systems and the Future of Scholarly Text\nProcessing.” Commun. ACM 30 (11): 933–47. https://doi.org/10.1145/32206.32209.\n\n\nDaniel, Johanna. 2022. “Ode à Zotero, une\ndécennie d’usage de Zotero.” {Billet}.\nIsidore & Ganesh. https://doi.org/10.58079/pw5v.\n\n\nFauchié, Antoine. 2017/2018. “Markdown Comme Condition d’une Norme\nde l’écriture Numérique.”\nRéel-Virtuel, no. 6 (2017/2018).\n\n\nMerten, Pascaline. 2005. “La traduction de documents XML\ndans les mémoires de traduction.”\nEquivalences 32 (1): 63–78. https://doi.org/10.3406/equiv.2005.890.\n\n\nSimpkin, Sarah. 2015. “Débuter avec\nMarkdown.” Programming Historian, November.",
     "crumbs": [
       "Références"
     ]

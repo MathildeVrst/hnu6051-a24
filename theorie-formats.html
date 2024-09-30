@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./exercice-markdown.html" rel="next">
+<link href="./bonnes-pratiques.html" rel="next">
 <link href="./introduction.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -145,26 +145,26 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./exercice-markdown.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Exercice markdown</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./bonnes-pratiques.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Bonnes pratiques d’édition</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Bonnes pratiques d’édition</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./plein-texte.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Le plein texte</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Le texte brut</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./exercice-markdown.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Exercice markdown</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./stylo.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Stylo</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Chaînes éditoriales &amp; Stylo</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -178,7 +178,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
- <span class="menu-text">session 2</span></a>
+ <span class="menu-text">session 2 (à venir)</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -207,7 +207,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
- <span class="menu-text">session 3</span></a>
+ <span class="menu-text">session 3 (à venir)</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -280,6 +280,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#markdown" id="toc-markdown" class="nav-link" data-scroll-target="#markdown"><span class="header-section-number">2.12</span> Markdown</a></li>
   <li><a href="#latex" id="toc-latex" class="nav-link" data-scroll-target="#latex"><span class="header-section-number">2.13</span> LaTeX</a></li>
   <li><a href="#csv" id="toc-csv" class="nav-link" data-scroll-target="#csv"><span class="header-section-number">2.14</span> CSV</a></li>
+  <li><a href="#questions" id="toc-questions" class="nav-link" data-scroll-target="#questions"><span class="header-section-number">2.15</span> Questions ?</a></li>
   </ul>
 </nav>
     </div>
@@ -312,41 +313,20 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>Format, fromage ? ;</li>
 <li>Dimensions d’une feuille de papier, d’un feuillet ;</li>
-<li>Du latin <em>formare</em>&nbsp;: donner une forme, former, conformer ; arranger, organiser, régler&nbsp;; façonner</li>
+<li>Du latin <em>formare</em>&nbsp;: donner une forme, former, conformer ; arranger, organiser, régler&nbsp;; façonner ;</li>
 <li>Extension à de nombreux domaines&nbsp;: imprimerie, photographie, cinéma, <strong>informatique</strong></li>
 </ul>
 </section>
 <section id="vers-une-définition-du-format" class="level2" data-number="2.2">
 <h2 data-number="2.2" class="anchored" data-anchor-id="vers-une-définition-du-format"><span class="header-section-number">2.2</span> Vers une définition du format</h2>
 <ul>
-<li>ce qui donne une forme et un ensemble de caractéristiques à un ensemble d’information (image, écriture, son, etc.) ;</li>
-<li>la dimension (format A4 ou <em>letter</em> par ex.) qui va impliquer un agencement ;</li>
-<li>une manière de représenter des données (pdf, docx) qui impose une structure</li>
+<li>Ce qui donne une forme et un ensemble de caractéristiques à un ensemble d’informations (image, écriture, son, etc.) ;</li>
+<li>La dimension (format A4 ou <em>letter</em> par ex.) qui va impliquer un agencement ;</li>
+<li>Une manière de représenter des données (pdf, docx) qui impose une structure</li>
 </ul>
 <blockquote class="blockquote">
 <p>Structure définie de données contenues dans un fichier, établie selon des règles qui régissent notamment leur sauvegarde, leur affichage et leur manipulation par un logiciel compatible. (<a href="https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8368613/format-de-fichier?">OQLF, 2022</a>).</p>
 </blockquote>
-<!--Alix
-
-## Structure d'un document numérique 
-
--->
-<!--
-- plusieurs couches d'appareillage technique sont nécessaires
-- un document numérique est un fichier, mais un fichier n'est pas forcément un document
-- le format définit un gabarit public ou non, libre ou non, pour structurer l'information
-- le statut d'un format dépend en grande partie du statut des spécifications techniques
-- il existe une grande variété de types de fichiers, indiqué par leur extension
-- certains fichiers sont des combinaison de plusieurs fichiers
--->
-<!--Margot
-
-- Vue séquentielle
-- Vue arborescente
-- Vue métadonnées
-- + Vue stylisée (facultative)
-
--->
 </section>
 <section id="format-et-édition-savante" class="level2" data-number="2.3">
 <h2 data-number="2.3" class="anchored" data-anchor-id="format-et-édition-savante"><span class="header-section-number">2.3</span> Format et édition savante</h2>
@@ -354,16 +334,12 @@ ul.task-list li input[type="checkbox"] {
 <li>Production de documents scientifiques&nbsp;qui ont des caractéristiques exigées par les normes de l’édition savante&nbsp;:
 <ul>
 <li>appareil critique accompagnant le texte (notes de bas de page, bibliographie, index, etc.) ;</li>
-<li>citabilité (métadonnée → identification) ;</li>
+<li>citabilité (métadonnées → identification) ;</li>
 <li>structuration (normalement) rigoureuse (balisage sémantique, non ambigu) ;</li>
 <li>pérennité</li>
 </ul></li>
 <li>Les formats utilisés doivent répondre à ces exigences, permettant notamment d’expliciter la fonction de chaque élément du document (titre, citation, métadonnées, références bibliographiques,…)</li>
 </ul>
-<!-- Mathilde
-Dans cet atelier, nous nous intéresserons aux formats d'écriture informatique, aux formats des données que nous encodons lorsque nous écrivons. Dans la plupart des cas, nous écrivons pour produire des documents scientifiques. Ces documents ont plusieurs caractéristiques, exigées par les normes de l'édition savante
-L'objectif principal de cet atelier est de vous fournir les bonnes pratiques à adopter pour être conscient des matériels sur et avec lesquels on travaille.  
--->
 </section>
 <section id="format-et-extension" class="level2" data-number="2.4">
 <h2 data-number="2.4" class="anchored" data-anchor-id="format-et-extension"><span class="header-section-number">2.4</span> Format et extension</h2>
@@ -372,15 +348,10 @@ L'objectif principal de cet atelier est de vous fournir les bonnes pratiques à 
 </blockquote>
 <p>L’extension d’un fichier texte indique à l’utilisateur et à l’ordinateur quel est son format, c’est-à-dire :</p>
 <ul>
-<li>comment sont organisées les informations relatives au fichiers et les métadonnées</li>
-<li>avec quel logiciel l’ouvrir</li>
-<li>s’il contient ou non des informations de mise en page qu’il faut interpréter</li>
+<li>Comment sont organisées les informations relatives au fichiers et les métadonnées ;</li>
+<li>Avec quel logiciel l’ouvrir ;</li>
+<li>S’il contient ou non des informations de mise en page qu’il faut interpréter.</li>
 </ul>
-<!-- Mathilde 
-
-Opacité du phénomène par les icones 
-
--->
 </section>
 <section id="formats-libres-formats-propriétaires" class="level2" data-number="2.5">
 <h2 data-number="2.5" class="anchored" data-anchor-id="formats-libres-formats-propriétaires"><span class="header-section-number">2.5</span> Formats libres, formats propriétaires</h2>
@@ -422,43 +393,10 @@ Opacité du phénomène par les icones
 </tr>
 </tbody>
 </table>
-<!-- Mathilde 
-
-Ces spécifications ne sont pas diffusées, on parle alors de « format opaque » ; les données ne peuvent donc être utilisées que par leur application d’origine, ce qui pose de nombreux problèmes de compatibilité et de portabilité. 
-
-Ces spécifications ont été publiées, mais sont associées à des autorisations d’utilisation liées aux brevets. Dans ce cas, les données sont la plupart du temps exploitables par d’autres applications, mais le risque de perte d’information existe et ne doit pas être négligé.
-
-Un format fermé est nécessairement un format propriétaire, mais le contraire n'est pas forcément vrai. En effet, un format propriétaire peut être fermé (par exemple, le format.DOC) ou ouvert (par exemple, le format DOCX).
-
-les standards ouverts et libres permettent de se libérer de l’outil, de la chaîne, etc. ; les standards propriétaires ont tendance à enfermer les pratiques dans une chaîne et dans un outil.
-
-
-Dans le cas des formats privés, les motivations ne relèvent pas de la recherche, ce sont des motivations commerciales, on est pas sur le principe de médiation du savoir en premier, on est sur l'idée d'abord de monnayer le savoir. On est sur un Produit. Ça ne veut pas dire que ce produit ne sera pas bon, il peut au contraire si il y a des moyens employés, être très performant, mais il n'est pas soutenu par la communauté qui l'utilise mais par l'entreprise qui la vend.
-
-Donc les formats libres sont pensés au sein d'une communauté de recherche, d'individus, de pratiques et se trouvent protégés par cette assise justement : d'abord parce qu'ils deviennent des standards sans être au centre d'un monopole, ils sont pensés en terme d'évolution en cohérence avec l'évolution des pratiques, ils sont donc pensés dans un temps long, avec un critère de pérennité
-
-- PDF est propriétaire et ouvert, donc il est une propriété de Adobe mais les spécifications de son modèle ont été publiées. 
-
--->
 </section>
 <section id="le-format-nest-pas-neutre" class="level2" data-number="2.6">
 <h2 data-number="2.6" class="anchored" data-anchor-id="le-format-nest-pas-neutre"><span class="header-section-number">2.6</span> Le format n’est pas neutre !</h2>
 <p>Le format est politique en ce qu’il porte un modèle de l’information.</p>
-<!-- Mathilde
-
-on est pas juste sur j'ai un contenu et je le mets dans un contenant, qui ne va pas altérer ou déterminer ce contenu. Le format est politique parce qu'il porte un modèle de l'information : 
-
-Exemple entre deux formats : 
-
-Le txt est un format pour texte brut ou le plein texte, il n'y a que du texte, on est sur la vue séquentielle, sans style ni enrichissement, il est pérenne, lisible par tous types d'éditeurs de texte et convertisable. Épuré 
-
-Le docx est pour format pour texte stylisé, et il a été conçu par des informaticiens et programmeurs qui ne l'utilisent pas, et qui ne sont pas en contact avec la communauté qui l'utilise. 
-
-D'un format à l'autre, il n'y a pas les mêmes caractéristiques, pas la même définition et utilisabilité du texte, cela n'implique pas les mêmes pratiques d'édition. 
-
-Avec le choix d'un format propriétaire, on forme des savoirs qui sont aussi propriétaires, qui sont dépendants d'une industrie et de sa prospérité économique, et qui sont définis à l'origine par cette industrie. Les textes écrits en docx sont dépositaires de Microsoft, ils ne sont pas portés par une communauté de recherche, mais pas seulement les objets textes : aussi les pratiques d'écriture. 
-
--->
 </section>
 <section id="critères-dun-format" class="level2" data-number="2.7">
 <h2 data-number="2.7" class="anchored" data-anchor-id="critères-dun-format"><span class="header-section-number">2.7</span> Critères d’un format</h2>
@@ -489,11 +427,6 @@ Avec le choix d'un format propriétaire, on forme des savoirs qui sont aussi pro
 <li>un format n’est pas une extension : changer l’extension ne change pas le format.</li>
 </ul>
 <p>Le format va structurer une information, va lui donner une forme, va délimiter son utilisabilité, les manipulations qui vont être possibles ou non.</p>
-<!-- Mathilde 
-
-Mais ce n'est pas juste un rapport de contenu/contenant ici. Ça va bien plus loin. Le format définit en fait le contenu. 
-
--->
 </section>
 <section id="structuration-de-linformation" class="level2" data-number="2.9">
 <h2 data-number="2.9" class="anchored" data-anchor-id="structuration-de-linformation"><span class="header-section-number">2.9</span> Structuration de l’information</h2>
@@ -512,16 +445,19 @@ Mais ce n'est pas juste un rapport de contenu/contenant ici. Ça va bien plus lo
 <li>un format transformable : format source facilement interprétable pour obtenir un format de sortie riche</li>
 <li>un format pérenne : encore utilisable dans 10 ans (car porté par une communauté et des standards)</li>
 </ul>
-<!-- Mathilde
-
-- Un langage de balisage est l’ensemble des règles et conventions (comme HTML, XML) utilisé pour structurer des données avec des balises.
-- Un format de balisage est la manière concrète dont un document ou un fichier est codé en utilisant un langage de balisage (comme un fichier .html ou .xml).
-
-En d'autres termes, le langage est l'outil pour baliser, tandis que le format est le résultat codé de l'usage de ce langage.
-
-Dans le cadre de l'atelier, on va avoir à faire avec des formats ouverts et principalement libres (à l'exception de PDF). 
-
--->
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Lecture recommandée&nbsp;: <span class="citation" data-cites="coombsMarkupSystemsFuture1987">(Coombs, Renear, and DeRose 1987)</span>.</p>
+</div>
+</div>
 <section id="texte-brut-texte-enrichi" class="level3" data-number="2.10.1">
 <h3 data-number="2.10.1" class="anchored" data-anchor-id="texte-brut-texte-enrichi"><span class="header-section-number">2.10.1</span> Texte brut, texte enrichi</h3>
 <p>Les informations de mise en forme sont des annotations qui sont formées selon plusieurs standards ou normes.</p>
@@ -550,18 +486,21 @@ Dans le cadre de l'atelier, on va avoir à faire avec des formats ouverts et pri
 <td><em>What You See Is What You Get</em></td>
 </tr>
 <tr class="even">
+<td>éditeur de texte qui présente le texte et ses informations de mise en forme sans les interpréter</td>
 <td>éditeur de texte quie présente un texte enrichi <strong>avec</strong> sa mise en forme, de manière simultanée</td>
-<td>éditeur de texte qui présente le texte et ses informations de mise en forme dans les interpréter</td>
 </tr>
 </tbody>
 </table>
+<blockquote class="blockquote">
+<p>Le logiciel de traitement de texte <em>Word</em> est-il WYSIWYM ou WYSIWYG ?</p>
+</blockquote>
 </section>
 <section id="wysiwym" class="level3" data-number="2.10.3">
 <h3 data-number="2.10.3" class="anchored" data-anchor-id="wysiwym"><span class="header-section-number">2.10.3</span> WYSIWYM</h3>
 <ul>
-<li>dans un éditeur WYSIWYM : moindre confusion entre mise en forme et indication de la structure logique</li>
-<li>la mise en forme apparaît après parsing du document (création d’un PDF ou ouverture dans un navigateur)</li>
-<li>le paramétrage de la mise en forme peut être géré dans un fichier externe (ex: CSS pour HTML)</li>
+<li>Moindre confusion entre mise en forme et indication de la structure logique ;</li>
+<li>La mise en forme apparaît après <em>parsing</em> du document (création d’un PDF ou ouverture dans un navigateur) ;</li>
+<li>Le paramétrage de la mise en forme peut être géré dans un fichier externe (ex: CSS pour HTML).</li>
 </ul>
 <p><img src="img/wysiwym_styles.png" class="img-fluid"></p>
 </section>
@@ -590,15 +529,6 @@ Dans le cadre de l'atelier, on va avoir à faire avec des formats ouverts et pri
 </tr>
 </tbody>
 </table>
-<!--
-## Structure logique vs apparence 
-
-> L'ouvrage *Pratiques de l'édition numérique* est *a priori*. 
-
-- tous les mots en italiques ne sont pas des mots étrangers, mais tous les mots étrangers sont en italiques
-- titres d'ouvrages cités en italiques (ou pas) et mots étrangers en italiques (ou pas)
-- on peut extraire rapidement tous les mots étrangers sans récolter aussi les titres d'ouvrages cités
--->
 </section>
 <section id="markdown" class="level2" data-number="2.12">
 <h2 data-number="2.12" class="anchored" data-anchor-id="markdown"><span class="header-section-number">2.12</span> Markdown</h2>
@@ -609,54 +539,25 @@ Dans le cadre de l'atelier, on va avoir à faire avec des formats ouverts et pri
 <li>Même non compilé, un texte Markdown est facile à lire car les annotation sont légères et limitées ;</li>
 <li>On peut utiliser Markdown ou un système similaire dans Whatsapp et Messenger.</li>
 </ul>
-<p><span class="citation" data-cites="simpkinDebuterAvecMarkdown2015">(Plus d’informations&nbsp;: Simpkin 2015)</span></p>
-<p>Exercice : Faire ce tuto (en classe) : <a href="https://www.arthurperret.fr/tutomd/" class="uri">https://www.arthurperret.fr/tutomd/</a></p>
-<!-- Mathilde
-L’idée qui motive la création de ce langage est celle de la facilité : il s’agit de penser un langage qui facilite la création notamment de pages web.
-
-Derrière une page web en effet se trouve le code HTML, et toute les balises qui composent ce langage d’interface complique la lecture comme l’écriture.
-
-Avec le HTML, on est davantage sur une inscription qui n’est pas fait pour la lecture humaine.
-
-Alors comment réattribuer cet enjeu de la lecture et de l’écriture humaine au sein du processus de création d’un espace textuel numérique ?
-
-**Comment réassigner cette question de la lecture et de l'écriture humaine, de ses yeux, au sein du processus de création d'un environnement textuel numérique ?**.
-
-Le markdown se situe dans le temps de l’écriture : c’est un outil d’écriture, tandis que dans cette nouvelle dynamique, le html est lui un format de publication. On a là deux dynamiques qui sont des dynamiques éditoriales mais qui sont pas placées au même temps du moment de l'édition. 
-
-Parce que le langage doit être simple, la syntaxe se réduit : le principe des balises html est réduit à un fonctionnement plus simple pour identifier les éléments qui peuvent être transmis dans un texte brut.
-
-Le Markdown s’inspire notamment du type de formatage que les gens utilisent dans le courrier électronique en texte clair.
-
-Markdown s'inspire notamment du type de mise en forme que les gens utilisaient dans les courriers électroniques en texte brut.
-Pour Gruber, il s'agit d'"écrire en utilisant un texte brut semblable à celui d'un e-mail".
-
-Donc à la base de Markdown, il y a un besoin de reprendre la main par l'œil sur l'écriture numérique mais il y a aussi un usage déjà présent, un usage de simplicité.
-
-Markdown est comme un pont entre l'œil humain et l'intelligence de la machine : ce langage doit être lisible par l'homme et compréhensible par la machine.
-
-La mécanique de l’écriture dans le Markdown se veut claire, simple, sans ambiguité. Une inscription = un sens. C’est le compromis du Markdown qui s’oriente donc vers l’écriture sémantique. Parce qu’il restreint, le markdown nous fait nous interroger sur ce que nous souhaitons poser comme nécessaire et participant au texte que nous écrivons.
-
-Je peux placer un élément de mon texte comme titre, mais je ne peux pas en dire beaucoup plus sur ce titre, mais est-ce que j’ai besoin d’en dire plus ? Et surtout si je veux que les autres puissent me lire et me comprendre, est-ce que je dois vraiment faire varier des aspects principalement visuels comme la taille de police, le crénage, les marges ?
-
-Écrire en Markdown repose la question d’un économie dans la dynamique d’écriture.
-
-Mais le Markdown est interopérable, il accepte le HTML, donc il permet en soit l’extension de ces potentialités.
-
-Ce qui va venir structurer, formater le texte, ses marqueurs sont en ce sens en adéquation avec ce qu'ils représentent sémantiquement. 
-
-Pour vous donner un exemple, si je considère une portion du texte comme appartenant au niveau de discours du titre, l'écriture sémantique va me permettre d'éditer ce contenu comme du titre à l'aide de marqueurs qui n'ont pas d'autres fonctions, pas d'autres sens que de signifier du titre. 
-
-C'est, dans ce cas, la sémantique de mon texte qui va dicter sa structuration. 
-
--->
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Lectures recommandées&nbsp;: <span class="citation" data-cites="simpkinDebuterAvecMarkdown2015 fauchieMarkdownCommeCondition2017">(Simpkin 2015; Fauchié 2017/2018)</span>.</p>
+</div>
+</div>
 </section>
 <section id="latex" class="level2" data-number="2.13">
 <h2 data-number="2.13" class="anchored" data-anchor-id="latex"><span class="header-section-number">2.13</span> LaTeX</h2>
 <ul>
 <li>LaTeX est un langage et un système de composition de documents, bien plus complet que Markdown&nbsp;;</li>
-<li>Utilisé dans le domaine des sciences car on peut facilement écrire des formules mathématiques&nbsp;:<br>
-</li>
+<li>Utilisé dans le domaine des sciences car on peut facilement écrire des formules mathématiques&nbsp; ;</li>
 <li>Les balises sémantiques de LaTeX sont plus “invasives”. Exemple : <code>\chapter{Titre de chapitre}</code>&nbsp;;</li>
 <li>Pour voir la mise en forme, on doit <em>compiler</em> le fichier .tex. On obtient généralement un PDF&nbsp;;</li>
 <li>LaTeX ne sert pas qu’à annoter la structuration logique : il prend en charge la mise en forme du document au sens large.</li>
@@ -670,19 +571,10 @@ C'est, dans ce cas, la sémantique de mon texte qui va dicter sa structuration.
 <li>1 virgule = 1 nouvelle cellule de tableau ;</li>
 <li>un ficher csv peut être ouvert avec Excel.</li>
 </ul>
-<!--
-
-
-```qcrci
-Id_Monographie  Id_Enqueté  Serie_Tome  Prénom  Nom Place dans la famille 
-001a    001aE1  1-1 (1857)  Jean    M** Père 
-001a    001aE2  1-1 (1857)  Marie   R** Mère 
-001a    001aE3  1-1 (1857)  Joseph  M** Fils         
-```
-
-
--->
-<p>Id_Monographie,Id_Enqueté,Serie_Tome,Prénom,Nom,Place dans la famille 001a,001aE1,1-1 (1857),Jean,M<strong>,Père 001a,001aE2,1-1 (1857),Marie,R</strong>,Mère 001a,001aE3,1-1 (1857),Joseph,M**,Fils,</p>
+<p><img src="img/csv-exemple.png" class="img-fluid"></p>
+</section>
+<section id="questions" class="level2" data-number="2.15">
+<h2 data-number="2.15" class="anchored" data-anchor-id="questions"><span class="header-section-number">2.15</span> Questions ?</h2>
 
 
 </section>
@@ -1115,8 +1007,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./exercice-markdown.html" class="pagination-link" aria-label="Exercice markdown">
-        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Exercice markdown</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./bonnes-pratiques.html" class="pagination-link" aria-label="Bonnes pratiques d'édition">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Bonnes pratiques d’édition</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
