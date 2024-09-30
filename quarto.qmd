@@ -1,0 +1,14 @@
+---
+suppress-bibliography: true
+---
+
+# Quarto 
+
+::: {.content-visible when-format="html" unless-format="revealjs"}
+
+```{=html}
+<iframe src="_slides/quarto.html"></iframe>
+```
+[Ouvrir dans mon navigateur](_slides/quarto.html){target="_blank"} 
+
+::: 

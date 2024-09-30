@@ -7,7 +7,17 @@ project:
     - theorie-formats.qmd 
     - exercice-markdown.qmd
     - bonnes-pratiques.qmd
+    - plein-texte.qmd
+    - stylo.qmd
+    - zotero.qmd 
+    - single-source.qmd 
+    - terminal.qmd
+    - pandoc.qmd
     - encodage.qmd
+    - quarto.qmd 
+    - git.qmd
+    - yml.qmd 
+    - references.qmd
 
 
 

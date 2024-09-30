@@ -308,12 +308,14 @@ CSV (Comma Separated Values) - données tabulaires
 - 1 virgule = 1 nouvelle cellule de tableau ; 
 - un ficher csv peut être ouvert avec Excel. 
 
+<!--
 ```{csv}
 Id_Monographie  Id_Enqueté  Serie_Tome  Prénom  Nom Place dans la famille 
 001a    001aE1  1-1 (1857)  Jean    M** Père 
 001a    001aE2  1-1 (1857)  Marie   R** Mère 
 001a    001aE3  1-1 (1857)  Joseph  M** Fils         
 ```
+--> 
 
 Id_Monographie,Id_Enqueté,Serie_Tome,Prénom,Nom,Place dans la famille 
 001a,001aE1,1-1 (1857),Jean,M**,Père 

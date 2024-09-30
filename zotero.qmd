@@ -1,0 +1,18 @@
+---
+suppress-bibliography: true
+---
+
+# Zotero 
+
+::: {.content-visible when-format="html" unless-format="revealjs"}
+
+```{=html}
+<iframe src="_slides/zotero.html"></iframe>
+```
+[Ouvrir dans mon navigateur](_slides/zotero.html){target="_blank"} 
+
+::: 
+
+## Zotero : introduction 
+
+## Better Bibtex 

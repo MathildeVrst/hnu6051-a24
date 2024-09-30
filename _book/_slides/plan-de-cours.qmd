@@ -13,14 +13,12 @@ nocite: |
 - Horaire : trois vendredi : 4, 11, 18 octobre 2024, de 9h30 à 11h30 puis de 12h30 à 15h30
 - Lieu : Pavillon Lionel-Groulx, salle C-3115. 
 
-## Description de l'atelier 
+## Description et objectifs de l'atelier 
 
 La question des formats se place au cœur de la structuration du texte numérique et il est important, pour qui veut produire des connaissances organisées, pérennes et interopérables, de comprendre les enjeux culturels, techniques et politiques des formats. 
 Aujourd’hui de nombreux outils ou applications de rédaction, d’édition et de publication de contenus textuels sont accessibles au grand public sur le Web. Ces outils ne prennent pas nécessairement en compte les besoins et les pratiques d’écriture des communautés de recherche. 
 
-## Objectifs de l'atelier 
-
-Ces trois séances entendent donner aux étudiantes et étudiants une connaissance théorique et pratique sur les différents formats d'écriture, leur donner les clés pour mettre en place de bonnes pratiques éditoriales et de les former à quelques outils propices à la rédaction scientifique. 
+Ces trois séances entendent donner aux étudiantes et étudiants une connaissance théorique et pratique sur les différents formats d'écriture, leur donner les clés pour mettre en place de bonnes pratiques éditoriales et les former à quelques outils propices à la rédaction scientifique. 
 
 L’atelier n’a pas seulement pour but de former à des outils spécifiques des Humanités numériques mais vise à offrir aux étudiant·e·s les connaissances théoriques et pratiques fondamentales pour leur permettre d’explorer les potentialités du numérique, de constituer une réflexion critique sur les outils numériques et de développer leurs propres pratiques d’écriture et de publication.
 
@@ -30,46 +28,49 @@ Le support de cours est multiformat. Un site Web est à votre disposition à l'
 
 ## Organisation des séances 
 
-Nous alternerons entre pratique théorie et pratique. Il est consillé de venir en cours avec son ordinateur personnel. 
+Nous alternerons entre pratique théorie et pratique. Il est conseillé de venir en cours avec son ordinateur personnel. 
 
+::: {.callout-important}
 Le programme des séances est sujet à de légers changements en fonction du niveau et de l'avancement du groupe. 
+:::
 
 ### Séance 1 (4 octobre) : 
 
 | Horaire | Matière | Type |
 | --- | ------ | --- | 
-| 09h30-10h00 | Présentation & Introduction de l’atelier | -- | 
-| 10h00-11h00 | Édition savante, formats de fichiers, bonnes pratiques | Théorie | 
-| 11h00-11h30 | [Markdown](https://www.arthurperret.fr/tutomd/) | Théorie et exercice | 
+| 09h30-10h00 | [Présentation & Introduction de l’atelier](introduction.qmd#introduction) | -- | 
+| 10h00-11h00 | [Édition savante, formats de fichiers](theorie-formats.qmd#les-formats--théorie) | Théorie 📚 | 
+| 10h50-11h10 | [Bonnes pratiques de l'édition](bonnes-pratiques.qmd#bonnes-pratiques-dédition) | Théorie 📚 | 
+| 11h10-11h30 | [The Plain Text Project](plein-texte.qmd#le-plein-texte) | Théorie 📚 et exercice 🏋️‍♂️ | 
 | 11h30-12h30 | Pause | -- | 
-| 12h30-13h00 | [The Plain Text Project](https://plaintextproject.online/articles.html) | Théorie et exercice | 
-| 13h00-14h15 | Chaînes éditoriales, Stylo | Théorie et pratique | 
-| 14h15-15h15 | Références structurées, Zotero | Théorie et exercice | 
-| 15h15-15h30 | Présentation du rendu pour la séance 2 (stylo basique) | Rendu | 
+| 12h30-13h00 | [Markdown](exercice-markdown.qmd#exercice-markdown) | Théorie 📚 et exercice 🏋️‍♂️ | 
+| 13h00-14h15 | [Chaînes éditoriales, Stylo](stylo.qmd#stylo) | Théorie 📚 et pratique 🛠️ | 
+| 14h15-15h15 | [Références structurées, Zotero](zotero.qmd#zotero) | Théorie 📚 et exercice 🏋️‍♂️ | 
+| 15h15-15h30 | [Présentation du rendu pour la séance 2 (stylo basique)](exercice-markdown.qmd#rendu-pour-le-11-octobre) | Rendu 📋 | 
 
 ### Séance 2 (11 octobre) : 
 
 | Horaire | Matière | Type |
 | --- | ------ | --- | 
-| 09h30-10h00 | Retour sur le rendu | Rendu | 
-| 10h00-11h30 | Single Source Publishing | Théorie | 
+| 09h30-10h00 | Retour sur le rendu | Rendu 📋 | 
+| 10h00-11h30 | [Single Source Publishing](single-source.qmd#le-single-source-publishing) | Théorie 📚 | 
 | 11h30-12h30 | Pause | -- | 
-| 12h30-13h30 | Utilisation du terminal, installation de Codium | Pratique |
-| 13h30-14h30 | Zotero et Bibtex | Pratique | 
-| 14h30-15h15 | Stylo en mode avancé | Exercice | 
-| 15h15-15h30 | Présentation du rendu pour la séance 3 (stylo avancé ; recherches terminal) | Rendu | 
+| 12h30-13h30 | [Utilisation du terminal, installation de Codium](terminal.qmd#utiliser-son-terminal) | Pratique 🛠️ |
+| 13h30-14h30 | [Zotero et Bibtex](zotero.qmd#better-bibtex) | Pratique 🛠️ | 
+| 14h30-15h15 | [Stylo en mode avancé](stylo.qmd#stylo-en-mode-avancé) | Exercice 🏋️‍♂️ | 
+| 15h15-15h30 | Présentation du rendu pour la séance 3 ([stylo avancé](stylo.qmd#rendu-pour-le-18-octobre) ; [recherches terminal](terminal.qmd#rendu-pour-le-18-octobre)) | Rendu 📋 | 
 
 ### Séance 3 (18 octobre) : 
 
 | Horaire | Matière | Type |
 | --- | ------ | --- | 
-| 09h30-10h00 | Retour sur le rendu | Rendu | 
-| 10h00-11h30 | Les caractères à l'écran | Théorie | 
+| 09h30-10h00 | Retour sur le rendu | Rendu 📋 | 
+| 10h00-11h30 | [Les caractères à l'écran](encodage.qmd#des-caractères-à-lécran----encodage-numérique) | Théorie 📚 | 
 | 11h30-12h30 | Pause | -- | 
-| 12h30-13h30 | Quarto | Pratique |
-| 13h30-14h30 | Git et Github | Théorie | 
-| 14h30-15h15 | Yaml | Théorie et exercices | 
-| 15h15-15h30 | Présentation du rendu final (création multi-format avec quarto) | Rendu | 
+| 12h30-13h30 | [Quarto](quarto.qmd#quarto) | Pratique 🛠️ |
+| 13h30-14h30 | [Git et Github](git.qmd#git-et-github) | Théorie 📚 | 
+| 14h30-15h15 | [Yaml](yml.qmd#yaml) | Théorie et exercices 🏋️‍♂️ | 
+| 15h15-15h30 | [Présentation du rendu final (création multi-format avec quarto)](plan-de-cours.qmd#travail-final--50) | Rendu 📋 | 
 
 ## Évaluation 
 
@@ -81,8 +82,8 @@ Durant les séances de l’atelier, plusieurs exercices seront demandés à l’
 
 Chaque semaine, en préparation de la séance prochaine, un exercice sera soumis à l’étudiant·e et sera discuté par la suite en classe : 
 
-- pour le 11 octobre : Stylo en mode basique (10%) 
-- pour le 18 octobre : Stylo en mode avancé (10%) ; Apprenez-moi quelque chose quant au terminal (10%)
+- pour le 11 octobre : [Markdown](exercice-markdown.qmd#rendu-pour-le-11-octobre) (10%) 
+- pour le 18 octobre : [Stylo en mode avancé](stylo.qmd#rendu-pour-le-18-octobre) (10%) ; [Apprenez-moi quelque chose quant au terminal](terminal.qmd#rendu-pour-le-18-octobre) (10%)
 
 ### Travail final : 50%
 
@@ -97,10 +98,7 @@ Le travail final consiste en la création d’un *book* multiformat avec le syst
 
 ## Références et ressources 
 
-Voici une liste de ressources utiles : 
-
-::: {#refs}
-:::
+Une liste de références et de ressources variées sera mise à jour tout au long du cours. Elle est disponible [en cliquant ici](references.qmd#références).
 
 ## Intégrité 
 
@@ -108,7 +106,7 @@ L’Université de Montréal s’est dotée de deux règlements disciplinaires s
 
 ## Crédits 
 
-Le contenu de ce cours doit beaucoup aux préparations réalisées par Antoine Fauchié, Margot Mellet, Alix Chagué ainsi qu'aux séances de [*Débogue tes humanités*](https://debugue.ecrituresnumeriques.ca/). 
+Le contenu de ce cours doit beaucoup aux préparations réalisées par [Antoine Fauchié](https://www.quaternum.net/), [Margot Mellet](https://blank.blue/), [Alix Chagué](https://alix-tz.github.io/) ainsi qu'aux séances de [*Débogue tes humanités*](https://debugue.ecrituresnumeriques.ca/). 
 
 Le support du cours a été créé avec [quarto](https://quarto.org/). 
 

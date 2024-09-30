@@ -1,0 +1,24 @@
+---
+suppress-bibliography: true
+---
+
+# Utiliser son terminal 
+
+::: {.content-visible when-format="html" unless-format="revealjs"}
+
+```{=html}
+<iframe src="_slides/terminal.html"></iframe>
+```
+[Ouvrir dans mon navigateur](_slides/terminal.html){target="_blank"} 
+
+::: 
+
+## Terminal 
+
+## À quoi ça sert 
+
+## Quelques commandes 
+
+## Rendu pour le 18 octobre 
+
+Apprenez-moi quelque chose à propos du terminal ! Cela peut concerner une commande que vous trouvez utile, une astuce pour gagner du temps, ou une fonctionnalité du terminal que peu de gens connaissent. Nous commencerons le cours du 18 par vos trouvailles : une simple explication suffit, une démonstration est bienvenue. 

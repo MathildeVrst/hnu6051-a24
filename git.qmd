@@ -1,0 +1,18 @@
+---
+suppress-bibliography: true
+---
+
+# Git et GitHub
+
+::: {.content-visible when-format="html" unless-format="revealjs"}
+
+```{=html}
+<iframe src="_slides/git.html"></iframe>
+```
+[Ouvrir dans mon navigateur](_slides/git.html){target="_blank"} 
+
+::: 
+
+## Versionnement 
+
+## Git vs Github

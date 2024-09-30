@@ -1,0 +1,24 @@
+---
+suppress-bibliography: true
+---
+
+# Le *single source publishing*
+
+::: {.content-visible when-format="html" unless-format="revealjs"}
+
+```{=html}
+<iframe src="_slides/single-source.html"></iframe>
+```
+[Ouvrir dans mon navigateur](_slides/single-source.html){target="_blank"} 
+
+::: 
+
+## Kézako 
+
+## Intérêts 
+
+## Limites
+
+Avez-vous remarquer les émojis dans mon plan de cours ? Sont-ils dans la sortie PDF ? 
+
+## Quelques exemples 

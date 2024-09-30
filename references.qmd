@@ -3,7 +3,7 @@ nocite: |
   @*
 ---
 
-# References {.unnumbered}
+# Références {.unnumbered}
 
 ::: {#refs}
 :::

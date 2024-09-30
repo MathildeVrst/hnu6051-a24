@@ -9,16 +9,36 @@ book:
   author: "[Mathilde Verstraete](mailto:mathilde.verstraete@umontreal.ca)"
   date: "[Automne] 2024"
   date-format: "[Automne] YYYY"
+  repo-url: https://github.com/MathildeVrst/hnu6051-a24
   search: true
+  sidebar:
+    style: docked
+    background: light
   downloads: pdf
   chapters:
     - index.qmd
     - plan-de-cours.qmd
-    - introduction.qmd
-    - theorie-formats.qmd
-    - exercice-markdown.qmd 
-    - bonnes-pratiques.qmd
-    - encodage.qmd
+    - part: session 1 
+      chapters: 
+      - introduction.qmd
+      - theorie-formats.qmd
+      - exercice-markdown.qmd 
+      - bonnes-pratiques.qmd
+      - plein-texte.qmd
+      - stylo.qmd
+      - zotero.qmd 
+    - part: session 2 
+      chapters: 
+      - single-source.qmd 
+      - terminal.qmd
+      - pandoc.qmd 
+    - part: session 3 
+      chapters: 
+      - encodage.qmd
+      - quarto.qmd 
+      - git.qmd
+      - yml.qmd 
+    - references.qmd 
 
 language: 
   title-block-author-single: "Chargée de cours" 
@@ -35,10 +55,13 @@ format:
     theme: cosmo
   pdf:
     documentclass: scrreprt
+    papersize: letter
     language: "fr"
     header-includes: 
     - \usepackage[francais]{babel}
-
-
-
-
+    include-in-header: 
+      text: | 
+        \usepackage{fancyhdr}
+        \pagestyle{fancy}
+        \fancyhf{}  
+        \fancyhead[C]{HNU6051-A24. Humanités numériques, formats d'écriture}

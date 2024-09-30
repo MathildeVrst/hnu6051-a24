@@ -1,0 +1,34 @@
+---
+suppress-bibliography: true
+---
+
+# Stylo 
+
+::: {.content-visible when-format="html" unless-format="revealjs"}
+
+```{=html}
+<iframe src="_slides/stylo.html"></iframe>
+```
+[Ouvrir dans mon navigateur](_slides/stylo.html){target="_blank"} 
+
+::: 
+
+## Chaînes modulaires 
+
+
+## Un projet de recherche & un éditeur de texte 
+
+## Stylo en mode avancé 
+
+## Rendu pour le 18 octobre 
+
+Création d’un article à partir de l’article «  La traduction de documents XML dans les mémoires de traduction » (https://www.persee.fr/doc/equiv_0751-9532_2005_num_32_1_890) de Pascaline Merten :
+
+Méthode :
+
+- parcourir le document et relevé les différentes tâches à réaliser (structuration, métadonnées) ; 
+- commencer par intégrer le texte en copiant-collant la « version texte » -- à retrouver sur la page Persée --, puis en le structurant en vous référant à la version graphique : niveaux de titres, italiques, notes de bas de page, références bibliographiques, images ;
+- ajouter au moins quelques références bibliographiques ; 
+- ajouter toutes les métadonnées dont vous disposez via le mode « Editor Mode ». 
+
+Une fois le travail terminé, partagez votre article avec moi (mathilde.verstraete@umontreal.ca) et [prévenez-moi par courriel](mailto:mathilde.verstraete@umontreal.ca).

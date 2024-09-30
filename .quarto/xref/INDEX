@@ -31,5 +31,32 @@
   },
   "exercice-markdown.qmd": {
     "exercice-markdown.html": "b4f41931"
+  },
+  "plein-texte.qmd": {
+    "plein-texte.html": "6000074c"
+  },
+  "stylo.qmd": {
+    "stylo.html": "92195ad9"
+  },
+  "zotero.qmd": {
+    "zotero.html": "5e194a7c"
+  },
+  "single-source.qmd": {
+    "single-source.html": "373f219c"
+  },
+  "terminal.qmd": {
+    "terminal.html": "dca077ce"
+  },
+  "pandoc.qmd": {
+    "pandoc.html": "b4565653"
+  },
+  "quarto.qmd": {
+    "quarto.html": "336d58b3"
+  },
+  "git.qmd": {
+    "git.html": "2d0fd0a0"
+  },
+  "yml.qmd": {
+    "yml.html": "ee065abe"
   }
 }

@@ -21,6 +21,6 @@ La totalité du contenu de ce site est sous licence CC BY-NC-SA et est la propri
 
 ## Crédits 
 
-Le contenu de ce cours doit beaucoup aux préparations réalisées par Antoine Fauchié, Margot Mellet, Alix Chagué ainsi qu'aux séances de [*Débogue tes humanités*](https://debugue.ecrituresnumeriques.ca/). 
+Le contenu de ce cours doit beaucoup aux préparations réalisées par [Antoine Fauchié](https://www.quaternum.net/), [Margot Mellet](https://blank.blue/), [Alix Chagué](https://alix-tz.github.io/) ainsi qu'aux séances de [*Débogue tes humanités*](https://debugue.ecrituresnumeriques.ca/). 
 
 Le support du cours a été créé avec [quarto](https://quarto.org/). 

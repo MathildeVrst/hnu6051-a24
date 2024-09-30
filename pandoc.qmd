@@ -1,0 +1,14 @@
+---
+suppress-bibliography: true
+---
+
+# Convertisseurs : le cas de *pandoc* 
+
+::: {.content-visible when-format="html" unless-format="revealjs"}
+
+```{=html}
+<iframe src="_slides/pandoc.html"></iframe>
+```
+[Ouvrir dans mon navigateur](_slides/pandoc.html){target="_blank"} 
+
+::: 

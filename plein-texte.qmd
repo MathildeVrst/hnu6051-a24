@@ -1,0 +1,18 @@
+---
+suppress-bibliography: true
+---
+
+# Le plein texte 
+
+::: {.content-visible when-format="html" unless-format="revealjs"}
+
+```{=html}
+<iframe src="_slides/plein-texte.html"></iframe>
+```
+[Ouvrir dans mon navigateur](_slides/plein-texte.html){target="_blank"} 
+
+::: 
+
+## Plein / Plain 
+
+## Un exemple : [The Plain Text Project](https://plaintextproject.online/articles.html) 

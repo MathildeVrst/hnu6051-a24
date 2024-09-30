@@ -1,0 +1,16 @@
+---
+suppress-bibliography: true
+---
+
+# YAML
+
+::: {.content-visible when-format="html" unless-format="revealjs"}
+
+```{=html}
+<iframe src="_slides/yml.html"></iframe>
+```
+[Ouvrir dans mon navigateur](_slides/yml.html){target="_blank"} 
+
+::: 
+
+## À venir 
