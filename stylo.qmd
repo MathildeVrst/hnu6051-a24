@@ -2,7 +2,7 @@
 suppress-bibliography: true
 ---
 
-# Stylo 
+# Chaînes éditoriales & Stylo 
 
 ::: {.content-visible when-format="html" unless-format="revealjs"}
 
@@ -13,16 +13,47 @@ suppress-bibliography: true
 
 ::: 
 
-## Chaînes modulaires 
+## Chaînes éditoriales  
 
+Encore un peu de théorie avant de prolonger les manipulations. 
 
-## Un projet de recherche & un éditeur de texte 
+## Définition 
+
+- Ensemble des processus, outils et méthodes mis en place pour réaliser une activité d’édition.
+- On peut aussi parler de systèmes de publication, de fabriques d’édition ou de chaînes d’édition. 
+
+## Chaînes éditoriales variées 
+
+- *classiques* : traitement de texte + logiciel de publication assistée par ordinateur (essentiellement Adobe InDesign ou Microsoft Publisher); 
+- *savantes* : traitement de texte + logiciel de publication assistée par ordinateur + éditeur XML ; 
+- *non conventionnelles* : Stylo, Zettlr, Quire, etc.
+
+![](img/chaine-stylo-sp.png)
+
+## Stylo : un projet de recherche & un éditeur de texte 
+
+- Éditeur de texte sémantique pour la rédaction scientifique ; 
+- Écrire, structurer, prévisualiser, réviser, exporter ; 
+- Utilisation d’un langage de balisage léger (Markdown), d’un langage de description de métadonnées (YAML) et d’un langage de  description bibliographique (BibTeX) ; 
+- Utilisation de briques logicielles existantes (et libres). 
+
+### Démonstration
+
+1. Création d'un compte stylo : https://stylo.huma-num.fr ; 
+2. Reprendre le texte de Catulle [ici](plein-texte.qmd#poids) ; 
+3. Ajouter le à votre document Stylo ; ajoutez-lui un titre, éventuellement des titres de deuxième niveau, mettez des passages en italique, cherchez-lui une traduction et ajoutez des métadonnées ; 
+4. Partagez le document avec moi : mathilde.verstraete@umontreal.ca ; 
+5. Testez la *preview* et faites différents exports (.html, .pdf, .docx), comparez les résultats obtenus. 
+
+Alors *Stylo*, WYSIWYM ou WYSIWYG ? 
 
 ## Stylo en mode avancé 
 
+Après avoir vu Zotero et BibTex (zotero avancé), nous pourrons nous essayez à une utilisation plus avancée de Stylo. 
+
 ## Rendu pour le 18 octobre 
 
-Création d’un article à partir de l’article «  La traduction de documents XML dans les mémoires de traduction » (https://www.persee.fr/doc/equiv_0751-9532_2005_num_32_1_890) de Pascaline Merten :
+Création d’un article à partir de l’article «  La traduction de documents XML dans les mémoires de traduction » (https://www.persee.fr/doc/equiv_0751-9532_2005_num_32_1_890) de Pascaline Merten [@mertenTraductionDocumentsXML2005]:
 
 Méthode :
 

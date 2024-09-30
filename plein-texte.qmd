@@ -2,7 +2,7 @@
 suppress-bibliography: true
 ---
 
-# Le plein texte 
+# Le texte brut
 
 ::: {.content-visible when-format="html" unless-format="revealjs"}
 
@@ -13,6 +13,63 @@ suppress-bibliography: true
 
 ::: 
 
-## Plein / Plain 
+## *Plain text* / Plein texte / Texte brut 
+
+Le terme *plein text*, largemnt utilisé, est une mauvaise traduction du terme anglais *plain text*. On préférera l'appellation *texte brut* en français.
+
+## Texte brut : introduction 
+
+- Fichier texte non formaté qui ne nécessite aucun programme spécial pour être créé et ouvert ; 
+- Format extrêment simple ; 
+- Stockage d'information en texte brut ; 
+- Pas de mise en forme, pas d'images, pas d'éléments multimédia ; 
+- Utile pour documents simples, prise de notes,..  
+
+### Simplicité 
+
+- Uniquement des caractères alphanumériques, des symboles 
+
+### Absence de style 
+
+- Chaque caractère est traité de manière identique.
+
+### Universalité
+
+- Le "plain text" est facilement lisible et compréhensible par n'importe quel éditeur de texte, quel que soit le système d'exploitation ou le logiciel utilisé. 
+
+### Interopérabilité 
+
+- Les fichiers en "plain text" peuvent être utilisés et interprétés par de nombreux systèmes, langages de programmation et applications. 
+
+### Poids 
+
+- Les fichiers .txt sont généralement très légers, car ils n’incluent pas de mises en forme ou d'éléments graphiques. Cela les rend rapides à transférer et à charger.
+
+Faisons le test ! 
+
+1. Créer un dossier dans votre ordinateur ; 
+2. Créez un fichier test : ```hnu6051-test.txt``` ; 
+3. Ajoutez-y quelques phrases : 
+
+```
+Catullus 
+Ad Lesbiam (V)
+Vivamus mea Lesbia, atque amemus, 
+rumoresque senum seueriorum 
+omnes unius aestimemus assis! 
+soles occidere et redire possunt: 
+(5) nobis cum semel occidit breuis lux, 
+nox est perpetua una dormienda.  
+```
+4. Sauvez le document ; 
+5. Faites de même avec un document sur Word. Mettez-en forme le titre, ajoutez de l'italique, du gras... puis sauvez-le ; 
+6. Comparez la taille des deux documents ; 
+7. Essayez d'extraire l'archive de votre document ```.docx``` (clic droit; décompresser, extraire vers...)
+
+## Pourquoi utiliser le texte brut ? 
 
 ## Un exemple : [The Plain Text Project](https://plaintextproject.online/articles.html) 
+
+Parcourez le site 
+
+Qu'en pensez-vous ? 

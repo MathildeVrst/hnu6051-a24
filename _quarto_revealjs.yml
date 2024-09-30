@@ -5,9 +5,9 @@ project:
     - plan-de-cours.qmd
     - introduction.qmd
     - theorie-formats.qmd 
-    - exercice-markdown.qmd
     - bonnes-pratiques.qmd
     - plein-texte.qmd
+    - exercice-markdown.qmd
     - stylo.qmd
     - zotero.qmd 
     - single-source.qmd 

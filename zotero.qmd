@@ -13,6 +13,215 @@ suppress-bibliography: true
 
 ::: 
 
+## L'importance de structurer ses références bibliographiques 
+
+- Communauté scientifique & standards : inscrire votre travail dans les standards scientifiques d’une communauté ; 
+- Éthique : qui réfère bien respecte le travail cité ; 
+- Pérennité : pour retrouver vos sources – médiation d’un travail de sources à la base de votre recherche ; 
+- Esthétique : une bibliographie imparfaite fait tâche dans un travail de recherche ; 
+- Personnel : vous avez le choix de structurer ces références selon le type de style bibliographique.
+
 ## Zotero : introduction 
 
-## Better Bibtex 
+::: {.callout-tip}
+Lecture recommandée : [@danielOdeZoteroDecennie2022]. 
+:::
+
+### Qu’est-ce que Zotero ?
+
+- Un logiciel et un service qui permet de gérer des références bibliographiques : conserver, organiser, citer et créer des bibliographies ; 
+- Un logiciel libre, et gratuit ; 
+- Un outil qui peut être collaboratif ; 
+- Un logiciel + une extension de navigateur pour récupérer des références. 
+
+### Fonctionnalités
+
+- Collecter : collecter des références bibliographiques en ligne et les conserver ; 
+- Organiser : organiser ses références en collections et sous-collections, et en attribuant des tags et des marqueurs ; 
+- Citer : citer ses références facilement et les exporter/intégrer dynamiquement dans des documents ; 
+- Synchroniser : synchroniser ses références avec un compte en ligne ; 
+- Collaborer : échanger ses références avec d’autres utilisateurs.
+
+### Un logiciel libre 
+
+Zotero est logiciel libre qui peut être téléchargé puis installé sur tous les ordinateurs.
+
+Il faut également utiliser un connecteur pour récupérer des références sur le web puis faire le lien avec le logiciel qui les conserve. 
+
+## Utilisation de Zotero 
+
+### Utilisation générale
+
+- Récupérer des références depuis un navigateur web (grâce à l’extension Zotero) ; 
+- Une icône apparaît pour enregistrer une référence (plusieurs types de documents) ; 
+- La référence est enregistrée dans le logiciel Zotero sous la forme d’une notice ; 
+- Il est possible de compléter la notice s’il manque des informations ; 
+- La synchronisation permet de sauvegarder les données en ligne (pour cela il faut créer un compte Zotero).
+
+### Fonctionnalités proposées avec un compte 
+
+- Synchronisation : vos références sont sauvegardées et disponibles en se connectant depuis n’importe quel ordinateur ; 
+- Sauvegarde ; 
+- Interface web : un peu moins pratique que le logiciel ; 
+- Afficher ses références ; 
+- Créer ou participer à des groupes ; 
+- Etc. 
+
+### Installation 
+
+- Installer le logiciel Zotero en suivant les recommandations du site web officiel ; 
+- Installer l’extension pour Firefox/Chrome/Safari ; 
+- Créer un compte en ligne ; 
+- Connecter votre logiciel à ce compte (Édition > Préférence > Synchronisation).
+
+### Exemple à partir du catalogue de la Bibliothèque universitaire de l’UdeM 
+
+À voir en cours.
+
+### De nombreuses bases de données compatibles
+
+De nombreux catalogues, bases de données, revues en ligne, journaux, blog, réseaux sociaux proposent des références :
+
+- Sudoc ; 
+- Gallica ; 
+- OpenEdition, revues.org, Hypothèses ; 
+- Érudit ; 
+- Google Livres, Google Scholar, YouTube ; 
+- Internet Archive ; 
+- Cairn.info ; 
+- etc. 
+
+### Description d’une utilisation classique
+
+Prérequis : logiciel installé et extension installée (par exemple dans Firefox).
+
+- Ouvrir le logiciel (Zotero Standalone) ; 
+- Rechercher un document sur le web ; 
+- Enregistrer la référence via l’extension du navigateur ; 
+- Vérifier dans le logiciel si la référence convient (et si elle est placée au bon endroit) ; 
+- Compléter les informations.
+
+### Quelques points importants 
+
+- Pas besoin d’être en ligne pour utiliser Zotero (mais vous ne pourrez pas afficher de pages web ou synchroniser vos collections) ; 
+- Les fonctions de Zotero sont nombreuses, n’hésitez pas à les tester et à les utiliser ! 
+- Zotero permet de conserver et de gérer des références de pages web, mais ce n’est pas sa fonction première ; 
+- N’oubliez pas d’ouvrir le logiciel Zotero pour enregistrer vos références. 
+
+### Collecter
+
+- Via la navigateur en cliquant sur l’icône : Zotero récupère les métadonnées de la page web (page web qui présente un document) ; 
+- Si le texte intégral est disponible en PDF, Zotero le récupère et le sauvegarde ; 
+- Si la page web contient plusieurs références (par exemple une page de résultats), alors l’icône est un dossier et il est possible de sélectionner les résultats que vous souhaitez conserver ; 
+- Zotero peut ajouter une référence automatiquement grâce à un identifiant – ISBN ou DOI : cliquez sur « Ajouter un élément par son identifiant » dans la barre d’outils Zotero, puis tapez le numéro d’identification, l’élément sera ajouté à votre bibliothèque.
+
+### Créer 
+
+Vous pouvez aussi créer manuellement des références en sélectionnant le type de document que vous souhaitez référencer et en remplissant les champs de la notice. 
+
+## Organiser 
+
+### Collections 
+
+- Dans colonne de gauche, « Mes collections » ou « Ma bibliothèque », il est possible de créer plusieurs collections ; 
+- Créez une nouvelle collection en cliquant sur le bouton « Nouvelle collection » ; 
+- Il est possible de créer, renommer ou supprimer une collection (via un clic droit sur une collection) ; 
+- Pour organiser vos références il suffit de les déplacer d’un dossier d’une collection à une autre ; 
+- Les collections peuvent comprendre des sous-collections !
+
+### Tags et marqueurs
+ 
+- Les tags et les marqueurs servent à ajouter des informations de description ; 
+- Vous pouvez vous créer votre propre système de marqueurs et de tags pour organiser plus finement vos références ; 
+- Certaines références importées comportent parfois des marqueurs, vous pouvez vous en inspirer ou les supprimer ; 
+- Une recherche dans Zotero interroge tous les champs, y compris les marqueurs et les tags ! 
+
+### Champ « note »
+
+- Il permet de saisir du texte libre lié à une référence précise ; 
+- Il peut y avoir plusieurs notes pour une même référence ; 
+- Il est possible de les visualiser rapidement, de les supprimer, et elles sont synchronisées si vous avez un compte Zotero ; 
+- Une recherche dans Zotero interroge tous les champs, y compris les notes !
+
+## Exercice 
+
+- Créer une référence depuis Zotero : un livre de votre choix (titre, auteur·trice, maison d’édition, lieu, date, langue, ISBN) ;
+- Intégrer 4 références : un article, un livre, un chapitre et une thèse ;
+- Déplacer toutes vos références dans un dossier/répertoire edn6102.
+
+## Zotero avancé 
+
+## Création de bibliographies 
+
+###  Comment créer une bibliographie ? 
+
+- Plusieurs milliers de styles bibliographiques : https://www.zotero.org/styles (choisir la *norme* que l'on va utiliser) ; 
+- Exemple : « Université de Montréal - APA (French - Canada) » ; 
+  - Pour modifier le style par défaut de Zotero : Édition > Préférences > Citer ; 
+- Création d’une bibliographie : chaque référence ou groupe de références peut être récupéré sous différents formats pour être intégré dans un document via un traitement de texte par exemple. 
+
+> Plus d’informations : https://www.zotero.org/support/fr/creating_bibliographies
+
+### Citer et créer une bibliographique directement dans un traitement de texte 
+
+- Citations et bibliographies dynamiques dans des outils de traitement de texte (Word ou LibreOffice) : 
+
+- Ouvrez LibreOffice/Word et vérifiez que vous disposez bien des options de Zotero (dans la partie supérieure gauche) ; 
+- si vous n’avez pas l’extension Zotero pour LibreOffice, installez là via le logiciel Zotero : Édition > Préférences > Citer > Traitements de texte > Installer le module LibreOffice 
+- vous pouvez ajouter une citation d’une référence préalablement enregistrée dans Zotero ; 
+- une fois des citations ajoutées, vous pouvez créer une bibliographie de ces citations ; 
+- si vous modifier vos références dans Zotero, vous pouvez mettre à jour votre document LibreOffice. 
+
+## Création et gestion de groupes 
+
+###  À quoi sert un groupe ?
+
+Un groupe est une collection à laquelle plusieurs personnes peuvent participer :
+
+- Partager des références ;
+- Ouvrir les contributions ;
+- Afficher les contributions ; 
+- Plusieurs rôles dans un même groupe : consulter, créer, modifier, administrer ; 
+- Le groupe peut être public avec des permissions plus ou moins ouvertes
+
+## BibTeX 
+
+BibTeX est un format de fichier structurant une bibliographie :
+
+- Format qui a été créé en 1985 pour gérer les bases de données bibliographiques dans des fichier LaTeX ;
+- Le format BibTeX fonctionne par entrée bibliographiques : chaque entrée correspond à une description d’un document avec des items « mot-clef = valeur ».
+
+```
+@book{kirschenbaum_track_2016,
+  address = {{Cambridge, Massachusetts, Etats-Unis d'Am{\'e}rique}},
+  title = {Track Changes: A Literary History of Word Processing},
+  isbn = {978-0-674-41707-6},
+  shorttitle = {Track Changes},
+  language = {anglais},
+  publisher = {{The Belknap Press of Harvard University Press, 2016}},
+  author = {Kirschenbaum, Matthew G.},
+  year = {2016, cop. 2016}
+}
+```
+
+## Better BibTeX 
+
+Better BibTex (https://retorque.re/zotero-better-bibtex/installation/) ajoute à Zotero des fonctionnalités très pratiques :
+
+- Affichage des clés de citation ; 
+- Nouveaux formats d’export ; 
+- **Exports dynamiques** (mises à jour automatiques) de bibliographies.
+
+### Installez Better BibTeX 
+
+https://retorque.re/zotero-better-bibtex/installation/
+
+### Exercices 
+
+- Créez une collection avec plusieurs références que vous exportez au format BetterBibTeX avec l’option « Garder à jour » ; 
+- Ajouter une référence à cette collection ; 
+- Est-ce que le fichier BibTeX a été modifié ? ; 
+- Verrouillez une clé de citation d’une référence de ce export ; 
+- Modifiez les formats de clé, que s’est-il passé dans votre fichier BibTeX ?
+
+## Questions ? 

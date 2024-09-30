@@ -22,17 +22,17 @@ book:
       chapters: 
       - introduction.qmd
       - theorie-formats.qmd
-      - exercice-markdown.qmd 
       - bonnes-pratiques.qmd
       - plein-texte.qmd
+      - exercice-markdown.qmd 
       - stylo.qmd
       - zotero.qmd 
-    - part: session 2 
+    - part: session 2 (à venir)
       chapters: 
       - single-source.qmd 
       - terminal.qmd
       - pandoc.qmd 
-    - part: session 3 
+    - part: session 3 (à venir) 
       chapters: 
       - encodage.qmd
       - quarto.qmd 

@@ -11,16 +11,19 @@ L'objectif de cet atelier est de découvrir les différents formats d'écriture 
 
 Aujourd’hui de nombreux outils ou applications de rédaction, d’édition et de publication de contenus textuels sont accessibles au grand public sur le Web, mais sans nécessairement prendre en compte les besoins et les pratiques d’écriture des communautés de recherche. La question des formats se place au cœur de la structuration du texte numérique et il est important, pour qui veut produire des connaissances organisées, pérennes et interopérables, de comprendre les enjeux culturels, techniques et politiques des formats.
 
-Ces trois séances entendent donner aux étudiantes et étudiants une connaissance théorique et pratique sur les différents formats d'écriture, leur donner les clés pour mettre en place de bonnes pratiques éditoriales et de les former à quelques outils propices à la rédaction scientifique. 
+Ces trois séances entendent donner aux étudiantes et étudiants une connaissance théorique et pratique sur les différents formats d'écriture, leur donner les clés pour mettre en place de bonnes pratiques éditoriales et les former à quelques outils propices à la rédaction scientifique. 
 
 ## Support de cours 
 
 Le présent support est destiné aux étudiantes et étudiants de l’Université de Montréal suivant l'atelier [HNU6051, Humanités numériques : formats d'écriture](https://admission.umontreal.ca/cours-et-horaires/cours/hnu-6051/), au trimestre d’Automne 2024.
 
-La totalité du contenu de ce site est sous licence CC BY-NC-SA et est la propriété intellectuelle de Mathilde Verstraete.
-
 ## Crédits 
 
 Le contenu de ce cours doit beaucoup aux préparations réalisées par [Antoine Fauchié](https://www.quaternum.net/), [Margot Mellet](https://blank.blue/), [Alix Chagué](https://alix-tz.github.io/) ainsi qu'aux séances de [*Débogue tes humanités*](https://debugue.ecrituresnumeriques.ca/). 
 
-Le support du cours a été créé avec [quarto](https://quarto.org/). 
+Le support du cours a été créé avec [quarto](https://quarto.org/), les slides suivent un modèle développé par [Alison Presmanes Hill](https://github.com/apreshill/palmerpenguins-useR-2022/). 
+
+## License 
+
+Tous les contenus de ce site ou de ce document sont sous licence [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) : Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions. 
+
