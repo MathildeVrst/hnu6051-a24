@@ -28,7 +28,7 @@ Nous en avons parlé [ici](theorie-formats.qmd#markdown)
 
 <https://www.arthurperret.fr/tutomd/>
 
-## Rendu pour le 11 octobre 
+## Rendu pour le 10 octobre 
 
 - Texte : [pont_mirabeau.txt](img/pont_mirabeau.txt) ; 
 - Image : [pont_mirabeau.png](img/pont_mirabeau.PNG) ; 

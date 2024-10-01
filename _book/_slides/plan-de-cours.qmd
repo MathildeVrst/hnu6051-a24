@@ -46,7 +46,7 @@ Le programme des séances est sujet à de légers changements en fonction du niv
 | 12h30-13h00 | [Markdown](exercice-markdown.qmd#exercice-markdown) | Théorie 📚 et exercice 🏋️‍♂️ | 
 | 13h00-14h15 | [Chaînes éditoriales, Stylo](stylo.qmd#chaînes-éditoriales--stylo) | Théorie 📚 et pratique 🛠️ | 
 | 14h15-15h15 | [Références structurées, Zotero](zotero.qmd#limportance-de-structurer-ses-références-bibliographiques) | Théorie 📚 et exercice 🏋️‍♂️ | 
-| 15h15-15h30 | [Présentation du rendu pour la séance 2 (stylo basique)](exercice-markdown.qmd#rendu-pour-le-11-octobre) | Rendu 📋 | 
+| 15h15-15h30 | [Présentation du rendu pour la séance 2 (stylo basique)](exercice-markdown.qmd#rendu-pour-le-10-octobre) | Rendu 📋 | 
 
 ### Séance 2 (11 octobre) : 
 
@@ -59,7 +59,7 @@ Le programme des séances est sujet à de légers changements en fonction du niv
 | 12h30-13h30 | [Utilisation du terminal](terminal.qmd#utiliser-son-terminal) | Pratique 🛠️ |
 | 13h30-14h30 | [Zotero et Bibtex](zotero.qmd#zotero-avancé) | Pratique 🛠️ | 
 | 14h30-15h15 | [Stylo en mode avancé](stylo.qmd#stylo-en-mode-avancé) | Exercice 🏋️‍♂️ | 
-| 15h15-15h30 | Présentation du rendu pour la séance 3 ([stylo avancé](stylo.qmd#rendu-pour-le-18-octobre) ; [recherches terminal](terminal.qmd#rendu-pour-le-18-octobre)) | Rendu 📋 | 
+| 15h15-15h30 | Présentation du rendu pour la séance 3 ([stylo avancé](stylo.qmd#rendu-pour-le-17-octobre) ; [recherches terminal](terminal.qmd#rendu-pour-le-18-octobre)) | Rendu 📋 | 
 
 ### Séance 3 (18 octobre) : 
 
@@ -84,8 +84,8 @@ Durant les séances de l’atelier, plusieurs exercices seront demandés à l’
 
 Chaque semaine, en préparation de la séance prochaine, un exercice sera soumis à l’étudiant·e et sera discuté par la suite en classe : 
 
-- pour le 11 octobre : [Markdown](exercice-markdown.qmd#rendu-pour-le-11-octobre) (10%) 
-- pour le 18 octobre : [Stylo en mode avancé](stylo.qmd#rendu-pour-le-18-octobre) (10%) ; [Apprenez-moi quelque chose quant au terminal](terminal.qmd#rendu-pour-le-18-octobre) (10%)
+- pour le cours du 11 octobre (soit, la veille) : [Markdown](exercice-markdown.qmd#rendu-pour-le-10-octobre) (10%) 
+- pour le cours du 18 octobre (soit, la veille) : [Stylo en mode avancé](stylo.qmd#rendu-pour-le-17-octobre) (10%) ; [Apprenez-moi quelque chose quant au terminal](terminal.qmd#rendu-pour-le-18-octobre) (10%)
 
 ### Travail final : 50%
 

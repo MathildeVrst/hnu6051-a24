@@ -94,7 +94,7 @@
     "href": "plan-de-cours.html#évaluation",
     "title": "Plan de cours",
     "section": "Évaluation",
-    "text": "Évaluation\n\nExercices durant les séances : 20%\nDurant les séances de l’atelier, plusieurs exercices seront demandés à l’étudiant·e pour valider au fur et à mesure les acquis techniques. Cette évaluation se fera sur un mode continu.\n\n\nExercices hebdomadaires : 30%\nChaque semaine, en préparation de la séance prochaine, un exercice sera soumis à l’étudiant·e et sera discuté par la suite en classe :\n\npour le 11 octobre : Markdown (10%)\npour le 18 octobre : Stylo en mode avancé (10%) ; Apprenez-moi quelque chose quant au terminal (10%)\n\n\n\nTravail final : 50%\nLe travail final consiste en la création d’un book multiformat avec le système de publication Quarto. Le contenu du travail est libre. Je vous invite, dans la mesure du possible, à réutiliser un rendu d’un autre cours.\nQuelques critères sont à remplir :\n\nLe livre doit être présenté en deux formats au moins ;\nLe livre doit comporter au moins 4 chapitres ;\nLe thème doit avoir été – au moins légèrement – modifié ;\nLe fichier _quarto.yml doit avoir été personnalisé ;\nUne publication accessible en ligne (via github pages) sera particulièrement appréciée ;\nDate de remise : vendredi 8 novembre.",
+    "text": "Évaluation\n\nExercices durant les séances : 20%\nDurant les séances de l’atelier, plusieurs exercices seront demandés à l’étudiant·e pour valider au fur et à mesure les acquis techniques. Cette évaluation se fera sur un mode continu.\n\n\nExercices hebdomadaires : 30%\nChaque semaine, en préparation de la séance prochaine, un exercice sera soumis à l’étudiant·e et sera discuté par la suite en classe :\n\npour le cours du 11 octobre (soit, la veille) : Markdown (10%)\npour le cours du 18 octobre (soit, la veille) : Stylo en mode avancé (10%) ; Apprenez-moi quelque chose quant au terminal (10%)\n\n\n\nTravail final : 50%\nLe travail final consiste en la création d’un book multiformat avec le système de publication Quarto. Le contenu du travail est libre. Je vous invite, dans la mesure du possible, à réutiliser un rendu d’un autre cours.\nQuelques critères sont à remplir :\n\nLe livre doit être présenté en deux formats au moins ;\nLe livre doit comporter au moins 4 chapitres ;\nLe thème doit avoir été – au moins légèrement – modifié ;\nLe fichier _quarto.yml doit avoir été personnalisé ;\nUne publication accessible en ligne (via github pages) sera particulièrement appréciée ;\nDate de remise : vendredi 8 novembre.",
     "crumbs": [
       "Plan de cours"
     ]
@@ -470,11 +470,11 @@
     ]
   },
   {
-    "objectID": "exercice-markdown.html#rendu-pour-le-11-octobre",
-    "href": "exercice-markdown.html#rendu-pour-le-11-octobre",
+    "objectID": "exercice-markdown.html#rendu-pour-le-10-octobre",
+    "href": "exercice-markdown.html#rendu-pour-le-10-octobre",
     "title": "5  Exercice markdown",
-    "section": "5.3 Rendu pour le 11 octobre",
-    "text": "5.3 Rendu pour le 11 octobre\n\nTexte : pont_mirabeau.txt ;\nImage : pont_mirabeau.png ;\nÉditeur en ligne : Dillinger\n\nFaire un encodage en Markdown du poème :\n\nmettre le titre en niveau 1 ;\nfaire de chaque première ligne de strophe un titre de niveau 3 ;\nmettre en italique le paratexte ;\nmettre les noms propres en gras ;\nsauver le document en .md ;\nle déposer sur studium / me l’envoyer par mail.",
+    "section": "5.3 Rendu pour le 10 octobre",
+    "text": "5.3 Rendu pour le 10 octobre\n\nTexte : pont_mirabeau.txt ;\nImage : pont_mirabeau.png ;\nÉditeur en ligne : Dillinger\n\nFaire un encodage en Markdown du poème :\n\nmettre le titre en niveau 1 ;\nfaire de chaque première ligne de strophe un titre de niveau 3 ;\nmettre en italique le paratexte ;\nmettre les noms propres en gras ;\nsauver le document en .md ;\nle déposer sur studium / me l’envoyer par mail.",
     "crumbs": [
       "session 1",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Exercice markdown</span>"
@@ -536,11 +536,11 @@
     ]
   },
   {
-    "objectID": "stylo.html#rendu-pour-le-18-octobre",
-    "href": "stylo.html#rendu-pour-le-18-octobre",
+    "objectID": "stylo.html#rendu-pour-le-17-octobre",
+    "href": "stylo.html#rendu-pour-le-17-octobre",
     "title": "6  Chaînes éditoriales & Stylo",
-    "section": "6.6 Rendu pour le 18 octobre",
-    "text": "6.6 Rendu pour le 18 octobre\nCréation d’un article à partir de l’article «  La traduction de documents XML dans les mémoires de traduction » (https://www.persee.fr/doc/equiv_0751-9532_2005_num_32_1_890) de Pascaline Merten (Merten 2005):\nMéthode :\n\nparcourir le document et relevé les différentes tâches à réaliser (structuration, métadonnées) ;\ncommencer par intégrer le texte en copiant-collant la « version texte » – à retrouver sur la page Persée –, puis en le structurant en vous référant à la version graphique : niveaux de titres, italiques, notes de bas de page, références bibliographiques, images ;\najouter au moins quelques références bibliographiques ;\najouter toutes les métadonnées dont vous disposez via le mode « Editor Mode ».\n\nUne fois le travail terminé, partagez votre article avec moi (mathilde.verstraete@umontreal.ca) et prévenez-moi par courriel.",
+    "section": "6.6 Rendu pour le 17 octobre",
+    "text": "6.6 Rendu pour le 17 octobre\nCréation d’un article à partir de l’article «  La traduction de documents XML dans les mémoires de traduction » (https://www.persee.fr/doc/equiv_0751-9532_2005_num_32_1_890) de Pascaline Merten (Merten 2005):\nMéthode :\n\nparcourir le document et relevé les différentes tâches à réaliser (structuration, métadonnées) ;\ncommencer par intégrer le texte en copiant-collant la « version texte » – à retrouver sur la page Persée –, puis en le structurant en vous référant à la version graphique : niveaux de titres, italiques, notes de bas de page, références bibliographiques, images ;\najouter au moins quelques références bibliographiques ;\najouter toutes les métadonnées dont vous disposez via le mode « Editor Mode ».\n\nUne fois le travail terminé, partagez votre article avec moi (mathilde.verstraete@umontreal.ca) et prévenez-moi par courriel.",
     "crumbs": [
       "session 1",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Chaînes éditoriales & Stylo</span>"
