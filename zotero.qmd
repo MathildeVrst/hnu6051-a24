@@ -147,7 +147,7 @@ Vous pouvez aussi créer manuellement des références en sélectionnant le type
 
 - Créer une référence depuis Zotero : un livre de votre choix (titre, auteur·trice, maison d’édition, lieu, date, langue, ISBN) ;
 - Intégrer 4 références : un article, un livre, un chapitre et une thèse ;
-- Déplacer toutes vos références dans un dossier/répertoire edn6102.
+- Déplacer toutes vos références dans une sous-collection "HNU6051".
 
 ## Zotero avancé 
 

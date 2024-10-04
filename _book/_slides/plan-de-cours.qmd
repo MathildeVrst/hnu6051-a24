@@ -46,7 +46,7 @@ Le programme des séances est sujet à de légers changements en fonction du niv
 | 12h30-13h00 | [Markdown](exercice-markdown.qmd#exercice-markdown) | Théorie 📚 et exercice 🏋️‍♂️ | 
 | 13h00-14h15 | [Chaînes éditoriales, Stylo](stylo.qmd#chaînes-éditoriales--stylo) | Théorie 📚 et pratique 🛠️ | 
 | 14h15-15h15 | [Références structurées, Zotero](zotero.qmd#limportance-de-structurer-ses-références-bibliographiques) | Théorie 📚 et exercice 🏋️‍♂️ | 
-| 15h15-15h30 | [Présentation du rendu pour la séance 2 (stylo basique)](exercice-markdown.qmd#rendu-pour-le-10-octobre) | Rendu 📋 | 
+| 15h15-15h30 | [Présentation du rendu pour la séance 2 (markdown)](exercice-markdown.qmd#rendu-pour-le-10-octobre) | Rendu 📋 | 
 
 ### Séance 2 (11 octobre) : 
 
