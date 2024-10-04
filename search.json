@@ -221,7 +221,7 @@
     "href": "theorie-formats.html#vers-une-définition-du-format",
     "title": "2  Les formats : théorie",
     "section": "2.2 Vers une définition du format",
-    "text": "2.2 Vers une définition du format\n\nCe qui donne une forme et un ensemble de caractéristiques à un ensemble d’informations (image, écriture, son, etc.) ;\nLa dimension (format A4 ou letter par ex.) qui va impliquer un agencement ;\nUne manière de représenter des données (pdf, docx) qui impose une structure\n\n\nStructure définie de données contenues dans un fichier, établie selon des règles qui régissent notamment leur sauvegarde, leur affichage et leur manipulation par un logiciel compatible. (OQLF, 2022).",
+    "text": "2.2 Vers une définition du format\n\nCe qui donne une forme et un ensemble de caractéristiques à un ensemble d’informations (image, écriture, son, etc.) ;\nLa dimension (format A4 ou letter par ex.) qui va impliquer un agencement ;\nUne manière de représenter des données (pdf, docx) qui impose une structure ;\ninteropérabilité.\n\n\nStructure définie de données contenues dans un fichier, établie selon des règles qui régissent notamment leur sauvegarde, leur affichage et leur manipulation par un logiciel compatible. (OQLF, 2022).",
     "crumbs": [
       "session 1",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Les formats : théorie</span>"
@@ -507,7 +507,7 @@
     "href": "stylo.html#chaînes-éditoriales-variées",
     "title": "6  Chaînes éditoriales & Stylo",
     "section": "6.3 Chaînes éditoriales variées",
-    "text": "6.3 Chaînes éditoriales variées\n\nclassiques : traitement de texte + logiciel de publication assistée par ordinateur (essentiellement Adobe InDesign ou Microsoft Publisher);\nsavantes : traitement de texte + logiciel de publication assistée par ordinateur + éditeur XML ;\nnon conventionnelles : Stylo, Zettlr, Quire, etc.",
+    "text": "6.3 Chaînes éditoriales variées\n\nclassiques : traitement de texte + logiciel de publication assistée par ordinateur (essentiellement Adobe InDesign ou Microsoft Publisher);\nsavantes : traitement de texte + logiciel de publication assistée par ordinateur + éditeur XML ;\nnon conventionnelles : Stylo, Zettlr, Quire, etc.\n\n\n\n\nChaîne Stylo et Sens Public",
     "crumbs": [
       "session 1",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Chaînes éditoriales & Stylo</span>"
@@ -727,18 +727,7 @@
     "href": "terminal.html",
     "title": "9  Utiliser son terminal",
     "section": "",
-    "text": "9.1 Terminal",
-    "crumbs": [
-      "session 2 (à venir)",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Utiliser son terminal</span>"
-    ]
-  },
-  {
-    "objectID": "terminal.html#à-quoi-ça-sert",
-    "href": "terminal.html#à-quoi-ça-sert",
-    "title": "9  Utiliser son terminal",
-    "section": "9.2 À quoi ça sert",
-    "text": "9.2 À quoi ça sert",
+    "text": "9.1 Terminal\nVotre (émulateur de) terminal permet à un.e utilisateur.ice d’interagir avec un ordinateur. Il s’agit d’une interface permettant l’interaction humain-machine.\nTerminal = console.\nLe terminal que nous allons manipuler fait référence au logiciel avec lequel nous pouvons taper des lignes de commandes afin d’interagir avec le système d’exploitation1.\nShell.",
     "crumbs": [
       "session 2 (à venir)",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Utiliser son terminal</span>"
@@ -748,8 +737,8 @@
     "objectID": "terminal.html#quelques-commandes",
     "href": "terminal.html#quelques-commandes",
     "title": "9  Utiliser son terminal",
-    "section": "9.3 Quelques commandes",
-    "text": "9.3 Quelques commandes",
+    "section": "9.2 Quelques commandes",
+    "text": "9.2 Quelques commandes\nSous Linux ou Mac : chercher « Terminal » parmi les applications.\nSous Windows, chercher « Windows Power Shell » ; dans le menu déroulant en haut sélectionner « Ubuntu » ; écrire dans le terminal :\n\npour savoir où l’on se trouve : pwd\npour lister les fichiers : ls\npour naviguer : cd Documents/cours-hnu6051\npour comprendre à quoi sert une commande : man nom-de-la-commande (ex. : man rm)\n\n\n9.2.1 Chemin absolu / chemin relatif\nIl est possible d’indiquer à la fois un chemin relatif, donc sans commencer par une barre oblique, ou en commençant par une barre oblique pour un chemin absolu.\n\n\n9.2.2 Quelques bons réflexes\n\nLa touche TAB complète une commande ;\nLa flèche du haut parcourt les dernières commandes utilisées ;\nCTRL + R pour rechercher une commande précédemment tapée ; la recherche se mettra à jour au fur et à mesure que vous tapez les premières lettres de la commande ;\nCTRL + L ou clear pour repartir sur un nouveau terminal.\n\n\n\n9.2.3 Gérer des fichiers ou des dossiers\n\nmkdir hnu6051\ncd hnu6051\ntouch fichier-test.txt\n\nPour trouver des fichiers qui contiennent un terme qui nous intéresse :\n\ngrep -ri mot-recherche\n\nPour trouver tous les fichiers qui se terminent par l’extension .txt :\n\n```find . -type f -name “*.txt”\n\n\n\n9.2.4 Déplacer un fichier\n\n\n\n\n\n\nTip\n\n\n\nLa commande mv permet de renommer ou de déplacer un fichier (dans le terminal, c’est la même chose!)\n\n\n\nmv mon-fichier.txt fichier.txt\nmv /home/utilisateur/hnu6051/mon-fichier.txt /home/utilisateur/Documents/mon-fichier.txt",
     "crumbs": [
       "session 2 (à venir)",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Utiliser son terminal</span>"
@@ -759,8 +748,19 @@
     "objectID": "terminal.html#rendu-pour-le-18-octobre",
     "href": "terminal.html#rendu-pour-le-18-octobre",
     "title": "9  Utiliser son terminal",
-    "section": "9.4 Rendu pour le 18 octobre",
-    "text": "9.4 Rendu pour le 18 octobre\nApprenez-moi quelque chose à propos du terminal ! Cela peut concerner une commande que vous trouvez utile, une astuce pour gagner du temps, ou une fonctionnalité du terminal que peu de gens connaissent. Nous commencerons le cours du 18 par vos trouvailles : une simple explication suffit, une démonstration est bienvenue.",
+    "section": "9.3 Rendu pour le 18 octobre",
+    "text": "9.3 Rendu pour le 18 octobre\nApprenez-moi quelque chose à propos du terminal ! Cela peut concerner une commande que vous trouvez utile, une astuce pour gagner du temps, ou une fonctionnalité du terminal que peu de gens connaissent. Nous commencerons le cours du 18 par vos trouvailles : une simple explication suffit, une démonstration est bienvenue.",
+    "crumbs": [
+      "session 2 (à venir)",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Utiliser son terminal</span>"
+    ]
+  },
+  {
+    "objectID": "terminal.html#footnotes",
+    "href": "terminal.html#footnotes",
+    "title": "9  Utiliser son terminal",
+    "section": "",
+    "text": "Soit, l’OS, le « logiciel faisant office d’interface [(graphique)] entre les composants informatiques et l’utilisateur, qui assure notamment l’exécution des programmes, l’allocation des ressources matérielles et le contrôle des opérations d’entrée-sortie sur les périphériques. » (OQLF 2022)↩︎",
     "crumbs": [
       "session 2 (à venir)",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Utiliser son terminal</span>"
