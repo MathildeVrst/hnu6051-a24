@@ -15,9 +15,60 @@ suppress-bibliography: true
 
 ## Terminal 
 
-## À quoi ça sert 
+Votre (émulateur de) terminal permet à un.e utilisateur.ice d'interagir avec un ordinateur. Il s'agit d'une interface permettant l'interaction humain-machine. 
+
+Terminal = console. 
+
+Le *terminal* que nous allons manipuler fait référence au logiciel avec lequel nous pouvons taper des lignes de commandes afin d'interagir avec le système d'exploitation^[Soit, l'*OS*, le « logiciel faisant office d'interface [(graphique)] entre les composants informatiques et l'utilisateur, qui assure notamment l'exécution des programmes, l'allocation des ressources matérielles et le contrôle des opérations d'entrée-sortie sur les périphériques. » ([OQLF 2022](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8358548/systeme-dexploitation))]. 
+
+*Shell*. 
 
 ## Quelques commandes 
+
+Sous Linux ou Mac : chercher « Terminal » parmi les applications.
+
+Sous Windows, chercher « Windows Power Shell » ; dans le menu déroulant en haut sélectionner « Ubuntu » ; écrire dans le terminal : 
+
+- pour savoir où l'on se trouve : ```pwd``` 
+- pour lister les fichiers : ```ls``` 
+- pour naviguer : ```cd Documents/cours-hnu6051``` 
+- pour comprendre à quoi sert une commande : ```man nom-de-la-commande``` (ex. : ```man rm```)
+
+### Chemin absolu / chemin relatif 
+
+Il est possible d’indiquer à la fois un chemin relatif, donc sans commencer par une barre oblique, ou en commençant par une barre oblique pour un chemin absolu. 
+
+### Quelques bons réflexes 
+
+- La touche TAB complète une commande ; 
+- La flèche du haut parcourt les dernières commandes utilisées ; 
+- CTRL + R pour rechercher une commande précédemment tapée ; la recherche se mettra à jour au fur et à mesure que vous tapez les premières lettres de la commande ; 
+- CTRL + L ou ```clear``` pour repartir sur un *nouveau* terminal. 
+
+### Gérer des fichiers ou des dossiers 
+
+- ```mkdir hnu6051```
+- ```cd hnu6051``` 
+- ```touch fichier-test.txt``` 
+
+Pour trouver des fichiers qui contiennent un terme qui nous intéresse : 
+
+- ```grep -ri mot-recherche``` 
+
+Pour trouver tous les fichiers qui se terminent par l'extension ```.txt``` : 
+
+- ```find . -type f -name "*.txt" 
+
+### Déplacer un fichier 
+
+::: {.callout-tip}
+
+La commande ```mv``` permet de renommer ou de déplacer un fichier (dans le terminal, c’est la même chose!)
+
+:::
+
+- ```mv mon-fichier.txt fichier.txt``` 
+- ```mv /home/utilisateur/hnu6051/mon-fichier.txt /home/utilisateur/Documents/mon-fichier.txt```
 
 ## Rendu pour le 18 octobre 
 

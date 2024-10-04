@@ -28,7 +28,12 @@ Encore un peu de théorie avant de prolonger les manipulations.
 - *savantes* : traitement de texte + logiciel de publication assistée par ordinateur + éditeur XML ; 
 - *non conventionnelles* : Stylo, Zettlr, Quire, etc.
 
-![](img/chaine-stylo-sp.png)
+![Chaîne Stylo et Sens Public](img/chaine-stylo-sp.png)
+
+</section>
+<section>
+
+![[Chaîne Métopes](https://distam.hypotheses.org/4102)](img/metopes.png)
 
 ## Stylo : un projet de recherche & un éditeur de texte 
 

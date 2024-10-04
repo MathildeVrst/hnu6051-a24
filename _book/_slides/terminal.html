@@ -332,17 +332,71 @@
 </section>
 <section id="terminal" class="title-slide slide level2 center">
 <h2>Terminal</h2>
-
-</section>
-
-<section id="à-quoi-ça-sert" class="title-slide slide level2 center">
-<h2>À quoi ça sert</h2>
-
-</section>
+<p>Votre (émulateur de) terminal permet à un.e utilisateur.ice d’interagir avec un ordinateur. Il s’agit d’une interface permettant l’interaction humain-machine.</p>
+<p>Terminal = console.</p>
+<p>Le <em>terminal</em> que nous allons manipuler fait référence au logiciel avec lequel nous pouvons taper des lignes de commandes afin d’interagir avec le système d’exploitation<sup>1</sup>.</p>
+<p><em>Shell</em>.</p>
+<aside><ol class="aside-footnotes"><li id="fn1"><p>Soit, l’<em>OS</em>, le «&nbsp;logiciel faisant office d’interface [(graphique)] entre les composants informatiques et l’utilisateur, qui assure notamment l’exécution des programmes, l’allocation des ressources matérielles et le contrôle des opérations d’entrée-sortie sur les périphériques.&nbsp;» (<a href="https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8358548/systeme-dexploitation">OQLF 2022</a>)</p></li></ol></aside></section>
 
 <section id="quelques-commandes" class="title-slide slide level2 center">
 <h2>Quelques commandes</h2>
-
+<p>Sous Linux ou Mac : chercher « Terminal » parmi les applications.</p>
+<p>Sous Windows, chercher « Windows Power Shell » ; dans le menu déroulant en haut sélectionner « Ubuntu » ; écrire dans le terminal :</p>
+<ul>
+<li>pour savoir où l’on se trouve&nbsp;: <code>pwd</code></li>
+<li>pour lister les fichiers&nbsp;: <code>ls</code></li>
+<li>pour naviguer : <code>cd Documents/cours-hnu6051</code></li>
+<li>pour comprendre à quoi sert une commande : <code>man nom-de-la-commande</code> (ex. : <code>man rm</code>)</li>
+</ul>
+</section>
+<section id="chemin-absolu-chemin-relatif" class="slide level3">
+<h3>Chemin absolu / chemin relatif</h3>
+<p>Il est possible d’indiquer à la fois un chemin relatif, donc sans commencer par une barre oblique, ou en commençant par une barre oblique pour un chemin absolu.</p>
+</section>
+<section id="quelques-bons-réflexes" class="slide level3">
+<h3>Quelques bons réflexes</h3>
+<ul>
+<li>La touche TAB complète une commande&nbsp;;</li>
+<li>La flèche du haut parcourt les dernières commandes utilisées&nbsp;;</li>
+<li>CTRL + R pour rechercher une commande précédemment tapée ; la recherche se mettra à jour au fur et à mesure que vous tapez les premières lettres de la commande&nbsp;;</li>
+<li>CTRL + L ou <code>clear</code> pour repartir sur un <em>nouveau</em> terminal.</li>
+</ul>
+</section>
+<section id="gérer-des-fichiers-ou-des-dossiers" class="slide level3">
+<h3>Gérer des fichiers ou des dossiers</h3>
+<ul>
+<li><code>mkdir hnu6051</code></li>
+<li><code>cd hnu6051</code></li>
+<li><code>touch fichier-test.txt</code></li>
+</ul>
+<p>Pour trouver des fichiers qui contiennent un terme qui nous intéresse&nbsp;:</p>
+<ul>
+<li><code>grep -ri mot-recherche</code></li>
+</ul>
+<p>Pour trouver tous les fichiers qui se terminent par l’extension <code>.txt</code> :</p>
+<ul>
+<li>```find . -type f -name “*.txt”</li>
+</ul>
+</section>
+<section id="déplacer-un-fichier" class="slide level3">
+<h3>Déplacer un fichier</h3>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Tip</strong></p>
+</div>
+<div class="callout-content">
+<p>La commande <code>mv</code> permet de renommer ou de déplacer un fichier (dans le terminal, c’est la même chose!)</p>
+</div>
+</div>
+</div>
+<ul>
+<li><code>mv mon-fichier.txt fichier.txt</code></li>
+<li><code>mv /home/utilisateur/hnu6051/mon-fichier.txt /home/utilisateur/Documents/mon-fichier.txt</code></li>
+</ul>
 </section>
 
 <section id="rendu-pour-le-18-octobre" class="title-slide slide level2 center">
@@ -355,6 +409,7 @@
 </div>
 </section>
 </section>
+
     </div>
   </div>
 

@@ -24,10 +24,15 @@ suppress-bibliography: true
 
 - Ce qui donne une forme et un ensemble de caractéristiques à un ensemble d'informations (image, écriture, son, etc.) ; 
 - La dimension (format A4 ou *letter* par ex.) qui va impliquer un agencement ; 
-- Une manière de représenter des données (pdf, docx) qui impose une structure
+- Une manière de représenter des données (pdf, docx) qui impose une structure ; 
+- **interopérabilité**. 
 
 > Structure définie de données contenues dans un fichier, établie selon des règles qui régissent notamment leur sauvegarde, leur affichage et leur manipulation par un logiciel compatible. ([OQLF, 2022](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8368613/format-de-fichier?)). 
 
+</section>
+<section>
+
+> En informatique, au niveau le plus fondamental, tout est exprimé dans un alphabet numérique binaire : 0 et 1. Un format, c’est une convention qui établit la correspondance entre une certaine succession de 0 et de 1, et quelque chose d’autre : par exemple une couleur, ou une lettre de l’alphabet, ou la position d’un pixel sur un écran. L’expression « format texte » désigne une catégorie de formats pour lesquels le contenu en binaire des fichiers encode des caractères textuels uniquement. ([Arthur Perret](https://www.arthurperret.fr/cours/2021-09-21-ecriture-academique-format-texte.html))
 
 ## Format et édition savante 
 
