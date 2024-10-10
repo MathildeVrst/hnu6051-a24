@@ -11,6 +11,7 @@ project:
     - stylo.qmd
     - zotero.qmd 
     - single-source.qmd 
+    - codium.qmd
     - terminal.qmd
     - pandoc.qmd
     - encodage.qmd

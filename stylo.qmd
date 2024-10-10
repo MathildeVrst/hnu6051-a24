@@ -56,6 +56,8 @@ Alors *Stylo*, WYSIWYM ou WYSIWYG ?
 
 Après avoir vu Zotero et BibTex (zotero avancé), nous pourrons nous essayez à une utilisation plus avancée de Stylo. 
 
+Création d'un article & lien avec Zotero
+
 ## Rendu pour le 17 octobre 
 
 Création d’un article à partir de l’article «  La traduction de documents XML dans les mémoires de traduction » (https://www.persee.fr/doc/equiv_0751-9532_2005_num_32_1_890) de Pascaline Merten [@mertenTraductionDocumentsXML2005]:

@@ -13,12 +13,108 @@ suppress-bibliography: true
 
 ::: 
 
+::: {.callout-tip}
+Lecture recommandée : [@fauchieImportanceSingleSource2023], ou à écouter [@ecrinumPublicationSourceUnique]. 
+:::
+
 ## Kézako 
 
-## Intérêts 
+Qu-est-ce que ça vous évoque, le *single source publishing* ? 
 
-## Limites
+## Chaîne éditoriale 
 
-Avez-vous remarquer les émojis dans mon plan de cours ? Sont-ils dans la sortie PDF ? 
+> Ensemble des méthodes, des outils et des processus qui permette de concevoir, fabriquer, produire et diffuser un livre ou plus largement une publication. Une chaîne de publication réunit des logiciels propres à la gestion du texte et des images, mais aussi les différents rôles d’un processus éditorial que sont l’auteur, l’éditeur, le correcteur, le graphiste, etc. [@fauchieFabriquerEditionsEditer2024]
+
+En général, idéal de la linéarité. 
+
+</section>
+<section>
+
+![Chaîne du livre (Stéphane Gauthier)](img/chaineLivre.png)
+
+### Réalités 
+
+- Complexité de la réalité éditoriale (structuration et production de l'artefact) ; 
+- Rétro-actions des processus de révision et de relecture (diffusion et gestion de l'artefact culturel) ; 
+- Ramifications des acteurs et des stratégies
+
+### Les différentes étapes de la chaîne éditoriale type 
+
+- Soumission ou commande ; 
+- Lecture et retour du comité éditorial ; 
+- Nouvelle version ; 
+- Lecture et retour du comité de lecture / évaluation par les pairs ; 
+- Nouvelle version ; 
+- Édition ; 
+- Contrôle-qualité ; 
+- Transmission à l'auteur ou Bon à tirer (BAT)
+
+### Et le numérique ? 
+
+Réagencement de la vision linéaire de la chaîne éditoriale par des principes et des pratiques d'hybridation et de modularité 
+
+
+### Rappel : plusieurs approches de la chaîne éditoriale 
+
+classiques vs non-conventionnelles (modulaire)
+
+</section>
+<section>
+
+Chaîne éditoriale classique 
+
+![](img/classique.svg)
+
+</section>
+<section>
+
+Chaîne éditoriale modulaire 
+
+![](img/modulaire2.svg)
+
+## Les chaînes d'édition modulaires 
+
+- Synergie entre les chaînons et interopérabilité technique (liée aux formats libres et ouverts) ; 
+- Exploration des caractéristiques des environnements numériques (pas de logiciels attribués) ; 
+- Agencement et adaptation selon les projets et les objectifs (construire une chaîne sur un objet). 
+
+
+## Le *single source publishing* ou la publication à source unique 
+
+### Quelques termes 
+
+- Multisupport : 
+    - plusieurs supports compatibles avec la publication ; 
+    - papier ou numérique ; 
+- Multiformat : 
+    - plusieurs formats de publication ; 
+    - HTML, ePub, PDF, etc. ; 
+- Multimodal : 
+    - plusieurs modes de lecture ; 
+    - version PDF statique, version numérique enrichie/augmentée. 
+
+
+### Définition 
+
+> L’expression single source publishing, ou publication à source unique en français, désigne le fait de produire plusieurs formats ou artefacts différents à partir d’une seule et même source, dans le cadre d’une démarche de publication. (Fauchié)
+
+### Ex. : un livre en *SSP* 
+
+![](img/ssp2.png)
+
+### Ex. : un site en *SSP* 
+
+![](img/modulaire2.svg) 
+
+### Intérêts et limites 
+
+- Clarification de la source de référence
+- Mutualisation du travail
+- Anticipation de l'archivage
+
+mais...
+
+- Un *ensemble* de fichiers de référence
+- Temps et essais de la mise en place de la chaîne
 
 ## Quelques exemples 

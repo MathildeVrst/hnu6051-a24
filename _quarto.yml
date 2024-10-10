@@ -30,6 +30,7 @@ book:
     - part: session 2 (à venir)
       chapters: 
       - single-source.qmd 
+      - codium.qmd
       - terminal.qmd
       - pandoc.qmd 
     - part: session 3 (à venir) 

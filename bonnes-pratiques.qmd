@@ -54,3 +54,9 @@ Cette question pas si banale que ça. Il existe des règles qui sont fondamental
 - Partager ses fichiers avec d’autres personnes ; 
 - Éviter des problèmes de comptabilité d’un système à un autre.
 
+## De l'importance de la documentation 
+
+(Pour toutes pratiques) 
+
+- La documentation est votre amie : RTFM ; 
+- Si vous rencontrez un problème, quelqu'un quelque part a déjà dû le rencontrer : les forums sont vos amis (communautés) 

@@ -192,14 +192,20 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./codium.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Installation de <em>Codium</em></span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./terminal.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Utiliser son terminal</span></span></a>
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Utiliser son terminal</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./pandoc.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Convertisseurs&nbsp;: le cas de <em>pandoc</em></span></span></a>
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Convertisseurs&nbsp;: le cas de <em>pandoc</em></span></span></a>
   </div>
 </li>
       </ul>
@@ -216,25 +222,25 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./encodage.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Des caractères à l’écran – encodage numérique</span></span></a>
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Des caractères à l’écran – encodage numérique</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./quarto.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Quarto</span></span></a>
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Quarto</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./git.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Git et GitHub</span></span></a>
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Git et GitHub</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./yml.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">YAML</span></span></a>
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">YAML</span></span></a>
   </div>
 </li>
       </ul>
@@ -284,8 +290,9 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#zotero-avancé" id="toc-zotero-avancé" class="nav-link" data-scroll-target="#zotero-avancé"><span class="header-section-number">7.6</span> Zotero avancé</a></li>
   <li><a href="#création-de-bibliographies" id="toc-création-de-bibliographies" class="nav-link" data-scroll-target="#création-de-bibliographies"><span class="header-section-number">7.7</span> Création de bibliographies</a>
   <ul class="collapse">
-  <li><a href="#comment-créer-une-bibliographie" id="toc-comment-créer-une-bibliographie" class="nav-link" data-scroll-target="#comment-créer-une-bibliographie"><span class="header-section-number">7.7.1</span> Comment créer une bibliographie ?</a></li>
-  <li><a href="#citer-et-créer-une-bibliographique-directement-dans-un-traitement-de-texte" id="toc-citer-et-créer-une-bibliographique-directement-dans-un-traitement-de-texte" class="nav-link" data-scroll-target="#citer-et-créer-une-bibliographique-directement-dans-un-traitement-de-texte"><span class="header-section-number">7.7.2</span> Citer et créer une bibliographique directement dans un traitement de texte</a></li>
+  <li><a href="#style-de-citation-vs-style-bibliographique" id="toc-style-de-citation-vs-style-bibliographique" class="nav-link" data-scroll-target="#style-de-citation-vs-style-bibliographique"><span class="header-section-number">7.7.1</span> Style de citation vs style bibliographique</a></li>
+  <li><a href="#comment-créer-une-bibliographie" id="toc-comment-créer-une-bibliographie" class="nav-link" data-scroll-target="#comment-créer-une-bibliographie"><span class="header-section-number">7.7.2</span> Comment créer une bibliographie ?</a></li>
+  <li><a href="#citer-et-créer-une-bibliographique-directement-dans-un-traitement-de-texte" id="toc-citer-et-créer-une-bibliographique-directement-dans-un-traitement-de-texte" class="nav-link" data-scroll-target="#citer-et-créer-une-bibliographique-directement-dans-un-traitement-de-texte"><span class="header-section-number">7.7.3</span> Citer et créer une bibliographique directement dans un traitement de texte</a></li>
   </ul></li>
   <li><a href="#création-et-gestion-de-groupes" id="toc-création-et-gestion-de-groupes" class="nav-link" data-scroll-target="#création-et-gestion-de-groupes"><span class="header-section-number">7.8</span> Création et gestion de groupes</a>
   <ul class="collapse">
@@ -503,11 +510,86 @@ Tip
 </section>
 <section id="création-de-bibliographies" class="level2" data-number="7.7">
 <h2 data-number="7.7" class="anchored" data-anchor-id="création-de-bibliographies"><span class="header-section-number">7.7</span> Création de bibliographies</h2>
-<section id="comment-créer-une-bibliographie" class="level3" data-number="7.7.1">
-<h3 data-number="7.7.1" class="anchored" data-anchor-id="comment-créer-une-bibliographie"><span class="header-section-number">7.7.1</span> Comment créer une bibliographie ?</h3>
+<section id="style-de-citation-vs-style-bibliographique" class="level3" data-number="7.7.1">
+<h3 data-number="7.7.1" class="anchored" data-anchor-id="style-de-citation-vs-style-bibliographique"><span class="header-section-number">7.7.1</span> Style de citation vs style bibliographique</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Style de citation</th>
+<th>Style bibliographique</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>règles utilisées pour citer des sources dans le texte</td>
+<td>présentation complète des sources dans une bibliographie ou une liste de références</td>
+</tr>
+<tr class="even">
+<td><code>APA</code> : (Dupont, 2020, p.&nbsp;45)</td>
+<td><code>APA</code> : Dupont, J. (2020). Titre du livre. Éditeur.</td>
+</tr>
+<tr class="odd">
+<td><code>Vancouver</code> : (1)</td>
+<td><code>Vancouver</code> : Dupont J. Titre du livre. Lieu de publication: Éditeur; 2020. 1000p.</td>
+</tr>
+</tbody>
+</table>
+<p>Répertoire des styles : <a href="https://www.zotero.org/styles" class="uri">https://www.zotero.org/styles</a></p>
+</section>
+<section>
+<p>Exemple&nbsp;:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 75%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>APA 7th - anglophone</td>
+<td>Merzeau, L. (2013). Éditorialisation collaborative d’un événement. <em>Communication et organisation. Revue scientifique francophone en Communication organisationnelle, 43</em>, Article 43.</td>
+</tr>
+<tr class="even">
+<td>APA 7th - francophone</td>
+<td>Merzeau, L. (2013). Éditorialisation collaborative d’un événement. <em>Communication et organisation. Revue scientifique francophone en Communication organisationnelle</em>, (43), 105-22.</td>
+</tr>
+<tr class="odd">
+<td>Modern Language Association 9th edition</td>
+<td>Merzeau, Louise. “Éditorialisation collaborative d’un événement.” <em>Communication et organisation. Revue scientifique francophone en Communication organisationnelle</em>, no 43, June 2013, pp.&nbsp;105-22.</td>
+</tr>
+<tr class="even">
+<td>Chicago Manual of Style 17th edition</td>
+<td>Merzeau, Louise. 2013. “Éditorialisation collaborative d’un événement.” <em>Communication et organisation. Revue scientifique francophone en Communication organisationnelle</em>, no 43 (June): 105-22.</td>
+</tr>
+</tbody>
+</table>
+<p>Ensemble de données !</p>
+</section>
+<section>
+<pre><code>&lt;div id="merzeau_editorialisation_2013"&gt;
+                    &lt;dt&gt;Merzeau (2013)&lt;/dt&gt;
+                    &lt;dd&gt;&lt;span itemscope itemtype="https://schema.org/Article" data-type="article"&gt;
+                        &lt;span itemprop="author" itemscope itemtype="https://schema.org/Person"&gt;
+                            &lt;span itemprop="familyName"&gt;Merzeau&lt;/span&gt;,
+                            &lt;meta itemprop="givenName" content="Louise" /&gt; L.&lt;/span&gt;
+                            (&lt;span itemprop="datePublished"&gt;2013&lt;/span&gt;).
+                            &lt;span itemprop="name"&gt;
+                                "Éditorialisation collaborative d'un événement"
+                            &lt;/span&gt;.
+                        &lt;meta itemprop="journal" &lt;i&gt;Communication et organisation. Revue scientifique francophone en Communication organisationnelle&lt;/i&gt;
+                       &lt;/span&gt;.
+                        &lt;/span&gt;
+                    &lt;/dd&gt;
+                &lt;/div&gt;</code></pre>
+</section>
+<section id="comment-créer-une-bibliographie" class="level3" data-number="7.7.2">
+<h3 data-number="7.7.2" class="anchored" data-anchor-id="comment-créer-une-bibliographie"><span class="header-section-number">7.7.2</span> Comment créer une bibliographie ?</h3>
 <ul>
 <li>Plusieurs milliers de styles bibliographiques : https://www.zotero.org/styles (choisir la <em>norme</em> que l’on va utiliser)&nbsp;;</li>
-<li>Exemple : « Université de Montréal - APA (French - Canada) » ;
+<li>Exemple : « Université de Montréal - APA (Français – Canada) » ;
 <ul>
 <li>Pour modifier le style par défaut de Zotero : Édition &gt; Préférences &gt; Citer ;</li>
 </ul></li>
@@ -517,8 +599,8 @@ Tip
 <p>Plus d’informations : https://www.zotero.org/support/fr/creating_bibliographies</p>
 </blockquote>
 </section>
-<section id="citer-et-créer-une-bibliographique-directement-dans-un-traitement-de-texte" class="level3" data-number="7.7.2">
-<h3 data-number="7.7.2" class="anchored" data-anchor-id="citer-et-créer-une-bibliographique-directement-dans-un-traitement-de-texte"><span class="header-section-number">7.7.2</span> Citer et créer une bibliographique directement dans un traitement de texte</h3>
+<section id="citer-et-créer-une-bibliographique-directement-dans-un-traitement-de-texte" class="level3" data-number="7.7.3">
+<h3 data-number="7.7.3" class="anchored" data-anchor-id="citer-et-créer-une-bibliographique-directement-dans-un-traitement-de-texte"><span class="header-section-number">7.7.3</span> Citer et créer une bibliographique directement dans un traitement de texte</h3>
 <ul>
 <li><p>Citations et bibliographies dynamiques dans des outils de traitement de texte (Word ou LibreOffice) :</p></li>
 <li><p>Ouvrez LibreOffice/Word et vérifiez que vous disposez bien des options de Zotero (dans la partie supérieure gauche) ;</p></li>
@@ -550,24 +632,32 @@ Tip
 <li>Format qui a été créé en 1985 pour gérer les bases de données bibliographiques dans des fichier LaTeX ;</li>
 <li>Le format BibTeX fonctionne par entrée bibliographiques : chaque entrée correspond à une description d’un document avec des items « mot-clef = valeur ».</li>
 </ul>
-<pre><code>@book{kirschenbaum_track_2016,
-  address = {{Cambridge, Massachusetts, Etats-Unis d'Am{\'e}rique}},
-  title = {Track Changes: A Literary History of Word Processing},
-  isbn = {978-0-674-41707-6},
-  shorttitle = {Track Changes},
-  language = {anglais},
-  publisher = {{The Belknap Press of Harvard University Press, 2016}},
-  author = {Kirschenbaum, Matthew G.},
-  year = {2016, cop. 2016}
+<p>Fichier <code>ref.bib</code> contenant autant d’entrées que de références&nbsp;:</p>
+<pre><code>@article{merzeauEditorialisationCollaborativeDun2013a,
+    title = {Éditorialisation collaborative d'un événement :{L}'exemple des {Entretiens} du nouveau monde industriel 2012},
+    volume = {43},
+    issn = {1168-5549},
+    shorttitle = {Éditorialisation collaborative d'un événement},
+    url = {https://shs.cairn.info/revue-communication-et-organisation-2013-1-page-105},
+    doi = {10.4000/communicationorganisation.4158},
+    language = {fr},
+    number = {1},
+    urldate = {2024-10-10},
+    journal = {Communication \&amp; Organisation},
+    author = {Merzeau, Louise},
+    year = {2013},
+    note = {Publisher: Presses universitaires de Bordeaux
+Section: Info, Communication},
+    pages = {105--122},
 }</code></pre>
 </section>
 <section id="better-bibtex" class="level2" data-number="7.10">
 <h2 data-number="7.10" class="anchored" data-anchor-id="better-bibtex"><span class="header-section-number">7.10</span> Better BibTeX</h2>
 <p>Better BibTex (https://retorque.re/zotero-better-bibtex/installation/) ajoute à Zotero des fonctionnalités très pratiques :</p>
 <ul>
-<li>Affichage des clés de citation ;</li>
+<li>Affichage des clés de citation (identifiants BibTeX uniques et stables) ;</li>
 <li>Nouveaux formats d’export ;</li>
-<li><strong>Exports dynamiques</strong> (mises à jour automatiques) de bibliographies.</li>
+<li><strong>Exports dynamiques</strong> de bibliographies (synchronisation automatique des fichiers <code>.bib</code>).</li>
 </ul>
 <section id="installez-better-bibtex" class="level3" data-number="7.10.1">
 <h3 data-number="7.10.1" class="anchored" data-anchor-id="installez-better-bibtex"><span class="header-section-number">7.10.1</span> Installez Better BibTeX</h3>
@@ -579,8 +669,7 @@ Tip
 <li>Créez une collection avec plusieurs références que vous exportez au format BetterBibTeX avec l’option « Garder à jour » ;</li>
 <li>Ajouter une référence à cette collection ;</li>
 <li>Est-ce que le fichier BibTeX a été modifié ? ;</li>
-<li>Verrouillez une clé de citation d’une référence de ce export ;</li>
-<li>Modifiez les formats de clé, que s’est-il passé dans votre fichier BibTeX ?</li>
+<li>Verrouillez une clé de citation d’une référence de ce export</li>
 </ul>
 </section>
 </section>

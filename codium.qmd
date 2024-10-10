@@ -1,0 +1,34 @@
+---
+suppress-bibliography: true
+---
+
+# Installation de *Codium* 
+
+::: {.content-visible when-format="html" unless-format="revealjs"}
+
+```{=html}
+<iframe src="_slides/codium.html"></iframe>
+```
+[Ouvrir dans mon navigateur](_slides/codium.html){target="_blank"} 
+
+::: 
+
+## C'est quoi *Codium* ? 
+
+- Version *open source* de Visual Studio Code (VS Code) 
+
+> VSCodium is a community-driven, freely-licensed binary distribution of Microsoft’s editor VS Code. 
+
+- VS Code : éditeur de code développé par Microsoft. Gratuit, léger et puissant. Largement utilisé par la communauté des développeur.ses pour faire de la programmation. 
+
+## Installation 
+
+<https://vscodium.com/#install>
+
+Documentation officielle : <https://code.visualstudio.com/docs>
+
+## Extensions 
+
+Suivre ce tutoriel (pour installer ```French Language Pack for VS Code```, ```French - Code Spell Checker``` et ```LTeX```, à configurer en français) : 
+
+<https://e-nsi.forge.aeif.fr/cours/1-general/VSCodium/#menus-en-francais>

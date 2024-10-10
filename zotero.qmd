@@ -153,10 +153,55 @@ Vous pouvez aussi créer manuellement des références en sélectionnant le type
 
 ## Création de bibliographies 
 
+### Style de citation vs style bibliographique 
+
+| Style de citation | Style bibliographique | 
+| --- | --- | 
+| règles utilisées pour citer des sources dans le texte | présentation complète des sources dans une bibliographie ou une liste de références | 
+| ```APA``` : (Dupont, 2020, p. 45) | ```APA``` : Dupont, J. (2020). Titre du livre. Éditeur. | 
+| ```Vancouver``` : (1) | ```Vancouver``` : Dupont J. Titre du livre. Lieu de publication: Éditeur; 2020. 1000p. | 
+
+Répertoire des styles : <https://www.zotero.org/styles> 
+
+</section>
+<section>
+
+Exemple : 
+
+| | | 
+| -- | ------ | 
+| APA 7th - anglophone | Merzeau, L. (2013). Éditorialisation collaborative d’un événement. *Communication et organisation. Revue scientifique francophone en Communication organisationnelle, 43*, Article 43.  | 
+| APA 7th - francophone | Merzeau, L. (2013). Éditorialisation collaborative d’un événement. *Communication et organisation. Revue scientifique francophone en Communication organisationnelle*, (43), 105-22. | 
+| Modern Language Association 9th edition | Merzeau, Louise. "Éditorialisation collaborative d’un événement." *Communication et organisation. Revue scientifique francophone en Communication organisationnelle*, no 43, June 2013, pp. 105-22. | 
+| Chicago Manual of Style 17th edition | Merzeau, Louise. 2013. "Éditorialisation collaborative d’un événement." *Communication et organisation. Revue scientifique francophone en Communication organisationnelle*, no 43 (June): 105-22. | 
+
+Ensemble de données ! 
+
+</section>
+<section>
+
+```
+<div id="merzeau_editorialisation_2013">
+                    <dt>Merzeau (2013)</dt>
+                    <dd><span itemscope itemtype="https://schema.org/Article" data-type="article">
+                        <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+                            <span itemprop="familyName">Merzeau</span>,
+                            <meta itemprop="givenName" content="Louise" /> L.</span>
+                            (<span itemprop="datePublished">2013</span>).
+                            <span itemprop="name">
+                                "Éditorialisation collaborative d'un événement"
+                            </span>.
+                        <meta itemprop="journal" <i>Communication et organisation. Revue scientifique francophone en Communication organisationnelle</i>
+                       </span>.
+                        </span>
+                    </dd>
+                </div>
+```
+
 ###  Comment créer une bibliographie ? 
 
 - Plusieurs milliers de styles bibliographiques : https://www.zotero.org/styles (choisir la *norme* que l'on va utiliser) ; 
-- Exemple : « Université de Montréal - APA (French - Canada) » ; 
+- Exemple : « Université de Montréal - APA (Français -- Canada) » ; 
   - Pour modifier le style par défaut de Zotero : Édition > Préférences > Citer ; 
 - Création d’une bibliographie : chaque référence ou groupe de références peut être récupéré sous différents formats pour être intégré dans un document via un traitement de texte par exemple. 
 
@@ -191,16 +236,25 @@ BibTeX est un format de fichier structurant une bibliographie :
 - Format qui a été créé en 1985 pour gérer les bases de données bibliographiques dans des fichier LaTeX ;
 - Le format BibTeX fonctionne par entrée bibliographiques : chaque entrée correspond à une description d’un document avec des items « mot-clef = valeur ».
 
+Fichier ```ref.bib``` contenant autant d'entrées que de références : 
+
 ```
-@book{kirschenbaum_track_2016,
-  address = {{Cambridge, Massachusetts, Etats-Unis d'Am{\'e}rique}},
-  title = {Track Changes: A Literary History of Word Processing},
-  isbn = {978-0-674-41707-6},
-  shorttitle = {Track Changes},
-  language = {anglais},
-  publisher = {{The Belknap Press of Harvard University Press, 2016}},
-  author = {Kirschenbaum, Matthew G.},
-  year = {2016, cop. 2016}
+@article{merzeauEditorialisationCollaborativeDun2013a,
+	title = {Éditorialisation collaborative d'un événement :{L}'exemple des {Entretiens} du nouveau monde industriel 2012},
+	volume = {43},
+	issn = {1168-5549},
+	shorttitle = {Éditorialisation collaborative d'un événement},
+	url = {https://shs.cairn.info/revue-communication-et-organisation-2013-1-page-105},
+	doi = {10.4000/communicationorganisation.4158},
+	language = {fr},
+	number = {1},
+	urldate = {2024-10-10},
+	journal = {Communication \& Organisation},
+	author = {Merzeau, Louise},
+	year = {2013},
+	note = {Publisher: Presses universitaires de Bordeaux
+Section: Info, Communication},
+	pages = {105--122},
 }
 ```
 
@@ -208,9 +262,9 @@ BibTeX est un format de fichier structurant une bibliographie :
 
 Better BibTex (https://retorque.re/zotero-better-bibtex/installation/) ajoute à Zotero des fonctionnalités très pratiques :
 
-- Affichage des clés de citation ; 
+- Affichage des clés de citation (identifiants BibTeX uniques et stables) ; 
 - Nouveaux formats d’export ; 
-- **Exports dynamiques** (mises à jour automatiques) de bibliographies.
+- **Exports dynamiques** de bibliographies (synchronisation automatique des fichiers ```.bib```).
 
 ### Installez Better BibTeX 
 
@@ -221,7 +275,6 @@ https://retorque.re/zotero-better-bibtex/installation/
 - Créez une collection avec plusieurs références que vous exportez au format BetterBibTeX avec l’option « Garder à jour » ; 
 - Ajouter une référence à cette collection ; 
 - Est-ce que le fichier BibTeX a été modifié ? ; 
-- Verrouillez une clé de citation d’une référence de ce export ; 
-- Modifiez les formats de clé, que s’est-il passé dans votre fichier BibTeX ?
+- Verrouillez une clé de citation d’une référence de ce export 
 
 ## Questions ? 
