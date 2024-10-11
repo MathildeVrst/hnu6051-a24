@@ -30,13 +30,7 @@ En général, idéal de la linéarité.
 </section>
 <section>
 
-![Chaîne du livre (Stéphane Gauthier)](img/chaineLivre.png)
-
-### Réalités 
-
-- Complexité de la réalité éditoriale (structuration et production de l'artefact) ; 
-- Rétro-actions des processus de révision et de relecture (diffusion et gestion de l'artefact culturel) ; 
-- Ramifications des acteurs et des stratégies
+![Chaîne du livre (Stéphane Gauthier)](img/chaineLivre.png){height=500}
 
 ### Les différentes étapes de la chaîne éditoriale type 
 
@@ -63,14 +57,14 @@ classiques vs non-conventionnelles (modulaire)
 
 Chaîne éditoriale classique 
 
-![](img/classique.svg)
+![Schéma Antoine Fauchié](img/classique.png)
 
 </section>
 <section>
 
 Chaîne éditoriale modulaire 
 
-![](img/modulaire2.svg)
+![Schéma Antoine Fauchié](img/modulaire.png)
 
 ## Les chaînes d'édition modulaires 
 
@@ -96,15 +90,15 @@ Chaîne éditoriale modulaire
 
 ### Définition 
 
-> L’expression single source publishing, ou publication à source unique en français, désigne le fait de produire plusieurs formats ou artefacts différents à partir d’une seule et même source, dans le cadre d’une démarche de publication. (Fauchié)
+> L’expression *single source publishing*, ou publication à source unique en français, désigne le fait de produire plusieurs formats ou artefacts différents à partir d’une seule et même source, dans le cadre d’une démarche de publication. (Fauchié)
 
 ### Ex. : un livre en *SSP* 
 
-![](img/ssp2.png)
+![Schéma Antoine Fauchié](img/ssp2.png)
 
 ### Ex. : un site en *SSP* 
 
-![](img/modulaire2.svg) 
+![Schéma Antoine Fauchié](img/modulaire.png) 
 
 ### Intérêts et limites 
 
@@ -118,3 +112,8 @@ mais...
 - Temps et essais de la mise en place de la chaîne
 
 ## Quelques exemples 
+
+- Stylo (cf [@vitali-rosatiEcrireSHSEnvironnement2020]) : Markdown, YAML et BibTeX pour les données ; Pandoc et LaTeX pour la génération des formats ; 
+- [Quire](https://gettypubs.github.io/quire/) : Markdown, YAML et JSON pour les données ; Hugo et PrinceXML pour la génération des formats ; 
+- [Abrüpt](https://abrupt.cc/) : Markdown, HTML, YAML ; Make, Pandoc et LaTeX pour la génération des formats ; 
+- ... 

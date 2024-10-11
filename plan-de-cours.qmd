@@ -56,9 +56,10 @@ Le programme des séances est sujet à de légers changements en fonction du niv
 | 10h00-11h15 | [Single Source Publishing](single-source.qmd#le-single-source-publishing) | Théorie 📚 | 
 | 11h15-11h30 | [Installation de Codium](codium.qmd#installation-de-codium) | Pratique 🛠️ | 
 | 11h30-12h30 | Pause | -- | 
-| 12h30-13h30 | [Utilisation du terminal](terminal.qmd#utiliser-son-terminal) | Pratique 🛠️ |
-| 13h30-14h30 | [Zotero et Bibtex](zotero.qmd#zotero-avancé) | Pratique 🛠️ | 
-| 14h30-15h15 | [Stylo en mode avancé](stylo.qmd#stylo-en-mode-avancé) | Exercice 🏋️‍♂️ | 
+| 12h30-13h15 | [Utilisation du terminal](terminal.qmd#utiliser-son-terminal) | Pratique 🛠️ |
+| 13h15-14h00 | [Zotero et Bibtex](zotero.qmd#zotero-avancé) | Pratique 🛠️ | 
+| 14h00-14h45 | [Stylo en mode avancé](stylo.qmd#stylo-en-mode-avancé) | Exercice 🏋️‍♂️ | 
+| 14h45-15h15 | [Latex](latex.qmd#latex) | Pratique 🛠️ | 
 | 15h15-15h30 | Présentation du rendu pour la séance 3 ([stylo avancé](stylo.qmd#rendu-pour-le-17-octobre) ; [recherches terminal](terminal.qmd#rendu-pour-le-18-octobre)) | Rendu 📋 | 
 
 ### Séance 3 (18 octobre) : 

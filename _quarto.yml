@@ -27,15 +27,16 @@ book:
       - exercice-markdown.qmd 
       - stylo.qmd
       - zotero.qmd 
-    - part: session 2 (à venir)
+    - part: session 2 
       chapters: 
       - single-source.qmd 
       - codium.qmd
       - terminal.qmd
-      - pandoc.qmd 
+      - latex.qmd
     - part: session 3 (à venir) 
       chapters: 
       - encodage.qmd
+      - pandoc.qmd 
       - quarto.qmd 
       - git.qmd
       - yml.qmd 

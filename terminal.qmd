@@ -13,15 +13,43 @@ suppress-bibliography: true
 
 ::: 
 
-## Terminal 
+## Terminal, console, shell... ? 
 
-Votre (émulateur de) terminal permet à un.e utilisateur.ice d'interagir avec un ordinateur. Il s'agit d'une interface permettant l'interaction humain-machine. 
+Le *terminal* que nous allons manipuler fait référence au logiciel avec lequel nous pouvons taper des lignes de commandes afin d'interagir avec le *système d'exploitation*
 
-Terminal = console. 
+-> Soit, l'*OS*, le « logiciel faisant office d'interface [(graphique)] entre les composants informatiques et l'utilisateur, qui assure notamment l'exécution des programmes, l'allocation des ressources matérielles et le contrôle des opérations d'entrée-sortie sur les périphériques. » ([OQLF 2022](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8358548/systeme-dexploitation)). 
 
-Le *terminal* que nous allons manipuler fait référence au logiciel avec lequel nous pouvons taper des lignes de commandes afin d'interagir avec le système d'exploitation^[Soit, l'*OS*, le « logiciel faisant office d'interface [(graphique)] entre les composants informatiques et l'utilisateur, qui assure notamment l'exécution des programmes, l'allocation des ressources matérielles et le contrôle des opérations d'entrée-sortie sur les périphériques. » ([OQLF 2022](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8358548/systeme-dexploitation))]. 
+### Le *shell* 
 
-*Shell*. 
+![Le shell, selon Alexis Janvier](img/shell.jpg) 
+
+::: {.callout-note}
+Il existe plusieurs shells ! Les plus courants sont ```sh```, ```bash``` ou ```zsh```
+:::
+
+### Terminal 
+
+Le terminal, à l'origine, c'est un objet physique nous permettant d'interagir avec l'ordinateur : 
+
+![Terminal DEC VT100](img/Terminal-dec-vt100.jpg)
+
+### Émulateur de terminal 
+
+- émuler une console système au sein d’un environnement graphique 
+
+::: {.callout-tip}
+Lecture recommandée : [@drevekeninAnatomyTerminalEmulator2021]. 
+:::
+
+## les CLI (*command-line interfaces*)
+
+Interface en ligne de commande permettant de dialoguer avec l’ordinateur en tapant des instructions textuelles (des **commandes**).
+
+## Intérêts 
+
+- Rapidité et efficacité 
+- Automatisation (scripts) 
+- Contrôle avancé 
 
 ## Quelques commandes 
 
@@ -36,7 +64,13 @@ Sous Windows, chercher « Windows Power Shell » ; dans le menu déroulant
 
 ### Chemin absolu / chemin relatif 
 
-Il est possible d’indiquer à la fois un chemin relatif, donc sans commencer par une barre oblique, ou en commençant par une barre oblique pour un chemin absolu. 
+Il est possible d’indiquer à la fois un chemin relatif, donc sans commencer par une barre oblique, ou en commençant par une barre oblique pour un chemin absolu.
+
+| Chemin absolu | Chemin relatif | 
+| --- | --- | 
+| /Users/Mathilde/Documents/Projet/index.html | ./Documents/Projet/index.html |
+| Emplacement complet à partir de la racine du système de fichiers | Chemin vers un fichier à partir du répertoire actul (```pwd```) | 
+| Toujours valide, qu'importe le répertoire | Change selon où je me situe dans mes fichiers |
 
 ### Quelques bons réflexes 
 
@@ -73,3 +107,5 @@ La commande ```mv``` permet de renommer ou de déplacer un fichier (dans le te
 ## Rendu pour le 18 octobre 
 
 Apprenez-moi quelque chose à propos du terminal ! Cela peut concerner une commande que vous trouvez utile, une astuce pour gagner du temps, ou une fonctionnalité du terminal que peu de gens connaissent. Nous commencerons le cours du 18 par vos trouvailles : une simple explication suffit, une démonstration est bienvenue. 
+
+Ex. : inscrivez dans votre terminal ```curl http://wttr.in/Montréal\?lang\=fr``` 

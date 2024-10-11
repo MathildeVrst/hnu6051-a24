@@ -212,10 +212,10 @@ Ensemble de données !
 - Citations et bibliographies dynamiques dans des outils de traitement de texte (Word ou LibreOffice) : 
 
 - Ouvrez LibreOffice/Word et vérifiez que vous disposez bien des options de Zotero (dans la partie supérieure gauche) ; 
-- si vous n’avez pas l’extension Zotero pour LibreOffice, installez là via le logiciel Zotero : Édition > Préférences > Citer > Traitements de texte > Installer le module LibreOffice 
+- si vous n’avez pas l’extension Zotero pour LibreOffice, installez-là via le logiciel Zotero : Édition > Préférences > Citer > Traitements de texte > Installer le module LibreOffice 
 - vous pouvez ajouter une citation d’une référence préalablement enregistrée dans Zotero ; 
 - une fois des citations ajoutées, vous pouvez créer une bibliographie de ces citations ; 
-- si vous modifier vos références dans Zotero, vous pouvez mettre à jour votre document LibreOffice. 
+- si vous modifiez vos références dans Zotero, vous pouvez mettre à jour votre document LibreOffice. 
 
 ## Création et gestion de groupes 
 
@@ -229,7 +229,7 @@ Un groupe est une collection à laquelle plusieurs personnes peuvent participer 
 - Plusieurs rôles dans un même groupe : consulter, créer, modifier, administrer ; 
 - Le groupe peut être public avec des permissions plus ou moins ouvertes
 
-## BibTeX 
+## BibTeX  {.smaller}
 
 BibTeX est un format de fichier structurant une bibliographie :
 

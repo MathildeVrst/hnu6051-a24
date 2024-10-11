@@ -13,8 +13,9 @@ project:
     - single-source.qmd 
     - codium.qmd
     - terminal.qmd
-    - pandoc.qmd
+    - latex.qmd
     - encodage.qmd
+    - pandoc.qmd
     - quarto.qmd 
     - git.qmd
     - yml.qmd 

@@ -1,0 +1,63 @@
+---
+suppress-bibliography: true
+---
+
+# LaTeX 
+
+::: {.content-visible when-format="html" unless-format="revealjs"}
+
+```{=html}
+<iframe src="_slides/latex.html"></iframe>
+```
+[Ouvrir dans mon navigateur](_slides/latex.html){target="_blank"} 
+
+::: 
+
+## LaTeX : introduction 
+
+- **Quoi ?** Un langage de composition de documents, principalement utilisé pour des textes scientifiques, techniques et mathématiques. 
+- **Quand ?** Créé au début des années 1980 par Leslie Lamport, basé sur TeX, inventé par Donald Knuth dès 1977. 
+- **Pourquoi ?** Fournir un moyen précis et reproductible de créer des documents complexes, (notamment des équations) : 
+  - Qualité typographique ++ (mise en page, figures, références croisées,...)
+  - Gestion avancée des références bibliographiques 
+  - Flexibilité 
+  - Open-source et multiplateforme 
+  - Contenu vs Style (ou presque) 
+
+## TeX, LaTeX, et al. 
+
+- **TeX** : Langage de base pour la composition de textes (inventé par Donald Knuth, cf. [@knuthTeXbook1984]) ; 
+- **LaTeX** : Interface simplifiée sur TeX, ajoutant des commandes prédéfinies pour faciliter la création de documents ; 
+- **LuaTeX/LuaLaTeX** : Extension moderne qui intègre le langage de programmation *Lua* pour des scripts plus flexibles ; 
+- **XeTeX/XeLaTeX** : Variante qui améliore la gestion des polices et des langues.
+
+## Structure générale 
+
+- Préambule : définit le type de document, les paquets utilisés, les configurations générales (marges, polices,...) ; 
+- Corpus du texte (```\begin{document}```...```\end{document}```) ; 
+- Compilation(**s**) du document -> PDF
+
+## Modules supplémentaires, *paquets* {.smaller}
+
+*Augmenter* LaTeX via des *paquets* spécifiques : 
+
+- Modifier le fonctionnement de certaines parties de LaTeX ; 
+- Modifier l'apparence du documents ; 
+- Ajouter de nouvelles commandes ; 
+- ... 
+
+> Ex. : 
+> ```\usepackage{graphicx}```  
+> ```\includegraphics[width=\textwidth]{image.png}```
+
+## Discussion : avantages, inconvénients 
+
+Qu'en pensez-vous, à première vue ? 
+
+## Tuto 
+
+Commençons à réaliser ce tuto en classe : <https://www.learnlatex.org/fr/> 
+
+Vous devrez vous créer un compte sur [Overleaf](https://fr.overleaf.com/) 
+
+La documentation officielle : <https://tug.org/begin.html> 
