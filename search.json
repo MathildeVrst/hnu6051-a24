@@ -34,7 +34,7 @@
     "href": "index.html#license",
     "title": "HNU6051-A24",
     "section": "License",
-    "text": "License\nTous les contenus de ce site ou de ce document sont sous licence CC BY-NC-SA : Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions.\n\n\n\n\nBoulétreau, Viviane, and Benoît Habert. 2014. “Les formats.” In Pratiques de l’édition numérique. Les Ateliers de [sens public].\n\n\nCoombs, James H., Allen H. Renear, and Steven J. DeRose. 1987. “Markup Systems and the Future of Scholarly Text Processing.” Commun. ACM 30 (11): 933–47. https://doi.org/10.1145/32206.32209.\n\n\nDaniel, Johanna. 2022. “Ode à Zotero, une décennie d’usage de Zotero.” {Billet}. Isidore & Ganesh. https://doi.org/10.58079/pw5v.\n\n\nEberle-Sinatra, Michael, and Marcello Vitali Rosati. 2014. Pratiques de l’édition numérique. Parcours numériques 1. Montréal: Les Presses de l’Université de Montréal.\n\n\nFauchié, Antoine. 2017/2018. “Markdown Comme Condition d’une Norme de l’écriture Numérique.” Réel-Virtuel, no. 6 (2017/2018).\n\n\nMerten, Pascaline. 2005. “La traduction de documents XML dans les mémoires de traduction.” Equivalences 32 (1): 63–78. https://doi.org/10.3406/equiv.2005.890.\n\n\nSimpkin, Sarah. 2015. “Débuter avec Markdown.” Programming Historian, November.",
+    "text": "License\nTous les contenus de ce site ou de ce document sont sous licence CC BY-NC-SA : Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions.\n\n\n\n\nBoulétreau, Viviane, and Benoît Habert. 2014. “Les formats.” In Pratiques de l’édition numérique. Les Ateliers de [sens public].\n\n\nCoombs, James H., Allen H. Renear, and Steven J. DeRose. 1987. “Markup Systems and the Future of Scholarly Text Processing.” Commun. ACM 30 (11): 933–47. https://doi.org/10.1145/32206.32209.\n\n\nDaniel, Johanna. 2022. “Ode à Zotero, une décennie d’usage de Zotero.” {Billet}. Isidore & Ganesh. https://doi.org/10.58079/pw5v.\n\n\nDrevekenin, Aram. 2021. “Anatomy of a Terminal Emulator.” Poor.dev.\n\n\nEberle-Sinatra, Michael, and Marcello Vitali Rosati. 2014. Pratiques de l’édition numérique. Parcours numériques 1. Montréal: Les Presses de l’Université de Montréal.\n\n\nEcrinum. n.d. “Publication à source unique - Antoine Fauchié.” Accessed October 9, 2024.\n\n\nFauchié, Antoine. 2017/2018. “Markdown Comme Condition d’une Norme de l’écriture Numérique.” Réel-Virtuel, no. 6 (2017/2018).\n\n\n———. 2024. “Fabriquer des éditions, éditer des fabriques : reconfiguration des processus techniques éditoriaux et nouveaux modèles épistémologiques.” PhD thesis, Montréal: Université de Montréal.\n\n\nFauchié, Antoine, and Yann Audin. 2023. “The Importance of Single Source Publishing in Scientific Publishing.” Digital Studies / Le Champ Numérique, no. Special DSCN Collection #9 (October). https://doi.org/10.16995/dscn.9655.\n\n\nKnuth, Donald E. 1984. The TeXbook. 1. édition. Reading, Mass.: Addison-Wesley Professional.\n\n\nMerten, Pascaline. 2005. “La traduction de documents XML dans les mémoires de traduction.” Equivalences 32 (1): 63–78. https://doi.org/10.3406/equiv.2005.890.\n\n\nMerzeau, Louise. 2013. “Éditorialisation collaborative d’un événement : L’exemple des Entretiens du nouveau monde industriel 2012.” Communication & Organisation 43 (1): 105–22. https://doi.org/10.4000/communicationorganisation.4158.\n\n\nRouquette, Maïeul. 2012. (Xe)LaTeX appliqué aux sciences humaines. Atramenta.\n\n\nSimpkin, Sarah. 2015. “Débuter avec Markdown.” Programming Historian, November.\n\n\nVitali-Rosati, Marcello, Nicolas Sauret, Antoine Fauchié, and Margot Mellet. 2020. “Écrire Les SHS En Environnement Numérique. L’éditeur de Texte Stylo.” Revue Intelligibilité Du Numérique, no. 1. https://doi.org/10.34745/NUMEREV_1697.",
     "crumbs": [
       "Bienvenue"
     ]
@@ -84,7 +84,7 @@
     "href": "plan-de-cours.html#organisation-des-séances",
     "title": "Plan de cours",
     "section": "Organisation des séances",
-    "text": "Organisation des séances\nNous alternerons entre pratique théorie et pratique. Il est conseillé de venir en cours avec son ordinateur personnel.\n\n\n\n\n\n\nImportant\n\n\n\nLe programme des séances est sujet à de légers changements en fonction du niveau et de l’avancement du groupe.\n\n\n\nSéance 1 (4 octobre) :\n\n\n\nHoraire\nMatière\nType\n\n\n\n\n09h30-10h00\nPrésentation & Introduction de l’atelier\n–\n\n\n10h00-10h50\nÉdition savante, formats de fichiers\nThéorie 📚\n\n\n10h50-11h10\nBonnes pratiques de l’édition\nThéorie 📚\n\n\n11h10-11h30\nThe Plain Text Project\nThéorie 📚 et exercice 🏋️‍♂️\n\n\n11h30-12h30\nPause\n–\n\n\n12h30-13h00\nMarkdown\nThéorie 📚 et exercice 🏋️‍♂️\n\n\n13h00-14h15\nChaînes éditoriales, Stylo\nThéorie 📚 et pratique 🛠️\n\n\n14h15-15h15\nRéférences structurées, Zotero\nThéorie 📚 et exercice 🏋️‍♂️\n\n\n15h15-15h30\nPrésentation du rendu pour la séance 2 (markdown)\nRendu 📋\n\n\n\n\n\nSéance 2 (11 octobre) :\n\n\n\nHoraire\nMatière\nType\n\n\n\n\n09h30-10h00\nRetour sur le rendu\nRendu 📋\n\n\n10h00-11h15\nSingle Source Publishing\nThéorie 📚\n\n\n11h15-11h30\nInstallation de Codium\n–\n\n\n11h30-12h30\nPause\n–\n\n\n12h30-13h30\nUtilisation du terminal\nPratique 🛠️\n\n\n13h30-14h30\nZotero et Bibtex\nPratique 🛠️\n\n\n14h30-15h15\nStylo en mode avancé\nExercice 🏋️‍♂️\n\n\n15h15-15h30\nPrésentation du rendu pour la séance 3 (stylo avancé ; recherches terminal)\nRendu 📋\n\n\n\n\n\nSéance 3 (18 octobre) :\n\n\n\nHoraire\nMatière\nType\n\n\n\n\n09h30-10h00\nRetour sur le rendu\nRendu 📋\n\n\n10h00-10h45\nLes caractères à l’écran\nThéorie 📚\n\n\n10h45-11h30\nPandoc\nPratique 🛠️\n\n\n11h30-12h30\nPause\n–\n\n\n12h30-13h30\nQuarto\nPratique 🛠️\n\n\n13h30-14h30\nGit et Github\nThéorie 📚\n\n\n14h30-15h15\nYaml\nThéorie et exercices 🏋️‍♂️\n\n\n15h15-15h30\nPrésentation du rendu final (création multi-format avec quarto)\nRendu 📋",
+    "text": "Organisation des séances\nNous alternerons entre pratique théorie et pratique. Il est conseillé de venir en cours avec son ordinateur personnel.\n\n\n\n\n\n\nImportant\n\n\n\nLe programme des séances est sujet à de légers changements en fonction du niveau et de l’avancement du groupe.\n\n\n\nSéance 1 (4 octobre) :\n\n\n\nHoraire\nMatière\nType\n\n\n\n\n09h30-10h00\nPrésentation & Introduction de l’atelier\n–\n\n\n10h00-10h50\nÉdition savante, formats de fichiers\nThéorie 📚\n\n\n10h50-11h10\nBonnes pratiques de l’édition\nThéorie 📚 ❌\n\n\n11h10-11h30\nThe Plain Text Project\nThéorie 📚 et exercice 🏋️‍♂️\n\n\n11h30-12h30\nPause\n–\n\n\n12h30-13h00\nMarkdown\nThéorie 📚 et exercice 🏋️‍♂️\n\n\n13h00-14h15\nChaînes éditoriales, Stylo\nThéorie 📚 et pratique 🛠️\n\n\n14h15-15h15\nRéférences structurées, Zotero\nThéorie 📚 et exercice 🏋️‍♂️\n\n\n15h15-15h30\nPrésentation du rendu pour la séance 2 (markdown)\nRendu 📋\n\n\n\n\n\nSéance 2 (11 octobre) :\n\n\n\nHoraire\nMatière\nType\n\n\n\n\n09h30-10h00\nRetour sur le rendu\nRendu 📋\n\n\n10h00-11h15\nSingle Source Publishing\nThéorie 📚\n\n\n11h15-11h30\nInstallation de Codium\nPratique 🛠️\n\n\n11h30-12h30\nPause\n–\n\n\n12h30-13h15\nUtilisation du terminal\nPratique 🛠️\n\n\n13h15-14h00\nZotero et Bibtex\nPratique 🛠️\n\n\n14h00-14h45\nStylo en mode avancé\nExercice 🏋️‍♂️\n\n\n14h45-15h15\nLatex\nPratique 🛠️\n\n\n15h15-15h30\nPrésentation du rendu pour la séance 3 (stylo avancé ; recherches terminal)\nRendu 📋\n\n\n\n\n\nSéance 3 (18 octobre) :\n\n\n\nHoraire\nMatière\nType\n\n\n\n\n09h30-10h00\nRetour sur le rendu\nRendu 📋\n\n\n10h00-10h45\nLes caractères à l’écran\nThéorie 📚\n\n\n10h45-11h30\nPandoc\nPratique 🛠️\n\n\n11h30-12h30\nPause\n–\n\n\n12h30-13h30\nQuarto\nPratique 🛠️\n\n\n13h30-14h30\nGit et Github\nThéorie 📚\n\n\n14h30-15h15\nYaml\nThéorie et exercices 🏋️‍♂️\n\n\n15h15-15h30\nPrésentation du rendu final (création multi-format avec quarto)\nRendu 📋",
     "crumbs": [
       "Plan de cours"
     ]
@@ -134,7 +134,7 @@
     "href": "plan-de-cours.html#license",
     "title": "Plan de cours",
     "section": "License",
-    "text": "License\nTous les contenus de ce site ou de ce document sont sous licence CC BY-NC-SA : Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions.\n\n\n\n\nBoulétreau, Viviane, and Benoît Habert. 2014. “Les formats.” In Pratiques de l’édition numérique. Les Ateliers de [sens public].\n\n\nCoombs, James H., Allen H. Renear, and Steven J. DeRose. 1987. “Markup Systems and the Future of Scholarly Text Processing.” Commun. ACM 30 (11): 933–47. https://doi.org/10.1145/32206.32209.\n\n\nDaniel, Johanna. 2022. “Ode à Zotero, une décennie d’usage de Zotero.” {Billet}. Isidore & Ganesh. https://doi.org/10.58079/pw5v.\n\n\nEberle-Sinatra, Michael, and Marcello Vitali Rosati. 2014. Pratiques de l’édition numérique. Parcours numériques 1. Montréal: Les Presses de l’Université de Montréal.\n\n\nFauchié, Antoine. 2017/2018. “Markdown Comme Condition d’une Norme de l’écriture Numérique.” Réel-Virtuel, no. 6 (2017/2018).\n\n\nMerten, Pascaline. 2005. “La traduction de documents XML dans les mémoires de traduction.” Equivalences 32 (1): 63–78. https://doi.org/10.3406/equiv.2005.890.\n\n\nSimpkin, Sarah. 2015. “Débuter avec Markdown.” Programming Historian, November.",
+    "text": "License\nTous les contenus de ce site ou de ce document sont sous licence CC BY-NC-SA : Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions.\n\n\n\n\nBoulétreau, Viviane, and Benoît Habert. 2014. “Les formats.” In Pratiques de l’édition numérique. Les Ateliers de [sens public].\n\n\nCoombs, James H., Allen H. Renear, and Steven J. DeRose. 1987. “Markup Systems and the Future of Scholarly Text Processing.” Commun. ACM 30 (11): 933–47. https://doi.org/10.1145/32206.32209.\n\n\nDaniel, Johanna. 2022. “Ode à Zotero, une décennie d’usage de Zotero.” {Billet}. Isidore & Ganesh. https://doi.org/10.58079/pw5v.\n\n\nDrevekenin, Aram. 2021. “Anatomy of a Terminal Emulator.” Poor.dev.\n\n\nEberle-Sinatra, Michael, and Marcello Vitali Rosati. 2014. Pratiques de l’édition numérique. Parcours numériques 1. Montréal: Les Presses de l’Université de Montréal.\n\n\nEcrinum. n.d. “Publication à source unique - Antoine Fauchié.” Accessed October 9, 2024.\n\n\nFauchié, Antoine. 2017/2018. “Markdown Comme Condition d’une Norme de l’écriture Numérique.” Réel-Virtuel, no. 6 (2017/2018).\n\n\n———. 2024. “Fabriquer des éditions, éditer des fabriques : reconfiguration des processus techniques éditoriaux et nouveaux modèles épistémologiques.” PhD thesis, Montréal: Université de Montréal.\n\n\nFauchié, Antoine, and Yann Audin. 2023. “The Importance of Single Source Publishing in Scientific Publishing.” Digital Studies / Le Champ Numérique, no. Special DSCN Collection #9 (October). https://doi.org/10.16995/dscn.9655.\n\n\nKnuth, Donald E. 1984. The TeXbook. 1. édition. Reading, Mass.: Addison-Wesley Professional.\n\n\nMerten, Pascaline. 2005. “La traduction de documents XML dans les mémoires de traduction.” Equivalences 32 (1): 63–78. https://doi.org/10.3406/equiv.2005.890.\n\n\nMerzeau, Louise. 2013. “Éditorialisation collaborative d’un événement : L’exemple des Entretiens du nouveau monde industriel 2012.” Communication & Organisation 43 (1): 105–22. https://doi.org/10.4000/communicationorganisation.4158.\n\n\nRouquette, Maïeul. 2012. (Xe)LaTeX appliqué aux sciences humaines. Atramenta.\n\n\nSimpkin, Sarah. 2015. “Débuter avec Markdown.” Programming Historian, November.\n\n\nVitali-Rosati, Marcello, Nicolas Sauret, Antoine Fauchié, and Margot Mellet. 2020. “Écrire Les SHS En Environnement Numérique. L’éditeur de Texte Stylo.” Revue Intelligibilité Du Numérique, no. 1. https://doi.org/10.34745/NUMEREV_1697.",
     "crumbs": [
       "Plan de cours"
     ]
@@ -393,6 +393,17 @@
     ]
   },
   {
+    "objectID": "bonnes-pratiques.html#de-limportance-de-la-documentation",
+    "href": "bonnes-pratiques.html#de-limportance-de-la-documentation",
+    "title": "3  Bonnes pratiques d’édition",
+    "section": "3.2 De l’importance de la documentation",
+    "text": "3.2 De l’importance de la documentation\n(Pour toutes pratiques)\n\nLa documentation est votre amie : RTFM ;\nSi vous rencontrez un problème, quelqu’un quelque part a déjà dû le rencontrer : les forums sont vos amis (communautés)",
+    "crumbs": [
+      "session 1",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Bonnes pratiques d'édition</span>"
+    ]
+  },
+  {
     "objectID": "plein-texte.html",
     "href": "plein-texte.html",
     "title": "4  Le texte brut",
@@ -529,7 +540,7 @@
     "href": "stylo.html#stylo-en-mode-avancé",
     "title": "6  Chaînes éditoriales & Stylo",
     "section": "6.5 Stylo en mode avancé",
-    "text": "6.5 Stylo en mode avancé\nAprès avoir vu Zotero et BibTex (zotero avancé), nous pourrons nous essayez à une utilisation plus avancée de Stylo.",
+    "text": "6.5 Stylo en mode avancé\nAprès avoir vu Zotero et BibTex (zotero avancé), nous pourrons nous essayez à une utilisation plus avancée de Stylo.\nCréation d’un article & lien avec Zotero",
     "crumbs": [
       "session 1",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Chaînes éditoriales & Stylo</span>"
@@ -628,7 +639,7 @@
     "href": "zotero.html#création-de-bibliographies",
     "title": "7  Zotero",
     "section": "7.7 Création de bibliographies",
-    "text": "7.7 Création de bibliographies\n\n7.7.1 Comment créer une bibliographie ?\n\nPlusieurs milliers de styles bibliographiques : https://www.zotero.org/styles (choisir la norme que l’on va utiliser) ;\nExemple : « Université de Montréal - APA (French - Canada) » ;\n\nPour modifier le style par défaut de Zotero : Édition &gt; Préférences &gt; Citer ;\n\nCréation d’une bibliographie : chaque référence ou groupe de références peut être récupéré sous différents formats pour être intégré dans un document via un traitement de texte par exemple.\n\n\nPlus d’informations : https://www.zotero.org/support/fr/creating_bibliographies\n\n\n\n7.7.2 Citer et créer une bibliographique directement dans un traitement de texte\n\nCitations et bibliographies dynamiques dans des outils de traitement de texte (Word ou LibreOffice) :\nOuvrez LibreOffice/Word et vérifiez que vous disposez bien des options de Zotero (dans la partie supérieure gauche) ;\nsi vous n’avez pas l’extension Zotero pour LibreOffice, installez là via le logiciel Zotero : Édition &gt; Préférences &gt; Citer &gt; Traitements de texte &gt; Installer le module LibreOffice\nvous pouvez ajouter une citation d’une référence préalablement enregistrée dans Zotero ;\nune fois des citations ajoutées, vous pouvez créer une bibliographie de ces citations ;\nsi vous modifier vos références dans Zotero, vous pouvez mettre à jour votre document LibreOffice.",
+    "text": "7.7 Création de bibliographies\n\n7.7.1 Style de citation vs style bibliographique\n\n\n\n\n\n\n\nStyle de citation\nStyle bibliographique\n\n\n\n\nrègles utilisées pour citer des sources dans le texte\nprésentation complète des sources dans une bibliographie ou une liste de références\n\n\nAPA : (Dupont, 2020, p. 45)\nAPA : Dupont, J. (2020). Titre du livre. Éditeur.\n\n\nVancouver : (1)\nVancouver : Dupont J. Titre du livre. Lieu de publication: Éditeur; 2020. 1000p.\n\n\n\nRépertoire des styles : https://www.zotero.org/styles\n\n\nExemple :\n\n\n\n\n\n\n\nAPA 7th - anglophone\nMerzeau, L. (2013). Éditorialisation collaborative d’un événement. Communication et organisation. Revue scientifique francophone en Communication organisationnelle, 43, Article 43.\n\n\nAPA 7th - francophone\nMerzeau, L. (2013). Éditorialisation collaborative d’un événement. Communication et organisation. Revue scientifique francophone en Communication organisationnelle, (43), 105-22.\n\n\nModern Language Association 9th edition\nMerzeau, Louise. “Éditorialisation collaborative d’un événement.” Communication et organisation. Revue scientifique francophone en Communication organisationnelle, no 43, June 2013, pp. 105-22.\n\n\nChicago Manual of Style 17th edition\nMerzeau, Louise. 2013. “Éditorialisation collaborative d’un événement.” Communication et organisation. Revue scientifique francophone en Communication organisationnelle, no 43 (June): 105-22.\n\n\n\nEnsemble de données !\n\n\n&lt;div id=\"merzeau_editorialisation_2013\"&gt;\n                    &lt;dt&gt;Merzeau (2013)&lt;/dt&gt;\n                    &lt;dd&gt;&lt;span itemscope itemtype=\"https://schema.org/Article\" data-type=\"article\"&gt;\n                        &lt;span itemprop=\"author\" itemscope itemtype=\"https://schema.org/Person\"&gt;\n                            &lt;span itemprop=\"familyName\"&gt;Merzeau&lt;/span&gt;,\n                            &lt;meta itemprop=\"givenName\" content=\"Louise\" /&gt; L.&lt;/span&gt;\n                            (&lt;span itemprop=\"datePublished\"&gt;2013&lt;/span&gt;).\n                            &lt;span itemprop=\"name\"&gt;\n                                \"Éditorialisation collaborative d'un événement\"\n                            &lt;/span&gt;.\n                        &lt;meta itemprop=\"journal\" &lt;i&gt;Communication et organisation. Revue scientifique francophone en Communication organisationnelle&lt;/i&gt;\n                       &lt;/span&gt;.\n                        &lt;/span&gt;\n                    &lt;/dd&gt;\n                &lt;/div&gt;\n\n\n7.7.2 Comment créer une bibliographie ?\n\nPlusieurs milliers de styles bibliographiques : https://www.zotero.org/styles (choisir la norme que l’on va utiliser) ;\nExemple : « Université de Montréal - APA (Français – Canada) » ;\n\nPour modifier le style par défaut de Zotero : Édition &gt; Préférences &gt; Citer ;\n\nCréation d’une bibliographie : chaque référence ou groupe de références peut être récupéré sous différents formats pour être intégré dans un document via un traitement de texte par exemple.\n\n\nPlus d’informations : https://www.zotero.org/support/fr/creating_bibliographies\n\n\n\n7.7.3 Citer et créer une bibliographique directement dans un traitement de texte\n\nCitations et bibliographies dynamiques dans des outils de traitement de texte (Word ou LibreOffice) :\nOuvrez LibreOffice/Word et vérifiez que vous disposez bien des options de Zotero (dans la partie supérieure gauche) ;\nsi vous n’avez pas l’extension Zotero pour LibreOffice, installez-là via le logiciel Zotero : Édition &gt; Préférences &gt; Citer &gt; Traitements de texte &gt; Installer le module LibreOffice\nvous pouvez ajouter une citation d’une référence préalablement enregistrée dans Zotero ;\nune fois des citations ajoutées, vous pouvez créer une bibliographie de ces citations ;\nsi vous modifiez vos références dans Zotero, vous pouvez mettre à jour votre document LibreOffice.",
     "crumbs": [
       "session 1",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Zotero</span>"
@@ -650,7 +661,7 @@
     "href": "zotero.html#bibtex",
     "title": "7  Zotero",
     "section": "7.9 BibTeX",
-    "text": "7.9 BibTeX\nBibTeX est un format de fichier structurant une bibliographie :\n\nFormat qui a été créé en 1985 pour gérer les bases de données bibliographiques dans des fichier LaTeX ;\nLe format BibTeX fonctionne par entrée bibliographiques : chaque entrée correspond à une description d’un document avec des items « mot-clef = valeur ».\n\n@book{kirschenbaum_track_2016,\n  address = {{Cambridge, Massachusetts, Etats-Unis d'Am{\\'e}rique}},\n  title = {Track Changes: A Literary History of Word Processing},\n  isbn = {978-0-674-41707-6},\n  shorttitle = {Track Changes},\n  language = {anglais},\n  publisher = {{The Belknap Press of Harvard University Press, 2016}},\n  author = {Kirschenbaum, Matthew G.},\n  year = {2016, cop. 2016}\n}",
+    "text": "7.9 BibTeX\nBibTeX est un format de fichier structurant une bibliographie :\n\nFormat qui a été créé en 1985 pour gérer les bases de données bibliographiques dans des fichier LaTeX ;\nLe format BibTeX fonctionne par entrée bibliographiques : chaque entrée correspond à une description d’un document avec des items « mot-clef = valeur ».\n\nFichier ref.bib contenant autant d’entrées que de références :\n@article{merzeauEditorialisationCollaborativeDun2013a,\n    title = {Éditorialisation collaborative d'un événement :{L}'exemple des {Entretiens} du nouveau monde industriel 2012},\n    volume = {43},\n    issn = {1168-5549},\n    shorttitle = {Éditorialisation collaborative d'un événement},\n    url = {https://shs.cairn.info/revue-communication-et-organisation-2013-1-page-105},\n    doi = {10.4000/communicationorganisation.4158},\n    language = {fr},\n    number = {1},\n    urldate = {2024-10-10},\n    journal = {Communication \\& Organisation},\n    author = {Merzeau, Louise},\n    year = {2013},\n    note = {Publisher: Presses universitaires de Bordeaux\nSection: Info, Communication},\n    pages = {105--122},\n}",
     "crumbs": [
       "session 1",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Zotero</span>"
@@ -661,7 +672,7 @@
     "href": "zotero.html#better-bibtex",
     "title": "7  Zotero",
     "section": "7.10 Better BibTeX",
-    "text": "7.10 Better BibTeX\nBetter BibTex (https://retorque.re/zotero-better-bibtex/installation/) ajoute à Zotero des fonctionnalités très pratiques :\n\nAffichage des clés de citation ;\nNouveaux formats d’export ;\nExports dynamiques (mises à jour automatiques) de bibliographies.\n\n\n7.10.1 Installez Better BibTeX\nhttps://retorque.re/zotero-better-bibtex/installation/\n\n\n7.10.2 Exercices\n\nCréez une collection avec plusieurs références que vous exportez au format BetterBibTeX avec l’option « Garder à jour » ;\nAjouter une référence à cette collection ;\nEst-ce que le fichier BibTeX a été modifié ? ;\nVerrouillez une clé de citation d’une référence de ce export ;\nModifiez les formats de clé, que s’est-il passé dans votre fichier BibTeX ?",
+    "text": "7.10 Better BibTeX\nBetter BibTex (https://retorque.re/zotero-better-bibtex/installation/) ajoute à Zotero des fonctionnalités très pratiques :\n\nAffichage des clés de citation (identifiants BibTeX uniques et stables) ;\nNouveaux formats d’export ;\nExports dynamiques de bibliographies (synchronisation automatique des fichiers .bib).\n\n\n7.10.1 Installez Better BibTeX\nhttps://retorque.re/zotero-better-bibtex/installation/\n\n\n7.10.2 Exercices\n\nCréez une collection avec plusieurs références que vous exportez au format BetterBibTeX avec l’option « Garder à jour » ;\nAjouter une référence à cette collection ;\nEst-ce que le fichier BibTeX a été modifié ? ;\nVerrouillez une clé de citation d’une référence de ce export",
     "crumbs": [
       "session 1",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Zotero</span>"
@@ -683,31 +694,42 @@
     "href": "single-source.html",
     "title": "8  Le single source publishing",
     "section": "",
-    "text": "8.1 Kézako",
+    "text": "8.1 Kézako\nQu-est-ce que ça vous évoque, le single source publishing ?",
     "crumbs": [
-      "session 2 (à venir)",
+      "session 2",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Le *single source publishing*</span>"
     ]
   },
   {
-    "objectID": "single-source.html#intérêts",
-    "href": "single-source.html#intérêts",
+    "objectID": "single-source.html#chaîne-éditoriale",
+    "href": "single-source.html#chaîne-éditoriale",
     "title": "8  Le single source publishing",
-    "section": "8.2 Intérêts",
-    "text": "8.2 Intérêts",
+    "section": "8.2 Chaîne éditoriale",
+    "text": "8.2 Chaîne éditoriale\n\nEnsemble des méthodes, des outils et des processus qui permette de concevoir, fabriquer, produire et diffuser un livre ou plus largement une publication. Une chaîne de publication réunit des logiciels propres à la gestion du texte et des images, mais aussi les différents rôles d’un processus éditorial que sont l’auteur, l’éditeur, le correcteur, le graphiste, etc. (Fauchié 2024)\n\nEn général, idéal de la linéarité.",
     "crumbs": [
-      "session 2 (à venir)",
+      "session 2",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Le *single source publishing*</span>"
     ]
   },
   {
-    "objectID": "single-source.html#limites",
-    "href": "single-source.html#limites",
+    "objectID": "single-source.html#les-chaînes-dédition-modulaires",
+    "href": "single-source.html#les-chaînes-dédition-modulaires",
     "title": "8  Le single source publishing",
-    "section": "8.3 Limites",
-    "text": "8.3 Limites\nAvez-vous remarquer les émojis dans mon plan de cours ? Sont-ils dans la sortie PDF ?",
+    "section": "8.3 Les chaînes d’édition modulaires",
+    "text": "8.3 Les chaînes d’édition modulaires\n\nSynergie entre les chaînons et interopérabilité technique (liée aux formats libres et ouverts) ;\nExploration des caractéristiques des environnements numériques (pas de logiciels attribués) ;\nAgencement et adaptation selon les projets et les objectifs (construire une chaîne sur un objet).",
     "crumbs": [
-      "session 2 (à venir)",
+      "session 2",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Le *single source publishing*</span>"
+    ]
+  },
+  {
+    "objectID": "single-source.html#le-single-source-publishing-ou-la-publication-à-source-unique",
+    "href": "single-source.html#le-single-source-publishing-ou-la-publication-à-source-unique",
+    "title": "8  Le single source publishing",
+    "section": "8.4 Le single source publishing ou la publication à source unique",
+    "text": "8.4 Le single source publishing ou la publication à source unique\n\n8.4.1 Quelques termes\n\nMultisupport :\n\nplusieurs supports compatibles avec la publication ;\npapier ou numérique ;\n\nMultiformat :\n\nplusieurs formats de publication ;\nHTML, ePub, PDF, etc. ;\n\nMultimodal :\n\nplusieurs modes de lecture ;\nversion PDF statique, version numérique enrichie/augmentée.\n\n\n\n\n8.4.2 Définition\n\nL’expression single source publishing, ou publication à source unique en français, désigne le fait de produire plusieurs formats ou artefacts différents à partir d’une seule et même source, dans le cadre d’une démarche de publication. (Fauchié)\n\n\n\n8.4.3 Ex. : un livre en SSP\n\n\n\nSchéma Antoine Fauchié\n\n\n\n\n8.4.4 Ex. : un site en SSP\n\n\n\nSchéma Antoine Fauchié\n\n\n\n\n8.4.5 Intérêts et limites\n\nClarification de la source de référence\nMutualisation du travail\nAnticipation de l’archivage\n\nmais…\n\nUn ensemble de fichiers de référence\nTemps et essais de la mise en place de la chaîne",
+    "crumbs": [
+      "session 2",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Le *single source publishing*</span>"
     ]
   },
@@ -715,198 +737,341 @@
     "objectID": "single-source.html#quelques-exemples",
     "href": "single-source.html#quelques-exemples",
     "title": "8  Le single source publishing",
-    "section": "8.4 Quelques exemples",
-    "text": "8.4 Quelques exemples",
+    "section": "8.5 Quelques exemples",
+    "text": "8.5 Quelques exemples\n\nStylo (cf (Vitali-Rosati et al. 2020)) : Markdown, YAML et BibTeX pour les données ; Pandoc et LaTeX pour la génération des formats ;\nQuire : Markdown, YAML et JSON pour les données ; Hugo et PrinceXML pour la génération des formats ;\nAbrüpt : Markdown, HTML, YAML ; Make, Pandoc et LaTeX pour la génération des formats ;\n…",
     "crumbs": [
-      "session 2 (à venir)",
+      "session 2",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Le *single source publishing*</span>"
+    ]
+  },
+  {
+    "objectID": "codium.html",
+    "href": "codium.html",
+    "title": "9  Installation de Codium",
+    "section": "",
+    "text": "9.1 C’est quoi Codium ?",
+    "crumbs": [
+      "session 2",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Installation de *Codium*</span>"
+    ]
+  },
+  {
+    "objectID": "codium.html#cest-quoi-codium",
+    "href": "codium.html#cest-quoi-codium",
+    "title": "9  Installation de Codium",
+    "section": "",
+    "text": "Version open source de Visual Studio Code (VS Code)\n\n\nVSCodium is a community-driven, freely-licensed binary distribution of Microsoft’s editor VS Code.\n\n\nVS Code : éditeur de code développé par Microsoft. Gratuit, léger et puissant. Largement utilisé par la communauté des développeur.ses pour faire de la programmation.",
+    "crumbs": [
+      "session 2",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Installation de *Codium*</span>"
+    ]
+  },
+  {
+    "objectID": "codium.html#installation",
+    "href": "codium.html#installation",
+    "title": "9  Installation de Codium",
+    "section": "9.2 Installation",
+    "text": "9.2 Installation\nhttps://vscodium.com/#install\nDocumentation officielle : https://code.visualstudio.com/docs",
+    "crumbs": [
+      "session 2",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Installation de *Codium*</span>"
+    ]
+  },
+  {
+    "objectID": "codium.html#extensions",
+    "href": "codium.html#extensions",
+    "title": "9  Installation de Codium",
+    "section": "9.3 Extensions",
+    "text": "9.3 Extensions\nSuivre ce tutoriel (pour installer French Language Pack for VS Code, French - Code Spell Checker et LTeX, à configurer en français) :\nhttps://e-nsi.forge.aeif.fr/cours/1-general/VSCodium/#menus-en-francais",
+    "crumbs": [
+      "session 2",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Installation de *Codium*</span>"
     ]
   },
   {
     "objectID": "terminal.html",
     "href": "terminal.html",
-    "title": "9  Utiliser son terminal",
+    "title": "10  Utiliser son terminal",
     "section": "",
-    "text": "9.1 Terminal\nVotre (émulateur de) terminal permet à un.e utilisateur.ice d’interagir avec un ordinateur. Il s’agit d’une interface permettant l’interaction humain-machine.\nTerminal = console.\nLe terminal que nous allons manipuler fait référence au logiciel avec lequel nous pouvons taper des lignes de commandes afin d’interagir avec le système d’exploitation1.\nShell.",
+    "text": "10.1 Terminal, console, shell… ?\nLe terminal que nous allons manipuler fait référence au logiciel avec lequel nous pouvons taper des lignes de commandes afin d’interagir avec le système d’exploitation\n-&gt; Soit, l’OS, le « logiciel faisant office d’interface [(graphique)] entre les composants informatiques et l’utilisateur, qui assure notamment l’exécution des programmes, l’allocation des ressources matérielles et le contrôle des opérations d’entrée-sortie sur les périphériques. » (OQLF 2022).",
     "crumbs": [
-      "session 2 (à venir)",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Utiliser son terminal</span>"
+      "session 2",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Utiliser son terminal</span>"
+    ]
+  },
+  {
+    "objectID": "terminal.html#terminal-console-shell",
+    "href": "terminal.html#terminal-console-shell",
+    "title": "10  Utiliser son terminal",
+    "section": "",
+    "text": "10.1.1 Le shell\n\n\n\nLe shell, selon Alexis Janvier\n\n\n\n\n\n\n\n\nNote\n\n\n\nIl existe plusieurs shells ! Les plus courants sont sh, bash ou zsh\n\n\n\n\n10.1.2 Terminal\nLe terminal, à l’origine, c’est un objet physique nous permettant d’interagir avec l’ordinateur :\n\n\n\nTerminal DEC VT100\n\n\n\n\n10.1.3 Émulateur de terminal\n\némuler une console système au sein d’un environnement graphique\n\n\n\n\n\n\n\nTip\n\n\n\nLecture recommandée : (Drevekenin 2021).",
+    "crumbs": [
+      "session 2",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Utiliser son terminal</span>"
+    ]
+  },
+  {
+    "objectID": "terminal.html#les-cli-command-line-interfaces",
+    "href": "terminal.html#les-cli-command-line-interfaces",
+    "title": "10  Utiliser son terminal",
+    "section": "10.2 les CLI (command-line interfaces)",
+    "text": "10.2 les CLI (command-line interfaces)\nInterface en ligne de commande permettant de dialoguer avec l’ordinateur en tapant des instructions textuelles (des commandes).",
+    "crumbs": [
+      "session 2",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Utiliser son terminal</span>"
+    ]
+  },
+  {
+    "objectID": "terminal.html#intérêts",
+    "href": "terminal.html#intérêts",
+    "title": "10  Utiliser son terminal",
+    "section": "10.3 Intérêts",
+    "text": "10.3 Intérêts\n\nRapidité et efficacité\nAutomatisation (scripts)\nContrôle avancé",
+    "crumbs": [
+      "session 2",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Utiliser son terminal</span>"
     ]
   },
   {
     "objectID": "terminal.html#quelques-commandes",
     "href": "terminal.html#quelques-commandes",
-    "title": "9  Utiliser son terminal",
-    "section": "9.2 Quelques commandes",
-    "text": "9.2 Quelques commandes\nSous Linux ou Mac : chercher « Terminal » parmi les applications.\nSous Windows, chercher « Windows Power Shell » ; dans le menu déroulant en haut sélectionner « Ubuntu » ; écrire dans le terminal :\n\npour savoir où l’on se trouve : pwd\npour lister les fichiers : ls\npour naviguer : cd Documents/cours-hnu6051\npour comprendre à quoi sert une commande : man nom-de-la-commande (ex. : man rm)\n\n\n9.2.1 Chemin absolu / chemin relatif\nIl est possible d’indiquer à la fois un chemin relatif, donc sans commencer par une barre oblique, ou en commençant par une barre oblique pour un chemin absolu.\n\n\n9.2.2 Quelques bons réflexes\n\nLa touche TAB complète une commande ;\nLa flèche du haut parcourt les dernières commandes utilisées ;\nCTRL + R pour rechercher une commande précédemment tapée ; la recherche se mettra à jour au fur et à mesure que vous tapez les premières lettres de la commande ;\nCTRL + L ou clear pour repartir sur un nouveau terminal.\n\n\n\n9.2.3 Gérer des fichiers ou des dossiers\n\nmkdir hnu6051\ncd hnu6051\ntouch fichier-test.txt\n\nPour trouver des fichiers qui contiennent un terme qui nous intéresse :\n\ngrep -ri mot-recherche\n\nPour trouver tous les fichiers qui se terminent par l’extension .txt :\n\n```find . -type f -name “*.txt”\n\n\n\n9.2.4 Déplacer un fichier\n\n\n\n\n\n\nTip\n\n\n\nLa commande mv permet de renommer ou de déplacer un fichier (dans le terminal, c’est la même chose!)\n\n\n\nmv mon-fichier.txt fichier.txt\nmv /home/utilisateur/hnu6051/mon-fichier.txt /home/utilisateur/Documents/mon-fichier.txt",
+    "title": "10  Utiliser son terminal",
+    "section": "10.4 Quelques commandes",
+    "text": "10.4 Quelques commandes\nSous Linux ou Mac : chercher « Terminal » parmi les applications.\nSous Windows, chercher « Windows Power Shell » ; dans le menu déroulant en haut sélectionner « Ubuntu » ; écrire dans le terminal :\n\npour savoir où l’on se trouve : pwd\npour lister les fichiers : ls\npour naviguer : cd Documents/cours-hnu6051\npour comprendre à quoi sert une commande : man nom-de-la-commande (ex. : man rm)\n\n\n10.4.1 Chemin absolu / chemin relatif\nIl est possible d’indiquer à la fois un chemin relatif, donc sans commencer par une barre oblique, ou en commençant par une barre oblique pour un chemin absolu.\n\n\n\n\n\n\n\nChemin absolu\nChemin relatif\n\n\n\n\n/Users/Mathilde/Documents/Projet/index.html\n./Documents/Projet/index.html\n\n\nEmplacement complet à partir de la racine du système de fichiers\nChemin vers un fichier à partir du répertoire actul (pwd)\n\n\nToujours valide, qu’importe le répertoire\nChange selon où je me situe dans mes fichiers\n\n\n\n\n\n10.4.2 Quelques bons réflexes\n\nLa touche TAB complète une commande ;\nLa flèche du haut parcourt les dernières commandes utilisées ;\nCTRL + R pour rechercher une commande précédemment tapée ; la recherche se mettra à jour au fur et à mesure que vous tapez les premières lettres de la commande ;\nCTRL + L ou clear pour repartir sur un nouveau terminal.\n\n\n\n10.4.3 Gérer des fichiers ou des dossiers\n\nmkdir hnu6051\ncd hnu6051\ntouch fichier-test.txt\n\nPour trouver des fichiers qui contiennent un terme qui nous intéresse :\n\ngrep -ri mot-recherche\n\nPour trouver tous les fichiers qui se terminent par l’extension .txt :\n\n```find . -type f -name “*.txt”\n\n\n\n10.4.4 Déplacer un fichier\n\n\n\n\n\n\nTip\n\n\n\nLa commande mv permet de renommer ou de déplacer un fichier (dans le terminal, c’est la même chose!)\n\n\n\nmv mon-fichier.txt fichier.txt\nmv /home/utilisateur/hnu6051/mon-fichier.txt /home/utilisateur/Documents/mon-fichier.txt",
     "crumbs": [
-      "session 2 (à venir)",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Utiliser son terminal</span>"
+      "session 2",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Utiliser son terminal</span>"
     ]
   },
   {
     "objectID": "terminal.html#rendu-pour-le-18-octobre",
     "href": "terminal.html#rendu-pour-le-18-octobre",
-    "title": "9  Utiliser son terminal",
-    "section": "9.3 Rendu pour le 18 octobre",
-    "text": "9.3 Rendu pour le 18 octobre\nApprenez-moi quelque chose à propos du terminal ! Cela peut concerner une commande que vous trouvez utile, une astuce pour gagner du temps, ou une fonctionnalité du terminal que peu de gens connaissent. Nous commencerons le cours du 18 par vos trouvailles : une simple explication suffit, une démonstration est bienvenue.",
+    "title": "10  Utiliser son terminal",
+    "section": "10.5 Rendu pour le 18 octobre",
+    "text": "10.5 Rendu pour le 18 octobre\nApprenez-moi quelque chose à propos du terminal ! Cela peut concerner une commande que vous trouvez utile, une astuce pour gagner du temps, ou une fonctionnalité du terminal que peu de gens connaissent. Nous commencerons le cours du 18 par vos trouvailles : une simple explication suffit, une démonstration est bienvenue.\nEx. : inscrivez dans votre terminal curl http://wttr.in/Montréal\\?lang\\=fr",
     "crumbs": [
-      "session 2 (à venir)",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Utiliser son terminal</span>"
+      "session 2",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Utiliser son terminal</span>"
     ]
   },
   {
-    "objectID": "terminal.html#footnotes",
-    "href": "terminal.html#footnotes",
-    "title": "9  Utiliser son terminal",
+    "objectID": "latex.html",
+    "href": "latex.html",
+    "title": "11  LaTeX",
     "section": "",
-    "text": "Soit, l’OS, le « logiciel faisant office d’interface [(graphique)] entre les composants informatiques et l’utilisateur, qui assure notamment l’exécution des programmes, l’allocation des ressources matérielles et le contrôle des opérations d’entrée-sortie sur les périphériques. » (OQLF 2022)↩︎",
+    "text": "11.1 LaTeX : introduction",
     "crumbs": [
-      "session 2 (à venir)",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Utiliser son terminal</span>"
+      "session 2",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>LaTeX</span>"
     ]
   },
   {
-    "objectID": "pandoc.html",
-    "href": "pandoc.html",
-    "title": "10  Convertisseurs : le cas de pandoc",
+    "objectID": "latex.html#latex-introduction",
+    "href": "latex.html#latex-introduction",
+    "title": "11  LaTeX",
     "section": "",
-    "text": "Ouvrir dans mon navigateur",
+    "text": "Quoi ? Un langage de composition de documents, principalement utilisé pour des textes scientifiques, techniques et mathématiques.\nQuand ? Créé au début des années 1980 par Leslie Lamport, basé sur TeX, inventé par Donald Knuth dès 1977.\nPourquoi ? Fournir un moyen précis et reproductible de créer des documents complexes, (notamment des équations) :\n\nQualité typographique ++ (mise en page, figures, références croisées,…)\nGestion avancée des références bibliographiques\nFlexibilité\nOpen-source et multiplateforme\nContenu vs Style (ou presque)",
     "crumbs": [
-      "session 2 (à venir)",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Convertisseurs : le cas de *pandoc*</span>"
+      "session 2",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>LaTeX</span>"
+    ]
+  },
+  {
+    "objectID": "latex.html#tex-latex-et-al.",
+    "href": "latex.html#tex-latex-et-al.",
+    "title": "11  LaTeX",
+    "section": "11.2 TeX, LaTeX, et al. ",
+    "text": "11.2 TeX, LaTeX, et al. \n\nTeX : Langage de base pour la composition de textes (inventé par Donald Knuth, cf. (Knuth 1984)) ;\nLaTeX : Interface simplifiée sur TeX, ajoutant des commandes prédéfinies pour faciliter la création de documents ;\nLuaTeX/LuaLaTeX : Extension moderne qui intègre le langage de programmation Lua pour des scripts plus flexibles ;\nXeTeX/XeLaTeX : Variante qui améliore la gestion des polices et des langues.",
+    "crumbs": [
+      "session 2",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>LaTeX</span>"
+    ]
+  },
+  {
+    "objectID": "latex.html#structure-générale",
+    "href": "latex.html#structure-générale",
+    "title": "11  LaTeX",
+    "section": "11.3 Structure générale",
+    "text": "11.3 Structure générale\n\nPréambule : définit le type de document, les paquets utilisés, les configurations générales (marges, polices,…) ;\nCorpus du texte (\\begin{document}…\\end{document}) ;\nCompilation(s) du document -&gt; PDF",
+    "crumbs": [
+      "session 2",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>LaTeX</span>"
+    ]
+  },
+  {
+    "objectID": "latex.html#modules-supplémentaires-paquets",
+    "href": "latex.html#modules-supplémentaires-paquets",
+    "title": "11  LaTeX",
+    "section": "11.4 Modules supplémentaires, paquets",
+    "text": "11.4 Modules supplémentaires, paquets\nAugmenter LaTeX via des paquets spécifiques :\n\nModifier le fonctionnement de certaines parties de LaTeX ;\nModifier l’apparence du documents ;\nAjouter de nouvelles commandes ;\n…\n\n\nEx. : \\usepackage{graphicx}\n\\includegraphics[width=\\textwidth]{image.png}",
+    "crumbs": [
+      "session 2",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>LaTeX</span>"
+    ]
+  },
+  {
+    "objectID": "latex.html#discussion-avantages-inconvénients",
+    "href": "latex.html#discussion-avantages-inconvénients",
+    "title": "11  LaTeX",
+    "section": "11.5 Discussion : avantages, inconvénients",
+    "text": "11.5 Discussion : avantages, inconvénients\nQu’en pensez-vous, à première vue ?",
+    "crumbs": [
+      "session 2",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>LaTeX</span>"
+    ]
+  },
+  {
+    "objectID": "latex.html#tuto",
+    "href": "latex.html#tuto",
+    "title": "11  LaTeX",
+    "section": "11.6 Tuto",
+    "text": "11.6 Tuto\nCommençons à réaliser ce tuto en classe : https://www.learnlatex.org/fr/\nVous devrez vous créer un compte sur Overleaf\nLa documentation officielle : https://tug.org/begin.html",
+    "crumbs": [
+      "session 2",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>LaTeX</span>"
     ]
   },
   {
     "objectID": "encodage.html",
     "href": "encodage.html",
-    "title": "11  Des caractères à l’écran – encodage numérique",
+    "title": "12  Des caractères à l’écran – encodage numérique",
     "section": "",
-    "text": "11.1 Encodage numérique",
+    "text": "12.1 Encodage numérique",
     "crumbs": [
       "session 3 (à venir)",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
     ]
   },
   {
     "objectID": "encodage.html#mémoire",
     "href": "encodage.html#mémoire",
-    "title": "11  Des caractères à l’écran – encodage numérique",
-    "section": "11.2 Mémoire",
-    "text": "11.2 Mémoire",
+    "title": "12  Des caractères à l’écran – encodage numérique",
+    "section": "12.2 Mémoire",
+    "text": "12.2 Mémoire",
     "crumbs": [
       "session 3 (à venir)",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
     ]
   },
   {
     "objectID": "encodage.html#ou-1",
     "href": "encodage.html#ou-1",
-    "title": "11  Des caractères à l’écran – encodage numérique",
-    "section": "11.3 0 ou 1 ?",
-    "text": "11.3 0 ou 1 ?\nTout document conservé sur un ordinateur est constitué d’une série de 0 et de 1.\nCe sont les normes d’encodage et les formats qui permettent d’interpréter le sens de ces 0 et 1.",
+    "title": "12  Des caractères à l’écran – encodage numérique",
+    "section": "12.3 0 ou 1 ?",
+    "text": "12.3 0 ou 1 ?\nTout document conservé sur un ordinateur est constitué d’une série de 0 et de 1.\nCe sont les normes d’encodage et les formats qui permettent d’interpréter le sens de ces 0 et 1.",
     "crumbs": [
       "session 3 (à venir)",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
     ]
   },
   {
     "objectID": "encodage.html#normes-dencodage",
     "href": "encodage.html#normes-dencodage",
-    "title": "11  Des caractères à l’écran – encodage numérique",
-    "section": "11.4 Normes d’encodage",
-    "text": "11.4 Normes d’encodage",
+    "title": "12  Des caractères à l’écran – encodage numérique",
+    "section": "12.4 Normes d’encodage",
+    "text": "12.4 Normes d’encodage",
     "crumbs": [
       "session 3 (à venir)",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
     ]
   },
   {
     "objectID": "encodage.html#encodage-des-données-textuelles",
     "href": "encodage.html#encodage-des-données-textuelles",
-    "title": "11  Des caractères à l’écran – encodage numérique",
-    "section": "11.5 Encodage des données textuelles",
-    "text": "11.5 Encodage des données textuelles\n\n\n11.5.1 ASCII\n\n\n\n11.5.2 ISO 8859-1\n\n\n\n11.5.3 UTF-8\n\nUniversal Character Set Transformation Format + base d’encodage (8, 16, 32, …)\nEn fonction de la base d’encodage, un caractère peut être représenté par 1, 2, 3 ou 4 octets.\nUTF est rétrocompatible avec ASCII, mais pas avec ISO 8859-1. Il s’inscrit dans le cadre établi par Unicode qui vise à faciliter l’échange de textes numériques en assurant leur compatibilité.\nUnicode définit plus de 137 000 caractères, issus de multiples alphabets, et prévoit aussi des symboles comme les emojis.\nExemple : 🤓 = 11110000 10011111 10100100 10010011",
+    "title": "12  Des caractères à l’écran – encodage numérique",
+    "section": "12.5 Encodage des données textuelles",
+    "text": "12.5 Encodage des données textuelles\n\n\n12.5.1 ASCII\n\n\n\n12.5.2 ISO 8859-1\n\n\n\n12.5.3 UTF-8\n\nUniversal Character Set Transformation Format + base d’encodage (8, 16, 32, …)\nEn fonction de la base d’encodage, un caractère peut être représenté par 1, 2, 3 ou 4 octets.\nUTF est rétrocompatible avec ASCII, mais pas avec ISO 8859-1. Il s’inscrit dans le cadre établi par Unicode qui vise à faciliter l’échange de textes numériques en assurant leur compatibilité.\nUnicode définit plus de 137 000 caractères, issus de multiples alphabets, et prévoit aussi des symboles comme les emojis.\nExemple : 🤓 = 11110000 10011111 10100100 10010011",
     "crumbs": [
       "session 3 (à venir)",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
     ]
   },
   {
     "objectID": "encodage.html#mauvais-encodagedécodage",
     "href": "encodage.html#mauvais-encodagedécodage",
-    "title": "11  Des caractères à l’écran – encodage numérique",
-    "section": "11.6 Mauvais encodage/décodage",
-    "text": "11.6 Mauvais encodage/décodage\nSi on n’utilise pas la bonne clef d’encodage ou de décodage d’un texte, on risque d’obtenir un texte partiellement ou entièrement illisible.\nUTF-8 ouvert avec 8859-1 (Latin 1)\n\nLa Joconde, ou Portrait de Mona Lisa, est un tableau de l’artiste LÃ©onard de Vinci, rÃ©alisÃ© entre 1503 et 1506 ou entre 1513 et 15161,2, et peut-Ãªtre jusqu’Ã 1519 (l’artiste Ã©tant mort cette annÃ©e-lÃ , le 2 mai)3, qui reprÃ©sente un portrait mi-corps, probablement celui de la Florentine Lisa Gherardini, Ã©pouse de Francesco del Giocondo. Acquise par FranÃ§ois Ier, cette peinture Ã l’huile sur panneau de bois de peuplier de 77 Ã 53 cm est exposÃ©e au musÃ©e du Louvre Ã Paris. La Joconde est l’un des rares tableaux attribuÃ©s de faÃ§on certaine Ã LÃ©onard de Vinci.",
+    "title": "12  Des caractères à l’écran – encodage numérique",
+    "section": "12.6 Mauvais encodage/décodage",
+    "text": "12.6 Mauvais encodage/décodage\nSi on n’utilise pas la bonne clef d’encodage ou de décodage d’un texte, on risque d’obtenir un texte partiellement ou entièrement illisible.\nUTF-8 ouvert avec 8859-1 (Latin 1)\n\nLa Joconde, ou Portrait de Mona Lisa, est un tableau de l’artiste LÃ©onard de Vinci, rÃ©alisÃ© entre 1503 et 1506 ou entre 1513 et 15161,2, et peut-Ãªtre jusqu’Ã 1519 (l’artiste Ã©tant mort cette annÃ©e-lÃ , le 2 mai)3, qui reprÃ©sente un portrait mi-corps, probablement celui de la Florentine Lisa Gherardini, Ã©pouse de Francesco del Giocondo. Acquise par FranÃ§ois Ier, cette peinture Ã l’huile sur panneau de bois de peuplier de 77 Ã 53 cm est exposÃ©e au musÃ©e du Louvre Ã Paris. La Joconde est l’un des rares tableaux attribuÃ©s de faÃ§on certaine Ã LÃ©onard de Vinci.",
     "crumbs": [
       "session 3 (à venir)",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
     ]
   },
   {
     "objectID": "encodage.html#une-norme",
     "href": "encodage.html#une-norme",
-    "title": "11  Des caractères à l’écran – encodage numérique",
-    "section": "11.7 Une norme ?",
-    "text": "11.7 Une norme ?\nUTF s’impose désormais comme la norme\n\n\n\ndiagramme montrant qu’UTF s’impose sur les autres normes depuis 2006\n\n\nD’après W3Techs, 97,8% des pages web qui déclarent un encodage suivent UTF-8 aujourd’hui.\n(source du graphique: Wikimedia)",
+    "title": "12  Des caractères à l’écran – encodage numérique",
+    "section": "12.7 Une norme ?",
+    "text": "12.7 Une norme ?\nUTF s’impose désormais comme la norme\n\n\n\ndiagramme montrant qu’UTF s’impose sur les autres normes depuis 2006\n\n\nD’après W3Techs, 97,8% des pages web qui déclarent un encodage suivent UTF-8 aujourd’hui.\n(source du graphique: Wikimedia)",
     "crumbs": [
       "session 3 (à venir)",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
     ]
   },
   {
     "objectID": "encodage.html#enjeux",
     "href": "encodage.html#enjeux",
-    "title": "11  Des caractères à l’écran – encodage numérique",
-    "section": "11.8 Enjeux",
-    "text": "11.8 Enjeux",
+    "title": "12  Des caractères à l’écran – encodage numérique",
+    "section": "12.8 Enjeux",
+    "text": "12.8 Enjeux",
     "crumbs": [
       "session 3 (à venir)",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
+    ]
+  },
+  {
+    "objectID": "pandoc.html",
+    "href": "pandoc.html",
+    "title": "13  Convertisseurs : le cas de pandoc",
+    "section": "",
+    "text": "Ouvrir dans mon navigateur",
+    "crumbs": [
+      "session 3 (à venir)",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Convertisseurs : le cas de *pandoc*</span>"
     ]
   },
   {
     "objectID": "quarto.html",
     "href": "quarto.html",
-    "title": "12  Quarto",
+    "title": "14  Quarto",
     "section": "",
     "text": "Ouvrir dans mon navigateur",
     "crumbs": [
       "session 3 (à venir)",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Quarto</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Quarto</span>"
     ]
   },
   {
     "objectID": "git.html",
     "href": "git.html",
-    "title": "13  Git et GitHub",
+    "title": "15  Git et GitHub",
     "section": "",
-    "text": "13.1 Versionnement",
+    "text": "15.1 Versionnement",
     "crumbs": [
       "session 3 (à venir)",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Git et GitHub</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Git et GitHub</span>"
     ]
   },
   {
     "objectID": "git.html#git-vs-github",
     "href": "git.html#git-vs-github",
-    "title": "13  Git et GitHub",
-    "section": "13.2 Git vs Github",
-    "text": "13.2 Git vs Github",
+    "title": "15  Git et GitHub",
+    "section": "15.2 Git vs Github",
+    "text": "15.2 Git vs Github",
     "crumbs": [
       "session 3 (à venir)",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Git et GitHub</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Git et GitHub</span>"
     ]
   },
   {
     "objectID": "yml.html",
     "href": "yml.html",
-    "title": "14  YAML",
+    "title": "16  YAML",
     "section": "",
-    "text": "14.1 À venir",
+    "text": "16.1 À venir",
     "crumbs": [
       "session 3 (à venir)",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>YAML</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>YAML</span>"
     ]
   },
   {
@@ -914,7 +1079,7 @@
     "href": "references.html",
     "title": "Références",
     "section": "",
-    "text": "Boulétreau, Viviane, and Benoît Habert. 2014. “Les\nformats.” In Pratiques de l’édition\nnumérique. Les Ateliers de [sens public].\n\n\nCoombs, James H., Allen H. Renear, and Steven J. DeRose. 1987.\n“Markup Systems and the Future of Scholarly Text\nProcessing.” Commun. ACM 30 (11): 933–47. https://doi.org/10.1145/32206.32209.\n\n\nDaniel, Johanna. 2022. “Ode à Zotero, une\ndécennie d’usage de Zotero.” {Billet}.\nIsidore & Ganesh. https://doi.org/10.58079/pw5v.\n\n\nEberle-Sinatra, Michael, and Marcello Vitali Rosati. 2014.\nPratiques de l’édition\nnumérique. Parcours\nnumériques 1. Montréal: Les Presses de\nl’Université de Montréal.\n\n\nFauchié, Antoine. 2017/2018. “Markdown Comme Condition d’une Norme\nde l’écriture Numérique.”\nRéel-Virtuel, no. 6 (2017/2018).\n\n\nMerten, Pascaline. 2005. “La traduction de documents XML\ndans les mémoires de traduction.”\nEquivalences 32 (1): 63–78. https://doi.org/10.3406/equiv.2005.890.\n\n\nSimpkin, Sarah. 2015. “Débuter avec\nMarkdown.” Programming Historian, November.",
+    "text": "Boulétreau, Viviane, and Benoît Habert. 2014. “Les\nformats.” In Pratiques de l’édition\nnumérique. Les Ateliers de [sens public].\n\n\nCoombs, James H., Allen H. Renear, and Steven J. DeRose. 1987.\n“Markup Systems and the Future of Scholarly Text\nProcessing.” Commun. ACM 30 (11): 933–47. https://doi.org/10.1145/32206.32209.\n\n\nDaniel, Johanna. 2022. “Ode à Zotero, une\ndécennie d’usage de Zotero.” {Billet}.\nIsidore & Ganesh. https://doi.org/10.58079/pw5v.\n\n\nDrevekenin, Aram. 2021. “Anatomy of a Terminal\nEmulator.” Poor.dev.\n\n\nEberle-Sinatra, Michael, and Marcello Vitali Rosati. 2014.\nPratiques de l’édition\nnumérique. Parcours\nnumériques 1. Montréal: Les Presses de\nl’Université de Montréal.\n\n\nEcrinum. n.d. “Publication à source unique -\nAntoine Fauchié.” Accessed October 9, 2024.\n\n\nFauchié, Antoine. 2017/2018. “Markdown Comme Condition d’une Norme\nde l’écriture Numérique.”\nRéel-Virtuel, no. 6 (2017/2018).\n\n\n———. 2024. “Fabriquer des éditions,\néditer des fabriques : reconfiguration des processus\ntechniques éditoriaux et nouveaux modèles\népistémologiques.” PhD thesis,\nMontréal: Université de Montréal.\n\n\nFauchié, Antoine, and Yann Audin. 2023. “The\nImportance of Single Source Publishing in\nScientific Publishing.” Digital Studies / Le\nChamp Numérique, no. Special DSCN Collection #9\n(October). https://doi.org/10.16995/dscn.9655.\n\n\nKnuth, Donald E. 1984. The TeXbook. 1.\nédition. Reading, Mass.: Addison-Wesley Professional.\n\n\nMerten, Pascaline. 2005. “La traduction de documents XML\ndans les mémoires de traduction.”\nEquivalences 32 (1): 63–78. https://doi.org/10.3406/equiv.2005.890.\n\n\nMerzeau, Louise. 2013. “Éditorialisation\ncollaborative d’un événement : L’exemple des\nEntretiens du nouveau monde industriel 2012.”\nCommunication & Organisation 43 (1): 105–22. https://doi.org/10.4000/communicationorganisation.4158.\n\n\nRouquette, Maïeul. 2012. (Xe)LaTeX appliqué aux\nsciences humaines. Atramenta.\n\n\nSimpkin, Sarah. 2015. “Débuter avec\nMarkdown.” Programming Historian, November.\n\n\nVitali-Rosati, Marcello, Nicolas Sauret, Antoine Fauchié, and Margot\nMellet. 2020. “Écrire Les SHS En\nEnvironnement Numérique.\nL’éditeur de Texte Stylo.”\nRevue Intelligibilité Du Numérique,\nno. 1. https://doi.org/10.34745/NUMEREV_1697.",
     "crumbs": [
       "Références"
     ]

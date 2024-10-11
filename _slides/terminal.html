@@ -330,13 +330,66 @@
 <h1>Utiliser son terminal</h1>
 
 </section>
-<section id="terminal" class="title-slide slide level2 center">
-<h2>Terminal</h2>
-<p>Votre (émulateur de) terminal permet à un.e utilisateur.ice d’interagir avec un ordinateur. Il s’agit d’une interface permettant l’interaction humain-machine.</p>
-<p>Terminal = console.</p>
-<p>Le <em>terminal</em> que nous allons manipuler fait référence au logiciel avec lequel nous pouvons taper des lignes de commandes afin d’interagir avec le système d’exploitation<sup>1</sup>.</p>
-<p><em>Shell</em>.</p>
-<aside><ol class="aside-footnotes"><li id="fn1"><p>Soit, l’<em>OS</em>, le «&nbsp;logiciel faisant office d’interface [(graphique)] entre les composants informatiques et l’utilisateur, qui assure notamment l’exécution des programmes, l’allocation des ressources matérielles et le contrôle des opérations d’entrée-sortie sur les périphériques.&nbsp;» (<a href="https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8358548/systeme-dexploitation">OQLF 2022</a>)</p></li></ol></aside></section>
+<section id="terminal-console-shell" class="title-slide slide level2 center">
+<h2>Terminal, console, shell… ?</h2>
+<p>Le <em>terminal</em> que nous allons manipuler fait référence au logiciel avec lequel nous pouvons taper des lignes de commandes afin d’interagir avec le <em>système d’exploitation</em></p>
+<p>-&gt; Soit, l’<em>OS</em>, le «&nbsp;logiciel faisant office d’interface [(graphique)] entre les composants informatiques et l’utilisateur, qui assure notamment l’exécution des programmes, l’allocation des ressources matérielles et le contrôle des opérations d’entrée-sortie sur les périphériques.&nbsp;» (<a href="https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8358548/systeme-dexploitation">OQLF 2022</a>).</p>
+</section>
+<section id="le-shell" class="slide level3">
+<h3>Le <em>shell</em></h3>
+
+<img data-src="img/shell.jpg" class="r-stretch quarto-figure-center"><p class="caption">Le shell, selon Alexis Janvier</p><div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Note</strong></p>
+</div>
+<div class="callout-content">
+<p>Il existe plusieurs shells ! Les plus courants sont <code>sh</code>, <code>bash</code> ou <code>zsh</code></p>
+</div>
+</div>
+</div>
+</section>
+<section id="terminal" class="slide level3">
+<h3>Terminal</h3>
+<p>Le terminal, à l’origine, c’est un objet physique nous permettant d’interagir avec l’ordinateur&nbsp;:</p>
+
+<img data-src="img/Terminal-dec-vt100.jpg" class="r-stretch quarto-figure-center"><p class="caption">Terminal DEC VT100</p></section>
+<section id="émulateur-de-terminal" class="slide level3">
+<h3>Émulateur de terminal</h3>
+<ul>
+<li>émuler une console système au sein d’un environnement graphique</li>
+</ul>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Tip</strong></p>
+</div>
+<div class="callout-content">
+<p>Lecture recommandée&nbsp;: <span class="citation" data-cites="drevekeninAnatomyTerminalEmulator2021">(Drevekenin 2021)</span>.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="les-cli-command-line-interfaces" class="title-slide slide level2 center">
+<h2>les CLI (<em>command-line interfaces</em>)</h2>
+<p>Interface en ligne de commande permettant de dialoguer avec l’ordinateur en tapant des instructions textuelles (des <strong>commandes</strong>).</p>
+</section>
+
+<section id="intérêts" class="title-slide slide level2 center">
+<h2>Intérêts</h2>
+<ul>
+<li>Rapidité et efficacité</li>
+<li>Automatisation (scripts)</li>
+<li>Contrôle avancé</li>
+</ul>
+</section>
 
 <section id="quelques-commandes" class="title-slide slide level2 center">
 <h2>Quelques commandes</h2>
@@ -352,6 +405,32 @@
 <section id="chemin-absolu-chemin-relatif" class="slide level3">
 <h3>Chemin absolu / chemin relatif</h3>
 <p>Il est possible d’indiquer à la fois un chemin relatif, donc sans commencer par une barre oblique, ou en commençant par une barre oblique pour un chemin absolu.</p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Chemin absolu</th>
+<th>Chemin relatif</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>/Users/Mathilde/Documents/Projet/index.html</td>
+<td>./Documents/Projet/index.html</td>
+</tr>
+<tr class="even">
+<td>Emplacement complet à partir de la racine du système de fichiers</td>
+<td>Chemin vers un fichier à partir du répertoire actul (<code>pwd</code>)</td>
+</tr>
+<tr class="odd">
+<td>Toujours valide, qu’importe le répertoire</td>
+<td>Change selon où je me situe dans mes fichiers</td>
+</tr>
+</tbody>
+</table>
 </section>
 <section id="quelques-bons-réflexes" class="slide level3">
 <h3>Quelques bons réflexes</h3>
@@ -402,6 +481,7 @@
 <section id="rendu-pour-le-18-octobre" class="title-slide slide level2 center">
 <h2>Rendu pour le 18 octobre</h2>
 <p>Apprenez-moi quelque chose à propos du terminal ! Cela peut concerner une commande que vous trouvez utile, une astuce pour gagner du temps, ou une fonctionnalité du terminal que peu de gens connaissent. Nous commencerons le cours du 18 par vos trouvailles&nbsp;: une simple explication suffit, une démonstration est bienvenue.</p>
+<p>Ex.&nbsp;: inscrivez dans votre terminal <code>curl http://wttr.in/Montréal\?lang\=fr</code></p>
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 <p>HNU6051-A24</p>
@@ -409,7 +489,6 @@
 </div>
 </section>
 </section>
-
     </div>
   </div>
 
