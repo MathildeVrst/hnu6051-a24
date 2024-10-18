@@ -330,8 +330,73 @@
 <h1>YAML</h1>
 
 </section>
-<section id="à-venir" class="title-slide slide level2 center">
-<h2>À venir</h2>
+<section id="définition" class="title-slide slide level2 center">
+<h2>Définition</h2>
+<ul>
+<li>Yet Another Markup Language (yaml 1.0)</li>
+<li>YAML Ain’t Markup Language (yaml 1.1)</li>
+<li>Format de représentation de données</li>
+<li>Langage de programmation, facile à lire et à comprendre</li>
+<li>Utilisable avec d’autres langages de programmation</li>
+<li>Pratique pour définir des métadonnées et configurer des fichiers</li>
+</ul>
+</section>
+
+<section id="syntaxe-de-base" class="title-slide slide level2 center">
+<h2>Syntaxe de base</h2>
+<ul>
+<li>Liste de paires “clé-valeur”</li>
+</ul>
+<pre><code>clé: valeur 
+clé2: valeur2</code></pre>
+<ul>
+<li>Importance de l’indentation (= hiérarchie) ; préférez les espaces aux <code>tab</code></li>
+<li>Listes : un tirer pour chaque élément</li>
+<li>Commentaires : les lignes commençant par <code>#</code> ne sont pas interprétées</li>
+</ul>
+<pre><code>Author: 
+   - Platon 
+   - Socrate 
+# Mince, demander à Socrate s'il veut publier aussi 
+Place: "Athens"</code></pre>
+</section>
+
+<section id="quarto-et-yaml" class="title-slide slide level2 center">
+<h2>Quarto et yaml</h2>
+<p>Quarto fonctionne avec des fichiers <code>.md</code>où yaml est utilisé principalement pour définir des métadonnées en en-tête (= <em>front matter</em>) Il est placé entre <code>---</code></p>
+<pre><code>---
+title: "Mon Document"
+author: "Mathilde"
+date: "2024-10-17"
+format: html #format de sortie souhaité 
+---</code></pre>
+</section>
+
+<section id="utilisation-avancée" class="title-slide slide level2 center">
+<h2>Utilisation avancée</h2>
+<pre><code>---
+title: "Titre"
+author: "Mathilde"
+date: "2024-10-17"
+bibliography: references.bib
+format:
+  pdf:
+    toc: true  # Ajoute une table des matières
+    number-sections: true  # Numérote les sections
+  html
+---</code></pre>
+</section>
+
+<section id="exercice" class="title-slide slide level2 center">
+<h2>Exercice</h2>
+<p>Ceci me provoque une erreur, pourquoi ?</p>
+<pre><code>---
+title: "Le "Banquet" de Platon, analyse"
+author: "Mathilde"
+date: "2024-10-17"
+bibliography: references.bib
+format: pdf 
+---</code></pre>
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 <p>HNU6051-A24</p>

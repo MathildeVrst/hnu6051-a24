@@ -40,7 +40,7 @@ Le programme des séances est sujet à de légers changements en fonction du niv
 | --- | ------ | --- | 
 | 09h30-10h00 | [Présentation & Introduction de l’atelier](introduction.qmd#introduction) | -- | 
 | 10h00-10h50 | [Édition savante, formats de fichiers](theorie-formats.qmd#les-formats--théorie) | Théorie 📚 | 
-| 10h50-11h10 | [Bonnes pratiques de l'édition](bonnes-pratiques.qmd#bonnes-pratiques-dédition) | Théorie 📚 ❌ | 
+| 10h50-11h10 | [Bonnes pratiques de l'édition](bonnes-pratiques.qmd#bonnes-pratiques-dédition) | Théorie 📚 | 
 | 11h10-11h30 | [The Plain Text Project](plein-texte.qmd#plain-text--plein-texte--texte-brut) | Théorie 📚 et exercice 🏋️‍♂️ | 
 | 11h30-12h30 | Pause | -- | 
 | 12h30-13h00 | [Markdown](exercice-markdown.qmd#exercice-markdown) | Théorie 📚 et exercice 🏋️‍♂️ | 
@@ -70,9 +70,9 @@ Le programme des séances est sujet à de légers changements en fonction du niv
 | 10h00-10h45 | [Les caractères à l'écran](encodage.qmd#des-caractères-à-lécran----encodage-numérique) | Théorie 📚 | 
 | 10h45-11h30 | [Pandoc](pandoc.qmd#convertisseurs--le-cas-de-pandoc) | Pratique 🛠️ | 
 | 11h30-12h30 | Pause | -- | 
-| 12h30-13h30 | [Quarto](quarto.qmd#quarto) | Pratique 🛠️ |
-| 13h30-14h30 | [Git et Github](git.qmd#git-et-github) | Théorie 📚 | 
-| 14h30-15h15 | [Yaml](yml.qmd#yaml) | Théorie et exercices 🏋️‍♂️ | 
+| 12h30-13h00 | [Yaml](yml.qmd#yaml) | Théorie et exercices 🏋️‍♂️ | 
+| 13h00-14h00 | [Git et Github](git.qmd#git-et-github) | Théorie 📚 | 
+| 14h00-15h15 | [Quarto](quarto.qmd#quarto) | Pratique 🛠️ |
 | 15h15-15h30 | [Présentation du rendu final (création multi-format avec quarto)](plan-de-cours.qmd#travail-final--50) | Rendu 📋 | 
 
 ## Évaluation 

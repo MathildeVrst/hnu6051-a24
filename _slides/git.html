@@ -332,11 +332,119 @@
 </section>
 <section id="versionnement" class="title-slide slide level2 center">
 <h2>Versionnement</h2>
+<p>Git est un outil de versionnement et de synchronisation de fichiers.</p>
+<p>Intérets :</p>
+<ul>
+<li>gestion de nombreuses versions de plusieurs fichiers ;</li>
+<li>éviter les <code>memoire-2024-reluJeanJacques-version-finale-ok-ultime-v4-2024-10-18.docx</code> ;</li>
+<li>collaboration</li>
+<li>Établir une version du texte + travailler sur ses états</li>
+</ul>
 
-</section>
+<img data-src="img/version.png" class="r-stretch"></section>
 
 <section id="git-vs-github" class="title-slide slide level2 center">
 <h2>Git vs Github</h2>
+<p>Git : Logiciel de gestion de versions décentralisé libre et gratuit (installé sur votre ordinateur)</p>
+<p>GitHub : Service web d’hébergement et de gestion de développement de logiciels (service en ligne)</p>
+</section>
+<section id="git" class="slide level3">
+<h3>Git</h3>
+<ul>
+<li>Système de gestion de versions décentralisées créé pour gérer des fichiers textes de projets informatiques ;</li>
+<li>(Très) complexe, mais utilisation basique possible ;</li>
+<li>Conservation de toutes les versions des fichiers d’un projet à chaque enregistrement ;</li>
+<li>Git est utilisé sur des plateformes comme GitHub ou GitLab qui en facilite (grandement) l’usage.</li>
+</ul>
+</section>
+<section id="github" class="slide level3">
+<h3>GitHub</h3>
+<p>Service web d’hébergement qui utilise le logiciel de versions Git</p>
+<ul>
+<li>Propriété : Microsoft ;</li>
+<li>Alternatives libres : GitLab, Framagit</li>
+</ul>
+</section>
+<section id="fonctionnement" class="slide level3">
+<h3>Fonctionnement</h3>
+<ul>
+<li>Branches : comparer, fusionner, suivre ;</li>
+<li>Local / remote :
+<ul>
+<li><code>pull</code> : pour récupérer les modifications de la version en ligne ;</li>
+<li><code>push</code> : pour publier les modifications vers la version en ligne ;</li>
+</ul></li>
+<li>Description des modifications</li>
+</ul>
+</section>
+
+<section id="quelques-commandes-de-base" class="title-slide slide level2 smaller center">
+<h2>Quelques commandes de base</h2>
+<ul>
+<li><code>git clone [repertoire]</code> : clone un “répertoire distant” sur la machine locale dans un “répertoire local”, par exemple depuis le serveur framagit.org. Exemple : <code>git clone https://framagit.org/marviro/tutorielmdpandoc.git</code> ;
+<ul>
+<li><code>git add fichier.md</code> : ajoute <strong>un</strong> fichier à l’index pour préparer un “commit” ciblé ;</li>
+<li><code>git add .</code> : ajoute <strong>tous</strong> les fichiers à l’index pour préparer un “commit” ;</li>
+</ul></li>
+<li><code>git commit -m "message pour documenter la modification"</code> : valide un commit avec un message d’information, et donc déclare et inscrit les modifications au registre Git (enregistrement de l’état du projet).
+<ul>
+<li><code>commit</code> = <em>label</em> de la version complété par l’utilisateur pour décrire la modification effectuée</li>
+</ul></li>
+<li><code>git pull</code> : synchronise le répertoire local depuis le répertoire distant, ce qui permet de récupérer des modifications faites par d’autres contributeurs (on <em>tire</em> les modifications des autres depuis le serveur).</li>
+<li><code>git push</code> : synchronise le répertoire distant à partir du répertoire local, ce qui permet de partager son travail avec d’autres contributeurs (on <em>pousse</em> ses modifications vers le serveur).</li>
+<li><code>git status</code> : présente un état du répertoire : quels fichiers ont été ajoutés, modifiés, supprimés, non ajoutés au registre, etc.</li>
+</ul>
+</section>
+<section id="quelques-commandes-un-peu-plus-complexes" class="slide level3">
+<h3>Quelques commandes un peu plus complexes</h3>
+<ul>
+<li><code>git diff</code> : présente les changements de chaque fichier modifié.</li>
+<li><code>git log</code> : présente une liste de commit. C’est l’état du registre, une forme d’historique des modifications.</li>
+<li><code>git checkout</code> : changement ou création de branches, ce qui permet d’avoir une version dupliquée du projet ;</li>
+<li><code>git rebase</code> ou <code>git merge</code> : fusion de plusieurs versions d’un même fichier (par exemple en réunissant plusieurs branches parallèles).</li>
+</ul>
+</section>
+
+<section id="git-chatons" class="title-slide slide level2 center">
+<h2>Git chatons</h2>
+
+<img data-src="img/git-purr-01.jpg" class="r-stretch quarto-figure-center"><p class="caption">Tomomi Imura (<a href="https://girliemac.com/" class="uri">https://girliemac.com/</a>)</p></section>
+
+<section id="exercice---créer-son-premier-répertoire" class="title-slide slide level2 smaller center">
+<h2>Exercice - créer son premier répertoire</h2>
+<p>Vous allez créer un premier répertoire. Allons-y pas à pas :</p>
+<ol type="1">
+<li>ouvrez un terminal.</li>
+</ol>
+<ul>
+<li>Par défaut, le terminal s’ouvre dans votre dossier personnel.<br>
+</li>
+<li>Lancez la commande <code>ls</code> pour vous en assurer.</li>
+</ul>
+<ol start="2" type="1">
+<li>créer un dossier GitHub : <code>mkdir github</code> et naviguez dedans <code>cd github</code>. Le terminal est maintenant positionné dans le répertoire <code>github</code>.</li>
+<li>dans votre navigateur, allez sur votre compte GitHub puis cliquer sur [New Project]. Renseignez le <em>Project name</em> avec votre prénom (sans accents), puis cochez la case “Initialize repository with a README”, et enfin le bouton [Create project].</li>
+<li>vous venez de créer un projet git. Vous allez maintenant le cloner, c’est-à-dire récupérer le répertoire sur votre machine en local. Pour cela, commencez par copier-coller l’url de clonage en cliquant sur le bouton bleu [Clone] en haut à droite, et en copiant l’url HTTPS.</li>
+<li>dans le terminal, écrivez la commande <code>git clone</code> puis coller l’url copiée, et lancez la commande complète, par exemple : <code>git clone https://github.com/monprenom/monprojet.git</code></li>
+<li>…</li>
+</ol>
+</section>
+<section>
+<ol start="6" type="1">
+<li>Git télécharge le répertoire et crée un nouveau répertoire [monprenom] dans le répertoire GitHub. Naviguez dans ce nouveau répertoire <code>cd monprenom</code>.</li>
+<li><code>ls</code> ou <code>ls -a</code> ou encore <code>ll</code> permet de lister tous les fichiers du répertoire. Pour le moment, il n’y a pas grand chose.</li>
+<li>nous allons récupérer les sources de votre article édité sur Stylo en lançant un export ZIP. Une fois le dossier compressé téléchargé, décompressez le et copier les trois fichiers dans votre répertoire [monprenom]. Renommez les fichiers selon une bonne nomenclature.</li>
+<li>nous pouvons maintenant ajouter ces fichiers à l’index Git : <code>git add .</code>, puis générer un premier commit pour ajouter ces fichiers au registre : <code>git commit -m "initialisation de l'article"</code>. On peut vérifier le registre avec <code>git log</code>.</li>
+<li>essayons maintenant de synchroniser les modifications en local avec le serveur : <code>git push</code>. Sur le site de GitHub, votre répertoire est maintenant mis-à-jour.</li>
+</ol>
+</section>
+<section>
+<p>Vous êtes maintenant en mesure de faire des modifications et de les synchroniser avec GitHub. Pendant le travail d’édition, vous pouvez régulièrement valider les modifications et synchroniser avec le serveur. Il suffit pour cela de répéter les opérations 9 et 10 : - <code>git add .</code> - <code>git commit -m "message"</code> - <code>git push</code></p>
+</section>
+
+<section id="installation-de-git" class="title-slide slide level2 center">
+<h2>Installation de Git</h2>
+<p>https://git-scm.com/downloads</p>
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 <p>HNU6051-A24</p>
