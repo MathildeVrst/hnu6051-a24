@@ -12,3 +12,38 @@ suppress-bibliography: true
 [Ouvrir dans mon navigateur](_slides/quarto.html){target="_blank"} 
 
 ::: 
+
+## Quarto 
+
+- Outil open-source de création et de publication de documents scientifiques (rapports, présentations, livres, sites, etc) ; 
+- Permet de combiner du `.md` avec du code dans plusieurs langages (R, Python, Julia, etc.) ; 
+- Production de documents dans différents formats : HTML, PDF, Word, diaporamas interactifs,...
+
+<https://quarto.org/about.html> 
+
+</section>
+<section>
+
+> Researchers shouldn’t need to choose between LaTeX, MS Word, and HTML but rather be able to author documents that target all of them at the same time. ([Quarto](https://quarto.org/about.html))
+
+> Make reproducible research and publications the norm rather than the exception. ([Quarto](https://quarto.org/about.html))
+
+## Fonctionnement 
+
+`.md`(+ syntaxe quarto incluant code et options de formatage) + `.yaml` (dans le `.md` ou à part) + **pandoc** = vos formats de sortie 
+
+Intégration de code (Python, R, JavaScript) 
+
+## Historique 
+
+RStudio (devenu Posit) : environnement de développement gratuit, libre et multiplateforme pour R, un langage de programmation utilisé pour le traitement de données et l’analyse statistique 
+
+Format : RMarkdown, `.rmd` (qui ressemble au `.qmd` de QuartoMarkdown)
+
+## Au travail 
+
+1. Installez Quarto : <https://quarto.org/docs/get-started/> ; 
+2. Faites le tuto *Hello, Quarto* : <https://quarto.org/docs/get-started/hello/text-editor.html> ; 
+3. Faites le tuto *Authoring* : <https://quarto.org/docs/get-started/hello/text-editor.html> ; 
+4. Si le temps le permet, commencez votre rendu, la documentation est ici : <https://quarto.org/docs/books/> + versionnez votre projet sur GitHub ; 
+5. Pour la publication en ligne, consultez cette page : <https://quarto.org/docs/publishing/github-pages.html> (je conseille de suivre *Publish Command* : <https://quarto.org/docs/publishing/github-pages.html#publish-command)> 

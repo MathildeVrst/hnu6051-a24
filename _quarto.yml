@@ -33,7 +33,7 @@ book:
       - codium.qmd
       - terminal.qmd
       - latex.qmd
-    - part: session 3 (à venir) 
+    - part: session 3 
       chapters: 
       - encodage.qmd
       - pandoc.qmd 

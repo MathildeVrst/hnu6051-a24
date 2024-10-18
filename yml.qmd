@@ -13,4 +13,76 @@ suppress-bibliography: true
 
 ::: 
 
-## À venir 
+## Définition 
+
+- Yet Another Markup Language (yaml 1.0)
+- YAML Ain't Markup Language (yaml 1.1) 
+- Format de représentation de données 
+- Langage de programmation, facile à lire et à comprendre 
+- Utilisable avec d'autres langages de programmation 
+- Pratique pour définir des métadonnées et configurer des fichiers 
+
+## Syntaxe de base 
+
+- Liste de paires "clé-valeur" 
+
+```
+clé: valeur 
+clé2: valeur2
+```
+
+- Importance de l'indentation (= hiérarchie) ; préférez les espaces aux `tab` 
+- Listes : un tirer pour chaque élément 
+- Commentaires : les lignes commençant par `#` ne sont pas interprétées 
+
+```
+Author: 
+   - Platon 
+   - Socrate 
+# Mince, demander à Socrate s'il veut publier aussi 
+Place: "Athens"
+```
+
+## Quarto et yaml 
+
+Quarto fonctionne avec des fichiers `.md`où yaml est utilisé principalement pour définir des métadonnées en en-tête (= *front matter*) 
+Il est placé entre `---` 
+
+```
+---
+title: "Mon Document"
+author: "Mathilde"
+date: "2024-10-17"
+format: html #format de sortie souhaité 
+---
+```
+
+## Utilisation avancée 
+
+```
+---
+title: "Titre"
+author: "Mathilde"
+date: "2024-10-17"
+bibliography: references.bib
+format:
+  pdf:
+    toc: true  # Ajoute une table des matières
+    number-sections: true  # Numérote les sections
+  html
+---
+```
+
+## Exercice 
+
+Ceci me provoque une erreur, pourquoi ? 
+
+```
+---
+title: "Le "Banquet" de Platon, analyse"
+author: "Mathilde"
+date: "2024-10-17"
+bibliography: references.bib
+format: pdf 
+---
+```

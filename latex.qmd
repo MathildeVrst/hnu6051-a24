@@ -61,3 +61,8 @@ Commençons à réaliser ce tuto en classe : <https://www.learnlatex.org/fr/>
 Vous devrez vous créer un compte sur [Overleaf](https://fr.overleaf.com/) 
 
 La documentation officielle : <https://tug.org/begin.html> 
+
+::: {.callout-tip}
+
+Pour débuter, vous pouvez utiliser LaTeX sur Overleaf. Pour la suite, je vous conseille d'installer une distribution complète. Suivez les instructions d'installation ici : https://tug.org/begin.html. 
+:::

@@ -84,7 +84,7 @@
     "href": "plan-de-cours.html#organisation-des-séances",
     "title": "Plan de cours",
     "section": "Organisation des séances",
-    "text": "Organisation des séances\nNous alternerons entre pratique théorie et pratique. Il est conseillé de venir en cours avec son ordinateur personnel.\n\n\n\n\n\n\nImportant\n\n\n\nLe programme des séances est sujet à de légers changements en fonction du niveau et de l’avancement du groupe.\n\n\n\nSéance 1 (4 octobre) :\n\n\n\nHoraire\nMatière\nType\n\n\n\n\n09h30-10h00\nPrésentation & Introduction de l’atelier\n–\n\n\n10h00-10h50\nÉdition savante, formats de fichiers\nThéorie 📚\n\n\n10h50-11h10\nBonnes pratiques de l’édition\nThéorie 📚 ❌\n\n\n11h10-11h30\nThe Plain Text Project\nThéorie 📚 et exercice 🏋️‍♂️\n\n\n11h30-12h30\nPause\n–\n\n\n12h30-13h00\nMarkdown\nThéorie 📚 et exercice 🏋️‍♂️\n\n\n13h00-14h15\nChaînes éditoriales, Stylo\nThéorie 📚 et pratique 🛠️\n\n\n14h15-15h15\nRéférences structurées, Zotero\nThéorie 📚 et exercice 🏋️‍♂️\n\n\n15h15-15h30\nPrésentation du rendu pour la séance 2 (markdown)\nRendu 📋\n\n\n\n\n\nSéance 2 (11 octobre) :\n\n\n\nHoraire\nMatière\nType\n\n\n\n\n09h30-10h00\nRetour sur le rendu\nRendu 📋\n\n\n10h00-11h15\nSingle Source Publishing\nThéorie 📚\n\n\n11h15-11h30\nInstallation de Codium\nPratique 🛠️\n\n\n11h30-12h30\nPause\n–\n\n\n12h30-13h15\nUtilisation du terminal\nPratique 🛠️\n\n\n13h15-14h00\nZotero et Bibtex\nPratique 🛠️\n\n\n14h00-14h45\nStylo en mode avancé\nExercice 🏋️‍♂️\n\n\n14h45-15h15\nLatex\nPratique 🛠️\n\n\n15h15-15h30\nPrésentation du rendu pour la séance 3 (stylo avancé ; recherches terminal)\nRendu 📋\n\n\n\n\n\nSéance 3 (18 octobre) :\n\n\n\nHoraire\nMatière\nType\n\n\n\n\n09h30-10h00\nRetour sur le rendu\nRendu 📋\n\n\n10h00-10h45\nLes caractères à l’écran\nThéorie 📚\n\n\n10h45-11h30\nPandoc\nPratique 🛠️\n\n\n11h30-12h30\nPause\n–\n\n\n12h30-13h30\nQuarto\nPratique 🛠️\n\n\n13h30-14h30\nGit et Github\nThéorie 📚\n\n\n14h30-15h15\nYaml\nThéorie et exercices 🏋️‍♂️\n\n\n15h15-15h30\nPrésentation du rendu final (création multi-format avec quarto)\nRendu 📋",
+    "text": "Organisation des séances\nNous alternerons entre pratique théorie et pratique. Il est conseillé de venir en cours avec son ordinateur personnel.\n\n\n\n\n\n\nImportant\n\n\n\nLe programme des séances est sujet à de légers changements en fonction du niveau et de l’avancement du groupe.\n\n\n\nSéance 1 (4 octobre) :\n\n\n\nHoraire\nMatière\nType\n\n\n\n\n09h30-10h00\nPrésentation & Introduction de l’atelier\n–\n\n\n10h00-10h50\nÉdition savante, formats de fichiers\nThéorie 📚\n\n\n10h50-11h10\nBonnes pratiques de l’édition\nThéorie 📚\n\n\n11h10-11h30\nThe Plain Text Project\nThéorie 📚 et exercice 🏋️‍♂️\n\n\n11h30-12h30\nPause\n–\n\n\n12h30-13h00\nMarkdown\nThéorie 📚 et exercice 🏋️‍♂️\n\n\n13h00-14h15\nChaînes éditoriales, Stylo\nThéorie 📚 et pratique 🛠️\n\n\n14h15-15h15\nRéférences structurées, Zotero\nThéorie 📚 et exercice 🏋️‍♂️\n\n\n15h15-15h30\nPrésentation du rendu pour la séance 2 (markdown)\nRendu 📋\n\n\n\n\n\nSéance 2 (11 octobre) :\n\n\n\nHoraire\nMatière\nType\n\n\n\n\n09h30-10h00\nRetour sur le rendu\nRendu 📋\n\n\n10h00-11h15\nSingle Source Publishing\nThéorie 📚\n\n\n11h15-11h30\nInstallation de Codium\nPratique 🛠️\n\n\n11h30-12h30\nPause\n–\n\n\n12h30-13h15\nUtilisation du terminal\nPratique 🛠️\n\n\n13h15-14h00\nZotero et Bibtex\nPratique 🛠️\n\n\n14h00-14h45\nStylo en mode avancé\nExercice 🏋️‍♂️\n\n\n14h45-15h15\nLatex\nPratique 🛠️\n\n\n15h15-15h30\nPrésentation du rendu pour la séance 3 (stylo avancé ; recherches terminal)\nRendu 📋\n\n\n\n\n\nSéance 3 (18 octobre) :\n\n\n\nHoraire\nMatière\nType\n\n\n\n\n09h30-10h00\nRetour sur le rendu\nRendu 📋\n\n\n10h00-10h45\nLes caractères à l’écran\nThéorie 📚\n\n\n10h45-11h30\nPandoc\nPratique 🛠️\n\n\n11h30-12h30\nPause\n–\n\n\n12h30-13h00\nYaml\nThéorie et exercices 🏋️‍♂️\n\n\n13h00-14h00\nGit et Github\nThéorie 📚\n\n\n14h00-15h15\nQuarto\nPratique 🛠️\n\n\n15h15-15h30\nPrésentation du rendu final (création multi-format avec quarto)\nRendu 📋",
     "crumbs": [
       "Plan de cours"
     ]
@@ -925,7 +925,7 @@
     "href": "latex.html#tuto",
     "title": "11  LaTeX",
     "section": "11.6 Tuto",
-    "text": "11.6 Tuto\nCommençons à réaliser ce tuto en classe : https://www.learnlatex.org/fr/\nVous devrez vous créer un compte sur Overleaf\nLa documentation officielle : https://tug.org/begin.html",
+    "text": "11.6 Tuto\nCommençons à réaliser ce tuto en classe : https://www.learnlatex.org/fr/\nVous devrez vous créer un compte sur Overleaf\nLa documentation officielle : https://tug.org/begin.html\n\n\n\n\n\n\nTip\n\n\n\nPour débuter, vous pouvez utiliser LaTeX sur Overleaf. Pour la suite, je vous conseille d’installer une distribution complète. Suivez les instructions d’installation ici : https://tug.org/begin.html.",
     "crumbs": [
       "session 2",
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>LaTeX</span>"
@@ -938,7 +938,29 @@
     "section": "",
     "text": "12.1 Encodage numérique",
     "crumbs": [
-      "session 3 (à venir)",
+      "session 3",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
+    ]
+  },
+  {
+    "objectID": "encodage.html#encodage-numérique",
+    "href": "encodage.html#encodage-numérique",
+    "title": "12  Des caractères à l’écran – encodage numérique",
+    "section": "",
+    "text": "Un fichier numérique = Une suite de bits (des 0 et des 1)\n\ntrain/flux de bits : suite de bits (binary digit)\nun octet :\n\nune séquence de 8 bits\n28 (256) combinaisons possibles de 0 et de 1\n\n\nLe format : spécifie l’interprétation de cette suite de 0 et de 1\nTaille d’un fichier numérique : nombre d’instances de 0 et de 1 nécessaires à sa représentation\nCodage : norme qui définit quels sont les caractères utilisables dans un fichier. Toutes les normes ne codent pas les mêmes caractères. (- A. Perret)",
+    "crumbs": [
+      "session 3",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
+    ]
+  },
+  {
+    "objectID": "encodage.html#système-de-numération-en-base-2",
+    "href": "encodage.html#système-de-numération-en-base-2",
+    "title": "12  Des caractères à l’écran – encodage numérique",
+    "section": "12.2 Système de numération en base 2",
+    "text": "12.2 Système de numération en base 2\n\nUn ordinateur ne connaît que deux choses: les 1 et les 0. Chaque lettre dans cette phrase, chaque couleur, chaque seconde d’une vidéo ou d’un morceau de musique, chaque page web, chaque programme n’est qu’une longue succession de 1 et de 0. Mia Combeau",
+    "crumbs": [
+      "session 3",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
     ]
   },
@@ -946,10 +968,10 @@
     "objectID": "encodage.html#mémoire",
     "href": "encodage.html#mémoire",
     "title": "12  Des caractères à l’écran – encodage numérique",
-    "section": "12.2 Mémoire",
-    "text": "12.2 Mémoire",
+    "section": "12.3 Mémoire",
+    "text": "12.3 Mémoire\n\nLa taille d’un disque dur définit le nombre de bits disponibles pour encoder des informations simultanément. Par exemple, un disque dur de 50 Go de mémoire :\n\nest égal à 50 000 000 000 octets (cinquante milliards)\nest égal à 400 000 000 000 bits (quatre cents milliards)\n\nLa taille d’un fichier définit le nombre de bits nécessaire à son encodage. Par exemple, un fichier d’une taille de 30 Ko :\n\nnécessite 30 x 1 000 x 8 bits\ncontient donc un total de 240 000 instances de 1 ou 0",
     "crumbs": [
-      "session 3 (à venir)",
+      "session 3",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
     ]
   },
@@ -957,10 +979,10 @@
     "objectID": "encodage.html#ou-1",
     "href": "encodage.html#ou-1",
     "title": "12  Des caractères à l’écran – encodage numérique",
-    "section": "12.3 0 ou 1 ?",
-    "text": "12.3 0 ou 1 ?\nTout document conservé sur un ordinateur est constitué d’une série de 0 et de 1.\nCe sont les normes d’encodage et les formats qui permettent d’interpréter le sens de ces 0 et 1.",
+    "section": "12.4 0 ou 1 ?",
+    "text": "12.4 0 ou 1 ?\nTout document conservé sur un ordinateur est constitué d’une série de 0 et de 1.\nCe sont les normes d’encodage et les formats qui permettent d’interpréter le sens de ces 0 et 1.",
     "crumbs": [
-      "session 3 (à venir)",
+      "session 3",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
     ]
   },
@@ -968,10 +990,10 @@
     "objectID": "encodage.html#normes-dencodage",
     "href": "encodage.html#normes-dencodage",
     "title": "12  Des caractères à l’écran – encodage numérique",
-    "section": "12.4 Normes d’encodage",
-    "text": "12.4 Normes d’encodage",
+    "section": "12.5 Normes d’encodage",
+    "text": "12.5 Normes d’encodage\n\nNormes d’encodages = clefs d’encodage/décodage pour passer d’une forme intelligible pour les humains à une forme lisible par la machine ;\nEn fonction du type de fichier encodé (texte, image, vidéo, etc.), il existe différents paysages de normes et de modes de représentation",
     "crumbs": [
-      "session 3 (à venir)",
+      "session 3",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
     ]
   },
@@ -979,10 +1001,10 @@
     "objectID": "encodage.html#encodage-des-données-textuelles",
     "href": "encodage.html#encodage-des-données-textuelles",
     "title": "12  Des caractères à l’écran – encodage numérique",
-    "section": "12.5 Encodage des données textuelles",
-    "text": "12.5 Encodage des données textuelles\n\n\n12.5.1 ASCII\n\n\n\n12.5.2 ISO 8859-1\n\n\n\n12.5.3 UTF-8\n\nUniversal Character Set Transformation Format + base d’encodage (8, 16, 32, …)\nEn fonction de la base d’encodage, un caractère peut être représenté par 1, 2, 3 ou 4 octets.\nUTF est rétrocompatible avec ASCII, mais pas avec ISO 8859-1. Il s’inscrit dans le cadre établi par Unicode qui vise à faciliter l’échange de textes numériques en assurant leur compatibilité.\nUnicode définit plus de 137 000 caractères, issus de multiples alphabets, et prévoit aussi des symboles comme les emojis.\nExemple : 🤓 = 11110000 10011111 10100100 10010011",
+    "section": "12.6 Encodage des données textuelles",
+    "text": "12.6 Encodage des données textuelles\n\nUn document numérique textuel contient du texte (caractères alphanumériques et de symboles) ;\nLa norme d’encodage d’un texte == une table de correspondance entre un groupe de bits et un caractère alphanumérique ou un symbole ;\nLa norme d’encodage définit donc la liste des caractères disponibles (character set) ;\nEn fonction de la norme, la représentation d’un caractère peut s’étendre sur un ou plusieurs octets\nLes normes les plus connues pour des textes en français sont :\n\nASCII (1963)\nISO 8859-1 (1986)\nUTF-8 (1996)\n\n\n\n12.6.1 ASCII\n\nAmerican Standard Code for Information Interchange ;\nPremier jeu de caractères standardisé (1963) ;\nNorme américano-centrée ;\n128 caractères, desquels sont exclus :\n\nles caractères accentués,\ntous les alphabets non latins (arabe, cyrillique, hébreu, idéogrammes, etc.) ;\n\n1 caractère = 7 bits\n\n\n\n !\"#$%&'()*+,-./\n0123456789:;&lt;=&gt;?\n@ABCDEFGHIJKLMNO\nPQRSTUVWXYZ[\\]^_\n`abcdefghijklmno\npqrstuvwxyz{|}~\n\n\n\n\n\n\nNote\n\n\n\nCi-dessus, seulement 95 caractères. Les autres ne sont pas imprimables (dits, caractères de contrôle) ; il correspondent plutôt à des actions ou des commandes.\nEx. :\n\n9 (binaire : 000 1001) = HT (Horizontal Tab, tab)\n10 (binaire : 000 1010) = LF (Line Feed, saut de ligne)\n12 (binaire : 000 1100) = FF (Form Feed, saut de page)\n127 (binaire : 111 1111) = à votre avis ?\n\n\n\n\n\n12.6.2 ISO 8859-1\n\n1986\n1 caractères = 8 bits\nRétrocompatibilité ASCII ;\n256 caractères où chaque caractère est représenté par 8 bits ;\nSouvent appelée Latin1 mais aussi Western Europe.\nManquent : Œ, œ, Ÿ, € (et les alphabts non-latins)\n\n\n\n !\"#$%&'()*+,-./    ¡¢£¤¥¦§¨©ª«¬-®¯\n0123456789:;&lt;=&gt;?   °±²³´µ¶·¸¹º»¼½¾¿\n@ABCDEFGHIJKLMNO   ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏ\nPQRSTUVWXYZ[\\]^_   ÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞß\n`abcdefghijklmno   àáâãäåæçèéêëìíîï\npqrstuvwxyz{|}~    ðñòóôõö÷øùúûüýþÿ\n\nExemple: é = 11101001\n\n\n\n\n\n\n\nNote\n\n\n\n\nISO 8859-2 (Europe centrale et de l’Est),\nISO 8859-5 (alphabet cyrillique),\nISO 8859-6 (caractères courants de l’alphabet arabe), etc.\n\noù seuls changent les codes 128 à 255.\n\n\n\n\n12.6.3 Unicode\n\nTable de caractères ;\n\nStandard universel de représentation de caractères ;\nContrairement à ASCII, Unicode ne définit pas l’implémentation du mapping ;\nIndique seulement quel caractère se réfère à quel point de code (où chaque point de code est un nombre hexadécimal (0-9 + A-F) représentant un caractère) ;\nLe standard Unicode lui-même ne spécifie pas comment ces points de code doivent être stockés en mémoire ou transmis dans des fichiers. C’est là qu’interviennent les encodages Unicode comme UTF-8 ;\n1 114 112 positions possibles ;\nDivisés en scripts : collections cohérentes de caractères en usage dans un domaine particulier (symboles monétaires, opérateurs mathématiques, braille, etc).\n\n\n\n12.6.4 UTF-8\n\nMéthode d’encodage\n1996\nUniversal Character Set Transformation Format + base d’encodage (8, 16, 32, …), soit UTF-8, UTF-16, UTF-32 ;\nEn fonction de la base d’encodage, un caractère peut être représenté par 1, 2, 3 ou 4 octets ;\nUTF est rétrocompatible avec ASCII, mais pas avec ISO 8859-1. Il s’inscrit dans le cadre établi par Unicode qui vise à faciliter l’échange de textes numériques en assurant leur compatibilité ;\nUnicode définit plus de 137 000 caractères, issus de multiples alphabets, et prévoit aussi des symboles comme les emojis ;\nExemples\n\nA = U+0041 = 01000001 ;\n汉 = U+6C49 = 11100110 10110001 10001001 ;\n🤓 = U+1F913 = 11110000 10011111 10100100 10010011 ;",
     "crumbs": [
-      "session 3 (à venir)",
+      "session 3",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
     ]
   },
@@ -990,10 +1012,10 @@
     "objectID": "encodage.html#mauvais-encodagedécodage",
     "href": "encodage.html#mauvais-encodagedécodage",
     "title": "12  Des caractères à l’écran – encodage numérique",
-    "section": "12.6 Mauvais encodage/décodage",
-    "text": "12.6 Mauvais encodage/décodage\nSi on n’utilise pas la bonne clef d’encodage ou de décodage d’un texte, on risque d’obtenir un texte partiellement ou entièrement illisible.\nUTF-8 ouvert avec 8859-1 (Latin 1)\n\nLa Joconde, ou Portrait de Mona Lisa, est un tableau de l’artiste LÃ©onard de Vinci, rÃ©alisÃ© entre 1503 et 1506 ou entre 1513 et 15161,2, et peut-Ãªtre jusqu’Ã 1519 (l’artiste Ã©tant mort cette annÃ©e-lÃ , le 2 mai)3, qui reprÃ©sente un portrait mi-corps, probablement celui de la Florentine Lisa Gherardini, Ã©pouse de Francesco del Giocondo. Acquise par FranÃ§ois Ier, cette peinture Ã l’huile sur panneau de bois de peuplier de 77 Ã 53 cm est exposÃ©e au musÃ©e du Louvre Ã Paris. La Joconde est l’un des rares tableaux attribuÃ©s de faÃ§on certaine Ã LÃ©onard de Vinci.",
+    "section": "12.7 Mauvais encodage/décodage",
+    "text": "12.7 Mauvais encodage/décodage\nSi on n’utilise pas la bonne clef d’encodage ou de décodage d’un texte, on risque d’obtenir un texte partiellement ou entièrement illisible.\nUTF-8 ouvert avec 8859-1 (Latin 1)\n\nLa Joconde, ou Portrait de Mona Lisa, est un tableau de l’artiste LÃ©onard de Vinci, rÃ©alisÃ© entre 1503 et 1506 ou entre 1513 et 15161,2, et peut-Ãªtre jusqu’Ã 1519 (l’artiste Ã©tant mort cette annÃ©e-lÃ , le 2 mai)3, qui reprÃ©sente un portrait mi-corps, probablement celui de la Florentine Lisa Gherardini, Ã©pouse de Francesco del Giocondo. Acquise par FranÃ§ois Ier, cette peinture Ã l’huile sur panneau de bois de peuplier de 77 Ã 53 cm est exposÃ©e au musÃ©e du Louvre Ã Paris. La Joconde est l’un des rares tableaux attribuÃ©s de faÃ§on certaine Ã LÃ©onard de Vinci.",
     "crumbs": [
-      "session 3 (à venir)",
+      "session 3",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
     ]
   },
@@ -1001,21 +1023,10 @@
     "objectID": "encodage.html#une-norme",
     "href": "encodage.html#une-norme",
     "title": "12  Des caractères à l’écran – encodage numérique",
-    "section": "12.7 Une norme ?",
-    "text": "12.7 Une norme ?\nUTF s’impose désormais comme la norme\n\n\n\ndiagramme montrant qu’UTF s’impose sur les autres normes depuis 2006\n\n\nD’après W3Techs, 97,8% des pages web qui déclarent un encodage suivent UTF-8 aujourd’hui.\n(source du graphique: Wikimedia)",
+    "section": "12.8 Une norme ?",
+    "text": "12.8 Une norme ?\nUTF s’impose désormais comme la norme\n\n\n\ndiagramme montrant qu’UTF s’impose sur les autres normes depuis 2006\n\n\nD’après W3Techs, 97,8% des pages web qui déclarent un encodage suivent UTF-8 aujourd’hui.\n(source du graphique: Wikimedia)",
     "crumbs": [
-      "session 3 (à venir)",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
-    ]
-  },
-  {
-    "objectID": "encodage.html#enjeux",
-    "href": "encodage.html#enjeux",
-    "title": "12  Des caractères à l’écran – encodage numérique",
-    "section": "12.8 Enjeux",
-    "text": "12.8 Enjeux",
-    "crumbs": [
-      "session 3 (à venir)",
+      "session 3",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>Des caractères à l'écran -- encodage numérique</span>"
     ]
   },
@@ -1024,9 +1035,119 @@
     "href": "pandoc.html",
     "title": "13  Convertisseurs : le cas de pandoc",
     "section": "",
-    "text": "Ouvrir dans mon navigateur",
+    "text": "13.1 Pandoc",
     "crumbs": [
-      "session 3 (à venir)",
+      "session 3",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Convertisseurs : le cas de *pandoc*</span>"
+    ]
+  },
+  {
+    "objectID": "pandoc.html#pandoc",
+    "href": "pandoc.html#pandoc",
+    "title": "13  Convertisseurs : le cas de pandoc",
+    "section": "",
+    "text": "Logiciel libre en ligne de commande pour la conversion de fichiers texte\nJohn MacFarlane, licence GPL\n« Couteau suisse de l’édition » (Perret 2018)\n\nDocumentation : https://pandoc.org/MANUAL.html",
+    "crumbs": [
+      "session 3",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Convertisseurs : le cas de *pandoc*</span>"
+    ]
+  },
+  {
+    "objectID": "pandoc.html#fonctionnement-en-ligne-de-commande",
+    "href": "pandoc.html#fonctionnement-en-ligne-de-commande",
+    "title": "13  Convertisseurs : le cas de pandoc",
+    "section": "13.2 Fonctionnement (en ligne de commande)",
+    "text": "13.2 Fonctionnement (en ligne de commande)\nExemple (simple) :\npandoc --citeproc -f markdown -t epub TexteAvant.md -o TexteApres.epub\nTraduction :\ncher pandoc avec l’option de citation, fais la conversion, depuis (from) le Markdown vers (to) le ePuB, de mon fichier de départ (TexteAvant.md) vers mon fichier de destination (out) (TexteApres.epub)",
+    "crumbs": [
+      "session 3",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Convertisseurs : le cas de *pandoc*</span>"
+    ]
+  },
+  {
+    "objectID": "pandoc.html#installation-en-classe",
+    "href": "pandoc.html#installation-en-classe",
+    "title": "13  Convertisseurs : le cas de pandoc",
+    "section": "13.3 Installation (en classe)",
+    "text": "13.3 Installation (en classe)\nCe lien https://pandoc.org/installing.html vous amène directement aux dernières releases sur GitHub. Téléchargez le système qui convient le mieux à votre système d’exploitation, soit :\n\nPour Windows : pandoc-3.4-windows-x86_64.msi ;\nPour Mac :\n\nMac avec puces Intel (x86_64) : pandoc-3.4-x86_64-macOS.pkg ;\nMacs avec puces Apple Silicon (ARM, M1/M2) : pandoc-3.4-arm64-macOS.pkg ;\nVous hésitez ? Cmd + Espace, Informations Système. Dans la colonne de gauche, sélectionner Matériel. La ligne “Nom du processeur” ou “Type de processeur” apparaîtra dans la section principale.",
+    "crumbs": [
+      "session 3",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Convertisseurs : le cas de *pandoc*</span>"
+    ]
+  },
+  {
+    "objectID": "pandoc.html#quelques-options-de-la-commande-pandoc",
+    "href": "pandoc.html#quelques-options-de-la-commande-pandoc",
+    "title": "13  Convertisseurs : le cas de pandoc",
+    "section": "13.4 Quelques options de la commande Pandoc",
+    "text": "13.4 Quelques options de la commande Pandoc\n\n--standalone (produit un document complet incluant les métadonnées) ;\n--bibliography=references.bib (spécifie un fichier de références bibliographiques) ;\n--template=mytemplate.html (spécifie un modèle) ;\n--toc (table of contents) ;\n--help (résume les options existantes)",
+    "crumbs": [
+      "session 3",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Convertisseurs : le cas de *pandoc*</span>"
+    ]
+  },
+  {
+    "objectID": "pandoc.html#exemples-supplémentaires",
+    "href": "pandoc.html#exemples-supplémentaires",
+    "title": "13  Convertisseurs : le cas de pandoc",
+    "section": "13.5 Exemples supplémentaires",
+    "text": "13.5 Exemples supplémentaires\n\n.docx -&gt; .md\n\npandoc -f docx -t markdown --extract-media=./ fichier.docx -o fichier.md, où :\n\n--extract-media=./ : extraction et sauvegarde des fichiers multimédias dans le répertoire courant ;\n\n\n.md -&gt; .html\n\npandoc --standalone --ascii --bibliography=references.bib -f markdown -t html fichier.md -o fichier.html, où :\n\n--standalone : production d’un document .html autonome (soit, ajout des balises &lt;html&gt; ; &lt;head&gt; ; &lt;body&gt;) ;\n--ascii : utilisation des caractères ASCII uniquement ;\n\n--bibliography=references.bib : intégration d’une bibliographie à partir du fichier references.bib",
+    "crumbs": [
+      "session 3",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Convertisseurs : le cas de *pandoc*</span>"
+    ]
+  },
+  {
+    "objectID": "pandoc.html#métadonnées-exercice",
+    "href": "pandoc.html#métadonnées-exercice",
+    "title": "13  Convertisseurs : le cas de pandoc",
+    "section": "13.6 Métadonnées (exercice)",
+    "text": "13.6 Métadonnées (exercice)\nAjoutez les métadonnées en en-tête d’un fichier .md :\n---\ntitle: \"mon titre\"\nsubtitle: \"mon sous-titre\"\ndate:\nauthor:\n- Aristotle\n- Plato\nabstract:\nkeywords:\nbibliography:\nlang:\n---\n\n\n\n\n\n\nTip\n\n\n\nCes métadonnées peuvent être placées soit en en-tête d’un fichier .md, soit dans un fichier séparé, au format YAML (extension : .yaml). Dans ce cas, la commande Pandoc précédente devra préciser où sont les métadonnées :\npandoc --standalone -f markdown -t html monfichier.md metadonnees.yaml -o export.html",
+    "crumbs": [
+      "session 3",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Convertisseurs : le cas de *pandoc*</span>"
+    ]
+  },
+  {
+    "objectID": "pandoc.html#export-dune-bibliographie",
+    "href": "pandoc.html#export-dune-bibliographie",
+    "title": "13  Convertisseurs : le cas de pandoc",
+    "section": "13.7 Export d’une bibliographie",
+    "text": "13.7 Export d’une bibliographie\n\nEn ligne de commande :\n\npandoc --standalone --bibliography=monfichier.bib --filter pandoc-citeproc -f markdown -t html monfichier.md -o export.html\n\nDans le fichier principal (dans l’en-tête yaml) ; lancer la même commande que ci-dessus, sans --bibliography=monfichier.bib :\n\n---\ntitle: \"mon titre\"\nsubtitle: \"mon sous-titre\"\n...\nbibliography: monfichier.bib\n---\n\n\n\n\n\n\nTip\n\n\n\n\nAjouter link-citations: true dans le yaml permet de transformer les appels de références en hyperliens.\nPour ajouter tous les éléments du .bib, même ceux non cités, ajoutez en yaml : nocite: '@*'",
+    "crumbs": [
+      "session 3",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Convertisseurs : le cas de *pandoc*</span>"
+    ]
+  },
+  {
+    "objectID": "pandoc.html#les-templates",
+    "href": "pandoc.html#les-templates",
+    "title": "13  Convertisseurs : le cas de pandoc",
+    "section": "13.8 Les templates",
+    "text": "13.8 Les templates\n\nTemplate par défaut pour chacun des formats de sorties ;\nPrincipe : Pandoc remplace les variables du template par les valeurs déclarées dans les métadonnées .yaml (fichier à part ou en-tête)\nPar ex. :\n\n\n\n\n\n\n\n\n\nyaml\nTemplate\nhtml (par ex.)\n\n\n\n\nauthor: Platon\n&lt;meta name=\"author\" content=\"$author$\"&gt;\n&lt;meta name=\"author\" content=\"Platon\"",
+    "crumbs": [
+      "session 3",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Convertisseurs : le cas de *pandoc*</span>"
+    ]
+  },
+  {
+    "objectID": "pandoc.html#personnaliser-son-template-exercice",
+    "href": "pandoc.html#personnaliser-son-template-exercice",
+    "title": "13  Convertisseurs : le cas de pandoc",
+    "section": "13.9 Personnaliser son template (exercice)",
+    "text": "13.9 Personnaliser son template (exercice)\n\nRécupérer le template par défaut d’un format :\n\npandoc -D html &gt; montemplate.html\n\n\n\n\n\n\nTip\n\n\n\nCette commande fonctionne pour tous les formats de sortie (hormis .docx/.odt, cf. la documentation).\n\n\n\nOuvrez montemplate.html dans VSCode pour voir comment il est structuré.\nDans les données yaml d’un document .md, ajoutez la ligne image: auteur.jpg\nDans le template, nous pouvons ajouter une balise  :\n\n$if(image)$ &lt;img src=\"$image$\" width=\"30%\"/&gt; $endif$\n\nPour que Pandoc prenne en compte le nouveau template, ajoutez l’option --template=FILE, soit :\n\npandoc --standalone --filter pandoc-citeproc --template=montemplate.html -f markdown -t html monfichier.md metadata.yaml -o export_2.html",
+    "crumbs": [
+      "session 3",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Convertisseurs : le cas de *pandoc*</span>"
+    ]
+  },
+  {
+    "objectID": "pandoc.html#questions",
+    "href": "pandoc.html#questions",
+    "title": "13  Convertisseurs : le cas de pandoc",
+    "section": "13.10 Questions ?",
+    "text": "13.10 Questions ?",
+    "crumbs": [
+      "session 3",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Convertisseurs : le cas de *pandoc*</span>"
     ]
   },
@@ -1035,9 +1156,53 @@
     "href": "quarto.html",
     "title": "14  Quarto",
     "section": "",
-    "text": "Ouvrir dans mon navigateur",
+    "text": "14.1 Quarto\nhttps://quarto.org/about.html",
     "crumbs": [
-      "session 3 (à venir)",
+      "session 3",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Quarto</span>"
+    ]
+  },
+  {
+    "objectID": "quarto.html#quarto",
+    "href": "quarto.html#quarto",
+    "title": "14  Quarto",
+    "section": "",
+    "text": "Outil open-source de création et de publication de documents scientifiques (rapports, présentations, livres, sites, etc) ;\nPermet de combiner du .md avec du code dans plusieurs langages (R, Python, Julia, etc.) ;\nProduction de documents dans différents formats : HTML, PDF, Word, diaporamas interactifs,…",
+    "crumbs": [
+      "session 3",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Quarto</span>"
+    ]
+  },
+  {
+    "objectID": "quarto.html#fonctionnement",
+    "href": "quarto.html#fonctionnement",
+    "title": "14  Quarto",
+    "section": "14.2 Fonctionnement",
+    "text": "14.2 Fonctionnement\n.md(+ syntaxe quarto incluant code et options de formatage) + .yaml (dans le .md ou à part) + pandoc = vos formats de sortie\nIntégration de code (Python, R, JavaScript)",
+    "crumbs": [
+      "session 3",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Quarto</span>"
+    ]
+  },
+  {
+    "objectID": "quarto.html#historique",
+    "href": "quarto.html#historique",
+    "title": "14  Quarto",
+    "section": "14.3 Historique",
+    "text": "14.3 Historique\nRStudio (devenu Posit) : environnement de développement gratuit, libre et multiplateforme pour R, un langage de programmation utilisé pour le traitement de données et l’analyse statistique\nFormat : RMarkdown, .rmd (qui ressemble au .qmd de QuartoMarkdown)",
+    "crumbs": [
+      "session 3",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Quarto</span>"
+    ]
+  },
+  {
+    "objectID": "quarto.html#au-travail",
+    "href": "quarto.html#au-travail",
+    "title": "14  Quarto",
+    "section": "14.4 Au travail",
+    "text": "14.4 Au travail\n\nInstallez Quarto : https://quarto.org/docs/get-started/ ;\nFaites le tuto Hello, Quarto : https://quarto.org/docs/get-started/hello/text-editor.html ;\nFaites le tuto Authoring : https://quarto.org/docs/get-started/hello/text-editor.html ;\nSi le temps le permet, commencez votre rendu, la documentation est ici : https://quarto.org/docs/books/ + versionnez votre projet sur GitHub ;\nPour la publication en ligne, consultez cette page : https://quarto.org/docs/publishing/github-pages.html (je conseille de suivre Publish Command : https://quarto.org/docs/publishing/github-pages.html#publish-command)",
+    "crumbs": [
+      "session 3",
       "<span class='chapter-number'>14</span>  <span class='chapter-title'>Quarto</span>"
     ]
   },
@@ -1046,9 +1211,20 @@
     "href": "git.html",
     "title": "15  Git et GitHub",
     "section": "",
-    "text": "15.1 Versionnement",
+    "text": "15.1 Versionnement\nGit est un outil de versionnement et de synchronisation de fichiers.\nIntérets :",
     "crumbs": [
-      "session 3 (à venir)",
+      "session 3",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Git et GitHub</span>"
+    ]
+  },
+  {
+    "objectID": "git.html#versionnement",
+    "href": "git.html#versionnement",
+    "title": "15  Git et GitHub",
+    "section": "",
+    "text": "gestion de nombreuses versions de plusieurs fichiers ;\néviter les memoire-2024-reluJeanJacques-version-finale-ok-ultime-v4-2024-10-18.docx ;\ncollaboration\nÉtablir une version du texte + travailler sur ses états",
+    "crumbs": [
+      "session 3",
       "<span class='chapter-number'>15</span>  <span class='chapter-title'>Git et GitHub</span>"
     ]
   },
@@ -1057,9 +1233,53 @@
     "href": "git.html#git-vs-github",
     "title": "15  Git et GitHub",
     "section": "15.2 Git vs Github",
-    "text": "15.2 Git vs Github",
+    "text": "15.2 Git vs Github\nGit : Logiciel de gestion de versions décentralisé libre et gratuit (installé sur votre ordinateur)\nGitHub : Service web d’hébergement et de gestion de développement de logiciels (service en ligne)\n\n15.2.1 Git\n\nSystème de gestion de versions décentralisées créé pour gérer des fichiers textes de projets informatiques ;\n(Très) complexe, mais utilisation basique possible ;\nConservation de toutes les versions des fichiers d’un projet à chaque enregistrement ;\nGit est utilisé sur des plateformes comme GitHub ou GitLab qui en facilite (grandement) l’usage.\n\n\n\n15.2.2 GitHub\nService web d’hébergement qui utilise le logiciel de versions Git\n\nPropriété : Microsoft ;\nAlternatives libres : GitLab, Framagit\n\n\n\n15.2.3 Fonctionnement\n\nBranches : comparer, fusionner, suivre ;\nLocal / remote :\n\npull : pour récupérer les modifications de la version en ligne ;\npush : pour publier les modifications vers la version en ligne ;\n\nDescription des modifications",
     "crumbs": [
-      "session 3 (à venir)",
+      "session 3",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Git et GitHub</span>"
+    ]
+  },
+  {
+    "objectID": "git.html#quelques-commandes-de-base",
+    "href": "git.html#quelques-commandes-de-base",
+    "title": "15  Git et GitHub",
+    "section": "15.3 Quelques commandes de base",
+    "text": "15.3 Quelques commandes de base\n\ngit clone [repertoire] : clone un “répertoire distant” sur la machine locale dans un “répertoire local”, par exemple depuis le serveur framagit.org. Exemple : git clone https://framagit.org/marviro/tutorielmdpandoc.git ;\n\ngit add fichier.md : ajoute un fichier à l’index pour préparer un “commit” ciblé ;\ngit add . : ajoute tous les fichiers à l’index pour préparer un “commit” ;\n\ngit commit -m \"message pour documenter la modification\" : valide un commit avec un message d’information, et donc déclare et inscrit les modifications au registre Git (enregistrement de l’état du projet).\n\ncommit = label de la version complété par l’utilisateur pour décrire la modification effectuée\n\ngit pull : synchronise le répertoire local depuis le répertoire distant, ce qui permet de récupérer des modifications faites par d’autres contributeurs (on tire les modifications des autres depuis le serveur).\ngit push : synchronise le répertoire distant à partir du répertoire local, ce qui permet de partager son travail avec d’autres contributeurs (on pousse ses modifications vers le serveur).\ngit status : présente un état du répertoire : quels fichiers ont été ajoutés, modifiés, supprimés, non ajoutés au registre, etc.\n\n\n15.3.1 Quelques commandes un peu plus complexes\n\ngit diff : présente les changements de chaque fichier modifié.\ngit log : présente une liste de commit. C’est l’état du registre, une forme d’historique des modifications.\ngit checkout : changement ou création de branches, ce qui permet d’avoir une version dupliquée du projet ;\ngit rebase ou git merge : fusion de plusieurs versions d’un même fichier (par exemple en réunissant plusieurs branches parallèles).",
+    "crumbs": [
+      "session 3",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Git et GitHub</span>"
+    ]
+  },
+  {
+    "objectID": "git.html#git-chatons",
+    "href": "git.html#git-chatons",
+    "title": "15  Git et GitHub",
+    "section": "15.4 Git chatons",
+    "text": "15.4 Git chatons\n\n\n\nTomomi Imura (https://girliemac.com/)",
+    "crumbs": [
+      "session 3",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Git et GitHub</span>"
+    ]
+  },
+  {
+    "objectID": "git.html#exercice---créer-son-premier-répertoire",
+    "href": "git.html#exercice---créer-son-premier-répertoire",
+    "title": "15  Git et GitHub",
+    "section": "15.5 Exercice - créer son premier répertoire",
+    "text": "15.5 Exercice - créer son premier répertoire\nVous allez créer un premier répertoire. Allons-y pas à pas :\n\nouvrez un terminal.\n\n\nPar défaut, le terminal s’ouvre dans votre dossier personnel.\n\nLancez la commande ls pour vous en assurer.\n\n\ncréer un dossier GitHub : mkdir github et naviguez dedans cd github. Le terminal est maintenant positionné dans le répertoire github.\ndans votre navigateur, allez sur votre compte GitHub puis cliquer sur [New Project]. Renseignez le Project name avec votre prénom (sans accents), puis cochez la case “Initialize repository with a README”, et enfin le bouton [Create project].\nvous venez de créer un projet git. Vous allez maintenant le cloner, c’est-à-dire récupérer le répertoire sur votre machine en local. Pour cela, commencez par copier-coller l’url de clonage en cliquant sur le bouton bleu [Clone] en haut à droite, et en copiant l’url HTTPS.\ndans le terminal, écrivez la commande git clone puis coller l’url copiée, et lancez la commande complète, par exemple : git clone https://github.com/monprenom/monprojet.git\n…",
+    "crumbs": [
+      "session 3",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Git et GitHub</span>"
+    ]
+  },
+  {
+    "objectID": "git.html#installation-de-git",
+    "href": "git.html#installation-de-git",
+    "title": "15  Git et GitHub",
+    "section": "15.6 Installation de Git",
+    "text": "15.6 Installation de Git\nhttps://git-scm.com/downloads",
+    "crumbs": [
+      "session 3",
       "<span class='chapter-number'>15</span>  <span class='chapter-title'>Git et GitHub</span>"
     ]
   },
@@ -1068,9 +1288,64 @@
     "href": "yml.html",
     "title": "16  YAML",
     "section": "",
-    "text": "16.1 À venir",
+    "text": "16.1 Définition",
     "crumbs": [
-      "session 3 (à venir)",
+      "session 3",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>YAML</span>"
+    ]
+  },
+  {
+    "objectID": "yml.html#définition",
+    "href": "yml.html#définition",
+    "title": "16  YAML",
+    "section": "",
+    "text": "Yet Another Markup Language (yaml 1.0)\nYAML Ain’t Markup Language (yaml 1.1)\nFormat de représentation de données\nLangage de programmation, facile à lire et à comprendre\nUtilisable avec d’autres langages de programmation\nPratique pour définir des métadonnées et configurer des fichiers",
+    "crumbs": [
+      "session 3",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>YAML</span>"
+    ]
+  },
+  {
+    "objectID": "yml.html#syntaxe-de-base",
+    "href": "yml.html#syntaxe-de-base",
+    "title": "16  YAML",
+    "section": "16.2 Syntaxe de base",
+    "text": "16.2 Syntaxe de base\n\nListe de paires “clé-valeur”\n\nclé: valeur \nclé2: valeur2\n\nImportance de l’indentation (= hiérarchie) ; préférez les espaces aux tab\nListes : un tirer pour chaque élément\nCommentaires : les lignes commençant par # ne sont pas interprétées\n\nAuthor: \n   - Platon \n   - Socrate \n# Mince, demander à Socrate s'il veut publier aussi \nPlace: \"Athens\"",
+    "crumbs": [
+      "session 3",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>YAML</span>"
+    ]
+  },
+  {
+    "objectID": "yml.html#quarto-et-yaml",
+    "href": "yml.html#quarto-et-yaml",
+    "title": "16  YAML",
+    "section": "16.3 Quarto et yaml",
+    "text": "16.3 Quarto et yaml\nQuarto fonctionne avec des fichiers .mdoù yaml est utilisé principalement pour définir des métadonnées en en-tête (= front matter) Il est placé entre ---\n---\ntitle: \"Mon Document\"\nauthor: \"Mathilde\"\ndate: \"2024-10-17\"\nformat: html #format de sortie souhaité \n---",
+    "crumbs": [
+      "session 3",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>YAML</span>"
+    ]
+  },
+  {
+    "objectID": "yml.html#utilisation-avancée",
+    "href": "yml.html#utilisation-avancée",
+    "title": "16  YAML",
+    "section": "16.4 Utilisation avancée",
+    "text": "16.4 Utilisation avancée\n---\ntitle: \"Titre\"\nauthor: \"Mathilde\"\ndate: \"2024-10-17\"\nbibliography: references.bib\nformat:\n  pdf:\n    toc: true  # Ajoute une table des matières\n    number-sections: true  # Numérote les sections\n  html\n---",
+    "crumbs": [
+      "session 3",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>YAML</span>"
+    ]
+  },
+  {
+    "objectID": "yml.html#exercice",
+    "href": "yml.html#exercice",
+    "title": "16  YAML",
+    "section": "16.5 Exercice",
+    "text": "16.5 Exercice\nCeci me provoque une erreur, pourquoi ?\n---\ntitle: \"Le \"Banquet\" de Platon, analyse\"\nauthor: \"Mathilde\"\ndate: \"2024-10-17\"\nbibliography: references.bib\nformat: pdf \n---",
+    "crumbs": [
+      "session 3",
       "<span class='chapter-number'>16</span>  <span class='chapter-title'>YAML</span>"
     ]
   },

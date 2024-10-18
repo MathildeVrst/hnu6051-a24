@@ -12,3 +12,147 @@ suppress-bibliography: true
 [Ouvrir dans mon navigateur](_slides/pandoc.html){target="_blank"} 
 
 ::: 
+
+Fabriquer sa propre chaîne de publication depuis une source unique  
+
+## Pandoc 
+
+- Logiciel libre en ligne de commande pour la conversion de fichiers texte
+- John MacFarlane, licence GPL
+- « Couteau suisse de l'édition » (Perret 2018)  
+- Documentation : <https://pandoc.org/MANUAL.html> 
+
+## Fonctionnement (en ligne de commande) 
+
+Exemple (simple) : 
+
+`pandoc --citeproc -f markdown -t epub TexteAvant.md -o TexteApres.epub`
+
+Traduction : 
+
+cher pandoc avec l'option de citation, fais la conversion, depuis (from) le Markdown vers (to) le ePuB, de mon fichier de départ (`TexteAvant.md`) vers mon fichier de destination (out) (`TexteApres.epub`) 
+
+</section>
+<section>
+
+Exemple (moins simple) : 
+
+`pandoc --citeproc --template=Template.latex -f markdown -t latex TexteAvant.md -o TexteApres.tex`
+
+Traduction : 
+
+cher pandoc avec l'option citation, en utilisant et mon template (qui est le fichier `Template.latex`), fais la conversion, depuis (from) le Markdown vers (to) le Latex, de mon fichier de départ (`TexteAvant.md`) vers mon fichier de destination (out) (`TexteApres.tex`)
+
+## Installation (en classe) 
+
+Ce lien <https://pandoc.org/installing.html> vous amène directement aux dernières *releases* sur GitHub. Téléchargez le système qui convient le mieux à votre système d'exploitation, soit :
+
+- Pour Windows :  `pandoc-3.4-windows-x86_64.msi` ; 
+- Pour Mac : 
+  - Mac avec puces Intel (x86_64) : `pandoc-3.4-x86_64-macOS.pkg` ; 
+  - Macs avec puces Apple Silicon (ARM, M1/M2) : `pandoc-3.4-arm64-macOS.pkg` ; 
+  - Vous hésitez ? `Cmd + Espace`, *Informations Système*. Dans la colonne de gauche, sélectionner Matériel. La ligne "Nom du processeur" ou "Type de processeur" apparaîtra dans la section principale. 
+
+## Quelques options de la commande Pandoc 
+
+- `--standalone` (produit un document complet incluant les métadonnées) ; 
+- `--bibliography=references.bib` (spécifie un fichier de références bibliographiques) ; 
+- `--template=mytemplate.html` (spécifie un modèle) ; 
+- `--toc` (table of contents) ; 
+- `--help` (résume les options existantes)
+
+## Exemples supplémentaires {.smaller}
+
+1. `.docx` -> `.md`
+
+`pandoc -f docx -t markdown --extract-media=./ fichier.docx -o fichier.md`, où : 
+
+- `--extract-media=./` : extraction et sauvegarde des fichiers multimédias dans le répertoire courant ; 
+
+2. `.md` -> `.html`
+
+`pandoc --standalone --ascii --bibliography=references.bib -f markdown -t html fichier.md -o fichier.html`, où : 
+
+- `--standalone` : production d'un document `.html` autonome (soit, ajout des balises `<html> ; <head> ; <body>`) ; 
+- `--ascii` : utilisation des caractères ASCII uniquement ;  
+- `--bibliography=references.bib` : intégration d'une bibliographie à partir du fichier `references.bib`
+
+## Métadonnées (exercice)
+
+Ajoutez les métadonnées en en-tête d'un fichier `.md` : 
+
+```yaml
+---
+title: "mon titre"
+subtitle: "mon sous-titre"
+date:
+author:
+- Aristotle
+- Plato
+abstract:
+keywords:
+bibliography:
+lang:
+---
+```
+
+::: {.callout-tip}
+Ces métadonnées peuvent être placées soit en en-tête d'un fichier `.md`, soit dans un fichier séparé, au format YAML (extension : `.yaml`). Dans ce cas, la commande Pandoc précédente devra préciser où sont les métadonnées : 
+
+`pandoc --standalone -f markdown -t html monfichier.md metadonnees.yaml -o export.html`
+:::
+
+## Export d'une bibliographie  {.smaller}
+
+- En ligne de commande : 
+
+`pandoc --standalone --bibliography=monfichier.bib --filter pandoc-citeproc -f markdown -t html monfichier.md -o export.html`
+
+- Dans le fichier principal (dans l'en-tête yaml) ; lancer la même commande que ci-dessus, sans `--bibliography=monfichier.bib` : 
+
+```yaml
+---
+title: "mon titre"
+subtitle: "mon sous-titre"
+...
+bibliography: monfichier.bib
+---
+```
+
+::: {.callout-tip}
+1. Ajouter `link-citations: true` dans le yaml permet de transformer les appels de références en hyperliens. 
+2. Pour ajouter tous les éléments du `.bib`, même ceux non cités, ajoutez en yaml : `nocite: '@*'`
+:::
+
+## Les *templates* 
+
+- Template par défaut pour chacun des formats de sorties ; 
+- Principe : Pandoc remplace les variables du template par les valeurs déclarées dans les métadonnées `.yaml` (fichier à part ou en-tête)
+- Par ex. : 
+
+| `yaml` | Template | `html` (par ex.) | 
+| --- | --- | --- | 
+| `author: Platon` | `<meta name="author" content="$author$">` | `<meta name="author" content="Platon"` | 
+
+## Personnaliser son *template* (exercice)  {.smaller}
+
+1. Récupérer le template par défaut d'un format : 
+
+`pandoc -D html > montemplate.html`
+
+::: {.callout-tip}
+Cette commande fonctionne pour tous les formats de sortie (hormis `.docx/.odt`, *cf.* la documentation). 
+:::
+
+2. Ouvrez `montemplate.html` dans VSCode pour voir comment il est structuré. 
+
+3. Dans les données yaml d'un document `.md`, ajoutez la ligne `image: auteur.jpg` 
+4. Dans le template, nous pouvons ajouter une balise <img> :
+
+`$if(image)$ <img src="$image$" width="30%"/> $endif$`
+
+5. Pour que Pandoc prenne en compte le nouveau template, ajoutez l'option `--template=FILE`, soit : 
+
+`pandoc --standalone --filter pandoc-citeproc --template=montemplate.html -f markdown -t html monfichier.md metadata.yaml -o export_2.html`
+
+## Questions ? 

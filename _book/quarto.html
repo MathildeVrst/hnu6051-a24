@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./encodage.html">session 3 (à venir)</a></li><li class="breadcrumb-item"><a href="./quarto.html"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Quarto</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./encodage.html">session 3</a></li><li class="breadcrumb-item"><a href="./quarto.html"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Quarto</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -213,7 +213,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
- <span class="menu-text">session 3 (à venir)</span></a>
+ <span class="menu-text">session 3</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -262,13 +262,22 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contenu</h2>
+   
+  <ul>
+  <li><a href="#quarto" id="toc-quarto" class="nav-link active" data-scroll-target="#quarto"><span class="header-section-number">14.1</span> Quarto</a></li>
+  <li><a href="#fonctionnement" id="toc-fonctionnement" class="nav-link" data-scroll-target="#fonctionnement"><span class="header-section-number">14.2</span> Fonctionnement</a></li>
+  <li><a href="#historique" id="toc-historique" class="nav-link" data-scroll-target="#historique"><span class="header-section-number">14.3</span> Historique</a></li>
+  <li><a href="#au-travail" id="toc-au-travail" class="nav-link" data-scroll-target="#au-travail"><span class="header-section-number">14.4</span> Au travail</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./encodage.html">session 3 (à venir)</a></li><li class="breadcrumb-item"><a href="./quarto.html"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Quarto</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./encodage.html">session 3</a></li><li class="breadcrumb-item"><a href="./quarto.html"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Quarto</span></a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Quarto</span></h1>
 </div>
@@ -289,8 +298,45 @@ ul.task-list li input[type="checkbox"] {
 
 <iframe src="_slides/quarto.html"></iframe>
 <p><a href="_slides/quarto.html" target="_blank">Ouvrir dans mon navigateur</a></p>
+<section id="quarto" class="level2" data-number="14.1">
+<h2 data-number="14.1" class="anchored" data-anchor-id="quarto"><span class="header-section-number">14.1</span> Quarto</h2>
+<ul>
+<li>Outil open-source de création et de publication de documents scientifiques (rapports, présentations, livres, sites, etc) ;</li>
+<li>Permet de combiner du <code>.md</code> avec du code dans plusieurs langages (R, Python, Julia, etc.) ;</li>
+<li>Production de documents dans différents formats : HTML, PDF, Word, diaporamas interactifs,…</li>
+</ul>
+<p><a href="https://quarto.org/about.html" class="uri">https://quarto.org/about.html</a></p>
+</section>
+<section>
+<blockquote class="blockquote">
+<p>Researchers shouldn’t need to choose between LaTeX, MS Word, and HTML but rather be able to author documents that target all of them at the same time. (<a href="https://quarto.org/about.html">Quarto</a>)</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Make reproducible research and publications the norm rather than the exception. (<a href="https://quarto.org/about.html">Quarto</a>)</p>
+</blockquote>
+</section>
+<section id="fonctionnement" class="level2" data-number="14.2">
+<h2 data-number="14.2" class="anchored" data-anchor-id="fonctionnement"><span class="header-section-number">14.2</span> Fonctionnement</h2>
+<p><code>.md</code>(+ syntaxe quarto incluant code et options de formatage) + <code>.yaml</code> (dans le <code>.md</code> ou à part) + <strong>pandoc</strong> = vos formats de sortie</p>
+<p>Intégration de code (Python, R, JavaScript)</p>
+</section>
+<section id="historique" class="level2" data-number="14.3">
+<h2 data-number="14.3" class="anchored" data-anchor-id="historique"><span class="header-section-number">14.3</span> Historique</h2>
+<p>RStudio (devenu Posit) : environnement de développement gratuit, libre et multiplateforme pour R, un langage de programmation utilisé pour le traitement de données et l’analyse statistique</p>
+<p>Format : RMarkdown, <code>.rmd</code> (qui ressemble au <code>.qmd</code> de QuartoMarkdown)</p>
+</section>
+<section id="au-travail" class="level2" data-number="14.4">
+<h2 data-number="14.4" class="anchored" data-anchor-id="au-travail"><span class="header-section-number">14.4</span> Au travail</h2>
+<ol type="1">
+<li>Installez Quarto : <a href="https://quarto.org/docs/get-started/" class="uri">https://quarto.org/docs/get-started/</a>&nbsp;;</li>
+<li>Faites le tuto <em>Hello, Quarto</em> : <a href="https://quarto.org/docs/get-started/hello/text-editor.html" class="uri">https://quarto.org/docs/get-started/hello/text-editor.html</a>&nbsp;;</li>
+<li>Faites le tuto <em>Authoring</em> : <a href="https://quarto.org/docs/get-started/hello/text-editor.html" class="uri">https://quarto.org/docs/get-started/hello/text-editor.html</a>&nbsp;;</li>
+<li>Si le temps le permet, commencez votre rendu, la documentation est ici : <a href="https://quarto.org/docs/books/" class="uri">https://quarto.org/docs/books/</a> + versionnez votre projet sur GitHub&nbsp;;</li>
+<li>Pour la publication en ligne, consultez cette page : <a href="https://quarto.org/docs/publishing/github-pages.html" class="uri">https://quarto.org/docs/publishing/github-pages.html</a> (je conseille de suivre <em>Publish Command</em> : <a href="https://quarto.org/docs/publishing/github-pages.html#publish-command)" class="uri">https://quarto.org/docs/publishing/github-pages.html#publish-command)</a></li>
+</ol>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -81,7 +115,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./encodage.html">session 3 (à venir)</a></li><li class="breadcrumb-item"><a href="./pandoc.html"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Convertisseurs&nbsp;: le cas de <em>pandoc</em></span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./encodage.html">session 3</a></li><li class="breadcrumb-item"><a href="./pandoc.html"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Convertisseurs&nbsp;: le cas de <em>pandoc</em></span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -213,7 +247,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
- <span class="menu-text">session 3 (à venir)</span></a>
+ <span class="menu-text">session 3</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -262,13 +296,28 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contenu</h2>
+   
+  <ul>
+  <li><a href="#pandoc" id="toc-pandoc" class="nav-link active" data-scroll-target="#pandoc"><span class="header-section-number">13.1</span> Pandoc</a></li>
+  <li><a href="#fonctionnement-en-ligne-de-commande" id="toc-fonctionnement-en-ligne-de-commande" class="nav-link" data-scroll-target="#fonctionnement-en-ligne-de-commande"><span class="header-section-number">13.2</span> Fonctionnement (en ligne de commande)</a></li>
+  <li><a href="#installation-en-classe" id="toc-installation-en-classe" class="nav-link" data-scroll-target="#installation-en-classe"><span class="header-section-number">13.3</span> Installation (en classe)</a></li>
+  <li><a href="#quelques-options-de-la-commande-pandoc" id="toc-quelques-options-de-la-commande-pandoc" class="nav-link" data-scroll-target="#quelques-options-de-la-commande-pandoc"><span class="header-section-number">13.4</span> Quelques options de la commande Pandoc</a></li>
+  <li><a href="#exemples-supplémentaires" id="toc-exemples-supplémentaires" class="nav-link" data-scroll-target="#exemples-supplémentaires"><span class="header-section-number">13.5</span> Exemples supplémentaires</a></li>
+  <li><a href="#métadonnées-exercice" id="toc-métadonnées-exercice" class="nav-link" data-scroll-target="#métadonnées-exercice"><span class="header-section-number">13.6</span> Métadonnées (exercice)</a></li>
+  <li><a href="#export-dune-bibliographie" id="toc-export-dune-bibliographie" class="nav-link" data-scroll-target="#export-dune-bibliographie"><span class="header-section-number">13.7</span> Export d’une bibliographie</a></li>
+  <li><a href="#les-templates" id="toc-les-templates" class="nav-link" data-scroll-target="#les-templates"><span class="header-section-number">13.8</span> Les <em>templates</em></a></li>
+  <li><a href="#personnaliser-son-template-exercice" id="toc-personnaliser-son-template-exercice" class="nav-link" data-scroll-target="#personnaliser-son-template-exercice"><span class="header-section-number">13.9</span> Personnaliser son <em>template</em> (exercice)</a></li>
+  <li><a href="#questions" id="toc-questions" class="nav-link" data-scroll-target="#questions"><span class="header-section-number">13.10</span> Questions ?</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./encodage.html">session 3 (à venir)</a></li><li class="breadcrumb-item"><a href="./pandoc.html"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Convertisseurs&nbsp;: le cas de <em>pandoc</em></span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./encodage.html">session 3</a></li><li class="breadcrumb-item"><a href="./pandoc.html"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Convertisseurs&nbsp;: le cas de <em>pandoc</em></span></a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Convertisseurs&nbsp;: le cas de <em>pandoc</em></span></h1>
 </div>
@@ -289,8 +338,199 @@ ul.task-list li input[type="checkbox"] {
 
 <iframe src="_slides/pandoc.html"></iframe>
 <p><a href="_slides/pandoc.html" target="_blank">Ouvrir dans mon navigateur</a></p>
+<p>Fabriquer sa propre chaîne de publication depuis une source unique</p>
+<section id="pandoc" class="level2" data-number="13.1">
+<h2 data-number="13.1" class="anchored" data-anchor-id="pandoc"><span class="header-section-number">13.1</span> Pandoc</h2>
+<ul>
+<li>Logiciel libre en ligne de commande pour la conversion de fichiers texte</li>
+<li>John MacFarlane, licence GPL</li>
+<li>« Couteau suisse de l’édition » (Perret 2018)<br>
+</li>
+<li>Documentation : <a href="https://pandoc.org/MANUAL.html" class="uri">https://pandoc.org/MANUAL.html</a></li>
+</ul>
+</section>
+<section id="fonctionnement-en-ligne-de-commande" class="level2" data-number="13.2">
+<h2 data-number="13.2" class="anchored" data-anchor-id="fonctionnement-en-ligne-de-commande"><span class="header-section-number">13.2</span> Fonctionnement (en ligne de commande)</h2>
+<p>Exemple (simple) :</p>
+<p><code>pandoc --citeproc -f markdown -t epub TexteAvant.md -o TexteApres.epub</code></p>
+<p>Traduction :</p>
+<p>cher pandoc avec l’option de citation, fais la conversion, depuis (from) le Markdown vers (to) le ePuB, de mon fichier de départ (<code>TexteAvant.md</code>) vers mon fichier de destination (out) (<code>TexteApres.epub</code>)</p>
+</section>
+<section>
+<p>Exemple (moins simple) :</p>
+<p><code>pandoc --citeproc --template=Template.latex -f markdown -t latex TexteAvant.md -o TexteApres.tex</code></p>
+<p>Traduction :</p>
+<p>cher pandoc avec l’option citation, en utilisant et mon template (qui est le fichier <code>Template.latex</code>), fais la conversion, depuis (from) le Markdown vers (to) le Latex, de mon fichier de départ (<code>TexteAvant.md</code>) vers mon fichier de destination (out) (<code>TexteApres.tex</code>)</p>
+</section>
+<section id="installation-en-classe" class="level2" data-number="13.3">
+<h2 data-number="13.3" class="anchored" data-anchor-id="installation-en-classe"><span class="header-section-number">13.3</span> Installation (en classe)</h2>
+<p>Ce lien <a href="https://pandoc.org/installing.html" class="uri">https://pandoc.org/installing.html</a> vous amène directement aux dernières <em>releases</em> sur GitHub. Téléchargez le système qui convient le mieux à votre système d’exploitation, soit&nbsp;:</p>
+<ul>
+<li>Pour Windows : <code>pandoc-3.4-windows-x86_64.msi</code>&nbsp;;</li>
+<li>Pour Mac&nbsp;:
+<ul>
+<li>Mac avec puces Intel (x86_64) : <code>pandoc-3.4-x86_64-macOS.pkg</code>&nbsp;;</li>
+<li>Macs avec puces Apple Silicon (ARM, M1/M2)&nbsp;: <code>pandoc-3.4-arm64-macOS.pkg</code>&nbsp;;</li>
+<li>Vous hésitez ? <code>Cmd + Espace</code>, <em>Informations Système</em>. Dans la colonne de gauche, sélectionner Matériel. La ligne “Nom du processeur” ou “Type de processeur” apparaîtra dans la section principale.</li>
+</ul></li>
+</ul>
+</section>
+<section id="quelques-options-de-la-commande-pandoc" class="level2" data-number="13.4">
+<h2 data-number="13.4" class="anchored" data-anchor-id="quelques-options-de-la-commande-pandoc"><span class="header-section-number">13.4</span> Quelques options de la commande Pandoc</h2>
+<ul>
+<li><code>--standalone</code> (produit un document complet incluant les métadonnées)&nbsp;;</li>
+<li><code>--bibliography=references.bib</code> (spécifie un fichier de références bibliographiques)&nbsp;;</li>
+<li><code>--template=mytemplate.html</code> (spécifie un modèle)&nbsp;;</li>
+<li><code>--toc</code> (table of contents)&nbsp;;</li>
+<li><code>--help</code> (résume les options existantes)</li>
+</ul>
+</section>
+<section id="exemples-supplémentaires" class="level2 smaller" data-number="13.5">
+<h2 class="smaller anchored" data-number="13.5" data-anchor-id="exemples-supplémentaires"><span class="header-section-number">13.5</span> Exemples supplémentaires</h2>
+<ol type="1">
+<li><code>.docx</code> -&gt; <code>.md</code></li>
+</ol>
+<p><code>pandoc -f docx -t markdown --extract-media=./ fichier.docx -o fichier.md</code>, où :</p>
+<ul>
+<li><code>--extract-media=./</code> : extraction et sauvegarde des fichiers multimédias dans le répertoire courant ;</li>
+</ul>
+<ol start="2" type="1">
+<li><code>.md</code> -&gt; <code>.html</code></li>
+</ol>
+<p><code>pandoc --standalone --ascii --bibliography=references.bib -f markdown -t html fichier.md -o fichier.html</code>, où :</p>
+<ul>
+<li><code>--standalone</code> : production d’un document <code>.html</code> autonome (soit, ajout des balises <code>&lt;html&gt; ; &lt;head&gt; ; &lt;body&gt;</code>)&nbsp;;</li>
+<li><code>--ascii</code> : utilisation des caractères ASCII uniquement&nbsp;;<br>
+</li>
+<li><code>--bibliography=references.bib</code> : intégration d’une bibliographie à partir du fichier <code>references.bib</code></li>
+</ul>
+</section>
+<section id="métadonnées-exercice" class="level2" data-number="13.6">
+<h2 data-number="13.6" class="anchored" data-anchor-id="métadonnées-exercice"><span class="header-section-number">13.6</span> Métadonnées (exercice)</h2>
+<p>Ajoutez les métadonnées en en-tête d’un fichier <code>.md</code>&nbsp;:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"mon titre"</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">subtitle</span><span class="kw">:</span><span class="at"> </span><span class="st">"mon sous-titre"</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">date</span><span class="kw">:</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">author</span><span class="kw">:</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="kw">-</span><span class="at"> Aristotle</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="kw">-</span><span class="at"> Plato</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">abstract</span><span class="kw">:</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fu">keywords</span><span class="kw">:</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="fu">bibliography</span><span class="kw">:</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="fu">lang</span><span class="kw">:</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Ces métadonnées peuvent être placées soit en en-tête d’un fichier <code>.md</code>, soit dans un fichier séparé, au format YAML (extension : <code>.yaml</code>). Dans ce cas, la commande Pandoc précédente devra préciser où sont les métadonnées&nbsp;:</p>
+<p><code>pandoc --standalone -f markdown -t html monfichier.md metadonnees.yaml -o export.html</code></p>
+</div>
+</div>
+</section>
+<section id="export-dune-bibliographie" class="level2 smaller" data-number="13.7">
+<h2 class="smaller anchored" data-number="13.7" data-anchor-id="export-dune-bibliographie"><span class="header-section-number">13.7</span> Export d’une bibliographie</h2>
+<ul>
+<li>En ligne de commande :</li>
+</ul>
+<p><code>pandoc --standalone --bibliography=monfichier.bib --filter pandoc-citeproc -f markdown -t html monfichier.md -o export.html</code></p>
+<ul>
+<li>Dans le fichier principal (dans l’en-tête yaml)&nbsp;; lancer la même commande que ci-dessus, sans <code>--bibliography=monfichier.bib</code> :</li>
+</ul>
+<div class="sourceCode" id="cb2"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"mon titre"</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">subtitle</span><span class="kw">:</span><span class="at"> </span><span class="st">"mon sous-titre"</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co">...</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="co">bibliography: monfichier.bib</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li>Ajouter <code>link-citations: true</code> dans le yaml permet de transformer les appels de références en hyperliens.</li>
+<li>Pour ajouter tous les éléments du <code>.bib</code>, même ceux non cités, ajoutez en yaml : <code>nocite: '@*'</code></li>
+</ol>
+</div>
+</div>
+</section>
+<section id="les-templates" class="level2" data-number="13.8">
+<h2 data-number="13.8" class="anchored" data-anchor-id="les-templates"><span class="header-section-number">13.8</span> Les <em>templates</em></h2>
+<ul>
+<li>Template par défaut pour chacun des formats de sorties ;</li>
+<li>Principe : Pandoc remplace les variables du template par les valeurs déclarées dans les métadonnées <code>.yaml</code> (fichier à part ou en-tête)</li>
+<li>Par ex. :</li>
+</ul>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><code>yaml</code></th>
+<th>Template</th>
+<th><code>html</code> (par ex.)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>author: Platon</code></td>
+<td><code>&lt;meta name="author" content="$author$"&gt;</code></td>
+<td><code>&lt;meta name="author" content="Platon"</code></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="personnaliser-son-template-exercice" class="level2 smaller" data-number="13.9">
+<h2 class="smaller anchored" data-number="13.9" data-anchor-id="personnaliser-son-template-exercice"><span class="header-section-number">13.9</span> Personnaliser son <em>template</em> (exercice)</h2>
+<ol type="1">
+<li>Récupérer le template par défaut d’un format :</li>
+</ol>
+<p><code>pandoc -D html &gt; montemplate.html</code></p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Cette commande fonctionne pour tous les formats de sortie (hormis <code>.docx/.odt</code>, <em>cf.</em> la documentation).</p>
+</div>
+</div>
+<ol start="2" type="1">
+<li><p>Ouvrez <code>montemplate.html</code> dans VSCode pour voir comment il est structuré.</p></li>
+<li><p>Dans les données yaml d’un document <code>.md</code>, ajoutez la ligne <code>image: auteur.jpg</code></p></li>
+<li><p>Dans le template, nous pouvons ajouter une balise <img> :</p></li>
+</ol>
+<p><code>$if(image)$ &lt;img src="$image$" width="30%"/&gt; $endif$</code></p>
+<ol start="5" type="1">
+<li>Pour que Pandoc prenne en compte le nouveau template, ajoutez l’option <code>--template=FILE</code>, soit&nbsp;:</li>
+</ol>
+<p><code>pandoc --standalone --filter pandoc-citeproc --template=montemplate.html -f markdown -t html monfichier.md metadata.yaml -o export_2.html</code></p>
+</section>
+<section id="questions" class="level2" data-number="13.10">
+<h2 data-number="13.10" class="anchored" data-anchor-id="questions"><span class="header-section-number">13.10</span> Questions ?</h2>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

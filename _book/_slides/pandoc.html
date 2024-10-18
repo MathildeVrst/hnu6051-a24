@@ -28,6 +28,71 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="pandoc_files/libs/revealjs/dist/theme/quarto.css">
   <link href="pandoc_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -325,13 +390,215 @@
     <div class="slides">
 
 
+<section>
 <section id="convertisseurs-le-cas-de-pandoc" class="title-slide slide level1 center">
 <h1>Convertisseurs&nbsp;: le cas de <em>pandoc</em></h1>
+<p>Fabriquer sa propre chaîne de publication depuis une source unique</p>
+</section>
+<section id="pandoc" class="title-slide slide level2 center">
+<h2>Pandoc</h2>
+<ul>
+<li>Logiciel libre en ligne de commande pour la conversion de fichiers texte</li>
+<li>John MacFarlane, licence GPL</li>
+<li>« Couteau suisse de l’édition » (Perret 2018)<br>
+</li>
+<li>Documentation : <a href="https://pandoc.org/MANUAL.html" class="uri">https://pandoc.org/MANUAL.html</a></li>
+</ul>
+</section>
+
+<section id="fonctionnement-en-ligne-de-commande" class="title-slide slide level2 center">
+<h2>Fonctionnement (en ligne de commande)</h2>
+<p>Exemple (simple) :</p>
+<p><code>pandoc --citeproc -f markdown -t epub TexteAvant.md -o TexteApres.epub</code></p>
+<p>Traduction :</p>
+<p>cher pandoc avec l’option de citation, fais la conversion, depuis (from) le Markdown vers (to) le ePuB, de mon fichier de départ (<code>TexteAvant.md</code>) vers mon fichier de destination (out) (<code>TexteApres.epub</code>)</p>
+</section>
+<section>
+<p>Exemple (moins simple) :</p>
+<p><code>pandoc --citeproc --template=Template.latex -f markdown -t latex TexteAvant.md -o TexteApres.tex</code></p>
+<p>Traduction :</p>
+<p>cher pandoc avec l’option citation, en utilisant et mon template (qui est le fichier <code>Template.latex</code>), fais la conversion, depuis (from) le Markdown vers (to) le Latex, de mon fichier de départ (<code>TexteAvant.md</code>) vers mon fichier de destination (out) (<code>TexteApres.tex</code>)</p>
+</section>
+
+<section id="installation-en-classe" class="title-slide slide level2 center">
+<h2>Installation (en classe)</h2>
+<p>Ce lien <a href="https://pandoc.org/installing.html" class="uri">https://pandoc.org/installing.html</a> vous amène directement aux dernières <em>releases</em> sur GitHub. Téléchargez le système qui convient le mieux à votre système d’exploitation, soit&nbsp;:</p>
+<ul>
+<li>Pour Windows : <code>pandoc-3.4-windows-x86_64.msi</code>&nbsp;;</li>
+<li>Pour Mac&nbsp;:
+<ul>
+<li>Mac avec puces Intel (x86_64) : <code>pandoc-3.4-x86_64-macOS.pkg</code>&nbsp;;</li>
+<li>Macs avec puces Apple Silicon (ARM, M1/M2)&nbsp;: <code>pandoc-3.4-arm64-macOS.pkg</code>&nbsp;;</li>
+<li>Vous hésitez ? <code>Cmd + Espace</code>, <em>Informations Système</em>. Dans la colonne de gauche, sélectionner Matériel. La ligne “Nom du processeur” ou “Type de processeur” apparaîtra dans la section principale.</li>
+</ul></li>
+</ul>
+</section>
+
+<section id="quelques-options-de-la-commande-pandoc" class="title-slide slide level2 center">
+<h2>Quelques options de la commande Pandoc</h2>
+<ul>
+<li><code>--standalone</code> (produit un document complet incluant les métadonnées)&nbsp;;</li>
+<li><code>--bibliography=references.bib</code> (spécifie un fichier de références bibliographiques)&nbsp;;</li>
+<li><code>--template=mytemplate.html</code> (spécifie un modèle)&nbsp;;</li>
+<li><code>--toc</code> (table of contents)&nbsp;;</li>
+<li><code>--help</code> (résume les options existantes)</li>
+</ul>
+</section>
+
+<section id="exemples-supplémentaires" class="title-slide slide level2 smaller center">
+<h2>Exemples supplémentaires</h2>
+<ol type="1">
+<li><code>.docx</code> -&gt; <code>.md</code></li>
+</ol>
+<p><code>pandoc -f docx -t markdown --extract-media=./ fichier.docx -o fichier.md</code>, où :</p>
+<ul>
+<li><code>--extract-media=./</code> : extraction et sauvegarde des fichiers multimédias dans le répertoire courant ;</li>
+</ul>
+<ol start="2" type="1">
+<li><code>.md</code> -&gt; <code>.html</code></li>
+</ol>
+<p><code>pandoc --standalone --ascii --bibliography=references.bib -f markdown -t html fichier.md -o fichier.html</code>, où :</p>
+<ul>
+<li><code>--standalone</code> : production d’un document <code>.html</code> autonome (soit, ajout des balises <code>&lt;html&gt; ; &lt;head&gt; ; &lt;body&gt;</code>)&nbsp;;</li>
+<li><code>--ascii</code> : utilisation des caractères ASCII uniquement&nbsp;;<br>
+</li>
+<li><code>--bibliography=references.bib</code> : intégration d’une bibliographie à partir du fichier <code>references.bib</code></li>
+</ul>
+</section>
+
+<section id="métadonnées-exercice" class="title-slide slide level2 center">
+<h2>Métadonnées (exercice)</h2>
+<p>Ajoutez les métadonnées en en-tête d’un fichier <code>.md</code>&nbsp;:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb1-1"><a href=""></a><span class="pp">---</span></span>
+<span id="cb1-2"><a href=""></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"mon titre"</span></span>
+<span id="cb1-3"><a href=""></a><span class="fu">subtitle</span><span class="kw">:</span><span class="at"> </span><span class="st">"mon sous-titre"</span></span>
+<span id="cb1-4"><a href=""></a><span class="fu">date</span><span class="kw">:</span></span>
+<span id="cb1-5"><a href=""></a><span class="fu">author</span><span class="kw">:</span></span>
+<span id="cb1-6"><a href=""></a><span class="kw">-</span><span class="at"> Aristotle</span></span>
+<span id="cb1-7"><a href=""></a><span class="kw">-</span><span class="at"> Plato</span></span>
+<span id="cb1-8"><a href=""></a><span class="fu">abstract</span><span class="kw">:</span></span>
+<span id="cb1-9"><a href=""></a><span class="fu">keywords</span><span class="kw">:</span></span>
+<span id="cb1-10"><a href=""></a><span class="fu">bibliography</span><span class="kw">:</span></span>
+<span id="cb1-11"><a href=""></a><span class="fu">lang</span><span class="kw">:</span></span>
+<span id="cb1-12"><a href=""></a><span class="pp">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Tip</strong></p>
+</div>
+<div class="callout-content">
+<p>Ces métadonnées peuvent être placées soit en en-tête d’un fichier <code>.md</code>, soit dans un fichier séparé, au format YAML (extension : <code>.yaml</code>). Dans ce cas, la commande Pandoc précédente devra préciser où sont les métadonnées&nbsp;:</p>
+<p><code>pandoc --standalone -f markdown -t html monfichier.md metadonnees.yaml -o export.html</code></p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="export-dune-bibliographie" class="title-slide slide level2 smaller center">
+<h2>Export d’une bibliographie</h2>
+<ul>
+<li>En ligne de commande :</li>
+</ul>
+<p><code>pandoc --standalone --bibliography=monfichier.bib --filter pandoc-citeproc -f markdown -t html monfichier.md -o export.html</code></p>
+<ul>
+<li>Dans le fichier principal (dans l’en-tête yaml)&nbsp;; lancer la même commande que ci-dessus, sans <code>--bibliography=monfichier.bib</code> :</li>
+</ul>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><a href=""></a><span class="pp">---</span></span>
+<span id="cb2-2"><a href=""></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"mon titre"</span></span>
+<span id="cb2-3"><a href=""></a><span class="fu">subtitle</span><span class="kw">:</span><span class="at"> </span><span class="st">"mon sous-titre"</span></span>
+<span id="cb2-4"><a href=""></a><span class="co">...</span></span>
+<span id="cb2-5"><a href=""></a><span class="co">bibliography: monfichier.bib</span></span>
+<span id="cb2-6"><a href=""></a><span class="co">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Tip</strong></p>
+</div>
+<div class="callout-content">
+<ol type="1">
+<li>Ajouter <code>link-citations: true</code> dans le yaml permet de transformer les appels de références en hyperliens.</li>
+<li>Pour ajouter tous les éléments du <code>.bib</code>, même ceux non cités, ajoutez en yaml : <code>nocite: '@*'</code></li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+
+<section id="les-templates" class="title-slide slide level2 center">
+<h2>Les <em>templates</em></h2>
+<ul>
+<li>Template par défaut pour chacun des formats de sorties ;</li>
+<li>Principe : Pandoc remplace les variables du template par les valeurs déclarées dans les métadonnées <code>.yaml</code> (fichier à part ou en-tête)</li>
+<li>Par ex. :</li>
+</ul>
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><code>yaml</code></th>
+<th>Template</th>
+<th><code>html</code> (par ex.)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>author: Platon</code></td>
+<td><code>&lt;meta name="author" content="$author$"&gt;</code></td>
+<td><code>&lt;meta name="author" content="Platon"</code></td>
+</tr>
+</tbody>
+</table>
+</section>
+
+<section id="personnaliser-son-template-exercice" class="title-slide slide level2 smaller center">
+<h2>Personnaliser son <em>template</em> (exercice)</h2>
+<ol type="1">
+<li>Récupérer le template par défaut d’un format :</li>
+</ol>
+<p><code>pandoc -D html &gt; montemplate.html</code></p>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Tip</strong></p>
+</div>
+<div class="callout-content">
+<p>Cette commande fonctionne pour tous les formats de sortie (hormis <code>.docx/.odt</code>, <em>cf.</em> la documentation).</p>
+</div>
+</div>
+</div>
+<ol start="2" type="1">
+<li><p>Ouvrez <code>montemplate.html</code> dans VSCode pour voir comment il est structuré.</p></li>
+<li><p>Dans les données yaml d’un document <code>.md</code>, ajoutez la ligne <code>image: auteur.jpg</code></p></li>
+<li><p>Dans le template, nous pouvons ajouter une balise <img> :</p></li>
+</ol>
+<p><code>$if(image)$ &lt;img src="$image$" width="30%"/&gt; $endif$</code></p>
+<ol start="5" type="1">
+<li>Pour que Pandoc prenne en compte le nouveau template, ajoutez l’option <code>--template=FILE</code>, soit&nbsp;:</li>
+</ol>
+<p><code>pandoc --standalone --filter pandoc-citeproc --template=montemplate.html -f markdown -t html monfichier.md metadata.yaml -o export_2.html</code></p>
+</section>
+
+<section id="questions" class="title-slide slide level2 center">
+<h2>Questions ?</h2>
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 <p>HNU6051-A24</p>
 </div>
 </div>
+</section>
 </section>
     </div>
   </div>
