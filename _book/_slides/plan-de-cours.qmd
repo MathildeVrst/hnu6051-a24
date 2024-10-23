@@ -98,7 +98,7 @@ Quelques critères sont à remplir :
 - Le livre doit comporter au moins 4 *chapitres* ; 
 - Le thème doit avoir été -- au moins légèrement -- modifié ; 
 - Le fichier ```_quarto.yml``` doit avoir été personnalisé ; 
-- Une publication accessible en ligne (via *github pages*) sera particulièrement appréciée ; 
+- ~~Une publication accessible en ligne (via *github pages*) sera particulièrement appréciée~~ ; 
 - Date de remise : vendredi 8 novembre. 
 
 ## Références et ressources 
